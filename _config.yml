@@ -39,6 +39,9 @@ collections:
     # We just want the listing page.
     output: true
 
+timelinejs:
+  gsheet_id: 16ygunj4pwHWcBQatmAmXdLV9_H7GTYpF1pDJT4vgGcY
+
 defaults:
   - scope:
       type: projects
