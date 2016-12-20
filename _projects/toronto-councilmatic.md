@@ -11,4 +11,8 @@ homepage_url: http://councilmatic.t0ronto.ca
 upstream_projects:
 - Toronto City Hall API
 start_date: '2016-03'
+collaborators:
+- fgregg
+- datamade
+- sunlightfdn
 ---

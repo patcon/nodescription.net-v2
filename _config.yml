@@ -42,10 +42,96 @@ collections:
 timelinejs:
   gsheet_id: 16ygunj4pwHWcBQatmAmXdLV9_H7GTYpF1pDJT4vgGcY
 
+collaborators:
+  gabe:
+    name: Gabe Sawhney
+    link:
+  mdhgray:
+    name: Matthew Gray
+    link: https://twitter.com/matthewdhgray
+  mhellstern:
+    name: Meghan Hellstern
+    link: https://twitter.com/mhellstern
+  sarah:
+    name: Sarah McNeil
+    link: https://twitter.com/sarahleamc
+  jaems:
+    name: James Teow
+    link: https://twitter.com/jaems33
+  henrik:
+    name: Henrik Bechmann
+    link: https://twitter.com/henrikbechmann
+  howard:
+    name: Howard Tam
+    link: https://twitter.com/htamto
+  iq:
+    name: Irene Quarcoo
+    link: https://twitter.com/iquarcoo
+  alox:
+    name: Alex Lougheed
+    link: https://twitter.com/alox
+  bianca:
+    name: Bianca Wiley
+    link: https://twitter.com/biancawiley
+  lia:
+    name: Lia Milito
+    link: https://twitter.com/liabadia
+  anuta:
+    name: Anuta Skrypnychenko
+    link: https://twitter.com/anutaskrypka
+  sharonk:
+    name: Sharon Kennedy
+    link: https://twitter.com/skennedy221
+  chad:
+    name: Chad Whitacre
+    link: https://twitter.com/whit537
+  nickcalyx:
+    name: Nick Merrill
+    link: https://twitter.com/nickcalyx
+  mikeperry:
+    name: Mike Perry
+    link: http://github.com/mikeperry-tor/
+  schnwalter:
+    name: Schneider Werner-Walter
+    link: https://github.com/SchnWalter
+  darren:
+    name: Darren Leu
+    link: http://darrenchristopherprojects.com/
+  dcwalk:
+    name: Dawn Walker
+    link: https://twitter.com/dcwalk_
+  benhylau:
+    name: Benedict Lau
+    link: https://twitter.com/laubenedic
+  mark:
+    name: Mark Francis
+    link: https://www.linkedin.com/in/mark-francis-a369a732
+  dougestey:
+    name: Doug Estey
+    link: https://twitter.com/dougestey
+  fgregg:
+    name: Forrest Gregg
+    link: https://twitter.com/forestgregg
+  jpmckinney:
+    name: James McKinney
+    link: https://twitter.com/mckinneyjames
+  mjumbe:
+    name: Mjumbe Poe
+    link: https://twitter.com/mjumbewu
+  datamade:
+    name: DataMade
+    link: https://datamade.us/
+  sunlightfdn:
+    name: Sunlight Foundation
+    link: https://sunlightfoundation.com/
+  derek:
+    name: Derek Howard
+    link: http://twitter.com/internautderek
+
 defaults:
   - scope:
       type: projects
     values:
-      layout: page
+      layout: project
       permalink: /projects/:path/
       start_date: '2100-01-01'
