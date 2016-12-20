@@ -4,12 +4,14 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+Hello! My name's Patrick Connolly, but the internet lets me go by "patcon".
 
-You can find the source code for the Jekyll new theme at:
-{% include icon-github.html username="jekyll" %} /
-[minima](https://github.com/jekyll/minima)
+I'm a **software developer** and **civic hacker**. For me, that means that I'm
+interested in the _material_ and the _meta_ of civic life. Which is to say both
+the tangible day-to-day, and the more abstract systems which underpin that.
 
-You can find the source code for Jekyll at
-{% include icon-github.html username="jekyll" %} /
-[jekyll](https://github.com/jekyll/jekyll)
+I spend my time trying to help government and civic systems work more like the
+open-source communities I know and love.
+
+My primary affiliation (ie. the one I'm most proud of), is being an **animator within the
+[Civic Tech Toronto](http://civictech.ca) community**.
