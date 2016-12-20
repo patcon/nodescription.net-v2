@@ -21,5 +21,5 @@ better at leaving tracks in the intellectual spaces where I've been.
 So while I don't think I can claim to have invented these myself, I'm going to
 lay out two rules for my future:
 
-  1. Do good things, and
-  2. Talk about them.
+  1. **Do good things,** and
+  2. **Talk about them.**
