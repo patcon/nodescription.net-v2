@@ -3,8 +3,10 @@ layout: page
 title: Projects
 permalink: /projects/
 ---
-{% for project in site.projects %}
+{% assign projects = site.projects | sort: 'start_date' %}
+{% for project in projects %}
   [{{ project.title }}]({{ project.url }})
+
 {% endfor %}
 
 <iframe

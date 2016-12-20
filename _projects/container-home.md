@@ -9,4 +9,5 @@ tags:
 homepage_url: https://github.com/patcon/container-city/wiki/Notes
 upstream_projects:
 - Urban Camping
+start_date: '2016-06-22'
 ---

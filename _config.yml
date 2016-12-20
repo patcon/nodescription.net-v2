@@ -48,3 +48,4 @@ defaults:
     values:
       layout: page
       permalink: /projects/:path/
+      start_date: '2100-01-01'
