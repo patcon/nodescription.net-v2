@@ -4,9 +4,9 @@ title: Notes
 ---
 {% include title.html name="2019-05-12" %}
 In conversation with my friend SL ages ago, had chance to work through a
-belief that society is like a board of flickering, disjointed blinky
-lights, each representing a conscious creature. The acts that we're
-engaged in are at their core an act of creating sychrony in that
+thought that maybe society is like a board of flickering, disjointed
+blinky lights, each representing a conscious creature. The acts that
+we're engaged in are at their core an act of creating sychrony in that
 blinking, and holding it as long as possible. So while the board is a
 proxy, with just one dimension (brightness), we are navigating
 uncountable other dimensions of potential sychrony. Many of these
