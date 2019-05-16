@@ -2,6 +2,15 @@
 layout: notes
 title: Notes
 ---
+
+{% include title.html name="2019-05-16" %}
+(Thinking [back](#2019-05-12-a) to our intuitions of our conscious
+experiences) Maybe our evolved conscious experience is more a sensation
+of a ride, like a surfer's instinct cultivated for riding a wave. We can
+carve that wave, and feel the thrill of that, but the rest -- the
+orientation, the destination of the shore -- is a force beyond our
+powers.
+
 {% include title.html name="2019-05-12" %}
 In conversation with my friend SL ages ago, had chance to work through a
 thought that maybe society is like a board of flickering, disjointed
@@ -42,6 +51,7 @@ sychrony with our fellow travellers -- the human persons, animals, plants,
 buildings, internets, and architectures of all sorts. Maybe that's the
 thrust of it. A sort of cosmic like-attracts-like of consciousness.
 
+<a name="2019-05-12-a"></a>
 So if that's the case, then our experience -- the things we desire --
 are just a proxy for the baser need and drive for sychrony. Our senses
 and intuitions are simply the things we've evolved to root out that
