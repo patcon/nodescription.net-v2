@@ -24,7 +24,7 @@ increase the synchrony of our collective endeavour of humanity. And in
 that, a process of converting an "other" into a "self" -- something that
 lights up our mirror neurons, like watching a sports team (_your_ sports
 team) working together on the other side of the airwaves, or speaking
-across the table to a lover, or even across the corpus callosum to a
+across the couch to a lover, or even across the corpus callosum to a
 self that's lucky enough to already be in agreement.
 
 We subjectively feel these human experiences as something more, but
