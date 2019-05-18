@@ -56,7 +56,7 @@ corporations -- the profit maximization.
 
 And back to synchrony. What I worry here is that the corporation has a
 very different synchrony that it is propogating in the world. It has its
-own pattersn and logic, and they are not ours. They're building something
+own patterns and logic, and they are not ours. They're building something
 else. But when persons representing these larger interested interact
 with people, they _feel_ like they're increasing the synchrony of human
 processes. They feel like they're pursuing very human goals, down in the
@@ -67,21 +67,23 @@ where the power is, there's another order building.
 
 It's perhaps a little like how we imagine "fast" AI might go awry. If we
 were to meet one, we might feel it's connecting with us on the front
-end. It's brows might furrow in the way that make us feel understood. It
+end. Its brows might furrow in the way that make us feel understood. It
 might respond in a way that we understand to mean it's _feeling_ for us,
-being aligned with us. But these are just the servos. The servos are not
-evil -- they are not good or bad. They are peripherals. They are
-serving something behind them.
+becoming aligned with us. But these are just the movements of servos and
+the motions of human projection. The servos are not evil -- they are not
+good or bad. They are peripherals. They are serving something behind
+them.
 
-The octopus is an interesting creature. It has a brain that extends into
-its arms. It's central brain gives loose orders, but the limbs actually
-do some of the work of knowing what to do. In literature, it's common to
-wonder how alien an octopus consciousness might be. But perhaps we
-already know. Perhaps we're living in a system not unlike the octopus'.
-We are appendages of things above us -- we process, and integrate, and
-make decisions. Maybe we can't know what it's like to be the octopus,
-but maybe our navigation of the corporate entities of capitalism tells
-us a little about what it's like to be the octopus' arms.
+The octopus is an interesting creature. It has a distributed brain that
+extends into its arms. It's central brain gives loose orders, but the
+limbs actually do some of the work of knowing what to do. It seems to be
+a common curiosity, to wonder aloud how alien an octopus consciousness
+might be. But perhaps we already know. Perhaps we're living in a system
+not unlike the octopus'.  We are appendages of things above us -- we
+process, and integrate, and make decisions. Maybe we can't know what
+it's like to be the octopus, but maybe our navigation of the corporate
+entities of capitalism tells us a little about what it's like to be the
+octopus' arms.
 
 {% include title.html name="2019-05-12" %}
 In conversation with my friend SL ages ago, had chance to work through a
