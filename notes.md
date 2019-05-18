@@ -4,12 +4,13 @@ title: Notes
 ---
 
 {% include title.html name="2019-05-16" %}
-(Thinking [back](#2019-05-12-a) to our intuitions of our conscious
-experiences) Maybe our evolved conscious experience is more a sensation
-of a ride, like a surfer's instinct cultivated for riding a wave. We can
-carve that wave, and feel the thrill of that, but the rest -- the
-orientation, the destination of the shore -- is a force beyond our
-powers.
+(Thinking [back](#2019-05-12-a) on the intuitions involved in our
+conscious experiences) Maybe the evolved trait that is consciousness, is
+more about how we feel the sensation of the ride. Like a surfer's
+developed instincts, honed for riding waves. We can carve that wave, and
+enjoy the simple thrill of navigating it, but the major aspects of the
+experience -- the orientation, the shore as ultimate destination -- is a
+force beyond our control.
 
 {% include title.html name="2019-05-15" %}
 (Building on [a prior thought](#2019-05-12-b) about what underlying process might be
