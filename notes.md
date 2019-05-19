@@ -2,6 +2,74 @@
 layout: notes
 title: Notes
 ---
+{% include title.html name="2019-05-18" %}
+I'm inclined to see the world through a lens of [complexity
+science][complexity-video], where high-level patterns at one scale
+(e.g., cell death in biological systems) can perhaps teach us things
+about patterns that will fare best at other scales (e.g., governance
+systems in society).
+
+   [complexity-video]: https://www.youtube.com/watch?v=IEEBOrpDIow#t=0m44s
+
+I've been slightly disconcerted by the fact that centralization seems to
+"win" in most every biological system -- most every creature that gets
+to a certain level of complexity, also develops central nervous systems.
+The skin cell of the finger becomes subservient to the brain cell.  What
+might this say about authorianism vs democracy?
+
+The optimist in me wants to believe that maybe, if the universe favours
+centralization, then maybe this could be the force that humanity rallies
+against. Because we're good at raging against things. It seems to be
+part of how humans operate, and work together. And so we often rage
+against one another. But maybe, we could create a shared understanding
+that the very fabric and tendencies of the _universe_ are conspiring
+against some shared democratic ideals. And so then we could just rage
+against that non-human enemy, the entropic laws of the universe itself.
+What a perpetual underdog story that would be. It could perhaps occupy
+our attention and energy for a long time.
+
+But anyhow, today, I realized a bit of a catch in some of my thinking. I
+often look at the patterns in the world around me, and try to learn from
+them. So I'd look at how brains (one example of a network highly
+saturated in activity) seem to have evolved a need for sleep, a period
+of rest. And then I might wonder what that might teach us about how our
+comtemporary society (another network of nodes that is increasingly
+saturated with signal) might be begging for similar interventions --
+periods of rest from the high activity, for re-organization.
+
+Or I might look at how we see the relationship between structure and
+anarchy in living symbiotic systems that are animal bodies -- the
+hierarchy of the traditionally conceived "host" animal, and the anarchic
+gut biome that plays such an important role in processing raw components
+from the wider world. What might that teach us about the role of chaotic
+spaces adjacent to governments? (h/t to MH for a conversation that
+sparked that thought)
+
+I don't understand these analogy, but rather as multiple systems
+emerging from shared properties of general networks. Each network
+operates and is built from different substrates, different components,
+but there are common underlying dynamics at play. This is what I
+understand from complexity science.
+
+And this is particularly important in our current situation. We are now
+running network experiments on global scales. We don't necessarily have,
+in our systems, the capacity to run a million iterations of the system.
+Ecosystems could run millions of cycles among populations of
+individuals. Bacterial biomes could run many cycles. Even human society
+could run many cycles, and we've stumbled onto some unique social
+structures. But we're getting to a place we _must_ learn from other
+layers of the network, because we don't have space or time to run the
+experiments to completion at our level, at the societal scale.
+
+But anyhow, it occured to me today that perhaps there's something I
+should be wary of while looking to learn from the patterns that have
+"won" at lower levels. Because those patterns are often ones that
+emerged in networks where hierarchy won. So I should be cautious not to
+look _too much_ to them for my learning. Because perhaps some of them
+are patterns of _appeasement_ to hierarchy. Perhaps some of them
+represent ways to survive in the cracks between towering hierarchies,
+rather than an imagining of what might be possible if we exercised
+human-scale democratic values at our level.
 
 {% include title.html name="2019-05-16" %}
 (Thinking [back](#2019-05-12-a) on the intuitions involved in our
