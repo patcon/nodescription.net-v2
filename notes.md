@@ -2,6 +2,64 @@
 layout: notes
 title: Notes
 ---
+{% include title.html name="2019-09-29" %}
+
+Last fall, I was lucky enough to get the opportunity to do a
+participatory research fellowship in Taiwan, writing a report about the
+origins of an incredibly inspiring civic hacker commmunity/network
+called g0v (pronounced _gov-zero_). In the time since, I've been
+struggling to piece together a difficult narrative and theory that my
+time there helped me to start seeing the contours of.
+
+I'm a bit intimidated by how sweeping a hypothesis it feels like I'm
+leaning toward. Others have expressed that one should be skeptical of such
+things, and I tend to agree. But despite that wariness, I keep fitting
+pieces together, wiggling them around, stepping back every so often, but
+continuing to walk to other sides of the same table.
+
+Some of my hesitancy is that I want to take the time to get my
+attributions correct. It feel very important to both my own sensibility
+(and the substance of the evolving hypothesis) that I tread careful with
+the knowledge I'm claiming to be seeing, and I'd like to embody theories
+of _[feminist citation][]_ (h/t DCW) as much as possible as I nurture
+these ideas amongst others and amongst aspects of myself.  Which is to
+say, I want to attribute as much as possible, not in the spirit of
+solidifying my authority as a speaker, but in calling attention to all
+those I've learned from, and ensuring that they derive
+benefit/credit/power/recognition through their experiences and insights
+moving through me as conduit.
+
+   [feminist citation]: https://cmagazine.com/issues/126/feminist-approaches-to-citation
+
+I have a sense that this work might be the culmination of the last few
+years of tenuous employment and exploration. I feel uniquely privileged
+to feel some of these connections between topic areas -- as a community
+organizer, technologist, and biochemist with an interest in network
+science and systems, but also deeply grounded in human-scale concerns
+like empathy and interdependance (h/t AMB). And it doesn't hurt to have
+a skepticism of overly hierarchical systems and authority-based
+leadership (as opposed to relational leadership).
+
+The development and explanation of the theory might have to move at a
+slower pace, but I just wanted to bookmark the scope as a list of
+topics I'll be trying to synthesize from:
+biology,
+evolutionary genetics,
+[group selection](https://en.wikipedia.org/wiki/Group_selection),
+[evolution of sexual reproduction](https://en.wikipedia.org/wiki/Evolution_of_sexual_reproduction),
+networks and social science,
+[structural holes](https://en.wikipedia.org/wiki/Structural_holes),
+[social physics](https://www.penguinrandomhouse.com/books/314230/social-physics-by-alex-pentland/9780143126331/),
+mathematical properties of [small-world networks](https://en.wikipedia.org/wiki/Small-world_experiment),
+the [small world effect](https://en.wikipedia.org/wiki/Small-world_experiment),
+Hofstede's [cultural dimensions theory](https://en.wikipedia.org/wiki/Hofstede%27s_cultural_dimensions_theory) (of leadership),
+philosophy of open source,
+[emergent strategy](https://www.akpress.org/emergentstrategy.html),
+gendered approaches to organizing social networks,
+the [gendered nature of social capital](https://journals.sagepub.com/doi/10.1177/104346398010001001) in networks,
+the [Leiden theory of language evolution](https://www.researchgate.net/publication/316659561_The_language_organism_The_Leiden_theory_of_language_evolution),
+and [complexity science](https://en.wikipedia.org/wiki/Complexity_theory) (h/t AMB and Santa Fe Institute).
+
 {% include title.html name="2019-07-13" %}
 
 Inspired by sci-fi author Charlie Stross' [musing on "slow
