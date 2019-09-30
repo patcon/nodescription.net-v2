@@ -422,3 +422,6 @@ between us. We are ball lightning.
 How might super-intelligent descendants of cold-blooded lizards think of
 or describe _windchill_? Compared to us, it'd be so much more dangerous--a
 killer. How would their culture understand it, and talk about it?
+
+{% include title.html name="2016-07-26" %}
+I want to build a "crazy" that's so comprehensive that other people can live in it.
