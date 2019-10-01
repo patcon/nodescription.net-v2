@@ -144,7 +144,7 @@ organizer, technologist, and biochemist with an interest in network
 science and systems, but also deeply grounded in human-scale concerns
 like empathy and interdependance (h/t AMB). And it feels like it doesn't
 hurt to have a skepticism of overly hierarchical systems and
-authority-based leadership (while minimizing relational leadership).
+authority-based leadership (which often minimize relational leadership).
 
 The development and explanation of the theory might have to move at a
 slower pace, but I just wanted to bookmark the scope as a list of
