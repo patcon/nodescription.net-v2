@@ -166,7 +166,7 @@ the [gendered nature of social capital](https://journals.sagepub.com/doi/10.1177
 the [Leiden theory of language evolution](https://www.researchgate.net/publication/316659561_The_language_organism_The_Leiden_theory_of_language_evolution),
 and [complexity science](https://en.wikipedia.org/wiki/Complexity_theory) (h/t AMB and Santa Fe Institute).
 
-Caveat: I've been saying for a few years that I'm in search of a
+Disclaimer: I've been saying for a few years that I'm in search of a
 personal (and collective) spiritual foundation that _maps to
 base-reality_. Which is to say, a belief system (perhaps simple in
 practice) that is underpinned by forces that hold true down to the
