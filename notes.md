@@ -63,7 +63,7 @@ systems it already had, and achieve new scales:
 
 But this begs the question: Is the new order brought on by the
 revolution itself, or does that simply unlock latent capacity in the
-information systems that were already there?
+information system that was already there?
 
 {% include title.html name="2019-09-30" %}
 
