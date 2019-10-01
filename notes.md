@@ -2,6 +2,65 @@
 layout: notes
 title: Notes
 ---
+{% include title.html name="2019-10-01" %}
+
+Was listening to a [wonderful Upstream podcast episode][upstream-lisi]
+in which Lisi Krall was interviewed. She is just bursting with
+provocative ideas on ecologies, language, entymology, and the emergence of
+agriculture. But the ferocity on which she advocates for the importance
+of the last one really struck me.
+
+   [upstream-lisi]: https://soundcloud.com/upstreampodcast/lisi-krall
+
+It inspired me to get into my usual _complexity science_ way of
+thinking: What might this event represent as a selected adaptation in the
+network at one level (human society), and how might it be generalized to
+events that have happened at other levels (biological)?
+
+Perhaps you have heard of mitochondria. If you remember from high
+school, mitochondria are the "power plants of the cells". They produce
+all the energy that runs the damn show. All complex multicellular
+organisms have mitochondria. It's a way-old adaptation.
+
+But there's a funny thing about how mitochondria came to be hanging out
+in our cells, making us the energy we need as complex lifeforms. You
+see, they have their own DNA, separate from ours. And the reason they
+have that, is thought to be because they [used to be a separate
+organism][mito-origin]. But somewhere along the line, way back when, a
+mitochondria was enveloped by another, larger cell. And the mitochondria
+was like "hey, I like these new digs", and the host cell either didn't
+resist, or maybe it's little parasite allowed it to do more than it
+could before, and fare better in the environment than non-parasitized
+cells without mitochondria.
+
+   [mito-origin]: https://en.wikipedia.org/wiki/Mitochondrion#Origin_and_evolution
+
+But anyhow, these two primitive creatures stumbled into destinies that
+became intertwined. They learned to reproduce together, with the
+mitochondria never leaving the host.
+
+In some sense, the host cell simply adopted another organism, and
+started nurturing it to produce energy for itself. Or maybe it was that
+the parasite found a host that would protect it and allow it to
+reproduce more than it ever could have on its own. Really both are true,
+depending on your frame.
+
+But anyhow, maybe you see where this is going. Perhaps agriculture is to
+the human society's evolution, what mitochondria are to the evolution
+from prokarytic to eukaryotic life. Each event was a symbiotic
+envelopment of life-forms into the domain and jurisdiction of another.
+
+Each allowed the host to re-organize information storage/exchange
+systems it already had, and achieve new scales:
+
+1. the mitochondrial revolution allowed cells, which already used DNA, to
+   use that DNA in new ways; to begin driving processes that were
+   previously energetically infeasible.
+
+2. the agricultural revolution allowed humans, which already used
+   language, to use that language in new ways; to begin driving
+   processes that were previously energetically infeasible.
+
 {% include title.html name="2019-09-30" %}
 
 Was thinking about my cousins, and how I don't get to see them and their
@@ -44,8 +103,6 @@ wonder if adults who neglect this phase of development (child-rearing),
 might end up living down a strange path of development, where their
 minds take a different form than our ancient genes are equipped to
 successfully navigate.
-
-And the parent
 
 {% include title.html name="2019-09-29" %}
 
