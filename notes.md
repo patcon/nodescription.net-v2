@@ -12,10 +12,11 @@ of the last one really struck me.
 
    [upstream-lisi]: https://soundcloud.com/upstreampodcast/lisi-krall
 
-It inspired me to get into my usual _complexity science_ way of
-thinking: What might this event represent as a selected adaptation in the
-network at one level (human society), and how might it be generalized to
-events that have happened at other levels (biological)?
+It inspired me to get into my usual _[complexity science](#2019-05-17)_
+way of thinking: What might this event represent as a selected
+adaptation in the network at one level (human society), and how might it
+be generalized to events that have happened at other levels
+(biological)?
 
 Perhaps you have heard of mitochondria. If you remember from high
 school, mitochondria are the "power plants of the cells". They produce
