@@ -61,6 +61,10 @@ systems it already had, and achieve new scales:
    language, to use that language in new ways; to begin driving
    processes that were previously energetically infeasible.
 
+But this begs the question: Is the new order brought on by the
+revolution itself, or does that simply unlock latent capacity in the
+information systems that were already there?
+
 {% include title.html name="2019-09-30" %}
 
 Was thinking about my cousins, and how I don't get to see them and their
