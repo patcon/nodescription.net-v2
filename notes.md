@@ -100,13 +100,13 @@ adult and mind of the child are not nourished on the same informational
 diet. And it's a place of compromise.
 
 Adults sometimes choose not to straddle the niche of raising children
-and raising ideas. But these adults sacrifice an important negotiation
-and compromise that is perhaps part of our deep history. And perhaps
-this negotiation is very intertwined with what it is to be human. And I
-wonder if adults who neglect this phase of development (child-rearing),
-might end up living down a strange path of development, where their
-minds take a different form than our ancient genes are equipped to
-successfully navigate.
+and raising ideas, instead working only on ideas. But these adults
+sacrifice an important negotiation and compromise that is perhaps part
+of our deep history. And perhaps this negotiation is very intertwined
+with what it is to be human. And I wonder if adults who neglect this
+phase of development (child-rearing), might end up living down a strange
+path of development, where their minds take a different form than our
+ancient genes are equipped to successfully navigate.
 
 {% include title.html name="2019-09-29" %}
 
