@@ -61,7 +61,7 @@ of which is like "moos" and "caws").
 But further, I'm curious whether there's also another layer that's
 interesting. If you were to take for granted that ["seeking and
 generating synchrony"](#2019-05-12) in the minds of others is something we're maybe
-programmed to do. I imagine it a bit like our subconscious drives are
+programmed to do as conscious creatures. I imagine it a bit like our subconscious drives are
 seeking others who will join us in building a meme-based force of united
 will. Which kinda makes sense if you start to think of the essence of
 humanity being the langauge and concepts living in our brains -- living
