@@ -492,7 +492,7 @@ getting hijacked in the "bad" scenarios of "fast" and "slow" AI, ie. conventiona
 AI and corporations, respectively.)
 
 So what if "synchrony" is the thing that all our human intuitions have
-evolved to select for. Our laughter, our sense of belonging, our falling
+evolved to select for. Our [laughter](#2019-10-05), our sense of belonging, our falling
 in love, our enjoyment of engaged conversations. Perhaps these all
 increase the synchrony of our collective endeavour of humanity. And in
 that, a process of converting an "other" into a "self" -- something that
