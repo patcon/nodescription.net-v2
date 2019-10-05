@@ -2,6 +2,119 @@
 layout: notes
 title: Notes
 ---
+{% include title.html name="2019-10-05" %}
+
+(Related to some previous thoughts on [consciousness being a process of
+synchrony-seeking](#2019-05-12), and maybe [language as an
+organism](#2019-07-13). This [article on laughter][laughter] is probably
+also good context for these thoughts.)
+
+   [laughter]: https://slate.com/culture/2014/03/why-do-humans-laugh-the-evolutionary-biology-of-laughter.html
+
+I recall from my undergrad that laughter is a bit of an interesting
+phenomenon. It's not really about "funny" things, than it is about
+communicating "hey, there's some novelty happening here!". You could
+almost imagine it as a little burst of noise we send out, like crows
+cawing, when we've found a new or interesting puzzle and contradiction,
+and a safe space to explore it.
+
+How this theory came about is interesting, and essentially rooted in
+discovering two forms of muscles controlling our facial expressions of
+laughter, signifying a two-step emergence of different forms of
+laughter.
+
+1. Duchenne laughter. Came first. Triggered by something funny. Breathy
+   panting. Likely appeared before the emergence of language. From the
+   [above article][laughter], it was a "signal that things at the moment
+   were OK, that danger was low and basic needs were met, and now was as
+   good a time as any to explore, to play, to socialize." It said, "this
+   is an _opportunity for learning_".
+   
+2. Non-Duchenne laughter. Came second with language.  "As people
+   developed cognitively and behaviorally, they learned to mimic the
+   spontaneous behavior of laughter to take advantage of its effects."
+   But there are subtle "tells" where the eye muscle movements don't
+   always come with this version.
+
+So through this particular lens (which may not be the full story, mind
+you), laughter is  maybe more like a very primitive, pre-linguistic form
+of communication that we evolved and repeatedly repurposed to our
+evolving and increasingly social context. It's been repurposed into
+other things. But it's really like an animal sound. It's like our "moo".
+
+But importantly our "moo" has been put partially under our cognitive
+control. And over the course of human social development, we learned to
+"deploy" our "moo" in a calculated way to better shape our desired
+social situations, to manipulate our social context based on our desires
+(e.g., our cultural software), and not just our hardware instincts.
+
+So maybe it's more like we evolved to wire our animal sound of laughter
+to our software level, rather than only our hardware level (the latter
+of which is like "moos" and "caws").
+
+But further, I'm curious whether there's also another layer that's
+interesting. If you were to take for granted that ["seeking and
+generating synchrony"](#2019-05-12) in the minds of others is something we're maybe
+programmed to do. I imagine it a bit like our subconscious drives are
+seeking others who will join us in building a meme-based force of united
+will. Which kinda makes sense if you start to think of the essence of
+humanity being the langauge and concepts living in our brains -- living
+within the vessel or spaceship of our biology.
+
+And viewed that way, primitive Duchenne laughter represents a hardcoded
+way for us to broadcast a _physical space_ (1) where novelty or a new or
+interesting contradictory idea has been discovered, and (2) that is a
+safe physical space to explore that idea, to remix it not just within a
+single mind, but in the shared capacity of a group of minds. It's a safe
+space to form [a megazord][megazord]<sup>1</sup> of minds to work
+together to share some ideas in a space that has been flagged as full of
+ideas.
+
+   [megazord]: https://powerrangers.fandom.com/wiki/Megazord
+
+This feels like it explains a lot of our experience of laughter -- our
+draw to be near it, to move toward it, to participate in it. That would
+satisfy all the needs of a purported language organism that lives within
+our minds.
+
+Oh god, this langauge-as-organism thing is a deep rabbit-hole, and it
+strikes me as either 100% real and informative of the world, or totally
+insane :)
+
+<sup>h/t [CoTech co-op community](https://community.coops.tech) for
+[inspiring](https://outlandish.com/blog/the-cooperative-technologists-have-landed/)
+the Megazord analogy.</sup>
+
+{% include title.html name="2019-10-04" %}
+
+(Building on [some previous thoughts of language as an organism](#2019-07-13).)
+
+So if language is the organism, then what are it's lifecycles. It
+perhaps becomes interesting to think of language or all sorts as
+"living", even when it's written on a wall. Perhaps it's best conceived
+of as a dormat stage of the language organism.
+
+So when words are written on the east wall, and words are written on the
+west wall, they are dormat. They are concepts and ideas that cannot
+combine and remix. These ideas cannot fuck. They can't generate new
+ideas together, with pieces of one and pieces of another married and
+intertwined.
+
+But a-ha! So here comes the human mind: the fertile replication machines
+of the system. It can consume and take in the dormant form of the
+language organism on the east wall, and the dormant form on the west,
+and it can bring it into a shared space that recombines and remixes, and
+finds the best parts of each to shape together and act.
+
+So perhaps the human mind is better conceived as the biological
+replication machinery of the language organism -- the mind is the
+fertile environment of recombination, not unlike DNA polymerase is the
+replication machinery of the cellular environment, or the _cellular_
+milieu. And so our minds are like the piece of the giant system moving
+through the _terrestial_ milieu -- through the thin skin of matter than
+wraps the earth and drifts with purpose within the viscosity of the
+atmosphere.
+
 {% include title.html name="2019-10-01" %}
 
 Was listening to a [wonderful Upstream podcast episode][upstream-lisi]
