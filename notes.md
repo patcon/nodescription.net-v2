@@ -5,11 +5,17 @@ title: Notes
 {% include title.html name="2019-10-05" %}
 
 (Related to some previous thoughts on [consciousness being a process of
-synchrony-seeking](#2019-05-12), and maybe [language as an
-organism](#2019-07-13). This [article on laughter][laughter] is probably
-also good context for these thoughts.)
+synchrony-seeking](#2019-05-12), and maybe
+[language-as-organism](#2019-07-13). This [article on
+laughter][laughter] is probably also good context for these thoughts.)
 
    [laughter]: https://slate.com/culture/2014/03/why-do-humans-laugh-the-evolutionary-biology-of-laughter.html
+
+_**Gratitude:** I want to express attribution to SG, a new acquaintance
+who I met at a loud dinner. Last night, he indulged me with his
+attention and helped me speak aloud some related thoughts, which
+directly re-energized me to write a bit more about this stuff swimming
+around my head lately._
 
 I recall from my undergrad that laughter is a bit of an interesting
 phenomenon. It's not really about "funny" things, than it is about
