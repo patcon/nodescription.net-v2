@@ -2,6 +2,75 @@
 layout: notes
 title: Notes
 ---
+{% include title.html name="2019-10-07" %}
+
+In the past year, I've read two books that have offered some new angles
+I'm still reflecting on. The books feels a little bit like secret
+sisters. In some ways, they are totally not about the same things, and
+each author might even be offended to be put in the same basket. But it
+feels like they're each getting at some common concepts, but from
+different perspectives.
+
+The first book is _Emergent Strategy_ by adrienne marie brown. The book is
+ostensibly about community organizing and how to build networks "an inch
+wide and a mile deep". The book is filled with personal anecdotes and
+truly puts relationships at the centre of the message. AMB goes to great
+effort early in the book to clarify that she doesn't understand lots of
+the science that she's leaning on -- that she's intuiting her way around
+the general concepts. But as a scientific person (biochemistry
+background), I am floored by how much she seems to put her finger on top
+of so many subtle truths that feel true down to a deep core.
+
+The second book is _A Brief History of Everything_ by Ken Wilber. The
+book tries to do what it says on the tin. Speaking of which, Wilbur
+[puts his face on the cover of most versions of the book][2019-10-07],
+which feels quite relevant to the mindset of the author and how he laws
+out his book. The book builds a complex (if not overwrought) theory of
+how the universe works. And it is massive. It goes from the subatomic to
+the cosmos and God. It has terms and language for everything. It's ovre
+500 pages. It's formatted ostensibly as a conversation between two
+people (a Socratic dialogue), but it is in reality just Ken Wilber
+spending 500 pages explaining his theory. It's an explanation
+masquerading as a conversation. I don't think he mentions another person
+through the whole book. But while you might guess that I don't like the
+tactics, the things he's getting at seem to ring true in similar ways to
+what AMB is dancing around.
+
+   [2019-10-07a]: https://www.google.com/search?q=brief+history+of+everything&tbm=isch
+
+And there's perhaps another layer of comparison within these books. AMB
+gives huge amounts of credit the the wonderful sci-fi author Octavia
+Butler. She build her a mythic figure, and relates much of her own
+knowledge through a lens of gratitude for the insight that arrived
+through her reading of Butler.
+
+Octavia Butler is an author who seemed to play around with the ideas of
+God and spirituality to great effect. In _Parable of the Sower_ (which
+is mainly what I can draw from), she seemed to explore religion and God
+through a very feminine and relational lens. It's like she navigated
+into the realm of the spiritual, took it apart, and reassembled the
+nature of the spiritual into a book. And the fabric of the book itself
+shared the dissassembled pieces of spirituality with the reader. I
+almost imagine it like she spent time to truly understand the spiritual,
+and then distributed that understanding to everyone.
+
+Contrast that to another literary figure that spent time exploring the
+realm of the spiritual and religious: L. Ron Hubbard. You may know him
+as the creator of Scientology, a terribly hierarchical and oppressive
+religion [built by a sci-fi author][2019-10-07b] after he was done writing sci-fi about
+religion. Hubbard took the exact opposite approach to Hubbard. He saw
+the power of the spiritual, and he took control of it and concentrated
+it in a form that he benefitted from. He created a system in which he
+could be the broker and intermediary of the power that he came to
+understand. He took it apart, and reassembled it into a gun, and he put
+it in his drawer.
+
+   [2019-10-07b]: https://tonyortega.org/2018/02/03/what-l-ron-hubbard-said-about-religion-before-scientology-became-a-church/
+
+I don't yet know what to think about these observations, but it feels
+like there's something underpinning it that I'm eager to be attentive
+to.
+
 {% include title.html name="2019-10-05" %}
 
 (Related to some previous thoughts on [consciousness being a process of
