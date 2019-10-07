@@ -4,6 +4,12 @@ title: Notes
 ---
 {% include title.html name="2019-10-07" %}
 
+_**Gratitude:** Thanks to my brother CC for introducing me to the work
+of adrienne marie brown, even though I got distracted from reading it
+for a year or two. And thanks so much to CS and LB for being great
+friends and re-energizing me to explore the works of both AMB and
+Octavia Butler._
+
 In the past year, I've read two books that have offered some new angles
 I'm still reflecting on. The books feels a little bit like secret
 sisters. In some ways, they are totally not about the same things, and
