@@ -24,8 +24,8 @@ finger down on so many subtle truths.
 The second book is _A Brief History of Everything_ by Ken Wilber. The
 book tries to do what it says on the tin. Speaking of which, Wilbur
 [puts his face on the cover of most versions of the book][2019-10-07a],
-which feels quite relevant to the mindset of the author and how he laws
-out his book. The book builds a well-intentioned and complex (if not
+which feels quite relevant to the mindset of the author and how he
+frames his role among the ideas in the book. The book builds a well-intentioned and complex (if not
 overwrought) theory of how the universe works. And it is massive -- both
 the book and theory.  It goes from the subatomic to the cosmos and God.
 At various points, he's been known to followers as a mystic of sorts,
