@@ -64,13 +64,14 @@ and then distributed that understanding to everyone.
 Contrast that to another literary figure that spent time exploring the
 realm of the spiritual and religious: L. Ron Hubbard. You may know him
 as the creator of Scientology, a terribly hierarchical and oppressive
-religion [built by a sci-fi author][2019-10-07b] after he was done writing sci-fi about
-religion. Hubbard took the exact opposite approach to Hubbard. He saw
-the power of the spiritual, and he took control of it and concentrated
-it in a form that he benefitted from. He created a system in which he
-could be the broker and intermediary of the power that he came to
-understand. He took it apart, and reassembled it into a gun, and he put
-it in his drawer.
+religion [built by a sci-fi author][2019-10-07b] after he was done
+writing sci-fi about religion. Hubbard took the exact opposite approach
+to Octavia Butler. While she took it apart and shared it, he saw the
+power of the spiritual, and he took control of it and concentrated it in
+a form that he benefitted from. He created a system in which he could be
+the broker and intermediary of the power that he came to understand. He
+took it apart, and reassembled it into a gun, and he put it in his
+drawer.
 
    [2019-10-07b]: https://tonyortega.org/2018/02/03/what-l-ron-hubbard-said-about-religion-before-scientology-became-a-church/
 
