@@ -41,8 +41,8 @@ people (a Socratic dialogue), but it is in reality just Ken Wilber
 spending 500 pages explaining his theory. It's an explanation
 masquerading as a conversation. I don't think he mentions another person
 through the whole book. But while you might guess that I don't like the
-tactics, the things he's getting at seem to ring true in similar ways to
-what AMB is dancing around.
+tactics, the things he's getting at seem to ring true, just as do the
+ideas that AMB is dancing with.
 
 And there's perhaps another layer of comparison within these books. AMB
 gives huge amounts of credit to the wonderful sci-fi author Octavia
