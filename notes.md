@@ -17,17 +17,25 @@ wide and a mile deep". The book is filled with personal anecdotes and
 truly puts relationships at the centre of the message. AMB goes to great
 effort early in the book to clarify that she doesn't understand lots of
 the science that she's leaning on -- that she's intuiting her way around
-the general concepts. But as a scientific person (biochemistry
-background), I am floored by how much she seems to put her finger on top
-of so many subtle truths that feel true down to a deep core.
+the general concepts. But as a science-informed person myself
+(biochemistry background), I am floored by how well she seems to put a
+finger down on so many subtle truths.
 
 The second book is _A Brief History of Everything_ by Ken Wilber. The
 book tries to do what it says on the tin. Speaking of which, Wilbur
-[puts his face on the cover of most versions of the book][2019-10-07],
+[puts his face on the cover of most versions of the book][2019-10-07a],
 which feels quite relevant to the mindset of the author and how he laws
-out his book. The book builds a complex (if not overwrought) theory of
-how the universe works. And it is massive. It goes from the subatomic to
-the cosmos and God. It has terms and language for everything. It's ovre
+out his book. The book builds a well-intentioned and complex (if not
+overwrought) theory of how the universe works. And it is massive -- both
+the book and theory.  It goes from the subatomic to the cosmos and God.
+At various points, he's been known to followers as a mystic of sorts,
+and you [could be forgiven for thinking][2019-10-07c] he aspires for
+that, judging by the ways he presents and centers himself.
+
+   [2019-10-07a]: https://www.google.com/search?q=brief+history+of+everything&tbm=isch
+   [2019-10-07c]: https://www.youtube.com/watch?v=BA8tDzK_kPI
+
+The book has terms and language for everything. It's over
 500 pages. It's formatted ostensibly as a conversation between two
 people (a Socratic dialogue), but it is in reality just Ken Wilber
 spending 500 pages explaining his theory. It's an explanation
@@ -36,17 +44,16 @@ through the whole book. But while you might guess that I don't like the
 tactics, the things he's getting at seem to ring true in similar ways to
 what AMB is dancing around.
 
-   [2019-10-07a]: https://www.google.com/search?q=brief+history+of+everything&tbm=isch
-
 And there's perhaps another layer of comparison within these books. AMB
-gives huge amounts of credit the the wonderful sci-fi author Octavia
-Butler. She build her a mythic figure, and relates much of her own
-knowledge through a lens of gratitude for the insight that arrived
-through her reading of Butler.
+gives huge amounts of credit to the wonderful sci-fi author Octavia
+Butler. She build her as a figure of reverence, though Octavia herself
+didn't aspire for that. Adrienne relates much of her own wisdom through
+a lens of gratitude for the insight that arrived through her reading of
+Butler.
 
 Octavia Butler is an author who seemed to play around with the ideas of
 God and spirituality to great effect. In _Parable of the Sower_ (which
-is mainly what I can draw from), she seemed to explore religion and God
+is what I can draw from, as the book I've read), she seemed to explore religion and God
 through a very feminine and relational lens. It's like she navigated
 into the realm of the spiritual, took it apart, and reassembled the
 nature of the spiritual into a book. And the fabric of the book itself
