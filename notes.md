@@ -366,7 +366,7 @@ philosophy of open source,
 [emergent strategy](https://www.akpress.org/emergentstrategy.html),
 gendered approaches to organizing social networks,
 the [gendered nature of social capital](https://journals.sagepub.com/doi/10.1177/104346398010001001) in networks,
-the [Leiden theory of language evolution](https://www.researchgate.net/publication/316659561_The_language_organism_The_Leiden_theory_of_language_evolution),
+the [Leiden theory of language evolution](#2019-07-13),
 and [complexity science](https://en.wikipedia.org/wiki/Complexity_theory) (h/t AMB and Santa Fe Institute).
 
 If I were to try to summarize my highest hope: It's about pulling
@@ -437,6 +437,16 @@ maybe to the rest of the creatures on this earth, we look like some
 equivalent of unknowable cyborg, operating based on principles and
 drives and motivations that they cannot experience or understand or keep
 up with.
+
+(After starting to [amateurly work through the concepts around this
+idea][leiden-tweet], I came across a niche branche of linguistic called
+[the Leiden theory of language][leiden-theory], that has a ton in
+common. Also, my language likely started to mix with their, and so I am
+indebted to their years of thoughtful work and rigorous academic
+pursuit.)
+
+   [leiden-tweet]: https://twitter.com/patconnolly/status/1140858760484786178
+   [leiden-theory]: https://www.researchgate.net/publication/316659561_The_language_organism_The_Leiden_theory_of_language_evolution
 
 {% include title.html name="2019-06-13" %}
 Working in a high-churn culture like a civic hacknight, where 40% of
