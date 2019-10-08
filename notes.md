@@ -23,7 +23,7 @@ plants, the bugs, the birds, the squirrels. I am this thing that zooms
 through their sensory domain, mostly without stopping and participating
 in the things that have such primacy to them. In the language of
 complexity science, I am a _volatile structure_ and I flit through
-relatively unceremonious on my way to concerns they cannot understand or
+relatively unceremoniously, on my way to concerns they cannot understand or
 comprehend.
 
 But it's perhaps a little more complicated than a cold alient
