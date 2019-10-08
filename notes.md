@@ -118,7 +118,7 @@ shared the dissassembled pieces of spirituality with the reader. I
 almost imagine it like she spent time to truly understand the spiritual,
 and then distributed that understanding to everyone.
 
-Contrast that to another literary figure that spent time exploring the
+Contrast that to another literary figure who spent time exploring the
 realm of the spiritual and religious: L. Ron Hubbard. You may know him
 as the creator of Scientology, a terribly hierarchical and oppressive
 religion [built by a sci-fi author][2019-10-07b] after he was done
