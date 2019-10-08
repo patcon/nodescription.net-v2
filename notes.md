@@ -112,8 +112,8 @@ Octavia Butler is an author who seemed to play around with the ideas of
 God and spirituality to great effect. In _Parable of the Sower_ (which
 is what I can draw from, as the book I've read), she seemed to explore religion and God
 through a very feminine and relational lens. It's like she navigated
-into the realm of the spiritual, took it apart, and reassembled the
-nature of the spiritual into a book. And the fabric of the book itself
+into the realm of the spiritual, took it apart, and reassembled the very
+nature of the spiritual, into a book. And the fabric of the book itself
 shared the dissassembled pieces of spirituality with the reader. I
 almost imagine it like she spent time to truly understand the spiritual,
 and then distributed that understanding to everyone.
