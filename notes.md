@@ -5,10 +5,10 @@ title: Notes
 {% include title.html name="2019-10-08" %}
 
 While biking along the Grand Allegheny Passage this summer (h/t MC and
-MP for making this trip happen), I got thinking through a complexity
-science lens about the quality of the experience, in relation to the
-forest around me. It got me thinking about futures, and the possibility
-field of the present moment.
+MP for making this trip happen), I got thinking through a [_complexity
+science_][complexity-note] lens about the quality of the experience, in
+relation to the forest around me. It got me thinking about futures, and
+the possibility field of the present moment.
 
 We were passing through this incredibly complex and dynamic environment.
 We were part of a collective (humanity) that ostensibly recognizes its
@@ -265,11 +265,13 @@ of the last one really struck me.
 
    [upstream-lisi]: https://soundcloud.com/upstreampodcast/lisi-krall
 
-It inspired me to get into my usual _[complexity science](#2019-05-17)_
-way of thinking: What might this event represent as a selected
-adaptation in the network at one level (human society), and how might it
-be generalized to events that have happened at other levels
-(biological)?
+It inspired me to get into my usual _[complexity
+science][complexity-note]_ way of thinking: What might this event
+represent as a selected adaptation in the network at one level (human
+society), and how might it be generalized to events that have happened
+at other levels (biological)?
+
+   [complexity-note]: #2019-05-17
 
 Perhaps you have heard of mitochondria. If you remember from high
 school, mitochondria are the "power plants of the cells". They produce
