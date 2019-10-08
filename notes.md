@@ -45,7 +45,7 @@ And thinking on this, I wonder about the next phase of things...
 1. Will they do the equivalent of cycling through the rejuvenating forest of human minds, while taking pause from their unknowable affairs?
 1. Are we guaranteed that they will feel this way for all of us?
 1. And if not, how might we better guarantee that they _do have_ the sort of developmnet that creates this interdependance in their formative years?
-  Can we engineer that reverence?
+  Can we _engineer_ -- or no, rather -- can we _cultivate_ that reverence?
 1. Can we tie their fates to ours in a way that ensures we're seen as lovable, if not quaint and simple?
 1. Will they connect more with those of us that share aspects of their character, like how [dogs trigger neural activity of parent-child pair-bonding][pet-pair-bonding]?
 1. And if there are human characteristics we hope to share with them, how might we nudge toward that path, if at all possible?
