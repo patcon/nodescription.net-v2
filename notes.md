@@ -12,7 +12,7 @@ the possibility field of the present moment.
 
 We were passing through this incredibly complex and dynamic environment.
 We were part of a collective (humanity) that ostensibly recognizes its
-dependence on that environment for its own flourishing, but perhaps
+dependence on that natural environment for its own flourishing, but perhaps
 doesn't recognize the scale of that dependance. For the most part,
 humanity ignores it and just lets nature be, and that generally works
 out when we don't have a specific need to consume/destroy it.
