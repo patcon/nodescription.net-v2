@@ -43,7 +43,7 @@ otherwise might be [survivorship bias][survivorship], plain and simple.
 And thinking on this, I wonder about the next phase of things...
 1. Will the artificial forms of life to come, will they feel similarly of the domain of flesh, biology and human society?
 1. Will they do the equivalent of cycling through the rejuvenating forest of human minds, while taking pause from their unknowable affairs?
-1. Are we guaranteed that they will feel this way for all of us? Will we be their grub or their squirrel? Will we be easy for them to protect?
+1. Are we guaranteed that they will feel this way for all of us? Will we be their bugs or their squirrel? Will we be easy for them to protect?
 1. And if not, how might we better guarantee that they _do have_ the sort of development that creates this interdependance in their formative years?
   Can we _engineer_ -- or no, rather -- can we _cultivate_ that reverence?
 1. Can we tie their fates to ours in a way that ensures we're eventually endeared (if not also experienced as quaint and simple)?
