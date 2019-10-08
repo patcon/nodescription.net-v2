@@ -10,7 +10,7 @@ science_][complexity-note] lens about the quality of the experience, in
 relation to the forest around me. It got me thinking about futures, and
 the possibility field of the present moment.
 
-We were passing through this incredibly complex and dynamic environment.
+We were rapidly passing through this incredibly complex and dynamic environment.
 We were part of a collective (humanity) that ostensibly recognizes its
 dependence on that natural environment for its own flourishing, but perhaps
 doesn't recognize the scale of that dependance. For the most part,
