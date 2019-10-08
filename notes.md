@@ -124,8 +124,8 @@ as the creator of Scientology, a terribly hierarchical and oppressive
 religion [built by a sci-fi author][2019-10-07b] after he was done
 critiquing and writing sci-fi about it. Hubbard took the exact opposite approach
 to Octavia Butler. While she took it apart and shared it, he saw the
-power of the spiritual, and he took control of it and concentrated it in
-a form that he benefitted from. He created a system in which he could be
+power of the spiritual, and (after scorning it) then took control of it and concentrated it in
+a form that benefitted him. He created a system in which he could be
 the broker and intermediary of the power that he came to understand. He
 took it apart, and reassembled it into a gun, and he put it in his
 drawer.
