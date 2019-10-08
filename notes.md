@@ -103,7 +103,7 @@ ideas that AMB is dancing with.
 
 And there's perhaps another layer of comparison within these books. AMB
 gives huge amounts of credit to the wonderful sci-fi author Octavia
-Butler. She build her as a figure of reverence, though Octavia herself
+Butler. She speaks of her as a figure of reverence, though Octavia herself
 didn't aspire for that. Adrienne relates much of her own wisdom through
 a lens of gratitude for the insight that arrived through her reading of
 Butler.
