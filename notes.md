@@ -2,7 +2,7 @@
 layout: notes
 title: Notes
 ---
-{% include title.html name="2019-10-07" %}
+{% include title.html name="2019-10-08" %}
 
 While biking along the Grand Allegheny Passage this summer (h/t MC and
 MP for making this trip happen), I got thinking through a complexity
