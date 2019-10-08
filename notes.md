@@ -35,7 +35,10 @@ because this reverance is important to our not "innovating" the lower
 levels completely out of existence. Or from another perspective, maybe
 our capacity to be endeared by the natural, to be nostalgic for these
 places we live in less and less, is the reason we're still here. It's
-the reason we haven't totally destroyed this place yet.
+the reason we haven't totally destroyed this place yet. To frame it
+otherwise might be [survivorship bias][survivorship], plain and simple.
+
+   [survivorship]: https://en.wikipedia.org/wiki/Survivorship_bias
 
 And thinking on this, I wonder about the next phase of things. Will the
 artificial forms of life to come, will they feel similarly of the domain
