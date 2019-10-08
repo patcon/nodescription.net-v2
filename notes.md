@@ -26,8 +26,8 @@ complexity science, I am a _volatile structure_ and I flit through
 relatively unceremoniously, on my way to concerns they cannot understand or
 comprehend.
 
-But it's perhaps a little more complicated than a cold alient
-visitation. Because they maybe don't realize it, but there's something
+But it's perhaps a little more complicated than a cold alien
+visitation of sorts. Because they maybe don't realize it, but there's something
 about them that brings me peace. Natural systems rejuvenate us all. If
 only due to some evolutionary baggage, which you might think of as
 genetic nostalgia.  We've perhaps preserved that nostalgia in our bones,
