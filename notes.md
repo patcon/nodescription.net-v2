@@ -26,25 +26,26 @@ complexity science, I am a _volatile structure_ and I flit through
 relatively unceremonious on my way to concerns they cannot understand or
 comprehend.
 
-And they maybe don't realize it, but there's something about them that
-brings me peace. Natural systems rejuvenate us all. If only due to some
-evolutionary baggage, which you might think of as genetic nostalgia.
-We've perhaps preserved that nostalgia in our bones, because this
-reverance is important to our not "innovating" the lower levels
-completely out of existence. Or from another perspective, maybe our
-capacity to be endeared by the natural, to be nostalgic for these places
-we live in less and less, is the reason we're still here. It's the
-reason we haven't totally destroyed this place yet.
+But it's perhaps a little more complicated than a cold alient
+visitation. Because they maybe don't realize it, but there's something
+about them that brings me peace. Natural systems rejuvenate us all. If
+only due to some evolutionary baggage, which you might think of as
+genetic nostalgia.  We've perhaps preserved that nostalgia in our bones,
+because this reverance is important to our not "innovating" the lower
+levels completely out of existence. Or from another perspective, maybe
+our capacity to be endeared by the natural, to be nostalgic for these
+places we live in less and less, is the reason we're still here. It's
+the reason we haven't totally destroyed this place yet.
 
 And thinking on this, I wonder about the next phase of things. Will the
 artificial forms of life to come, will they feel similarly of the domain
-of flesh, biology and human society? Will they do the equivalent of cycling through the forest of
-human minds? Are we guarnateed that they will feel this way for us? And
-if not,
-how might we better guarantee that they _do have_ the sort of experience that
-creates this interdependance in their formative years? Can we engineer
-that reverence? Can we tie their fates to ours in a way that ensures
-we're seen as lovable, if not quaint and simple?
+of flesh, biology and human society? Will they do the equivalent of
+cycling through the forest of human minds? Are we guarnateed that they
+will feel this way for us? And if not, how might we better guarantee
+that they _do have_ the sort of experience that creates this
+interdependance in their formative years? Can we engineer that
+reverence? Can we tie their fates to ours in a way that ensures we're
+seen as lovable, if not quaint and simple?
 
 {% include title.html name="2019-10-07" %}
 
