@@ -17,7 +17,7 @@ doesn't recognize the scale of that dependance. For the most part,
 humanity ignores it and just lets nature be, and that generally works
 out when we don't have a specific need to consume/destroy it.
 
-So anyhow, we're cycling through this system, and I'm imagining how my
+So anyhow, we're cycling through this beautiful natural system, and I'm imagining how my
 presence must feel or look to the participants of that place. The
 plants, the bugs, the birds, the squirrels. I am this thing that zooms
 through their sensory domain, mostly without stopping and participating
