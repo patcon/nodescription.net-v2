@@ -10,20 +10,21 @@ science lens about the quality of the experience, in relation to the
 forest around me. It got me thinking about futures, and the possibility
 field of the present moment.
 
-I was passing through this incredibly complex and dynamic environment.
-I was part of a collective (humanity) that ostensibly recognizes its
+We were passing through this incredibly complex and dynamic environment.
+We were part of a collective (humanity) that ostensibly recognizes its
 dependence on that environment for its own flourishing, but perhaps
-doesn't recognize the scale of that dependance. For the most part, we
-ignore it and just let it be, and that generally works out when we don't
-have a specific need to consume/destroy it.
+doesn't recognize the scale of that dependance. For the most part,
+humanity ignores it and just lets nature be, and that generally works
+out when we don't have a specific need to consume/destroy it.
 
-So anyhow, I'm driving through this system, and imagining how my
+So anyhow, we're cycling through this system, and I'm imagining how my
 presence must feel or look to the participants of that place. The
 plants, the bugs, the birds, the squirrels. I am this thing that zooms
-through their sensory domain, mostly without stopping and participating in the things
-that have such primacy to them. In the language of complexity science, I
-am a _volatile structure_ and I flit through relatively unceremonious on
-my way to concerns they cannot understand or comprehend.
+through their sensory domain, mostly without stopping and participating
+in the things that have such primacy to them. In the language of
+complexity science, I am a _volatile structure_ and I flit through
+relatively unceremonious on my way to concerns they cannot understand or
+comprehend.
 
 And they maybe don't realize it, but there's something about them that
 brings me peace. Natural systems rejuvenate us all. If only due to some
