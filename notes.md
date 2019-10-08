@@ -4,6 +4,49 @@ title: Notes
 ---
 {% include title.html name="2019-10-07" %}
 
+While biking along the Grand Allegheny Passage this summer (h/t MC and
+MP for making this trip happen), I got thinking through a complexity
+science lens about the quality of the experience, in relation to the
+forest around me. It got me thinking about futures, and the possibility
+field of the present moment.
+
+I was passing through this incredibly complex and dynamic environment.
+I was part of a collective (humanity) that ostensibly recognizes its
+dependence on that environment for its own flourishing, but perhaps
+doesn't recognize the scale of that dependance. For the most part, we
+ignore it and just let it be, and that generally works out when we don't
+have a specific need to consume/destroy it.
+
+So anyhow, I'm driving through this system, and imagining how my
+presence must feel or look to the participants of that place. The
+plants, the bugs, the birds, the squirrels. I am this thing that zooms
+through their sensory domain, mostly without stopping and participating in the things
+that have such primacy to them. In the language of complexity science, I
+am a _volatile structure_ and I flit through relatively unceremonious on
+my way to concerns they cannot understand or comprehend.
+
+And they maybe don't realize it, but there's something about them that
+brings me peace. Natural systems rejuvenate us all. If only due to some
+evolutionary baggage, which you might think of as genetic nostalgia.
+We've perhaps preserved that nostalgia in our bones, because this
+reverance is important to our not "innovating" the lower levels
+completely out of existence. Or from another perspective, maybe our
+capacity to be endeared by the natural, to be nostalgic for these places
+we live in less and less, is the reason we're still here. It's the
+reason we haven't totally destroyed this place yet.
+
+And thinking on this, I wonder about the next phase of things. Will the
+artificial forms of life to come, will they feel similarly of the domain
+of flesh, biology and human society? Will they do the equivalent of cycling through the forest of
+human minds? Are we guarnateed that they will feel this way for us? And
+if not,
+how might we better guarantee that they _do have_ the sort of experience that
+creates this interdependance in their formative years? Can we engineer
+that reverence? Can we tie their fates to ours in a way that ensures
+we're seen as lovable, if not quaint and simple?
+
+{% include title.html name="2019-10-07" %}
+
 _**Gratitude:** Thanks to my brother CC for introducing me to the work
 of adrienne marie brown, even though I got distracted from reading it
 for a year or two. And thanks so much to CS and LB for being great
