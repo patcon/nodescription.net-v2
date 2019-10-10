@@ -2,6 +2,15 @@
 layout: notes
 title: Notes
 ---
+{% include title.html name="2019-10-10" %}
+
+Since I feel that this is the place that I'm spending more time caring for
+lately, I wanted to share a link to a Medium article I wrote last
+Winter. As seems to always be the case, this has _complexity science_
+undertones...!
+
+[Reflections on the pattern of Death](https://medium.com/@patcon/reflections-on-the-evolved-pattern-of-death-and-what-it-might-mean-for-governance-7dfdd0df9f09)
+
 {% include title.html name="2019-10-08" %}
 
 While biking along the Grand Allegheny Passage this summer (h/t MC and
