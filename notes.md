@@ -2,6 +2,89 @@
 layout: notes
 title: Notes
 ---
+{% include title.html name="2019-12-09" %}
+
+Every once in awhile, I get sucked into thinking about holograms and [the holographic principle][holo-principle].
+The gist of this principle proposes a non-intuitive statement:
+the full description of a _volume_ of space can be encoded on its _surface_.
+Or in other words, we can store information for _n_ dimensions within _n-1_ dimensions.
+
+   [holo-principle]: https://en.wikipedia.org/wiki/Holographic_principle#Energy,_matter,_and_information_equivalence
+
+Back in 2017, I [wrote this on a discussion forum for tech and startup folks][on-intelligence]:
+
+   [on-intelligence]: https://news.ycombinator.com/item?id=13524074
+
+> I've recently been thinking on how our human definition of intelligence might relate to holographic principles,
+> particularly in regards to information theory.
+>
+> We are small creatures, but our networks -- our brains and societies --
+> represent the most complex information-encoding geometries we've yet seen in the universe.
+>
+> And I see the way that our curiosity reaches upward in scale,
+> documenting the far corners and folds of the universe;
+> and deeper, interrogating the tiny subatomic spaces;
+> and forward and back, building models of the future and past of this point in time.
+>
+> And we capture this knowledge and bring it into our tiny space,
+> information encoded in structures along the skin of this rock floating in space.
+>
+> And I wonder if that's not holographic in some way:
+> That insatiable drive to compress information from massive scales of space and time into the tiniest of spaces...
+
+At the time, I related the above to "intelligence",
+but I wonder if maybe it's just the processes of life itself,
+of which intelligence is just the incarnation we're participating in.
+
+Maybe the thing we experience as life is just our interpretation of some folds of space
+(us!) where information about the whole observable universe
+(all dimensions of deep time and deep space)
+are being written onto the surfaces of these folds,
+as electromagnetic energy shines on us and through us.
+
+Another hologram-related thought I've been rolling over is **in relation to community organizing**.
+
+First I should explain a neat feature of holograms:
+With a photo, if you cut it in two, you get two 2D images with separate information.
+With a true hologram, if you cut it in two, you still have two pieces of hologram with the whole 3D image.
+But interestingly, each piece has lower resolution.
+You can see [a video demonstrating this](https://www.youtube.com/watch?v=9qpFAqZb-D4).
+
+This property of holograms reminds me of what it's like to co-organize within a distributed leadership community like [Civic Tech Toronto](http://civictech.ca).
+
+We engage in a ton of behaviors like rotation of roles, and generosity of leadership.
+In practice, this means that we systematize rotating responsibility for key roles,
+which get better defined and articulated as they pass between people.
+We also don't valorize someone occupying a role twice in a row,
+and instead try to role-model good leadership as the passing on of any role:
+Our responsibility is _not_ to do roles repeatedly,
+but to invite the next person to take on the role.
+Doing otherwise is perhaps considered by some to be hoarding an opportunity for learning.
+
+Due to some of the above practices, the hacknight roles
+(AV, MC, greeter, live streaming, etc.)
+end up being known quite well by many people.
+This makes the organization feel very fault-tolerant,
+because many people know many roles, having done them before.
+So for example, one co-organizer can leave for an extended period,
+or step back in what they offer,
+and neither the organization nor the individual gets stressed.
+
+This makes the organization feel very _holographic_ in nature:
+Each co-organizer has information about the whole structure encoded in them.
+Together, all the organizers have a very high-fidelity understanding of the organization.
+But also, like a hologram, each organizer on their own (i.e. a fragment of the leadership)
+has a full (albeit low-resolution) understanding of the whole organization.
+This is in stark contrast to a traditional delegated leadership model,
+where each organizer is more likely to have a high-fidelity version of a small section of institutional knowledge.
+
+In a distributed leadership community,
+even if all but one organizer were to disappear,
+knowledge of the general shape of the organization would survive.
+Or to put it another way, each co-organizer is very capable of seeding a new community that resembles the previous one in most meaningful ways.
+
+This is perhaps a very useful way for a grassroots movement to operate, be resilient, and spread it's learnings into other spaces.
+
 {% include title.html name="2019-12-08" %}
 
 > From conversation with LB:
