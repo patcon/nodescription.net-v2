@@ -77,6 +77,8 @@ But also, like a hologram, each organizer on their own (i.e. a fragment of the l
 has a full (albeit low-resolution) understanding of the whole organization.
 This is in stark contrast to a traditional delegated leadership model,
 where each organizer is more likely to have a high-fidelity version of a small section of institutional knowledge.
+It's the same difference between a photograph and a hologram:
+After cutting, you either get one half of the cut picture, or a half-resolution version of the whole.
 
 In a distributed leadership community,
 even if all but one organizer were to disappear,
