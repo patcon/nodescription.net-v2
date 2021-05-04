@@ -4,7 +4,7 @@ title: Notes
 ---
 {% include title.html name="2021-05-04" %}
 
-**Note:** I have no desire to create any of the conditions I speak about in this post. I'm quite eager to be wrong...!
+**Note:** I have no desire to create any of the conditions I speak about in this post. I'm quite eager to be wrong...! My usual process is to learn something about the universe, and to find it quite ugly and brutal at first, but then to learn about a way to frame it as something beautiful and poetic (as the universe deserves). I feel the words below are a bit on a brutal side at the moment, unfortunately...!
 
 Why am I _not_ a rationalist?
 I don't actually think that the universe favours rationalist thought.
