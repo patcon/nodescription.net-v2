@@ -17,4 +17,4 @@ technologist. Am prone to wanderings, but actively orbiting Toronto,
 sussing out deeper gravity wells. Sometimes I live in a hammock in the
 park. Minimalist.
 
-Find me on [Twitter](https://twitter.com/patconnolly) (preferred) or _patrick.c.connolly@gmail.com_.
+Find me on [Twitter](https://twitter.com/patcon_) (preferred) or _patrick.c.connolly@gmail.com_.
