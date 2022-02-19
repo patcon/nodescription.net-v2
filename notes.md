@@ -35,7 +35,7 @@ Biology ran amok for millenia before one biological agent (us!) had the wherewit
 Anyhow, these interfaces, untethered, will become unmoored from human understanding, and they will start to look and feel more organic. These new interfaces (perhaps neural network neurons are already this) will grow and propagate and divide, and coalesce in any place where "fitness" can be found. They will not care about the nice abstraction interfaces we once penciled in for them at designated levels of the stack, at the sweet spots that matched our preferences -- an equilibrium condition amongst variables within a system of equations: our preferred length of words, the capacity of our short-term and long-term memory, the ideal length of sentences, and depth of reasoning and recursive thought -- all quite arbitrary things in the grand scheme of the universe.
 
 And when this untethering happens, then the rationalists will be grasping and floundering in a chaotic ecology of information with the rest of us.
-Perhaps that world will feel and looks quite [like the chaos of a natural organic world](https://medium.com/intuitionmachine/the-alien-look-of-deep-learning-generative-design-5c5f871f7d10).
+Perhaps that world will feel and look quite [like the chaos of a natural organic world](https://medium.com/intuitionmachine/the-alien-look-of-deep-learning-generative-design-5c5f871f7d10).
 
 
 {% include title.html name="2019-12-09" %}
