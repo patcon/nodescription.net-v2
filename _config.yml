@@ -19,7 +19,7 @@ description: > # this means to ignore newlines until "baseurl:"
   The personal website of Patrick Connolly.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: http://nodescription.net # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: patconnolly
+twitter_username: patcon_
 github_username:  patcon
 google_analytics: UA-36906123-1
 permalink: pretty
