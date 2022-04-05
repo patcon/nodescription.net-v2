@@ -680,7 +680,7 @@ common. Also, my language likely started to mix with their, and so I am
 indebted to their years of thoughtful work and rigorous academic
 pursuit.)
 
-   [leiden-tweet]: https://twitter.com/patconnolly/status/1140858760484786178
+   [leiden-tweet]: https://twitter.com/patcon_/status/1140858760484786178
    [leiden-theory]: https://www.researchgate.net/publication/316659561_The_language_organism_The_Leiden_theory_of_language_evolution
 
 {% include title.html name="2019-06-13" %}
