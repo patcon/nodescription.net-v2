@@ -6,17 +6,69 @@ const links = [
   { href: '/projects/', label: 'Projects' },
   { href: '/now/', label: 'Now' },
 ];
+
+const currentPath = Astro.url.pathname;
 ---
 
-<nav class="flex items-center justify-between flex-wrap gap-2">
-  <a href="/" class="font-semibold text-gray-900 hover:text-gray-600 no-underline">
+<nav class="flex items-center justify-between">
+  <a href="/" class="font-bold text-lg text-gray-900 hover:text-accent-600 no-underline transition-colors">
     nodescription.net
   </a>
-  <div class="flex gap-4 text-sm">
+
+  <!-- Mobile hamburger button -->
+  <button
+    id="menu-toggle"
+    class="md:hidden p-2 text-gray-600 hover:text-gray-900"
+    aria-label="Toggle menu"
+    aria-expanded="false"
+  >
+    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+      <path id="menu-icon" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+    </svg>
+  </button>
+
+  <!-- Desktop nav -->
+  <div class="hidden md:flex gap-6 text-sm font-medium">
     {links.map(({ href, label }) => (
-      <a href={href} class="text-gray-600 hover:text-gray-900 no-underline">
+      <a
+        href={href}
+        class:list={[
+          'no-underline transition-colors',
+          currentPath === href || (href !== '/' && currentPath.startsWith(href))
+            ? 'text-accent-600'
+            : 'text-gray-500 hover:text-gray-900',
+        ]}
+      >
         {label}
       </a>
     ))}
   </div>
 </nav>
+
+<!-- Mobile nav -->
+<div id="mobile-menu" class="hidden md:hidden pt-4 pb-2 border-t border-gray-100 mt-4">
+  <div class="flex flex-col gap-3 text-sm font-medium">
+    {links.map(({ href, label }) => (
+      <a
+        href={href}
+        class:list={[
+          'no-underline transition-colors',
+          currentPath === href || (href !== '/' && currentPath.startsWith(href))
+            ? 'text-accent-600'
+            : 'text-gray-500 hover:text-gray-900',
+        ]}
+      >
+        {label}
+      </a>
+    ))}
+  </div>
+</div>
+
+<script is:inline>
+  document.getElementById('menu-toggle').addEventListener('click', function() {
+    const menu = document.getElementById('mobile-menu');
+    const expanded = this.getAttribute('aria-expanded') === 'true';
+    this.setAttribute('aria-expanded', !expanded);
+    menu.classList.toggle('hidden');
+  });
+</script>

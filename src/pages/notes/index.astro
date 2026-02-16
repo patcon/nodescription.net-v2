@@ -15,22 +15,30 @@ const renderedNotes = await Promise.all(
 ---
 
 <BaseLayout title="Notes">
-  <div class="prose prose-gray max-w-none">
-    <p>These are half-formed thoughts and scribbles from offline notepads that I'd like to start airing out.</p>
-    <p>Hat-tip to <a href="https://twitter.com/nayafia/">@nayafia</a> for inspiration on this format of thinks :)</p>
+  <div class="max-w-3xl">
+    <h1 class="text-3xl font-bold mb-2">Notes</h1>
+    <p class="text-gray-500 mb-2">Half-formed thoughts and scribbles from offline notepads that I'd like to start airing out.</p>
+    <p class="text-sm text-gray-400 mb-10">
+      Hat-tip to <a href="https://twitter.com/nayafia/" class="text-accent-600 hover:text-accent-700">@nayafia</a> for inspiration on this format of thinks :)
+    </p>
 
-    <h1 id="notes">Notes</h1>
-
-    {renderedNotes.map(({ note, Content }) => (
-      <article class="mb-8">
-        <h2 id={note.data.date}>
-          <a href={`/notes/${note.data.date}/`}>{note.data.date}</a>
-          {' '}
-          <a href={`#${note.data.date}`} class="text-gray-400 no-underline">&#x1f517;</a>
-        </h2>
-        <Content />
-      </article>
-    ))}
+    <div class="space-y-8">
+      {renderedNotes.map(({ note, Content }) => (
+        <article class="bg-white rounded-xl border border-gray-200 p-6">
+          <div class="flex items-center gap-3 mb-4">
+            <a href={`/notes/${note.data.date}/`} class="text-lg font-semibold text-gray-900 hover:text-accent-600 no-underline transition-colors font-mono">
+              {note.data.date}
+            </a>
+            <a href={`#${note.data.date}`} class="text-gray-300 hover:text-gray-500 no-underline" id={note.data.date}>
+              &#x1f517;
+            </a>
+          </div>
+          <div class="prose prose-gray prose-sm max-w-none">
+            <Content />
+          </div>
+        </article>
+      ))}
+    </div>
   </div>
 
   <script is:inline>

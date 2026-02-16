@@ -3,12 +3,14 @@ import BaseLayout from '../layouts/BaseLayout.astro';
 ---
 
 <BaseLayout title="Now">
-  <h1 class="text-2xl font-bold mb-4">Now</h1>
-
-  <div class="prose prose-gray">
-    <p>
-      This is a <a href="https://nownownow.com/about">/now page</a>. It's a place to share what I'm focused on at this point in my life.
+  <div class="max-w-3xl">
+    <h1 class="text-3xl font-bold mb-2">Now</h1>
+    <p class="text-gray-500 mb-8">
+      This is a <a href="https://nownownow.com/about" class="text-accent-600 hover:text-accent-700">/now page</a>. It's a place to share what I'm focused on at this point in my life.
     </p>
-    <p><em>Coming soon.</em></p>
+
+    <div class="bg-white rounded-xl border border-gray-200 p-6">
+      <p class="text-gray-500 italic">Coming soon.</p>
+    </div>
   </div>
 </BaseLayout>

@@ -3,40 +3,77 @@ import BaseLayout from '../layouts/BaseLayout.astro';
 ---
 
 <BaseLayout title="About">
-  <h1 class="text-2xl font-bold mb-4">About</h1>
+  <div class="max-w-3xl">
+    <!-- Header with headshot -->
+    <div class="flex flex-col sm:flex-row items-start gap-6 mb-10">
+      <img
+        src="/headshot.jpg"
+        alt="Patrick Connolly"
+        class="w-28 h-28 rounded-full object-cover shadow-md flex-shrink-0"
+      />
+      <div>
+        <h1 class="text-3xl font-bold mb-2">About</h1>
+        <p class="text-lg text-gray-500">Software developer, civic hacker, and community animator.</p>
+      </div>
+    </div>
 
-  <div class="prose prose-gray">
-    <p>
-      Hello! My name's Patrick Connolly, but the internet usually lets me go by
-      "patcon".
-    </p>
-    <p>
-      I'm a <strong>software developer</strong> and <strong>civic hacker</strong>. For me, that means that I'm
-      interested in the <em>material</em> and the <em>meta</em> of civic life. Which is to say both
-      the tangible day-to-day, and the more abstract systems which underpin that.
-    </p>
-    <p>
-      I spend my time trying to help government and civic systems work more like the
-      open-source communities I know and love.
-    </p>
-    <p>
-      My primary affiliation (ie. the one I'm most proud of), is being an <strong>animator</strong>
-      within the <a href="http://civictech.ca">Civic Tech Toronto</a> community.
-    </p>
-    <p>
-      I like to say that I spend time in spaces that capitalism isn't curious
-      about. It's understandably hard to get paid doing that work, so <strong>please
-      consider <a href="https://www.patreon.com/patcon">supporting me on Patreon</a></strong> if you've been positively
-      affected by things I help maintain!
-    </p>
-    <p>
-      <a href="https://www.patreon.com/patcon">
-        <img src="/become_a_patron_button.png" alt="Become A Patron" />
-      </a>
-    </p>
-    <p>
-      No amount is too small -- My gratitude isn't tied to any dollar amounts!
-      If money isn't the way you move in the world, then no worries :)
-    </p>
+    <!-- Bio -->
+    <div class="prose prose-gray max-w-none mb-12">
+      <p>
+        Hello! My name's Patrick Connolly, but the internet usually lets me go by
+        "patcon".
+      </p>
+      <p>
+        I'm a <strong>software developer</strong> and <strong>civic hacker</strong>. For me, that means that I'm
+        interested in the <em>material</em> and the <em>meta</em> of civic life. Which is to say both
+        the tangible day-to-day, and the more abstract systems which underpin that.
+      </p>
+      <p>
+        I spend my time trying to help government and civic systems work more like the
+        open-source communities I know and love.
+      </p>
+      <p>
+        My primary affiliation (ie. the one I'm most proud of), is being an <strong>animator</strong>
+        within the <a href="http://civictech.ca">Civic Tech Toronto</a> community.
+      </p>
+      <p>
+        I like to say that I spend time in spaces that capitalism isn't curious
+        about. It's understandably hard to get paid doing that work, so <strong>please
+        consider <a href="https://www.patreon.com/patcon">supporting me on Patreon</a></strong> if you've been positively
+        affected by things I help maintain!
+      </p>
+      <p>
+        <a href="https://www.patreon.com/patcon">
+          <img src="/become_a_patron_button.png" alt="Become A Patron" />
+        </a>
+      </p>
+      <p>
+        No amount is too small -- My gratitude isn't tied to any dollar amounts!
+        If money isn't the way you move in the world, then no worries :)
+      </p>
+    </div>
+
+    <!-- What I Do -->
+    <section>
+      <h2 class="text-2xl font-bold mb-6">What I Do</h2>
+      <div class="grid grid-cols-1 sm:grid-cols-2 gap-5">
+        <div class="bg-white rounded-xl border border-gray-200 p-6">
+          <h3 class="font-semibold text-gray-900 mb-2">Civic Technology</h3>
+          <p class="text-sm text-gray-600">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        </div>
+        <div class="bg-white rounded-xl border border-gray-200 p-6">
+          <h3 class="font-semibold text-gray-900 mb-2">Open Source</h3>
+          <p class="text-sm text-gray-600">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</p>
+        </div>
+        <div class="bg-white rounded-xl border border-gray-200 p-6">
+          <h3 class="font-semibold text-gray-900 mb-2">Community Building</h3>
+          <p class="text-sm text-gray-600">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis aute irure dolor in reprehenderit in voluptate velit esse.</p>
+        </div>
+        <div class="bg-white rounded-xl border border-gray-200 p-6">
+          <h3 class="font-semibold text-gray-900 mb-2">Digital Democracy</h3>
+          <p class="text-sm text-gray-600">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Excepteur sint occaecat cupidatat non proident, sunt in culpa.</p>
+        </div>
+      </div>
+    </section>
   </div>
 </BaseLayout>

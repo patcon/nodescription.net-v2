@@ -4,11 +4,13 @@ import Footer from '../components/Footer.astro';
 
 interface Props {
   title?: string;
+  wide?: boolean;
 }
 
-const { title } = Astro.props;
+const { title, wide = false } = Astro.props;
 const siteTitle = 'nodescription.net';
 const pageTitle = title ? `${title} — ${siteTitle}` : siteTitle;
+const containerClass = wide ? 'max-w-5xl' : 'max-w-4xl';
 ---
 
 <!doctype html>
@@ -19,13 +21,13 @@ const pageTitle = title ? `${title} — ${siteTitle}` : siteTitle;
     <meta name="description" content="The personal website of Patrick Connolly." />
     <title>{pageTitle}</title>
   </head>
-  <body class="bg-white text-gray-900 min-h-screen flex flex-col">
-    <header class="border-b border-gray-200">
-      <div class="max-w-prose mx-auto px-4 py-4">
+  <body class="bg-gray-50 text-gray-900 min-h-screen flex flex-col">
+    <header class="bg-white border-b border-gray-200">
+      <div class="max-w-5xl mx-auto px-6 py-4">
         <Nav />
       </div>
     </header>
-    <main class="flex-1 max-w-prose mx-auto px-4 py-8 w-full">
+    <main class={`flex-1 ${containerClass} mx-auto px-6 py-12 w-full`}>
       <slot />
     </main>
     <Footer />

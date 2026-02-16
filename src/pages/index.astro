@@ -1,26 +1,113 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
+import { getCollection } from 'astro:content';
+
+const projects = (await getCollection('projects')).sort((a, b) => {
+  const aKey = `${a.data.start_date.year}-${String(a.data.start_date.month ?? 0).padStart(2, '0')}-${String(a.data.start_date.day ?? 0).padStart(2, '0')}`;
+  const bKey = `${b.data.start_date.year}-${String(b.data.start_date.month ?? 0).padStart(2, '0')}-${String(b.data.start_date.day ?? 0).padStart(2, '0')}`;
+  return bKey.localeCompare(aKey);
+});
+
+const featuredProjects = projects.slice(0, 4);
+
+const notes = (await getCollection('notes')).sort(
+  (a, b) => b.data.date.localeCompare(a.data.date)
+);
+const recentNotes = notes.slice(0, 3).map((note) => {
+  // Strip markdown to get a plain text snippet
+  const plain = note.body
+    ?.replace(/\[([^\]]+)\]\([^)]+\)/g, '$1')    // [text](url) → text
+    .replace(/\[([^\]]+)\]\[[^\]]*\]/g, '$1')    // [text][ref] → text
+    .replace(/^\[[^\]]+\]:\s+.*$/gm, '')         // [ref]: url definition lines
+    .replace(/[*_~`#>]+/g, '')                    // remove markdown formatting
+    .replace(/\n+/g, ' ')                         // collapse newlines
+    .replace(/\s+/g, ' ')                         // normalize whitespace
+    .trim() ?? '';
+  const snippet = plain.length > 150 ? plain.slice(0, 150).trimEnd() + '…' : plain;
+  return { ...note, snippet };
+});
 ---
 
 <BaseLayout>
-  <h3>Patrick Connolly</h3>
+  <!-- Hero Section -->
+  <section class="flex flex-col md:flex-row items-center gap-8 md:gap-12 mb-16">
+    <img
+      src="/headshot.jpg"
+      alt="Patrick Connolly"
+      class="w-40 h-40 md:w-48 md:h-48 rounded-full object-cover shadow-lg flex-shrink-0"
+    />
+    <div>
+      <h1 class="text-4xl md:text-5xl font-bold text-gray-900 mb-3">Patrick Connolly</h1>
+      <p class="text-xl text-gray-500 mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit — a civic technologist exploring the spaces between.</p>
+      <div class="flex gap-3">
+        <a href="/projects/" class="inline-block bg-accent-600 text-white text-sm font-medium px-5 py-2.5 rounded-lg hover:bg-accent-700 no-underline transition-colors">
+          View Projects
+        </a>
+        <a href="/about/" class="inline-block border border-gray-300 text-gray-700 text-sm font-medium px-5 py-2.5 rounded-lg hover:border-gray-400 hover:text-gray-900 no-underline transition-colors">
+          About Me
+        </a>
+      </div>
+    </div>
+  </section>
 
-  <div class="prose prose-gray mt-4">
-    <p>
-      I often find myself walking through spaces that capitalism isn't curious
-      about.
-    </p>
-    <p>
-      Someday there might be more here, but for now, I keep <a href="/notes/">notes</a>.
-    </p>
-    <p>
-      I co-organize with <a href="http://civictech.ca">Civic Tech Toronto</a> as a civic
-      technologist. Am prone to wanderings, but actively orbiting Toronto,
-      sussing out deeper gravity wells. Sometimes I live in a hammock in the
-      park. Minimalist.
-    </p>
-    <p>
-      Find me on <a href="https://twitter.com/patcon_">Twitter</a> (preferred) or <em>patrick.c.connolly@gmail.com</em>.
-    </p>
-  </div>
+  <!-- Brief Intro -->
+  <section class="mb-16">
+    <div class="prose prose-gray max-w-none">
+      <p class="text-lg text-gray-600 leading-relaxed">
+        I often find myself walking through spaces that capitalism isn't curious about.
+        I co-organize with <a href="http://civictech.ca" class="text-accent-600 hover:text-accent-700">Civic Tech Toronto</a> as a civic technologist, working at the intersection of open-source communities and civic systems.
+      </p>
+    </div>
+  </section>
+
+  <!-- Featured Projects -->
+  <section class="mb-16">
+    <div class="flex items-center justify-between mb-6">
+      <h2 class="text-2xl font-bold text-gray-900">Featured Projects</h2>
+      <a href="/projects/" class="text-sm text-accent-600 hover:text-accent-700 no-underline font-medium">
+        View all &rarr;
+      </a>
+    </div>
+    <div class="grid grid-cols-1 sm:grid-cols-2 gap-5">
+      {featuredProjects.map((project) => (
+        <a href={`/projects/${project.id}/`} class="group block bg-white rounded-xl border border-gray-200 p-6 hover:shadow-md hover:border-accent-200 transition-all no-underline">
+          <h3 class="font-semibold text-gray-900 group-hover:text-accent-600 transition-colors mb-2">
+            {project.data.title}
+          </h3>
+          <p class="text-sm text-gray-500 mb-3">
+            {project.data.display_date || `${project.data.start_date.year}`}
+          </p>
+          {project.data.tags && (
+            <div class="flex flex-wrap gap-1.5">
+              {project.data.tags.map((tag: string) => (
+                <span class="text-xs bg-accent-50 text-accent-700 px-2 py-0.5 rounded-full">
+                  {tag}
+                </span>
+              ))}
+            </div>
+          )}
+        </a>
+      ))}
+    </div>
+  </section>
+
+  <!-- Recent Thoughts -->
+  <section class="mb-16">
+    <div class="flex items-center justify-between mb-6">
+      <h2 class="text-2xl font-bold text-gray-900">Recent Thoughts</h2>
+      <a href="/notes/" class="text-sm text-accent-600 hover:text-accent-700 no-underline font-medium">
+        View all &rarr;
+      </a>
+    </div>
+    <div class="space-y-4">
+      {recentNotes.map((note) => (
+        <a href={`/notes/${note.data.date}/`} class="group block bg-white rounded-xl border border-gray-200 p-5 hover:shadow-md hover:border-accent-200 transition-all no-underline">
+          <time class="text-sm text-gray-400 font-mono">{note.data.date}</time>
+          <p class="text-gray-600 mt-1 group-hover:text-gray-900 transition-colors">
+            {note.snippet}
+          </p>
+        </a>
+      ))}
+    </div>
+  </section>
 </BaseLayout>

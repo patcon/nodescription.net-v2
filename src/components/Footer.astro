@@ -1,11 +1,24 @@
 ---
+const socialLinks = [
+  { href: 'https://twitter.com/patcon_', label: 'Twitter' },
+  { href: 'https://github.com/patcon', label: 'GitHub' },
+  { href: 'mailto:patrick.c.connolly@gmail.com', label: 'Email' },
+];
 ---
 
-<footer class="border-t border-gray-200 mt-auto">
-  <div class="max-w-prose mx-auto px-4 py-4 text-sm text-gray-500">
-    <p>Patrick Connolly &mdash;
-      <a href="https://twitter.com/patcon_" class="underline hover:text-gray-700">@patcon_</a> &mdash;
-      <a href="mailto:patrick.c.connolly@gmail.com" class="underline hover:text-gray-700">email</a>
-    </p>
+<footer class="bg-white border-t border-gray-200 mt-auto">
+  <div class="max-w-5xl mx-auto px-6 py-8">
+    <div class="flex flex-col sm:flex-row items-center justify-between gap-4">
+      <p class="text-sm text-gray-500">
+        &copy; {new Date().getFullYear()} Patrick Connolly
+      </p>
+      <div class="flex gap-5 text-sm">
+        {socialLinks.map(({ href, label }) => (
+          <a href={href} class="text-gray-400 hover:text-accent-600 no-underline transition-colors">
+            {label}
+          </a>
+        ))}
+      </div>
+    </div>
   </div>
 </footer>
