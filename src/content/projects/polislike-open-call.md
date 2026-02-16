@@ -5,4 +5,5 @@ start_date:
   month: 4
 display_date: Apr 2025 — Now
 homepage_url: https://polislike.short.gy/notes
+media_url: /polislike-open-call.png
 ---
