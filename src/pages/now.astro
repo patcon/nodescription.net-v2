@@ -5,12 +5,66 @@ import BaseLayout from '../layouts/BaseLayout.astro';
 <BaseLayout title="Now">
   <div class="max-w-3xl">
     <h1 class="text-3xl font-bold mb-2">Now</h1>
-    <p class="text-gray-500 mb-8">
+    <p class="text-gray-500 mb-1">
       This is a <a href="https://nownownow.com/about" class="text-accent-600 hover:text-accent-700">/now page</a>. It's a place to share what I'm focused on at this point in my life.
     </p>
+    <p class="text-sm text-gray-400 mb-10">Updated February 2026</p>
 
-    <div class="bg-white rounded-xl border border-gray-200 p-6">
-      <p class="text-gray-500 italic">Coming soon.</p>
-    </div>
+    <!-- Things I'm thinking about -->
+    <section class="bg-white rounded-xl border border-gray-200 p-6 mb-6">
+      <h2 class="text-xl font-bold mb-4">Things I'm thinking about</h2>
+      <ul class="space-y-3 text-gray-600">
+        <li class="flex gap-2">
+          <span class="text-accent-400 mt-1 flex-shrink-0">&bull;</span>
+          <span><strong>Valence data</strong> (aka reaction data, vote data, or polislike data)</span>
+        </li>
+        <li class="flex gap-2">
+          <span class="text-accent-400 mt-1 flex-shrink-0">&bull;</span>
+          <span>How we can use valence data to make sense of our collective reaction to content, to create <strong>maps of human perspectives</strong></span>
+        </li>
+        <li class="flex gap-2">
+          <span class="text-accent-400 mt-1 flex-shrink-0">&bull;</span>
+          <span>How we can not just depolarize culture, but use new tools to help <strong>stabilize as much difference as possible</strong> in culture</span>
+        </li>
+        <li class="flex gap-2">
+          <span class="text-accent-400 mt-1 flex-shrink-0">&bull;</span>
+          <span><strong>Boundaries as sites of tension</strong>, the resolution of which supports human progress</span>
+        </li>
+        <li class="flex gap-2">
+          <span class="text-accent-400 mt-1 flex-shrink-0">&bull;</span>
+          <span>How we can use machine learning to make sense of our collective reactions to information (statements), <strong>leaving the interpretation of language to humans themselves</strong></span>
+        </li>
+      </ul>
+    </section>
+
+    <!-- Current projects -->
+    <section class="bg-white rounded-xl border border-gray-200 p-6 mb-6">
+      <h2 class="text-xl font-bold mb-4">Current projects</h2>
+      <ul class="space-y-3 text-gray-600">
+        <li class="flex gap-2">
+          <span class="text-accent-400 mt-1 flex-shrink-0">&bull;</span>
+          <span>Google Maps-inspired interfaces for exploring high-dimensional valence data &mdash; <a href="https://patcon.github.io/polislike-human-cartography-prototype-v2/" class="text-accent-600 hover:text-accent-700">Perspective Map Explorer v2</a></span>
+        </li>
+        <li class="flex gap-2">
+          <span class="text-accent-400 mt-1 flex-shrink-0">&bull;</span>
+          <span>R&D infrastructure for more people to participate in finding best practices for working with valence data and their resulting maps &mdash; <a href="https://patcon.github.io/valency-anndata/" class="text-accent-600 hover:text-accent-700">valency-anndata</a></span>
+        </li>
+      </ul>
+    </section>
+
+    <!-- Near future projects -->
+    <section class="bg-white rounded-xl border border-gray-200 p-6">
+      <h2 class="text-xl font-bold mb-4">Near future projects</h2>
+      <ul class="space-y-3 text-gray-600">
+        <li class="flex gap-2">
+          <span class="text-accent-400 mt-1 flex-shrink-0">&bull;</span>
+          <span>Interfaces for gathering high-dimensional reaction data to content (YouTube videos, public lectures, live events)</span>
+        </li>
+        <li class="flex gap-2">
+          <span class="text-accent-400 mt-1 flex-shrink-0">&bull;</span>
+          <span>Agent skills for making exploration and human cartography possible with minimal coding skills</span>
+        </li>
+      </ul>
+    </section>
   </div>
 </BaseLayout>
