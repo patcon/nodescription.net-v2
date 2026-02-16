@@ -26,10 +26,19 @@ const resolvedCollabs = collabKeys.map((key: string) => {
   <article class="prose prose-gray">
     <h1>{project.data.title}</h1>
 
-    {project.data.source_url && (
-      <p class="text-sm text-gray-600">
-        <a href={project.data.source_url}>{project.data.source_url}</a>
-      </p>
+    {(project.data.homepage_url || project.data.source_url) && (
+      <div class="text-sm text-gray-600 not-prose flex flex-wrap gap-4">
+        {project.data.homepage_url && (
+          <a href={project.data.homepage_url} class="text-accent-600 hover:text-accent-700 underline">
+            Website
+          </a>
+        )}
+        {project.data.source_url && (
+          <a href={project.data.source_url} class="text-accent-600 hover:text-accent-700 underline">
+            Source Code
+          </a>
+        )}
+      </div>
     )}
 
     {resolvedCollabs.length > 0 && (
