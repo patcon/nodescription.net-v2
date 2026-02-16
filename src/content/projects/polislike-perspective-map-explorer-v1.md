@@ -9,5 +9,6 @@ end_date:
 display_date: May — Sep 2025
 source_url: https://github.com/patcon/polislike-opinion-map-painting
 homepage_url: https://patcon.github.io/polislike-opinion-map-painting
+media_url: /perspective-map-explorer-v1.png
 ---
 Experimental data-painting interface for exploring opinion landscapes created from Polis-like wikisurvey data.
