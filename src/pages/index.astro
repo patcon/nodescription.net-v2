@@ -12,6 +12,10 @@ const featuredProjects = projects
   .filter((p) => p.data.featured != null)
   .sort((a, b) => a.data.featured! - b.data.featured!);
 
+const posts = (await getCollection('posts')).sort(
+  (a, b) => b.data.date.localeCompare(a.data.date)
+);
+
 const notes = (await getCollection('notes')).sort(
   (a, b) => b.data.date.localeCompare(a.data.date)
 );
@@ -127,6 +131,26 @@ const recentNotes = notes.slice(0, 3).map((note) => {
           <p class="text-gray-600 mt-1 group-hover:text-gray-900 transition-colors">
             {note.snippet}
           </p>
+        </a>
+      ))}
+    </div>
+  </section>
+
+  <!-- Blog Posts -->
+  <section class="mb-16">
+    <div class="flex items-center justify-between mb-6">
+      <h2 class="text-2xl font-bold text-gray-900">Blog Posts</h2>
+      <a href="/blog/" class="text-sm text-accent-600 hover:text-accent-700 no-underline font-medium">
+        View all &rarr;
+      </a>
+    </div>
+    <div class="space-y-4">
+      {posts.map((post) => (
+        <a href={`/blog/${post.id}/`} class="group block bg-white rounded-xl border border-gray-200 p-5 hover:shadow-md hover:border-accent-200 transition-all no-underline">
+          <time class="text-sm text-gray-400 font-mono">{post.data.date}</time>
+          <h3 class="font-semibold text-gray-900 group-hover:text-accent-600 transition-colors mt-1">
+            {post.data.title}
+          </h3>
         </a>
       ))}
     </div>
