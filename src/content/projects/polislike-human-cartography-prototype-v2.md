@@ -1,5 +1,5 @@
 ---
-title: Polis-like Human Cartography Prototype v2
+title: Polislike Perspective Map Explorer v2
 start_date:
   year: 2025
   month: 9

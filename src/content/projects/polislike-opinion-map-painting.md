@@ -1,5 +1,5 @@
 ---
-title: Polis-like Opinion Map Painting
+title: Polislike Perspective Map Explorer v1
 start_date:
   year: 2025
   month: 5
