@@ -7,6 +7,7 @@ end_date:
   year: 2025
   month: 9
 display_date: May — Sep 2025
+featured: 4
 source_url: https://github.com/patcon/polislike-opinion-map-painting
 homepage_url: https://patcon.github.io/polislike-opinion-map-painting
 media_url: /perspective-map-explorer-v1.png

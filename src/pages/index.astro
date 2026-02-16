@@ -8,7 +8,9 @@ const projects = (await getCollection('projects')).sort((a, b) => {
   return bKey.localeCompare(aKey);
 });
 
-const featuredProjects = projects.slice(0, 4);
+const featuredProjects = projects
+  .filter((p) => p.data.featured != null)
+  .sort((a, b) => a.data.featured! - b.data.featured!);
 
 const notes = (await getCollection('notes')).sort(
   (a, b) => b.data.date.localeCompare(a.data.date)

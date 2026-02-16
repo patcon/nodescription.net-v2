@@ -34,6 +34,7 @@ const projects = defineCollection({
     tags: z.array(z.string()).optional(),
     collaborators: z.array(z.string()).optional(),
     status: z.string().optional(),
+    featured: z.number().optional(),
   }),
 });
 
