@@ -13,6 +13,16 @@ export const GET: APIRoute = async () => {
     .map((project) => {
       const { data, body } = project;
 
+      const links: string[] = [];
+      if (data.homepage_url) {
+        links.push(`<a href="${data.homepage_url}">view</a>`);
+      }
+      if (data.source_url) {
+        links.push(`<a href="${data.source_url}">code</a>`);
+      }
+      const linkLine = links.length > 0 ? `<p>${links.join(' | ')}</p>` : '';
+      const textContent = [body, linkLine].filter(Boolean).join('');
+
       const event: Record<string, unknown> = {
         start_date: {
           year: data.start_date.year,
@@ -21,7 +31,7 @@ export const GET: APIRoute = async () => {
         },
         text: {
           headline: `<a href="/projects/${project.id}/">${data.title}</a>`,
-          text: body || '',
+          text: textContent,
         },
       };
 
