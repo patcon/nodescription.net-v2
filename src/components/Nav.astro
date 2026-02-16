@@ -1,0 +1,22 @@
+---
+const links = [
+  { href: '/', label: 'Home' },
+  { href: '/about/', label: 'About' },
+  { href: '/notes/', label: 'Notes' },
+  { href: '/projects/', label: 'Projects' },
+  { href: '/now/', label: 'Now' },
+];
+---
+
+<nav class="flex items-center justify-between flex-wrap gap-2">
+  <a href="/" class="font-semibold text-gray-900 hover:text-gray-600 no-underline">
+    nodescription.net
+  </a>
+  <div class="flex gap-4 text-sm">
+    {links.map(({ href, label }) => (
+      <a href={href} class="text-gray-600 hover:text-gray-900 no-underline">
+        {label}
+      </a>
+    ))}
+  </div>
+</nav>

@@ -1,0 +1,15 @@
+---
+---
+
+<link rel="stylesheet" href="https://cdn.knightlab.com/libs/timeline3/latest/css/timeline.css" />
+
+<div id="timeline-embed" style="width: 100%; height: 650px;"></div>
+
+<script is:inline src="https://cdn.knightlab.com/libs/timeline3/latest/js/timeline.js"></script>
+<script is:inline>
+  document.addEventListener('DOMContentLoaded', function () {
+    new TL.Timeline('timeline-embed', '/api/timeline.json', {
+      initial_zoom: 2,
+    });
+  });
+</script>

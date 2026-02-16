@@ -1,3 +1,4 @@
-_site
-.sass-cache
-.jekyll-metadata
+# Astro
+dist/
+node_modules/
+.astro/

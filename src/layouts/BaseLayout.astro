@@ -1,0 +1,33 @@
+---
+import Nav from '../components/Nav.astro';
+import Footer from '../components/Footer.astro';
+
+interface Props {
+  title?: string;
+}
+
+const { title } = Astro.props;
+const siteTitle = 'nodescription.net';
+const pageTitle = title ? `${title} — ${siteTitle}` : siteTitle;
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="The personal website of Patrick Connolly." />
+    <title>{pageTitle}</title>
+  </head>
+  <body class="bg-white text-gray-900 min-h-screen flex flex-col">
+    <header class="border-b border-gray-200">
+      <div class="max-w-prose mx-auto px-4 py-4">
+        <Nav />
+      </div>
+    </header>
+    <main class="flex-1 max-w-prose mx-auto px-4 py-8 w-full">
+      <slot />
+    </main>
+    <Footer />
+  </body>
+</html>

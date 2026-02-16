@@ -1,0 +1,29 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import TimelineEmbed from '../../components/TimelineEmbed.astro';
+import { getCollection } from 'astro:content';
+
+const projects = (await getCollection('projects')).sort((a, b) => {
+  const aKey = `${a.data.start_date.year}-${String(a.data.start_date.month ?? 0).padStart(2, '0')}-${String(a.data.start_date.day ?? 0).padStart(2, '0')}`;
+  const bKey = `${b.data.start_date.year}-${String(b.data.start_date.month ?? 0).padStart(2, '0')}-${String(b.data.start_date.day ?? 0).padStart(2, '0')}`;
+  return aKey.localeCompare(bKey);
+});
+---
+
+<BaseLayout title="Projects">
+  <h1 class="text-2xl font-bold mb-4">Projects</h1>
+
+  <div class="mb-8 -mx-4 sm:mx-0">
+    <TimelineEmbed />
+  </div>
+
+  <ul class="space-y-1">
+    {projects.map((project) => (
+      <li>
+        <a href={`/projects/${project.id}/`} class="text-blue-700 hover:text-blue-900 underline">
+          {project.data.title}
+        </a>
+      </li>
+    ))}
+  </ul>
+</BaseLayout>

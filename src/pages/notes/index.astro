@@ -1,0 +1,45 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { getCollection, render } from 'astro:content';
+
+const notes = (await getCollection('notes')).sort(
+  (a, b) => b.data.date.localeCompare(a.data.date)
+);
+
+const renderedNotes = await Promise.all(
+  notes.map(async (note) => {
+    const { Content } = await render(note);
+    return { note, Content };
+  })
+);
+---
+
+<BaseLayout title="Notes">
+  <div class="prose prose-gray max-w-none">
+    <p>These are half-formed thoughts and scribbles from offline notepads that I'd like to start airing out.</p>
+    <p>Hat-tip to <a href="https://twitter.com/nayafia/">@nayafia</a> for inspiration on this format of thinks :)</p>
+
+    <h1 id="notes">Notes</h1>
+
+    {renderedNotes.map(({ note, Content }) => (
+      <article class="mb-8">
+        <h2 id={note.data.date}>
+          <a href={`/notes/${note.data.date}/`}>{note.data.date}</a>
+          {' '}
+          <a href={`#${note.data.date}`} class="text-gray-400 no-underline">&#x1f517;</a>
+        </h2>
+        <Content />
+      </article>
+    ))}
+  </div>
+
+  <script is:inline>
+    // Redirect anchor-based note links to individual pages
+    if (window.location.hash) {
+      var date = window.location.hash.slice(1);
+      if (/^\d{4}-\d{2}-\d{2}$/.test(date)) {
+        window.location.replace('/notes/' + date + '/');
+      }
+    }
+  </script>
+</BaseLayout>

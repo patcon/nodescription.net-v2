@@ -1,0 +1,54 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { getCollection, render } from 'astro:content';
+import collaboratorsData from '../../data/collaborators.json';
+
+export async function getStaticPaths() {
+  const projects = await getCollection('projects');
+  return projects.map((project) => ({
+    params: { slug: project.id },
+    props: { project },
+  }));
+}
+
+const { project } = Astro.props;
+const { Content } = await render(project);
+const collabKeys = project.data.collaborators ?? [];
+
+const collabMap = collaboratorsData as Record<string, { name: string; link: string }>;
+const resolvedCollabs = collabKeys.map((key: string) => {
+  const c = collabMap[key];
+  return c ? { name: c.name, link: c.link, key } : { name: key, link: '', key };
+});
+---
+
+<BaseLayout title={project.data.title}>
+  <article class="prose prose-gray">
+    <h1>{project.data.title}</h1>
+
+    {project.data.source_url && (
+      <p class="text-sm text-gray-600">
+        <a href={project.data.source_url}>{project.data.source_url}</a>
+      </p>
+    )}
+
+    {resolvedCollabs.length > 0 && (
+      <div class="text-sm">
+        <strong>Collaborators:</strong>
+        <ul>
+          {resolvedCollabs.map((c) => (
+            <li>
+              {c.link ? <a href={c.link}>{c.name}</a> : c.name}
+            </li>
+          ))}
+        </ul>
+      </div>
+    )}
+
+    <Content />
+
+    <p class="mt-8">
+      <a href="/projects/">&larr; All projects</a>
+    </p>
+  </article>
+</BaseLayout>
