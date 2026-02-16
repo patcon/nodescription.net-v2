@@ -1,12 +1,12 @@
 ---
 title: Plural Research Experiment
 start_date:
-  year: 2025
+  year: 2024
   month: 2
 end_date:
-  year: 2025
+  year: 2024
   month: 5
-display_date: Feb — May 2025
+display_date: Feb — May 2024
 homepage_url: https://www.pluralresearch.org/
 media_url: https://www.youtube.com/watch?v=guLDNMAOn24
 ---
