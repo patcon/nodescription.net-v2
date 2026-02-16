@@ -72,7 +72,15 @@ const recentNotes = notes.slice(0, 3).map((note) => {
     </div>
     <div class="grid grid-cols-1 sm:grid-cols-2 gap-5">
       {featuredProjects.map((project) => (
-        <a href={`/projects/${project.id}/`} class="group block bg-white rounded-xl border border-gray-200 p-6 hover:shadow-md hover:border-accent-200 transition-all no-underline">
+        <a href={`/projects/${project.id}/`} class="group block bg-white rounded-xl border border-gray-200 overflow-hidden hover:shadow-md hover:border-accent-200 transition-all no-underline">
+          {project.data.media_url && (
+            <img
+              src={project.data.media_url}
+              alt={project.data.title}
+              class="w-full h-40 object-cover object-top"
+            />
+          )}
+          <div class="p-6">
           <h3 class="font-semibold text-gray-900 group-hover:text-accent-600 transition-colors mb-2">
             {project.data.title}
           </h3>
@@ -88,6 +96,7 @@ const recentNotes = notes.slice(0, 3).map((note) => {
               ))}
             </div>
           )}
+          </div>
         </a>
       ))}
     </div>

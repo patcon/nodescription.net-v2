@@ -26,6 +26,14 @@ const resolvedCollabs = collabKeys.map((key: string) => {
   <article class="prose prose-gray">
     <h1>{project.data.title}</h1>
 
+    {project.data.media_url && (
+      <img
+        src={project.data.media_url}
+        alt={project.data.title}
+        class="rounded-lg border border-gray-200"
+      />
+    )}
+
     {(project.data.homepage_url || project.data.source_url) && (
       <div class="text-sm text-gray-600 not-prose flex flex-wrap gap-4">
         {project.data.homepage_url && (
