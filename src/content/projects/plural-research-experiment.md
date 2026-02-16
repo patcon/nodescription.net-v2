@@ -10,4 +10,4 @@ display_date: Feb — May 2024
 homepage_url: https://www.pluralresearch.org/
 media_url: https://www.youtube.com/watch?v=guLDNMAOn24
 ---
-Supported Puja Ohlhaver's [Plural Research Experiment](https://www.pluralresearch.org/) in Berlin — a collaborative research initiative exploring plural approaches to funding breakthrough scientific innovation. See [How to Fund Breakthrough Innovations in Science](https://www.youtube.com/watch?v=guLDNMAOn24) for context.
+Supported Puja Ohlhaver's <a href="https://www.pluralresearch.org/">Plural Research Experiment</a> in Berlin — a collaborative research initiative exploring plural approaches to funding breakthrough scientific innovation. See <a href="https://www.youtube.com/watch?v=guLDNMAOn24">How to Fund Breakthrough Innovations in Science</a> for context.
