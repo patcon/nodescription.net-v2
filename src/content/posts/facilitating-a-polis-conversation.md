@@ -1,6 +1,7 @@
 ---
 title: "Facilitating a Polis Conversation: Notes from the Field"
 date: "2025-10-05"
+original_post_url: "https://nodescription.substack.com/p/facilitating-a-polis-conversation"
 ---
 _(Begrudgingly co-authored from my messy personal knowledge-base notes using ChatGPT. But pretty unapologetic about that, because my ADHD brain means final outputs languish in my notes and personal conversations for far too long without using AI for the last mile…!)_
 

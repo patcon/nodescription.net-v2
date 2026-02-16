@@ -43,6 +43,7 @@ const posts = defineCollection({
   schema: z.object({
     title: z.string(),
     date: z.string(),
+    original_post_url: z.string().optional(),
   }),
 });
 
