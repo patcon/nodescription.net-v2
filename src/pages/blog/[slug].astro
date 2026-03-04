@@ -12,6 +12,26 @@ export async function getStaticPaths() {
 
 const { post } = Astro.props;
 const { Content } = await render(post);
+
+const aiLabels = {
+  'human': 'Human',
+  'ai-light': 'AI-light',
+  'ai-heavy': 'AI-heavy',
+};
+
+const aiColors = {
+  'human': 'bg-green-100 text-green-800',
+  'ai-light': 'bg-yellow-100 text-yellow-800',
+  'ai-heavy': 'bg-orange-100 text-orange-800',
+};
+
+const wordsOut = post.body
+  ? Math.round(post.body.trim().split(/\s+/).length / 10) * 10
+  : null;
+
+const wordsIn = post.data.words_in != null
+  ? Math.round(post.data.words_in / 10) * 10
+  : null;
 ---
 
 <BaseLayout title={post.data.title}>
@@ -22,6 +42,19 @@ const { Content } = await render(post);
       <p class="text-sm text-gray-400">
         Originally published at <a href={post.data.original_post_url} class="text-accent-600 hover:text-accent-700">{new URL(post.data.original_post_url).hostname}</a>
       </p>
+    )}
+    {post.data.ai_involvement && (
+      <div class="flex flex-wrap items-center gap-3 not-prose text-sm">
+        <span class={`px-2 py-0.5 rounded font-medium ${aiColors[post.data.ai_involvement]}`}>
+          {aiLabels[post.data.ai_involvement]}
+        </span>
+        {wordsIn != null && (
+          <span class="text-gray-400">~{wordsIn} words in</span>
+        )}
+        {wordsOut != null && (
+          <span class="text-gray-400">~{wordsOut} words out</span>
+        )}
+      </div>
     )}
     <Content />
   </article>
