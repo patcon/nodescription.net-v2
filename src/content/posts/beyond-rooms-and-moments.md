@@ -4,6 +4,7 @@ date: "2025-09-06"
 original_post_url: "https://nodescription.substack.com/p/beyond-rooms-and-moments"
 ai_involvement: ai-heavy
 words_in: 1200
+agent_threads: "https://chatgpt.com/c/68bc5e5a-c6c0-8330-8211-9662160a7147"
 ---
 _Perspective cartography with Polis-like event tools that may one day exist_
 

@@ -46,6 +46,7 @@ const posts = defineCollection({
     original_post_url: z.string().optional(),
     ai_involvement: z.enum(['human', 'ai-light', 'ai-heavy']).optional(),
     words_in: z.number().optional(),
+    agent_threads: z.union([z.string().url(), z.array(z.string().url())]).optional(),
   }),
 });
 

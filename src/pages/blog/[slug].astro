@@ -25,6 +25,10 @@ const aiColors = {
   'ai-heavy': 'bg-orange-100 text-orange-800',
 };
 
+const agentThreads = post.data.agent_threads
+  ? (Array.isArray(post.data.agent_threads) ? post.data.agent_threads : [post.data.agent_threads])
+  : [];
+
 const wordsOut = post.body
   ? Math.round(post.body.trim().split(/\s+/).length / 10) * 10
   : null;
@@ -48,6 +52,16 @@ const wordsIn = post.data.words_in != null
         <span class={`px-2 py-0.5 rounded font-medium ${aiColors[post.data.ai_involvement]}`}>
           {aiLabels[post.data.ai_involvement]}
         </span>
+        {agentThreads.length > 0 && (
+          <span class="flex items-center gap-1 text-gray-300">
+            <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="11" width="18" height="10" rx="2"/><circle cx="12" cy="5" r="2"/><path d="M12 7v4"/><line x1="8" y1="16" x2="8" y2="16"/><line x1="16" y1="16" x2="16" y2="16"/></svg>
+            {agentThreads.map((url, i) => (
+              <a href={url} target="_blank" rel="noopener noreferrer" class="text-gray-300 hover:text-gray-500 transition-colors" title={`Agent thread ${i + 1}`}>
+                <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+              </a>
+            ))}
+          </span>
+        )}
         {wordsIn != null && (
           <span class="text-gray-400">~{wordsIn} words in</span>
         )}
