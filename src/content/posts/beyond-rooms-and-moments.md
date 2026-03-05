@@ -2,6 +2,8 @@
 title: "Beyond Rooms & Moments"
 date: "2025-09-06"
 original_post_url: "https://nodescription.substack.com/p/beyond-rooms-and-moments"
+ai_involvement: ai-heavy
+words_in: 1200
 ---
 _Perspective cartography with Polis-like event tools that may one day exist_
 
