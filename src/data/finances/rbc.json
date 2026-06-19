@@ -1,0 +1,10 @@
+{
+  "account": "rbc",
+  "label": "RBC",
+  "sub_accounts": [
+    { "label": "Chequing", "amount": 50, "currency": "CAD" },
+    { "label": "Savings", "amount": 290, "currency": "CAD" }
+  ],
+  "balance_updated": "2026-06-19",
+  "transactions": []
+}
