@@ -3,5 +3,6686 @@
   "balance": 129,
   "balance_currency": "EUR",
   "balance_updated": "2026-06-19",
-  "transactions": []
+  "transactions": [
+    {
+      "id": "CARD_TRANSACTION-3944000803",
+      "date": "2026-06-19",
+      "direction": "OUT",
+      "amount": 1,
+      "currency": "EUR",
+      "merchant": "Tim Hortons",
+      "category": "Eating out",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3940689235",
+      "date": "2026-06-18",
+      "direction": "OUT",
+      "amount": 3,
+      "currency": "EUR",
+      "merchant": "Pamenar",
+      "category": "Eating out",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3936574458",
+      "date": "2026-06-17",
+      "direction": "OUT",
+      "amount": 3,
+      "currency": "EUR",
+      "merchant": "Dollarama",
+      "category": "Shopping",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3936478098",
+      "date": "2026-06-17",
+      "direction": "OUT",
+      "amount": 9,
+      "currency": "EUR",
+      "merchant": "Value Village",
+      "category": "Shopping",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3935452099",
+      "date": "2026-06-17",
+      "direction": "OUT",
+      "amount": 17,
+      "currency": "EUR",
+      "merchant": "No Frills",
+      "category": "Groceries",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3932540629",
+      "date": "2026-06-16",
+      "direction": "OUT",
+      "amount": 6,
+      "currency": "EUR",
+      "merchant": "Metro",
+      "category": "Groceries",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3919768975",
+      "date": "2026-06-13",
+      "direction": "OUT",
+      "amount": 1,
+      "currency": "EUR",
+      "merchant": "Tim Hortons",
+      "category": "Eating out",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3919712508",
+      "date": "2026-06-13",
+      "direction": "OUT",
+      "amount": 2,
+      "currency": "EUR",
+      "merchant": "Dollarama",
+      "category": "Shopping",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3919389819",
+      "date": "2026-06-13",
+      "direction": "OUT",
+      "amount": 5,
+      "currency": "EUR",
+      "merchant": "Rexall Drugstore",
+      "category": "Personal care",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3915824836",
+      "date": "2026-06-12",
+      "direction": "OUT",
+      "amount": 0,
+      "currency": "EUR",
+      "merchant": "Hetzner",
+      "category": "Bills",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3910708889",
+      "date": "2026-06-11",
+      "direction": "OUT",
+      "amount": 3,
+      "currency": "EUR",
+      "merchant": "Ls I Deal Coffee",
+      "category": "Eating out",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3910614736",
+      "date": "2026-06-11",
+      "direction": "OUT",
+      "amount": 1,
+      "currency": "EUR",
+      "merchant": "FreshCo",
+      "category": "Groceries",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3907384441",
+      "date": "2026-06-11",
+      "direction": "OUT",
+      "amount": 11,
+      "currency": "EUR",
+      "merchant": "Metro",
+      "category": "Groceries",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3907051917",
+      "date": "2026-06-10",
+      "direction": "OUT",
+      "amount": 2,
+      "currency": "EUR",
+      "merchant": "Future Bistro",
+      "category": "Eating out",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3903175056",
+      "date": "2026-06-10",
+      "direction": "OUT",
+      "amount": 4,
+      "currency": "EUR",
+      "merchant": "Metro",
+      "category": "Groceries",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3903086635",
+      "date": "2026-06-10",
+      "direction": "OUT",
+      "amount": 2,
+      "currency": "EUR",
+      "merchant": "Future Bistro",
+      "category": "Eating out",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3902901440",
+      "date": "2026-06-09",
+      "direction": "OUT",
+      "amount": 5,
+      "currency": "EUR",
+      "merchant": "Esim.dog",
+      "category": "Shopping",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3894404035",
+      "date": "2026-06-07",
+      "direction": "OUT",
+      "amount": 1,
+      "currency": "EUR",
+      "merchant": "Tim Hortons",
+      "category": "Eating out",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3893788587",
+      "date": "2026-06-07",
+      "direction": "OUT",
+      "amount": 3,
+      "currency": "EUR",
+      "merchant": "Ls I Deal on the Park",
+      "category": "Eating out",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3890662107",
+      "date": "2026-06-06",
+      "direction": "OUT",
+      "amount": 7,
+      "currency": "EUR",
+      "merchant": "No Frills",
+      "category": "Groceries",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3890350264",
+      "date": "2026-06-06",
+      "direction": "OUT",
+      "amount": 11,
+      "currency": "EUR",
+      "merchant": "No Frills",
+      "category": "Groceries",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3889462439",
+      "date": "2026-06-06",
+      "direction": "OUT",
+      "amount": 3,
+      "currency": "EUR",
+      "merchant": "Ls I Deal Coffee",
+      "category": "Eating out",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3885034633",
+      "date": "2026-06-05",
+      "direction": "OUT",
+      "amount": 7,
+      "currency": "EUR",
+      "merchant": "Morning Parade Coffee",
+      "category": "Eating out",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3881556754",
+      "date": "2026-06-04",
+      "direction": "OUT",
+      "amount": 14,
+      "currency": "EUR",
+      "merchant": "No Frills",
+      "category": "Groceries",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3881074314",
+      "date": "2026-06-04",
+      "direction": "OUT",
+      "amount": 3,
+      "currency": "EUR",
+      "merchant": "Loveless Cafe",
+      "category": "Eating out",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3880430742",
+      "date": "2026-06-04",
+      "direction": "OUT",
+      "amount": 1,
+      "currency": "EUR",
+      "merchant": "Tim Hortons",
+      "category": "Eating out",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3877768621",
+      "date": "2026-06-04",
+      "direction": "OUT",
+      "amount": 8,
+      "currency": "EUR",
+      "merchant": "FreshCo",
+      "category": "Groceries",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3877352217",
+      "date": "2026-06-03",
+      "direction": "OUT",
+      "amount": 1,
+      "currency": "EUR",
+      "merchant": "Tim Hortons",
+      "category": "Eating out",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3876782513",
+      "date": "2026-06-03",
+      "direction": "OUT",
+      "amount": 20,
+      "currency": "EUR",
+      "merchant": "Anthropic",
+      "category": "Shopping",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3872560491",
+      "date": "2026-06-02",
+      "direction": "OUT",
+      "amount": 3,
+      "currency": "EUR",
+      "merchant": "Loveless Cafe",
+      "category": "Eating out",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3869451131",
+      "date": "2026-06-02",
+      "direction": "OUT",
+      "amount": 3,
+      "currency": "EUR",
+      "merchant": "Amazon Web Services",
+      "category": "Bills",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3869314372",
+      "date": "2026-06-02",
+      "direction": "OUT",
+      "amount": 20,
+      "currency": "EUR",
+      "merchant": "Google One",
+      "category": "Entertainment",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3864740251",
+      "date": "2026-06-01",
+      "direction": "OUT",
+      "amount": 6,
+      "currency": "EUR",
+      "merchant": "Trinity Common",
+      "category": "Eating out",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3864213357",
+      "date": "2026-05-31",
+      "direction": "OUT",
+      "amount": 3,
+      "currency": "EUR",
+      "merchant": "Ls I Deal on the Park",
+      "category": "Eating out",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3863582858",
+      "date": "2026-05-31",
+      "direction": "OUT",
+      "amount": 10,
+      "currency": "EUR",
+      "merchant": "Revue Film",
+      "category": "Entertainment",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3860146236",
+      "date": "2026-05-30",
+      "direction": "OUT",
+      "amount": 4,
+      "currency": "EUR",
+      "merchant": "Moonmilk",
+      "category": "Eating out",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3860105415",
+      "date": "2026-05-30",
+      "direction": "OUT",
+      "amount": 10,
+      "currency": "EUR",
+      "merchant": "No Frills",
+      "category": "Groceries",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3856491708",
+      "date": "2026-05-30",
+      "direction": "OUT",
+      "amount": 2,
+      "currency": "EUR",
+      "merchant": "Ndy Gigs Inc.",
+      "category": "Entertainment",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3856488765",
+      "date": "2026-05-30",
+      "direction": "OUT",
+      "amount": 6,
+      "currency": "EUR",
+      "merchant": "Ndy Gigs Inc.",
+      "category": "Entertainment",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3855895273",
+      "date": "2026-05-29",
+      "direction": "OUT",
+      "amount": 4,
+      "currency": "EUR",
+      "merchant": "Sp Kittenandthebear",
+      "category": "Groceries",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3854868542",
+      "date": "2026-05-29",
+      "direction": "OUT",
+      "amount": 3,
+      "currency": "EUR",
+      "merchant": "Loveless Cafe",
+      "category": "Eating out",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3851757823",
+      "date": "2026-05-29",
+      "direction": "OUT",
+      "amount": 9,
+      "currency": "EUR",
+      "merchant": "Rexall Drugstore",
+      "category": "Personal care",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3847591428",
+      "date": "2026-05-28",
+      "direction": "OUT",
+      "amount": 9,
+      "currency": "EUR",
+      "merchant": "FreshCo",
+      "category": "Groceries",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3847284336",
+      "date": "2026-05-27",
+      "direction": "OUT",
+      "amount": 14,
+      "currency": "EUR",
+      "merchant": "LCBO",
+      "category": "Shopping",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3847076955",
+      "date": "2026-05-27",
+      "direction": "OUT",
+      "amount": 3,
+      "currency": "EUR",
+      "merchant": "Pamenar",
+      "category": "Eating out",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3846705064",
+      "date": "2026-05-27",
+      "direction": "OUT",
+      "amount": 4,
+      "currency": "EUR",
+      "merchant": "Nile",
+      "category": "Eating out",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3843461133",
+      "date": "2026-05-27",
+      "direction": "OUT",
+      "amount": 4,
+      "currency": "EUR",
+      "merchant": "Gabby's Restaurant",
+      "category": "Eating out",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3842891722",
+      "date": "2026-05-26",
+      "direction": "OUT",
+      "amount": 3,
+      "currency": "EUR",
+      "merchant": "Loveless Cafe",
+      "category": "Eating out",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3838354689",
+      "date": "2026-05-25",
+      "direction": "OUT",
+      "amount": 1,
+      "currency": "EUR",
+      "merchant": "Tim Hortons",
+      "category": "Eating out",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3834470349",
+      "date": "2026-05-24",
+      "direction": "OUT",
+      "amount": 3,
+      "currency": "EUR",
+      "merchant": "Future Bistro",
+      "category": "Eating out",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3834061790",
+      "date": "2026-05-24",
+      "direction": "OUT",
+      "amount": 17,
+      "currency": "GBP",
+      "merchant": "No Frills",
+      "category": "Groceries",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3834061790",
+      "date": "2026-05-24",
+      "direction": "OUT",
+      "amount": 0,
+      "currency": "EUR",
+      "merchant": "No Frills",
+      "category": "Groceries",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3825607024",
+      "date": "2026-05-22",
+      "direction": "OUT",
+      "amount": 3,
+      "currency": "GBP",
+      "merchant": "Loveless Cafe",
+      "category": "Eating out",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3824897898",
+      "date": "2026-05-22",
+      "direction": "OUT",
+      "amount": 3,
+      "currency": "GBP",
+      "merchant": "Loveless Cafe",
+      "category": "Eating out",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3819897808",
+      "date": "2026-05-21",
+      "direction": "OUT",
+      "amount": 2,
+      "currency": "GBP",
+      "merchant": "Loft Kitchen",
+      "category": "Groceries",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3813967553",
+      "date": "2026-05-20",
+      "direction": "OUT",
+      "amount": 6,
+      "currency": "GBP",
+      "merchant": "3 Brewers Toronto",
+      "category": "Eating out",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3813406183",
+      "date": "2026-05-19",
+      "direction": "OUT",
+      "amount": 3,
+      "currency": "GBP",
+      "merchant": "Pamenar",
+      "category": "Eating out",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3813069095",
+      "date": "2026-05-19",
+      "direction": "OUT",
+      "amount": 3,
+      "currency": "GBP",
+      "merchant": "Pamenar",
+      "category": "Eating out",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3809587561",
+      "date": "2026-05-18",
+      "direction": "OUT",
+      "amount": 3,
+      "currency": "GBP",
+      "merchant": "INS Market",
+      "category": "Shopping",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3809545599",
+      "date": "2026-05-18",
+      "direction": "OUT",
+      "amount": 8,
+      "currency": "GBP",
+      "merchant": "Creeds Coffee Bar",
+      "category": "Eating out",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3805684945",
+      "date": "2026-05-18",
+      "direction": "OUT",
+      "amount": 10,
+      "currency": "GBP",
+      "merchant": "Loblaws",
+      "category": "Groceries",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3804591887",
+      "date": "2026-05-17",
+      "direction": "OUT",
+      "amount": 2,
+      "currency": "GBP",
+      "merchant": "Ls I Deal Coffee",
+      "category": "Eating out",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3801981373",
+      "date": "2026-05-17",
+      "direction": "OUT",
+      "amount": 7,
+      "currency": "GBP",
+      "merchant": "The Golden Pigeon",
+      "category": "Eating out",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3801717814",
+      "date": "2026-05-16",
+      "direction": "OUT",
+      "amount": 11,
+      "currency": "GBP",
+      "merchant": "Metro",
+      "category": "Groceries",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3801012422",
+      "date": "2026-05-16",
+      "direction": "OUT",
+      "amount": 3,
+      "currency": "GBP",
+      "merchant": "Loveless Cafe",
+      "category": "Eating out",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3797302273",
+      "date": "2026-05-15",
+      "direction": "OUT",
+      "amount": 5,
+      "currency": "GBP",
+      "merchant": "Loveless Cafe",
+      "category": "Eating out",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3796784449",
+      "date": "2026-05-15",
+      "direction": "OUT",
+      "amount": 3,
+      "currency": "GBP",
+      "merchant": "Loveless Cafe",
+      "category": "Eating out",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3793096618",
+      "date": "2026-05-15",
+      "direction": "OUT",
+      "amount": 6,
+      "currency": "GBP",
+      "merchant": "Loveless Cafe",
+      "category": "Eating out",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3792751624",
+      "date": "2026-05-14",
+      "direction": "OUT",
+      "amount": 2,
+      "currency": "GBP",
+      "merchant": "No Frills",
+      "category": "Groceries",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3789192577",
+      "date": "2026-05-14",
+      "direction": "OUT",
+      "amount": 10,
+      "currency": "EUR",
+      "merchant": "MobiMatter",
+      "category": "Bills",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3788666095",
+      "date": "2026-05-13",
+      "direction": "OUT",
+      "amount": 1,
+      "currency": "GBP",
+      "merchant": "Tim Hortons",
+      "category": "Eating out",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3785157739",
+      "date": "2026-05-13",
+      "direction": "OUT",
+      "amount": 4,
+      "currency": "GBP",
+      "merchant": "Gabby's Restaurant",
+      "category": "Eating out",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3781187012",
+      "date": "2026-05-12",
+      "direction": "OUT",
+      "amount": 6,
+      "currency": "GBP",
+      "merchant": "Loveless Cafe",
+      "category": "Eating out",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3781082514",
+      "date": "2026-05-12",
+      "direction": "OUT",
+      "amount": 6,
+      "currency": "GBP",
+      "merchant": "Loveless Cafe",
+      "category": "Eating out",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3781037397",
+      "date": "2026-05-12",
+      "direction": "OUT",
+      "amount": 12,
+      "currency": "GBP",
+      "merchant": "No Frills",
+      "category": "Groceries",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3780456373",
+      "date": "2026-05-11",
+      "direction": "OUT",
+      "amount": 3,
+      "currency": "GBP",
+      "merchant": "Loveless Cafe",
+      "category": "Eating out",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3777264316",
+      "date": "2026-05-11",
+      "direction": "OUT",
+      "amount": 6,
+      "currency": "GBP",
+      "merchant": "Pamenar",
+      "category": "Eating out",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3777081505",
+      "date": "2026-05-11",
+      "direction": "OUT",
+      "amount": 10,
+      "currency": "GBP",
+      "merchant": "GoFundMe",
+      "category": "Charity",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3776991522",
+      "date": "2026-05-10",
+      "direction": "OUT",
+      "amount": 6,
+      "currency": "GBP",
+      "merchant": "Loveless Cafe",
+      "category": "Eating out",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3776491536",
+      "date": "2026-05-10",
+      "direction": "OUT",
+      "amount": 3,
+      "currency": "GBP",
+      "merchant": "Loveless Cafe",
+      "category": "Eating out",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3773228742",
+      "date": "2026-05-09",
+      "direction": "OUT",
+      "amount": 5,
+      "currency": "GBP",
+      "merchant": "Metro",
+      "category": "Groceries",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3772769746",
+      "date": "2026-05-09",
+      "direction": "OUT",
+      "amount": 3,
+      "currency": "GBP",
+      "merchant": "Krave Coffee Inc.",
+      "category": "Eating out",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3769235308",
+      "date": "2026-05-09",
+      "direction": "OUT",
+      "amount": 12,
+      "currency": "GBP",
+      "merchant": "Loblaws",
+      "category": "Groceries",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3768296297",
+      "date": "2026-05-08",
+      "direction": "OUT",
+      "amount": 3,
+      "currency": "GBP",
+      "merchant": "Loveless Cafe",
+      "category": "Eating out",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3764808051",
+      "date": "2026-05-08",
+      "direction": "OUT",
+      "amount": 3,
+      "currency": "GBP",
+      "merchant": "Anthropic",
+      "category": "Shopping",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3764768582",
+      "date": "2026-05-08",
+      "direction": "OUT",
+      "amount": 3,
+      "currency": "GBP",
+      "merchant": "Anthropic",
+      "category": "Shopping",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3764474784",
+      "date": "2026-05-07",
+      "direction": "OUT",
+      "amount": 5,
+      "currency": "GBP",
+      "merchant": "Loveless Cafe",
+      "category": "Eating out",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3763792130",
+      "date": "2026-05-07",
+      "direction": "OUT",
+      "amount": 3,
+      "currency": "GBP",
+      "merchant": "Loveless Cafe",
+      "category": "Eating out",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3760856704",
+      "date": "2026-05-07",
+      "direction": "OUT",
+      "amount": 6,
+      "currency": "GBP",
+      "merchant": "Standard Time",
+      "category": "Eating out",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3760757836",
+      "date": "2026-05-07",
+      "direction": "OUT",
+      "amount": 9,
+      "currency": "GBP",
+      "merchant": "Standard Time",
+      "category": "Eating out",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3759671104",
+      "date": "2026-05-06",
+      "direction": "OUT",
+      "amount": 6,
+      "currency": "GBP",
+      "merchant": "Orbital Studies Magazi",
+      "category": "Shopping",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3757003399",
+      "date": "2026-05-06",
+      "direction": "OUT",
+      "amount": 6,
+      "currency": "GBP",
+      "merchant": "Gabby's Restaurant",
+      "category": "Eating out",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3756394258",
+      "date": "2026-05-05",
+      "direction": "OUT",
+      "amount": 5,
+      "currency": "GBP",
+      "merchant": "Loveless Cafe",
+      "category": "Eating out",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3755945862",
+      "date": "2026-05-05",
+      "direction": "OUT",
+      "amount": 12,
+      "currency": "GBP",
+      "merchant": "Anthropic",
+      "category": "Shopping",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3755579512",
+      "date": "2026-05-05",
+      "direction": "OUT",
+      "amount": 3,
+      "currency": "GBP",
+      "merchant": "Loveless Cafe",
+      "category": "Eating out",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3751915367",
+      "date": "2026-05-04",
+      "direction": "OUT",
+      "amount": 6,
+      "currency": "GBP",
+      "merchant": "Ithaca Mini Mart Llc",
+      "category": "Groceries",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3751858779",
+      "date": "2026-05-04",
+      "direction": "OUT",
+      "amount": 7,
+      "currency": "GBP",
+      "merchant": "Moosewood Restaurant",
+      "category": "Eating out",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3751277076",
+      "date": "2026-05-04",
+      "direction": "OUT",
+      "amount": 4,
+      "currency": "GBP",
+      "merchant": "Gimme! Coffee",
+      "category": "Eating out",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3748169243",
+      "date": "2026-05-03",
+      "direction": "OUT",
+      "amount": 44,
+      "currency": "GBP",
+      "merchant": "FlixBus",
+      "category": "Transport",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3748004833",
+      "date": "2026-05-03",
+      "direction": "OUT",
+      "amount": 17,
+      "currency": "GBP",
+      "merchant": "Claude",
+      "category": "Shopping",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3747497036",
+      "date": "2026-05-03",
+      "direction": "OUT",
+      "amount": 4,
+      "currency": "GBP",
+      "merchant": "Gimme! Coffee",
+      "category": "Eating out",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3744845734",
+      "date": "2026-05-02",
+      "direction": "OUT",
+      "amount": 9,
+      "currency": "GBP",
+      "merchant": "Cinemapolis",
+      "category": "Entertainment",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3744720302",
+      "date": "2026-05-02",
+      "direction": "OUT",
+      "amount": 10,
+      "currency": "GBP",
+      "merchant": "Trader Joe's",
+      "category": "Groceries",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3743074885",
+      "date": "2026-05-02",
+      "direction": "OUT",
+      "amount": 4,
+      "currency": "GBP",
+      "merchant": "Gimme! Coffee",
+      "category": "Eating out",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3741352092",
+      "date": "2026-05-02",
+      "direction": "OUT",
+      "amount": 3,
+      "currency": "GBP",
+      "merchant": "Amazon Web Services",
+      "category": "Bills",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3740677519",
+      "date": "2026-05-02",
+      "direction": "OUT",
+      "amount": 4,
+      "currency": "GBP",
+      "merchant": "Salt Point Brewing",
+      "category": "Eating out",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3740490606",
+      "date": "2026-05-01",
+      "direction": "OUT",
+      "amount": 5,
+      "currency": "GBP",
+      "merchant": "Salt Point Brewing",
+      "category": "Eating out",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3739772048",
+      "date": "2026-05-01",
+      "direction": "OUT",
+      "amount": 10,
+      "currency": "GBP",
+      "merchant": "Wegmans",
+      "category": "Groceries",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3739094768",
+      "date": "2026-05-01",
+      "direction": "OUT",
+      "amount": 4,
+      "currency": "GBP",
+      "merchant": "Gimme! Coffee",
+      "category": "Eating out",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3733863117",
+      "date": "2026-04-30",
+      "direction": "OUT",
+      "amount": 2,
+      "currency": "GBP",
+      "merchant": "MTA NYCT Paygo",
+      "category": "Transport",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3732542888",
+      "date": "2026-04-30",
+      "direction": "OUT",
+      "amount": 14,
+      "currency": "USD",
+      "merchant": "Nostrand Avenue Pub",
+      "category": "Eating out",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3732542888",
+      "date": "2026-04-30",
+      "direction": "OUT",
+      "amount": 11,
+      "currency": "GBP",
+      "merchant": "Nostrand Avenue Pub",
+      "category": "Eating out",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3732246354",
+      "date": "2026-04-30",
+      "direction": "OUT",
+      "amount": 8,
+      "currency": "USD",
+      "merchant": "Detox Deli & Grill",
+      "category": "Groceries",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3731937588",
+      "date": "2026-04-29",
+      "direction": "OUT",
+      "amount": 12,
+      "currency": "USD",
+      "merchant": "Lidl",
+      "category": "Groceries",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3731289589",
+      "date": "2026-04-29",
+      "direction": "OUT",
+      "amount": 54,
+      "currency": "USD",
+      "merchant": "Ourbus",
+      "category": "Transport",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3728160627",
+      "date": "2026-04-28",
+      "direction": "OUT",
+      "amount": 3,
+      "currency": "USD",
+      "merchant": "MTA NYCT Paygo",
+      "category": "Transport",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3728097446",
+      "date": "2026-04-28",
+      "direction": "OUT",
+      "amount": 3,
+      "currency": "USD",
+      "merchant": "Path Tapp Paygo",
+      "category": "Transport",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3727977487",
+      "date": "2026-04-28",
+      "direction": "OUT",
+      "amount": 7,
+      "currency": "USD",
+      "merchant": "Subhub Market Fresh",
+      "category": "Groceries",
+      "note": null
+    },
+    {
+      "id": "TRANSFER-2099969901",
+      "date": "2026-04-27",
+      "direction": "IN",
+      "amount": 100,
+      "currency": "USD",
+      "merchant": "Patrick Cahill Connolly",
+      "category": "Money added",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3723528592",
+      "date": "2026-04-27",
+      "direction": "OUT",
+      "amount": 29,
+      "currency": "GBP",
+      "merchant": "Stormy Cafe Jc",
+      "category": "Eating out",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3720803777",
+      "date": "2026-04-27",
+      "direction": "OUT",
+      "amount": 6,
+      "currency": "GBP",
+      "merchant": "M.s. Grocery",
+      "category": "Groceries",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3720623405",
+      "date": "2026-04-27",
+      "direction": "OUT",
+      "amount": 2,
+      "currency": "GBP",
+      "merchant": "Path Tapp Paygo",
+      "category": "Transport",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3720600538",
+      "date": "2026-04-27",
+      "direction": "OUT",
+      "amount": 9,
+      "currency": "GBP",
+      "merchant": "Wogies Bar & Grill -",
+      "category": "Eating out",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3720472522",
+      "date": "2026-04-26",
+      "direction": "OUT",
+      "amount": 17,
+      "currency": "GBP",
+      "merchant": "Wogies Bar & Grill -",
+      "category": "Eating out",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3712410270",
+      "date": "2026-04-24",
+      "direction": "OUT",
+      "amount": 14,
+      "currency": "GBP",
+      "merchant": "Njtransit - Web 2001",
+      "category": "Transport",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3712189811",
+      "date": "2026-04-24",
+      "direction": "OUT",
+      "amount": 31,
+      "currency": "GBP",
+      "merchant": "Ideal Market Place",
+      "category": "Groceries",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3711875158",
+      "date": "2026-04-24",
+      "direction": "OUT",
+      "amount": 2,
+      "currency": "GBP",
+      "merchant": "MTA NYCT Paygo",
+      "category": "Transport",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3711852354",
+      "date": "2026-04-24",
+      "direction": "OUT",
+      "amount": 6,
+      "currency": "GBP",
+      "merchant": "MTA NYCT Paygo",
+      "category": "Transport",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3711128748",
+      "date": "2026-04-24",
+      "direction": "OUT",
+      "amount": 8,
+      "currency": "GBP",
+      "merchant": "Yyz Archeo Focacceria T3",
+      "category": "Eating out",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3710783201",
+      "date": "2026-04-24",
+      "direction": "OUT",
+      "amount": 7,
+      "currency": "GBP",
+      "merchant": "MobiMatter",
+      "category": "Bills",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3710721088",
+      "date": "2026-04-24",
+      "direction": "OUT",
+      "amount": 3,
+      "currency": "GBP",
+      "merchant": "Upe Express Bloor Tvm",
+      "category": "Transport",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3708705623",
+      "date": "2026-04-23",
+      "direction": "OUT",
+      "amount": 6,
+      "currency": "GBP",
+      "merchant": "Loveless Cafe",
+      "category": "Eating out",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3708463645",
+      "date": "2026-04-23",
+      "direction": "OUT",
+      "amount": 12,
+      "currency": "GBP",
+      "merchant": "Anthropic",
+      "category": "Shopping",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3708334360",
+      "date": "2026-04-23",
+      "direction": "OUT",
+      "amount": 5,
+      "currency": "GBP",
+      "merchant": "Loveless Cafe",
+      "category": "Eating out",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3707284259",
+      "date": "2026-04-23",
+      "direction": "OUT",
+      "amount": 3,
+      "currency": "GBP",
+      "merchant": "Loveless Cafe",
+      "category": "Eating out",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3704912191",
+      "date": "2026-04-23",
+      "direction": "OUT",
+      "amount": 2,
+      "currency": "GBP",
+      "merchant": "Future Bistro",
+      "category": "Eating out",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3704906252",
+      "date": "2026-04-23",
+      "direction": "OUT",
+      "amount": 6,
+      "currency": "GBP",
+      "merchant": "Metro",
+      "category": "Groceries",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3703854103",
+      "date": "2026-04-22",
+      "direction": "OUT",
+      "amount": 1,
+      "currency": "GBP",
+      "merchant": "Bike Share Toronto",
+      "category": "General",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3703668225",
+      "date": "2026-04-22",
+      "direction": "OUT",
+      "amount": 13,
+      "currency": "GBP",
+      "merchant": "No Frills",
+      "category": "Groceries",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3699998664",
+      "date": "2026-04-21",
+      "direction": "OUT",
+      "amount": 3,
+      "currency": "GBP",
+      "merchant": "Loveless Cafe",
+      "category": "Eating out",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3697289630",
+      "date": "2026-04-21",
+      "direction": "OUT",
+      "amount": 2,
+      "currency": "GBP",
+      "merchant": "Future Bistro",
+      "category": "Eating out",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3696514745",
+      "date": "2026-04-20",
+      "direction": "OUT",
+      "amount": 3,
+      "currency": "GBP",
+      "merchant": "Loveless Cafe",
+      "category": "Eating out",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3693587600",
+      "date": "2026-04-20",
+      "direction": "OUT",
+      "amount": 6,
+      "currency": "GBP",
+      "merchant": "Loveless Cafe",
+      "category": "Eating out",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3693149013",
+      "date": "2026-04-19",
+      "direction": "OUT",
+      "amount": 2,
+      "currency": "GBP",
+      "merchant": "Loveless Cafe",
+      "category": "Eating out",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3689993294",
+      "date": "2026-04-19",
+      "direction": "OUT",
+      "amount": 7,
+      "currency": "GBP",
+      "merchant": "Sin & Redemption",
+      "category": "Eating out",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3685994498",
+      "date": "2026-04-18",
+      "direction": "OUT",
+      "amount": 6,
+      "currency": "GBP",
+      "merchant": "The Jason George",
+      "category": "Eating out",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3680434297",
+      "date": "2026-04-16",
+      "direction": "OUT",
+      "amount": 3,
+      "currency": "GBP",
+      "merchant": "Loveless Cafe",
+      "category": "Eating out",
+      "note": null
+    },
+    {
+      "id": "TRANSFER-2080288097",
+      "date": "2026-04-16",
+      "direction": "IN",
+      "amount": 600,
+      "currency": "GBP",
+      "merchant": "Patrick Cahill Connolly",
+      "category": "Money added",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3677873644",
+      "date": "2026-04-16",
+      "direction": "OUT",
+      "amount": 4,
+      "currency": "EUR",
+      "merchant": "Brothers Discount",
+      "category": "Shopping",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3677620158",
+      "date": "2026-04-16",
+      "direction": "OUT",
+      "amount": 7,
+      "currency": "EUR",
+      "merchant": "Loveless Cafe",
+      "category": "Eating out",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3677196513",
+      "date": "2026-04-15",
+      "direction": "OUT",
+      "amount": 4,
+      "currency": "EUR",
+      "merchant": "Loveless Cafe",
+      "category": "Eating out",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3673861705",
+      "date": "2026-04-15",
+      "direction": "OUT",
+      "amount": 19,
+      "currency": "EUR",
+      "merchant": "Town Crier Pub",
+      "category": "Eating out",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3673379244",
+      "date": "2026-04-14",
+      "direction": "OUT",
+      "amount": 8,
+      "currency": "EUR",
+      "merchant": "MobiMatter",
+      "category": "Bills",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3673024794",
+      "date": "2026-04-14",
+      "direction": "OUT",
+      "amount": 4,
+      "currency": "EUR",
+      "merchant": "Loveless Cafe",
+      "category": "Eating out",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3666225908",
+      "date": "2026-04-13",
+      "direction": "OUT",
+      "amount": 9,
+      "currency": "EUR",
+      "merchant": "Pizza Pizza",
+      "category": "Eating out",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3665258192",
+      "date": "2026-04-12",
+      "direction": "OUT",
+      "amount": 2,
+      "currency": "EUR",
+      "merchant": "Future Bistro",
+      "category": "Eating out",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3664980983",
+      "date": "2026-04-12",
+      "direction": "OUT",
+      "amount": 0,
+      "currency": "EUR",
+      "merchant": "Bike Share Toronto",
+      "category": "General",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3662770926",
+      "date": "2026-04-12",
+      "direction": "OUT",
+      "amount": 10,
+      "currency": "GBP",
+      "merchant": "The Bishop and Belcher",
+      "category": "Eating out",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3662770926",
+      "date": "2026-04-12",
+      "direction": "OUT",
+      "amount": 9,
+      "currency": "EUR",
+      "merchant": "The Bishop and Belcher",
+      "category": "Eating out",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3662469805",
+      "date": "2026-04-11",
+      "direction": "OUT",
+      "amount": 3,
+      "currency": "GBP",
+      "merchant": "Longo's",
+      "category": "Groceries",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3658508624",
+      "date": "2026-04-11",
+      "direction": "OUT",
+      "amount": 7,
+      "currency": "GBP",
+      "merchant": "LCBO",
+      "category": "Shopping",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3657512573",
+      "date": "2026-04-10",
+      "direction": "OUT",
+      "amount": 13,
+      "currency": "GBP",
+      "merchant": "FreshCo",
+      "category": "Groceries",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3654446343",
+      "date": "2026-04-10",
+      "direction": "OUT",
+      "amount": 5,
+      "currency": "GBP",
+      "merchant": "Pamenar",
+      "category": "Eating out",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3652990533",
+      "date": "2026-04-09",
+      "direction": "OUT",
+      "amount": 3,
+      "currency": "GBP",
+      "merchant": "Loveless Cafe",
+      "category": "Eating out",
+      "note": null
+    },
+    {
+      "id": "TRANSFER-2067747089",
+      "date": "2026-04-09",
+      "direction": "IN",
+      "amount": 487,
+      "currency": "EUR",
+      "merchant": "Patrick Cahill Connolly",
+      "category": "Money added",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3649965823",
+      "date": "2026-04-08",
+      "direction": "OUT",
+      "amount": 2,
+      "currency": "GBP",
+      "merchant": "Balzac's Coffee Roasters",
+      "category": "Eating out",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3649333408",
+      "date": "2026-04-08",
+      "direction": "OUT",
+      "amount": 1,
+      "currency": "GBP",
+      "merchant": "Tim Hortons",
+      "category": "Eating out",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3646537127",
+      "date": "2026-04-08",
+      "direction": "OUT",
+      "amount": 11,
+      "currency": "GBP",
+      "merchant": "Elephant & Castle",
+      "category": "Eating out",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3645453594",
+      "date": "2026-04-07",
+      "direction": "OUT",
+      "amount": 3,
+      "currency": "GBP",
+      "merchant": "Loveless Cafe",
+      "category": "Eating out",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3644583323",
+      "date": "2026-04-07",
+      "direction": "OUT",
+      "amount": 15,
+      "currency": "GBP",
+      "merchant": "No Frills",
+      "category": "Groceries",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3641080046",
+      "date": "2026-04-06",
+      "direction": "OUT",
+      "amount": 3,
+      "currency": "GBP",
+      "merchant": "Loveless Cafe",
+      "category": "Eating out",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3633776000",
+      "date": "2026-04-04",
+      "direction": "OUT",
+      "amount": 3,
+      "currency": "GBP",
+      "merchant": "Loveless Cafe",
+      "category": "Eating out",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3630232866",
+      "date": "2026-04-03",
+      "direction": "OUT",
+      "amount": 17,
+      "currency": "GBP",
+      "merchant": "Claude",
+      "category": "Shopping",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3626643049",
+      "date": "2026-04-02",
+      "direction": "OUT",
+      "amount": 3,
+      "currency": "GBP",
+      "merchant": "Ls I Deal Coffee",
+      "category": "Eating out",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3623200664",
+      "date": "2026-04-02",
+      "direction": "OUT",
+      "amount": 3,
+      "currency": "GBP",
+      "merchant": "Amazon Web Services",
+      "category": "Bills",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3623187027",
+      "date": "2026-04-02",
+      "direction": "OUT",
+      "amount": 2,
+      "currency": "GBP",
+      "merchant": "Future Bistro",
+      "category": "Eating out",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3623169692",
+      "date": "2026-04-02",
+      "direction": "OUT",
+      "amount": 1,
+      "currency": "GBP",
+      "merchant": "Metro",
+      "category": "Groceries",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3622331390",
+      "date": "2026-04-01",
+      "direction": "OUT",
+      "amount": 1,
+      "currency": "GBP",
+      "merchant": "Tim Hortons",
+      "category": "Eating out",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3618111936",
+      "date": "2026-03-31",
+      "direction": "OUT",
+      "amount": 1,
+      "currency": "GBP",
+      "merchant": "Tim Hortons",
+      "category": "Eating out",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3611703690",
+      "date": "2026-03-30",
+      "direction": "OUT",
+      "amount": 2,
+      "currency": "GBP",
+      "merchant": "Future Bistro",
+      "category": "Eating out",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3608522129",
+      "date": "2026-03-29",
+      "direction": "OUT",
+      "amount": 9,
+      "currency": "GBP",
+      "merchant": "LCBO",
+      "category": "Shopping",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3608263961",
+      "date": "2026-03-28",
+      "direction": "OUT",
+      "amount": 16,
+      "currency": "GBP",
+      "merchant": "No Frills",
+      "category": "Groceries",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3608030516",
+      "date": "2026-03-28",
+      "direction": "OUT",
+      "amount": 3,
+      "currency": "GBP",
+      "merchant": "Ls I Deal Coffee",
+      "category": "Eating out",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3607233040",
+      "date": "2026-03-28",
+      "direction": "OUT",
+      "amount": 3,
+      "currency": "GBP",
+      "merchant": "Ls I Deal Coffee",
+      "category": "Eating out",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3603301804",
+      "date": "2026-03-27",
+      "direction": "OUT",
+      "amount": 1,
+      "currency": "GBP",
+      "merchant": "Tim Hortons",
+      "category": "Eating out",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3600568724",
+      "date": "2026-03-26",
+      "direction": "OUT",
+      "amount": 2,
+      "currency": "GBP",
+      "merchant": "Future Bistro",
+      "category": "Eating out",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3600105580",
+      "date": "2026-03-26",
+      "direction": "OUT",
+      "amount": 1,
+      "currency": "GBP",
+      "merchant": "Metro",
+      "category": "Groceries",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3596985960",
+      "date": "2026-03-26",
+      "direction": "OUT",
+      "amount": 2,
+      "currency": "GBP",
+      "merchant": "Future Bistro",
+      "category": "Eating out",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3596430020",
+      "date": "2026-03-25",
+      "direction": "OUT",
+      "amount": 3,
+      "currency": "GBP",
+      "merchant": "Dark Horse Richmond",
+      "category": "Eating out",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3590229838",
+      "date": "2026-03-24",
+      "direction": "OUT",
+      "amount": 4,
+      "currency": "CAD",
+      "merchant": "WestJet",
+      "category": "Trips",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3590229838",
+      "date": "2026-03-24",
+      "direction": "OUT",
+      "amount": 416,
+      "currency": "GBP",
+      "merchant": "WestJet",
+      "category": "Trips",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3585968231",
+      "date": "2026-03-22",
+      "direction": "OUT",
+      "amount": 2,
+      "currency": "GBP",
+      "merchant": "No Frills",
+      "category": "Groceries",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3582566828",
+      "date": "2026-03-21",
+      "direction": "OUT",
+      "amount": 25,
+      "currency": "GBP",
+      "merchant": "No Frills",
+      "category": "Groceries",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3579167222",
+      "date": "2026-03-21",
+      "direction": "OUT",
+      "amount": 12,
+      "currency": "GBP",
+      "merchant": "Sobeys",
+      "category": "Groceries",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3578828516",
+      "date": "2026-03-20",
+      "direction": "OUT",
+      "amount": 6,
+      "currency": "GBP",
+      "merchant": "Loveless Cafe",
+      "category": "Eating out",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3576994278",
+      "date": "2026-03-20",
+      "direction": "OUT",
+      "amount": 3,
+      "currency": "GBP",
+      "merchant": "Brockton Haunt",
+      "category": "Eating out",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3576944682",
+      "date": "2026-03-20",
+      "direction": "OUT",
+      "amount": 2,
+      "currency": "GBP",
+      "merchant": "R and G Coffee",
+      "category": "Eating out",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3571090486",
+      "date": "2026-03-18",
+      "direction": "OUT",
+      "amount": 74,
+      "currency": "GBP",
+      "merchant": "Bike Share Toronto",
+      "category": "General",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3568301812",
+      "date": "2026-03-18",
+      "direction": "OUT",
+      "amount": 2,
+      "currency": "GBP",
+      "merchant": "PRESTO Fare",
+      "category": "Transport",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3564116082",
+      "date": "2026-03-17",
+      "direction": "OUT",
+      "amount": 4,
+      "currency": "GBP",
+      "merchant": "7-Eleven",
+      "category": "Groceries",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3563988247",
+      "date": "2026-03-16",
+      "direction": "OUT",
+      "amount": 4,
+      "currency": "GBP",
+      "merchant": "7-Eleven",
+      "category": "Groceries",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3561963334",
+      "date": "2026-03-16",
+      "direction": "OUT",
+      "amount": 15,
+      "currency": "GBP",
+      "merchant": "Alepahki-Vantaalentoas",
+      "category": "Groceries",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3561497388",
+      "date": "2026-03-16",
+      "direction": "OUT",
+      "amount": 1,
+      "currency": "GBP",
+      "merchant": "Super Bowl Tripla",
+      "category": "Eating out",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3561415618",
+      "date": "2026-03-16",
+      "direction": "OUT",
+      "amount": 3,
+      "currency": "GBP",
+      "merchant": "Espresso House",
+      "category": "Eating out",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3561372767",
+      "date": "2026-03-16",
+      "direction": "OUT",
+      "amount": 4,
+      "currency": "GBP",
+      "merchant": "HSL",
+      "category": "Transport",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3559528482",
+      "date": "2026-03-15",
+      "direction": "OUT",
+      "amount": 3,
+      "currency": "GBP",
+      "merchant": "HSL.fi",
+      "category": "Transport",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3557027484",
+      "date": "2026-03-14",
+      "direction": "OUT",
+      "amount": 6,
+      "currency": "GBP",
+      "merchant": "Felt Bay Pub",
+      "category": "Eating out",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3556372570",
+      "date": "2026-03-14",
+      "direction": "OUT",
+      "amount": 8,
+      "currency": "GBP",
+      "merchant": "Felt Bay Pub",
+      "category": "Eating out",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3548899701",
+      "date": "2026-03-12",
+      "direction": "OUT",
+      "amount": 18,
+      "currency": "GBP",
+      "merchant": "Lidl",
+      "category": "Groceries",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3547623812",
+      "date": "2026-03-12",
+      "direction": "OUT",
+      "amount": 3,
+      "currency": "GBP",
+      "merchant": "Compass Group - Food Services",
+      "category": "Eating out",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3545062381",
+      "date": "2026-03-11",
+      "direction": "OUT",
+      "amount": 3,
+      "currency": "GBP",
+      "merchant": "HSL.fi",
+      "category": "Transport",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3543801629",
+      "date": "2026-03-11",
+      "direction": "OUT",
+      "amount": 3,
+      "currency": "GBP",
+      "merchant": "Compass Group - Food Services",
+      "category": "Eating out",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3543463932",
+      "date": "2026-03-11",
+      "direction": "OUT",
+      "amount": 3,
+      "currency": "GBP",
+      "merchant": "HSL.fi",
+      "category": "Transport",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3541879676",
+      "date": "2026-03-10",
+      "direction": "OUT",
+      "amount": 7,
+      "currency": "GBP",
+      "merchant": "K30 Public House Oy",
+      "category": "Eating out",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3541775119",
+      "date": "2026-03-10",
+      "direction": "OUT",
+      "amount": 9,
+      "currency": "GBP",
+      "merchant": "Korea House",
+      "category": "Eating out",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3541166947",
+      "date": "2026-03-10",
+      "direction": "OUT",
+      "amount": 10,
+      "currency": "GBP",
+      "merchant": "S Market",
+      "category": "Groceries",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3538325535",
+      "date": "2026-03-09",
+      "direction": "OUT",
+      "amount": 21,
+      "currency": "GBP",
+      "merchant": "Hotel Rantapuisto",
+      "category": "Eating out",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3534612801",
+      "date": "2026-03-08",
+      "direction": "OUT",
+      "amount": 7,
+      "currency": "GBP",
+      "merchant": "Ravintola Mayur",
+      "category": "Eating out",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3533692881",
+      "date": "2026-03-08",
+      "direction": "OUT",
+      "amount": 8,
+      "currency": "GBP",
+      "merchant": "S Market",
+      "category": "Groceries",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3531204677",
+      "date": "2026-03-07",
+      "direction": "OUT",
+      "amount": 3,
+      "currency": "GBP",
+      "merchant": "HSL",
+      "category": "Transport",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3530247156",
+      "date": "2026-03-07",
+      "direction": "OUT",
+      "amount": 11,
+      "currency": "GBP",
+      "merchant": "Vodafone",
+      "category": "Bills",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3527390994",
+      "date": "2026-03-06",
+      "direction": "OUT",
+      "amount": 3,
+      "currency": "GBP",
+      "merchant": "UP Express",
+      "category": "Transport",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3527379596",
+      "date": "2026-03-06",
+      "direction": "OUT",
+      "amount": 2,
+      "currency": "GBP",
+      "merchant": "PRESTO Fare",
+      "category": "Transport",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3527364870",
+      "date": "2026-03-06",
+      "direction": "OUT",
+      "amount": 9,
+      "currency": "GBP",
+      "merchant": "Dollarama",
+      "category": "Shopping",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3527169253",
+      "date": "2026-03-06",
+      "direction": "OUT",
+      "amount": 100,
+      "currency": "USD",
+      "merchant": "Medipac Travel Insurance",
+      "category": "Bills",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3527169253",
+      "date": "2026-03-06",
+      "direction": "OUT",
+      "amount": 9,
+      "currency": "CAD",
+      "merchant": "Medipac Travel Insurance",
+      "category": "Bills",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3527169253",
+      "date": "2026-03-06",
+      "direction": "OUT",
+      "amount": 40,
+      "currency": "GBP",
+      "merchant": "Medipac Travel Insurance",
+      "category": "Bills",
+      "note": null
+    },
+    {
+      "id": "TRANSFER-2008765606",
+      "date": "2026-03-06",
+      "direction": "IN",
+      "amount": 900,
+      "currency": "GBP",
+      "merchant": "Patrick Cahill Connolly",
+      "category": "Money added",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3523700379",
+      "date": "2026-03-05",
+      "direction": "OUT",
+      "amount": 5,
+      "currency": "CAD",
+      "merchant": "Ls I Deal Coffee",
+      "category": "Eating out",
+      "note": null
+    },
+    {
+      "id": "TRANSFER-2005000733",
+      "date": "2026-03-04",
+      "direction": "IN",
+      "amount": 100,
+      "currency": "USD",
+      "merchant": "Patrick Cahill Connolly",
+      "category": "Money added",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3516252865",
+      "date": "2026-03-03",
+      "direction": "OUT",
+      "amount": 32,
+      "currency": "CAD",
+      "merchant": "Claude",
+      "category": "Shopping",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3510585691",
+      "date": "2026-03-02",
+      "direction": "OUT",
+      "amount": 5,
+      "currency": "CAD",
+      "merchant": "Amazon Web Services",
+      "category": "Bills",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3509757470",
+      "date": "2026-03-01",
+      "direction": "OUT",
+      "amount": 4,
+      "currency": "CAD",
+      "merchant": "Future Bistro",
+      "category": "Eating out",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3509337710",
+      "date": "2026-03-01",
+      "direction": "OUT",
+      "amount": 2,
+      "currency": "CAD",
+      "merchant": "Tim Hortons",
+      "category": "Eating out",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3506412925",
+      "date": "2026-03-01",
+      "direction": "OUT",
+      "amount": 4,
+      "currency": "CAD",
+      "merchant": "Future Bistro",
+      "category": "Eating out",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3505446019",
+      "date": "2026-02-28",
+      "direction": "OUT",
+      "amount": 2,
+      "currency": "CAD",
+      "merchant": "Tim Hortons",
+      "category": "Eating out",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3501010185",
+      "date": "2026-02-27",
+      "direction": "OUT",
+      "amount": 2,
+      "currency": "CAD",
+      "merchant": "Tim Hortons",
+      "category": "Eating out",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3494227362",
+      "date": "2026-02-25",
+      "direction": "OUT",
+      "amount": 18,
+      "currency": "CAD",
+      "merchant": "No Frills",
+      "category": "Groceries",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3481940804",
+      "date": "2026-02-21",
+      "direction": "OUT",
+      "amount": 3,
+      "currency": "CAD",
+      "merchant": "Future Bistro",
+      "category": "Eating out",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3479160517",
+      "date": "2026-02-21",
+      "direction": "OUT",
+      "amount": 16,
+      "currency": "CAD",
+      "merchant": "Uber Eats",
+      "category": "Eating out",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3479160517",
+      "date": "2026-02-21",
+      "direction": "OUT",
+      "amount": 4,
+      "currency": "GBP",
+      "merchant": "Uber Eats",
+      "category": "Eating out",
+      "note": null
+    },
+    {
+      "id": "TRANSFER-1983705396",
+      "date": "2026-02-21",
+      "direction": "IN",
+      "amount": 100,
+      "currency": "CAD",
+      "merchant": "Patrick Cahill Connolly",
+      "category": "Money added",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3467756683",
+      "date": "2026-02-17",
+      "direction": "OUT",
+      "amount": 34,
+      "currency": "GBP",
+      "merchant": "Uber Eats",
+      "category": "Eating out",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3467651961",
+      "date": "2026-02-17",
+      "direction": "OUT",
+      "amount": 1,
+      "currency": "GBP",
+      "merchant": "Tim Hortons",
+      "category": "Eating out",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3463382686",
+      "date": "2026-02-16",
+      "direction": "OUT",
+      "amount": 2,
+      "currency": "GBP",
+      "merchant": "Loveless Cafe",
+      "category": "Eating out",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3460661423",
+      "date": "2026-02-15",
+      "direction": "OUT",
+      "amount": 2,
+      "currency": "GBP",
+      "merchant": "Grammas Oven",
+      "category": "Groceries",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3457658590",
+      "date": "2026-02-15",
+      "direction": "OUT",
+      "amount": 2,
+      "currency": "GBP",
+      "merchant": "Future Bistro",
+      "category": "Eating out",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3448372474",
+      "date": "2026-02-12",
+      "direction": "OUT",
+      "amount": 11,
+      "currency": "GBP",
+      "merchant": "No Frills",
+      "category": "Groceries",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3442713822",
+      "date": "2026-02-10",
+      "direction": "OUT",
+      "amount": 425,
+      "currency": "GBP",
+      "merchant": "Sas",
+      "category": "Trips",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3442402010",
+      "date": "2026-02-10",
+      "direction": "OUT",
+      "amount": 4,
+      "currency": "GBP",
+      "merchant": "Loveless Cafe",
+      "category": "Eating out",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3439133692",
+      "date": "2026-02-09",
+      "direction": "OUT",
+      "amount": 3,
+      "currency": "GBP",
+      "merchant": "Loveless Cafe",
+      "category": "Eating out",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3435807835",
+      "date": "2026-02-08",
+      "direction": "OUT",
+      "amount": 8,
+      "currency": "GBP",
+      "merchant": "Loveless Cafe",
+      "category": "Eating out",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3435783851",
+      "date": "2026-02-08",
+      "direction": "OUT",
+      "amount": 8,
+      "currency": "GBP",
+      "merchant": "No Frills",
+      "category": "Groceries",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3431191068",
+      "date": "2026-02-07",
+      "direction": "OUT",
+      "amount": 7,
+      "currency": "GBP",
+      "merchant": "No Frills",
+      "category": "Groceries",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3426981048",
+      "date": "2026-02-06",
+      "direction": "OUT",
+      "amount": 2,
+      "currency": "GBP",
+      "merchant": "Brockton Village Bakery",
+      "category": "Groceries",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3426333452",
+      "date": "2026-02-06",
+      "direction": "OUT",
+      "amount": 3,
+      "currency": "GBP",
+      "merchant": "Amazon Web Services",
+      "category": "Bills",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3424020086",
+      "date": "2026-02-05",
+      "direction": "OUT",
+      "amount": 1,
+      "currency": "GBP",
+      "merchant": "Tim Hortons",
+      "category": "Eating out",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3421601316",
+      "date": "2026-02-05",
+      "direction": "OUT",
+      "amount": 3,
+      "currency": "GBP",
+      "merchant": "Anthropic",
+      "category": "Shopping",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3421490646",
+      "date": "2026-02-04",
+      "direction": "OUT",
+      "amount": 3,
+      "currency": "GBP",
+      "merchant": "Anthropic",
+      "category": "Shopping",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3420949360",
+      "date": "2026-02-04",
+      "direction": "OUT",
+      "amount": 3,
+      "currency": "GBP",
+      "merchant": "Loveless Cafe",
+      "category": "Eating out",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3418149783",
+      "date": "2026-02-04",
+      "direction": "OUT",
+      "amount": 7,
+      "currency": "GBP",
+      "merchant": "Prenup Pub",
+      "category": "Eating out",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3417721855",
+      "date": "2026-02-03",
+      "direction": "OUT",
+      "amount": 1,
+      "currency": "GBP",
+      "merchant": "McDonald's",
+      "category": "Eating out",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3417539528",
+      "date": "2026-02-03",
+      "direction": "OUT",
+      "amount": 6,
+      "currency": "GBP",
+      "merchant": "Field Trip Cafe",
+      "category": "Groceries",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3417509146",
+      "date": "2026-02-03",
+      "direction": "OUT",
+      "amount": 30,
+      "currency": "GBP",
+      "merchant": "Uber Eats",
+      "category": "Eating out",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3417282259",
+      "date": "2026-02-03",
+      "direction": "OUT",
+      "amount": 16,
+      "currency": "GBP",
+      "merchant": "No Frills",
+      "category": "Groceries",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3416940005",
+      "date": "2026-02-03",
+      "direction": "OUT",
+      "amount": 17,
+      "currency": "GBP",
+      "merchant": "Claude",
+      "category": "Shopping",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3410924659",
+      "date": "2026-02-02",
+      "direction": "OUT",
+      "amount": 4,
+      "currency": "GBP",
+      "merchant": "Tst-Handlebar",
+      "category": "Eating out",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3410791293",
+      "date": "2026-02-02",
+      "direction": "OUT",
+      "amount": 8,
+      "currency": "GBP",
+      "merchant": "Tst-Handlebar",
+      "category": "Eating out",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3409792156",
+      "date": "2026-02-01",
+      "direction": "OUT",
+      "amount": 6,
+      "currency": "GBP",
+      "merchant": "Morning Parade Coffee",
+      "category": "Eating out",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3406621537",
+      "date": "2026-01-31",
+      "direction": "OUT",
+      "amount": 4,
+      "currency": "GBP",
+      "merchant": "Loveless Cafe",
+      "category": "Eating out",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3403757486",
+      "date": "2026-01-31",
+      "direction": "OUT",
+      "amount": 2,
+      "currency": "GBP",
+      "merchant": "7-Eleven",
+      "category": "Transport",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3401605543",
+      "date": "2026-01-30",
+      "direction": "OUT",
+      "amount": 3,
+      "currency": "GBP",
+      "merchant": "Loveless Cafe",
+      "category": "Eating out",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3402275294",
+      "date": "2026-01-30",
+      "direction": "OUT",
+      "amount": 3,
+      "currency": "GBP",
+      "merchant": "Pilot Coffee Roasters",
+      "category": "Eating out",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3398188922",
+      "date": "2026-01-29",
+      "direction": "OUT",
+      "amount": 1,
+      "currency": "GBP",
+      "merchant": "Tim Hortons",
+      "category": "Eating out",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3395554426",
+      "date": "2026-01-28",
+      "direction": "OUT",
+      "amount": 15,
+      "currency": "GBP",
+      "merchant": "No Frills",
+      "category": "Groceries",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3394746450",
+      "date": "2026-01-28",
+      "direction": "OUT",
+      "amount": 3,
+      "currency": "GBP",
+      "merchant": "Loveless Cafe",
+      "category": "Eating out",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3392582194",
+      "date": "2026-01-28",
+      "direction": "OUT",
+      "amount": 14,
+      "currency": "GBP",
+      "merchant": "Lucky Clover Sports Pub",
+      "category": "Eating out",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3392090457",
+      "date": "2026-01-27",
+      "direction": "OUT",
+      "amount": 2,
+      "currency": "GBP",
+      "merchant": "PRESTO",
+      "category": "Transport",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3391755878",
+      "date": "2026-01-27",
+      "direction": "OUT",
+      "amount": 3,
+      "currency": "GBP",
+      "merchant": "Forget Me Not Coffee",
+      "category": "Eating out",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3388497023",
+      "date": "2026-01-26",
+      "direction": "OUT",
+      "amount": 4,
+      "currency": "GBP",
+      "merchant": "Loblaws",
+      "category": "Groceries",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3388076256",
+      "date": "2026-01-26",
+      "direction": "OUT",
+      "amount": 2,
+      "currency": "GBP",
+      "merchant": "Bakery Garden Cafe",
+      "category": "Eating out",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3378254727",
+      "date": "2026-01-23",
+      "direction": "OUT",
+      "amount": 9,
+      "currency": "GBP",
+      "merchant": "McDonald's",
+      "category": "Eating out",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3378235565",
+      "date": "2026-01-23",
+      "direction": "OUT",
+      "amount": 21,
+      "currency": "GBP",
+      "merchant": "819 Party City",
+      "category": "Shopping",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3378216207",
+      "date": "2026-01-23",
+      "direction": "OUT",
+      "amount": 27,
+      "currency": "GBP",
+      "merchant": "LCBO",
+      "category": "Shopping",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3378131886",
+      "date": "2026-01-23",
+      "direction": "OUT",
+      "amount": 5,
+      "currency": "GBP",
+      "merchant": "Tim Hortons",
+      "category": "Eating out",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3377414392",
+      "date": "2026-01-23",
+      "direction": "OUT",
+      "amount": 2,
+      "currency": "GBP",
+      "merchant": "Future Bistro",
+      "category": "Eating out",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3374322869",
+      "date": "2026-01-22",
+      "direction": "OUT",
+      "amount": 9,
+      "currency": "GBP",
+      "merchant": "No Frills",
+      "category": "Groceries",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3373513235",
+      "date": "2026-01-22",
+      "direction": "OUT",
+      "amount": 3,
+      "currency": "GBP",
+      "merchant": "Ls I Deal Coffee",
+      "category": "Eating out",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3371098064",
+      "date": "2026-01-22",
+      "direction": "OUT",
+      "amount": 11,
+      "currency": "GBP",
+      "merchant": "The Madison",
+      "category": "Eating out",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3370736628",
+      "date": "2026-01-21",
+      "direction": "OUT",
+      "amount": 2,
+      "currency": "GBP",
+      "merchant": "Future Bistro",
+      "category": "Eating out",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3367770012",
+      "date": "2026-01-21",
+      "direction": "OUT",
+      "amount": 14,
+      "currency": "GBP",
+      "merchant": "Lucky Clover Sports Pub",
+      "category": "Eating out",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3367396026",
+      "date": "2026-01-20",
+      "direction": "OUT",
+      "amount": 4,
+      "currency": "GBP",
+      "merchant": "Longo's",
+      "category": "Groceries",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3363310842",
+      "date": "2026-01-19",
+      "direction": "OUT",
+      "amount": 3,
+      "currency": "GBP",
+      "merchant": "Pamenar",
+      "category": "Eating out",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3360066295",
+      "date": "2026-01-18",
+      "direction": "OUT",
+      "amount": 2,
+      "currency": "GBP",
+      "merchant": "Future Bistro",
+      "category": "Eating out",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3359647197",
+      "date": "2026-01-18",
+      "direction": "OUT",
+      "amount": 1,
+      "currency": "GBP",
+      "merchant": "Tim Hortons",
+      "category": "Eating out",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3356587772",
+      "date": "2026-01-17",
+      "direction": "OUT",
+      "amount": 2,
+      "currency": "GBP",
+      "merchant": "Future Bistro",
+      "category": "Eating out",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3353781346",
+      "date": "2026-01-17",
+      "direction": "OUT",
+      "amount": 59,
+      "currency": "GBP",
+      "merchant": "Amazon Web Services",
+      "category": "Bills",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3348369331",
+      "date": "2026-01-15",
+      "direction": "OUT",
+      "amount": 2,
+      "currency": "GBP",
+      "merchant": "Loveless Cafe",
+      "category": "Eating out",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3345509742",
+      "date": "2026-01-14",
+      "direction": "OUT",
+      "amount": 24,
+      "currency": "GBP",
+      "merchant": "No Frills",
+      "category": "Groceries",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3342565944",
+      "date": "2026-01-14",
+      "direction": "OUT",
+      "amount": 7,
+      "currency": "GBP",
+      "merchant": "Lucky Clover Sports Pub",
+      "category": "Eating out",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3341698506",
+      "date": "2026-01-13",
+      "direction": "OUT",
+      "amount": 3,
+      "currency": "GBP",
+      "merchant": "Pamenar",
+      "category": "Eating out",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3335244813",
+      "date": "2026-01-12",
+      "direction": "OUT",
+      "amount": 34,
+      "currency": "CAD",
+      "merchant": "Drom Taberna",
+      "category": "Eating out",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3335244813",
+      "date": "2026-01-12",
+      "direction": "OUT",
+      "amount": 3,
+      "currency": "GBP",
+      "merchant": "Drom Taberna",
+      "category": "Eating out",
+      "note": null
+    },
+    {
+      "id": "TRANSFER-1914950301",
+      "date": "2026-01-11",
+      "direction": "IN",
+      "amount": 900,
+      "currency": "GBP",
+      "merchant": "Patrick Cahill Connolly",
+      "category": "Money added",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3271462347",
+      "date": "2025-12-26",
+      "direction": "OUT",
+      "amount": 1,
+      "currency": "CAD",
+      "merchant": "Bike Share Toronto",
+      "category": "General",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3208059602",
+      "date": "2025-12-08",
+      "direction": "OUT",
+      "amount": 0,
+      "currency": "USD",
+      "merchant": "Anthropic",
+      "category": "Shopping",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3208059602",
+      "date": "2025-12-08",
+      "direction": "OUT",
+      "amount": 31,
+      "currency": "CAD",
+      "merchant": "Anthropic",
+      "category": "Shopping",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3200457885",
+      "date": "2025-12-06",
+      "direction": "OUT",
+      "amount": 24,
+      "currency": "CAD",
+      "merchant": "Spotify",
+      "category": "Entertainment",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3198466000",
+      "date": "2025-12-05",
+      "direction": "OUT",
+      "amount": 5,
+      "currency": "CAD",
+      "merchant": "Metro",
+      "category": "Groceries",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3187346270",
+      "date": "2025-12-03",
+      "direction": "OUT",
+      "amount": 5,
+      "currency": "CAD",
+      "merchant": "Lyca Mobile",
+      "category": "Bills",
+      "note": null
+    },
+    {
+      "id": "TRANSFER-1850403435",
+      "date": "2025-12-02",
+      "direction": "IN",
+      "amount": 100,
+      "currency": "CAD",
+      "merchant": "Patrick Cahill Connolly",
+      "category": "Money added",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3154259254",
+      "date": "2025-11-24",
+      "direction": "OUT",
+      "amount": 7,
+      "currency": "USD",
+      "merchant": "Anthropic",
+      "category": "Shopping",
+      "note": null
+    },
+    {
+      "id": "BALANCE_TRANSACTION-4366691429",
+      "date": "2025-11-24",
+      "direction": "NEUTRAL",
+      "amount": 10,
+      "currency": "CAD",
+      "merchant": "Patrick Cahill Connolly",
+      "category": "General",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3141687573",
+      "date": "2025-11-20",
+      "direction": "OUT",
+      "amount": 4,
+      "currency": "CAD",
+      "merchant": "Field Trip Cafe",
+      "category": "Groceries",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3132081883",
+      "date": "2025-11-17",
+      "direction": "OUT",
+      "amount": 16,
+      "currency": "CAD",
+      "merchant": "Lyca Mobile",
+      "category": "Bills",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3131842489",
+      "date": "2025-11-17",
+      "direction": "OUT",
+      "amount": 4,
+      "currency": "CAD",
+      "merchant": "Starbucks",
+      "category": "Eating out",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3121671169",
+      "date": "2025-11-15",
+      "direction": "OUT",
+      "amount": 30,
+      "currency": "CAD",
+      "merchant": "No Frills",
+      "category": "Groceries",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3121478319",
+      "date": "2025-11-15",
+      "direction": "OUT",
+      "amount": 40,
+      "currency": "CAD",
+      "merchant": "Anthropic",
+      "category": "Shopping",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3120688823",
+      "date": "2025-11-14",
+      "direction": "OUT",
+      "amount": 3,
+      "currency": "CAD",
+      "merchant": "Tim Hortons",
+      "category": "Eating out",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3117851153",
+      "date": "2025-11-14",
+      "direction": "OUT",
+      "amount": 8,
+      "currency": "CAD",
+      "merchant": "Galleria Supermarket",
+      "category": "Groceries",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3117669975",
+      "date": "2025-11-14",
+      "direction": "OUT",
+      "amount": 6,
+      "currency": "CAD",
+      "merchant": "Villo!",
+      "category": "Bills",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3114011887",
+      "date": "2025-11-12",
+      "direction": "OUT",
+      "amount": 10,
+      "currency": "CAD",
+      "merchant": "Loveless Cafe",
+      "category": "Eating out",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3110411400",
+      "date": "2025-11-11",
+      "direction": "OUT",
+      "amount": 11,
+      "currency": "CAD",
+      "merchant": "Imperial Pub",
+      "category": "Eating out",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3110315230",
+      "date": "2025-11-11",
+      "direction": "OUT",
+      "amount": 4,
+      "currency": "CAD",
+      "merchant": "Balzac's Coffee",
+      "category": "Eating out",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3107531436",
+      "date": "2025-11-11",
+      "direction": "OUT",
+      "amount": 3,
+      "currency": "CAD",
+      "merchant": "PRESTO",
+      "category": "Transport",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3106969180",
+      "date": "2025-11-10",
+      "direction": "OUT",
+      "amount": 16,
+      "currency": "CAD",
+      "merchant": "Lyca Mobile",
+      "category": "Bills",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3103508950",
+      "date": "2025-11-10",
+      "direction": "OUT",
+      "amount": 11,
+      "currency": "CAD",
+      "merchant": "The Only Cafe",
+      "category": "Eating out",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3103217937",
+      "date": "2025-11-09",
+      "direction": "OUT",
+      "amount": 3,
+      "currency": "CAD",
+      "merchant": "The Only Cafe",
+      "category": "Eating out",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3102462897",
+      "date": "2025-11-09",
+      "direction": "OUT",
+      "amount": 21,
+      "currency": "CAD",
+      "merchant": "No Frills",
+      "category": "Groceries",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3100000204",
+      "date": "2025-11-08",
+      "direction": "OUT",
+      "amount": 27,
+      "currency": "CAD",
+      "merchant": "Anthropic",
+      "category": "Shopping",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3100000204",
+      "date": "2025-11-08",
+      "direction": "OUT",
+      "amount": 3,
+      "currency": "GBP",
+      "merchant": "Anthropic",
+      "category": "Shopping",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3099514233",
+      "date": "2025-11-08",
+      "direction": "OUT",
+      "amount": 16,
+      "currency": "CAD",
+      "merchant": "Ls I Deal Coffee",
+      "category": "Eating out",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3095424821",
+      "date": "2025-11-07",
+      "direction": "OUT",
+      "amount": 4,
+      "currency": "CAD",
+      "merchant": "Ls I Deal Coffee",
+      "category": "Eating out",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3095393762",
+      "date": "2025-11-07",
+      "direction": "OUT",
+      "amount": 9,
+      "currency": "CAD",
+      "merchant": "Benna's Bakery and Deli",
+      "category": "Groceries",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3092986157",
+      "date": "2025-11-07",
+      "direction": "OUT",
+      "amount": 29,
+      "currency": "CAD",
+      "merchant": "Hopp",
+      "category": "Transport",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3092609242",
+      "date": "2025-11-07",
+      "direction": "OUT",
+      "amount": 16,
+      "currency": "CAD",
+      "merchant": "Tim Hortons",
+      "category": "Eating out",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3090786946",
+      "date": "2025-11-06",
+      "direction": "OUT",
+      "amount": 1,
+      "currency": "GBP",
+      "merchant": "Spotify",
+      "category": "Entertainment",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3090191116",
+      "date": "2025-11-06",
+      "direction": "OUT",
+      "amount": 5,
+      "currency": "GBP",
+      "merchant": "Tesco",
+      "category": "Groceries",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3088835256",
+      "date": "2025-11-06",
+      "direction": "OUT",
+      "amount": 6,
+      "currency": "GBP",
+      "merchant": "TFL - Transport for London",
+      "category": "Transport",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3088186793",
+      "date": "2025-11-05",
+      "direction": "OUT",
+      "amount": 3,
+      "currency": "GBP",
+      "merchant": "Efc Store Ltd",
+      "category": "Groceries",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3087339783",
+      "date": "2025-11-05",
+      "direction": "OUT",
+      "amount": 5,
+      "currency": "GBP",
+      "merchant": "Tesco",
+      "category": "Groceries",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3085112795",
+      "date": "2025-11-04",
+      "direction": "OUT",
+      "amount": 5,
+      "currency": "GBP",
+      "merchant": "Tesco",
+      "category": "Groceries",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3084254110",
+      "date": "2025-11-04",
+      "direction": "OUT",
+      "amount": 17,
+      "currency": "GBP",
+      "merchant": "Anthropic",
+      "category": "Shopping",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3084163508",
+      "date": "2025-11-04",
+      "direction": "OUT",
+      "amount": 3,
+      "currency": "GBP",
+      "merchant": "Lyca Mobile",
+      "category": "Bills",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3083962490",
+      "date": "2025-11-04",
+      "direction": "OUT",
+      "amount": 0,
+      "currency": "GBP",
+      "merchant": "Doctorsa",
+      "category": "Personal care",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3083962490",
+      "date": "2025-11-04",
+      "direction": "OUT",
+      "amount": 45,
+      "currency": "EUR",
+      "merchant": "Doctorsa",
+      "category": "Personal care",
+      "note": null
+    },
+    {
+      "id": "TRANSFER-1803568687",
+      "date": "2025-11-04",
+      "direction": "IN",
+      "amount": 300,
+      "currency": "CAD",
+      "merchant": "Patrick Cahill Connolly",
+      "category": "Money added",
+      "note": null
+    },
+    {
+      "id": "TRANSFER-1802784946",
+      "date": "2025-11-04",
+      "direction": "IN",
+      "amount": 40,
+      "currency": "GBP",
+      "merchant": "Patrick Cahill Connolly",
+      "category": "Money added",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3078204547",
+      "date": "2025-11-03",
+      "direction": "OUT",
+      "amount": 3,
+      "currency": "GBP",
+      "merchant": "TFL - Transport for London",
+      "category": "Transport",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3077439790",
+      "date": "2025-11-02",
+      "direction": "OUT",
+      "amount": 8,
+      "currency": "GBP",
+      "merchant": "Tesco",
+      "category": "Groceries",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3075897198",
+      "date": "2025-11-02",
+      "direction": "OUT",
+      "amount": 5,
+      "currency": "GBP",
+      "merchant": "Blackskyweb.xyz",
+      "category": "Shopping",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3070943515",
+      "date": "2025-11-01",
+      "direction": "OUT",
+      "amount": 2,
+      "currency": "GBP",
+      "merchant": "TFL - Transport for London",
+      "category": "Transport",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3067043694",
+      "date": "2025-10-31",
+      "direction": "OUT",
+      "amount": 25,
+      "currency": "GBP",
+      "merchant": "TFL - Transport for London",
+      "category": "Transport",
+      "note": null
+    },
+    {
+      "id": "TRANSFER-1795284573",
+      "date": "2025-10-30",
+      "direction": "IN",
+      "amount": 50,
+      "currency": "GBP",
+      "merchant": "Patrick Cahill Connolly",
+      "category": "Money added",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3064614297",
+      "date": "2025-10-30",
+      "direction": "OUT",
+      "amount": 4,
+      "currency": "EUR",
+      "merchant": "Cafe Alfresco",
+      "category": "Eating out",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3063641460",
+      "date": "2025-10-30",
+      "direction": "OUT",
+      "amount": 8,
+      "currency": "EUR",
+      "merchant": "Beigel Bake",
+      "category": "Groceries",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3063473727",
+      "date": "2025-10-30",
+      "direction": "OUT",
+      "amount": 3,
+      "currency": "EUR",
+      "merchant": "TFL - Transport for London",
+      "category": "Transport",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3060498617",
+      "date": "2025-10-29",
+      "direction": "OUT",
+      "amount": 4,
+      "currency": "EUR",
+      "merchant": "TFL - Transport for London",
+      "category": "Transport",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3059949194",
+      "date": "2025-10-29",
+      "direction": "OUT",
+      "amount": 13,
+      "currency": "EUR",
+      "merchant": "TFL - Transport for London",
+      "category": "Transport",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3058979840",
+      "date": "2025-10-28",
+      "direction": "OUT",
+      "amount": 4,
+      "currency": "EUR",
+      "merchant": "TFL Cycle Hire",
+      "category": "Transport",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3058887736",
+      "date": "2025-10-28",
+      "direction": "OUT",
+      "amount": 3,
+      "currency": "EUR",
+      "merchant": "Hutchison Telecom",
+      "category": "Shopping",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3054925377",
+      "date": "2025-10-27",
+      "direction": "OUT",
+      "amount": 4,
+      "currency": "EUR",
+      "merchant": "Caffè Nero",
+      "category": "Eating out",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3052879629",
+      "date": "2025-10-27",
+      "direction": "OUT",
+      "amount": 13,
+      "currency": "EUR",
+      "merchant": "TFL - Transport for London",
+      "category": "Transport",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3050638449",
+      "date": "2025-10-26",
+      "direction": "OUT",
+      "amount": 13,
+      "currency": "EUR",
+      "merchant": "Stansted Express",
+      "category": "Transport",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3050093323",
+      "date": "2025-10-26",
+      "direction": "OUT",
+      "amount": 4,
+      "currency": "EUR",
+      "merchant": "Dott",
+      "category": "Transport",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3048706456",
+      "date": "2025-10-25",
+      "direction": "OUT",
+      "amount": 14,
+      "currency": "EUR",
+      "merchant": "Albert Heijn",
+      "category": "Groceries",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3048607823",
+      "date": "2025-10-25",
+      "direction": "OUT",
+      "amount": 1,
+      "currency": "EUR",
+      "merchant": "Albert Heijn",
+      "category": "Groceries",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3045090573",
+      "date": "2025-10-24",
+      "direction": "OUT",
+      "amount": 3,
+      "currency": "EUR",
+      "merchant": "Hutchison Telecom",
+      "category": "Shopping",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3043652560",
+      "date": "2025-10-24",
+      "direction": "OUT",
+      "amount": 2,
+      "currency": "EUR",
+      "merchant": "OVpay",
+      "category": "Transport",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3042923400",
+      "date": "2025-10-24",
+      "direction": "OUT",
+      "amount": 47,
+      "currency": "EUR",
+      "merchant": "Ryanair",
+      "category": "Trips",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3042602988",
+      "date": "2025-10-24",
+      "direction": "OUT",
+      "amount": 4,
+      "currency": "EUR",
+      "merchant": "Lucifer Coffee Roasters",
+      "category": "Eating out",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3042108828",
+      "date": "2025-10-24",
+      "direction": "OUT",
+      "amount": 2,
+      "currency": "EUR",
+      "merchant": "OVpay",
+      "category": "Transport",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3041286040",
+      "date": "2025-10-23",
+      "direction": "OUT",
+      "amount": 4,
+      "currency": "EUR",
+      "merchant": "Albert Heijn",
+      "category": "Groceries",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3040465439",
+      "date": "2025-10-23",
+      "direction": "OUT",
+      "amount": 22,
+      "currency": "EUR",
+      "merchant": "OVpay",
+      "category": "Transport",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3039432950",
+      "date": "2025-10-23",
+      "direction": "OUT",
+      "amount": 5,
+      "currency": "EUR",
+      "merchant": "Albert Heijn",
+      "category": "Groceries",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3038566754",
+      "date": "2025-10-23",
+      "direction": "OUT",
+      "amount": 1,
+      "currency": "EUR",
+      "merchant": "OVpay",
+      "category": "Transport",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3038427666",
+      "date": "2025-10-23",
+      "direction": "OUT",
+      "amount": 18,
+      "currency": "EUR",
+      "merchant": "Omio",
+      "category": "Transport",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3037590623",
+      "date": "2025-10-22",
+      "direction": "OUT",
+      "amount": 2,
+      "currency": "EUR",
+      "merchant": "Ani en Haakien - CCV Payments",
+      "category": "Trips",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3037547447",
+      "date": "2025-10-22",
+      "direction": "OUT",
+      "amount": 28,
+      "currency": "EUR",
+      "merchant": "Hostelworld",
+      "category": "Trips",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3037435588",
+      "date": "2025-10-22",
+      "direction": "OUT",
+      "amount": 2,
+      "currency": "EUR",
+      "merchant": "HMSHost",
+      "category": "Eating out",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3037074084",
+      "date": "2025-10-22",
+      "direction": "OUT",
+      "amount": 2,
+      "currency": "EUR",
+      "merchant": "OVpay",
+      "category": "Transport",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3036952554",
+      "date": "2025-10-22",
+      "direction": "OUT",
+      "amount": 3,
+      "currency": "EUR",
+      "merchant": "OVpay",
+      "category": "Transport",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3036847390",
+      "date": "2025-10-22",
+      "direction": "OUT",
+      "amount": 2,
+      "currency": "EUR",
+      "merchant": "Donkey Republic",
+      "category": "Transport",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3036324718",
+      "date": "2025-10-22",
+      "direction": "OUT",
+      "amount": 2,
+      "currency": "EUR",
+      "merchant": "Coffee 100",
+      "category": "Eating out",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3034608217",
+      "date": "2025-10-21",
+      "direction": "OUT",
+      "amount": 19,
+      "currency": "EUR",
+      "merchant": "Anthropic",
+      "category": "Shopping",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3033982492",
+      "date": "2025-10-21",
+      "direction": "OUT",
+      "amount": 6,
+      "currency": "EUR",
+      "merchant": "Albert Heijn",
+      "category": "Groceries",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3031057224",
+      "date": "2025-10-20",
+      "direction": "OUT",
+      "amount": 10,
+      "currency": "EUR",
+      "merchant": "Lyca Mobile",
+      "category": "Bills",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3030190134",
+      "date": "2025-10-20",
+      "direction": "OUT",
+      "amount": 4,
+      "currency": "EUR",
+      "merchant": "Totzo - CCV Payments",
+      "category": "Entertainment",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3030125031",
+      "date": "2025-10-20",
+      "direction": "OUT",
+      "amount": 2,
+      "currency": "EUR",
+      "merchant": "Albert Heijn",
+      "category": "Groceries",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3026204020",
+      "date": "2025-10-19",
+      "direction": "OUT",
+      "amount": 2,
+      "currency": "EUR",
+      "merchant": "Coffee 200",
+      "category": "Eating out",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3023682700",
+      "date": "2025-10-18",
+      "direction": "OUT",
+      "amount": 5,
+      "currency": "EUR",
+      "merchant": "Cafe Haags Filmhuis - CCV Payments",
+      "category": "Entertainment",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3022761388",
+      "date": "2025-10-18",
+      "direction": "OUT",
+      "amount": 2,
+      "currency": "EUR",
+      "merchant": "BRUXELLES-MIDI",
+      "category": "Entertainment",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3022480518",
+      "date": "2025-10-18",
+      "direction": "OUT",
+      "amount": 16,
+      "currency": "EUR",
+      "merchant": "Lidl",
+      "category": "Groceries",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3022294725",
+      "date": "2025-10-18",
+      "direction": "OUT",
+      "amount": 13,
+      "currency": "EUR",
+      "merchant": "Omio",
+      "category": "Transport",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3020471463",
+      "date": "2025-10-17",
+      "direction": "OUT",
+      "amount": 6,
+      "currency": "EUR",
+      "merchant": "Pay Dia Company Srl",
+      "category": "Eating out",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3020340651",
+      "date": "2025-10-17",
+      "direction": "OUT",
+      "amount": 25,
+      "currency": "EUR",
+      "merchant": "Café novo",
+      "category": "Eating out",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3018967500",
+      "date": "2025-10-17",
+      "direction": "OUT",
+      "amount": 3,
+      "currency": "EUR",
+      "merchant": "Batar",
+      "category": "Eating out",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3017992368",
+      "date": "2025-10-17",
+      "direction": "OUT",
+      "amount": 13,
+      "currency": "EUR",
+      "merchant": "Safestay",
+      "category": "Trips",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3017031900",
+      "date": "2025-10-17",
+      "direction": "OUT",
+      "amount": 3,
+      "currency": "EUR",
+      "merchant": "Arcadi",
+      "category": "Trips",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3016980190",
+      "date": "2025-10-17",
+      "direction": "OUT",
+      "amount": 4,
+      "currency": "EUR",
+      "merchant": "McDonald's",
+      "category": "Eating out",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3016977552",
+      "date": "2025-10-17",
+      "direction": "OUT",
+      "amount": 4,
+      "currency": "EUR",
+      "merchant": "McDonald's",
+      "category": "Eating out",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3016974591",
+      "date": "2025-10-17",
+      "direction": "OUT",
+      "amount": 4,
+      "currency": "EUR",
+      "merchant": "McDonald's",
+      "category": "Eating out",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3016648516",
+      "date": "2025-10-16",
+      "direction": "OUT",
+      "amount": 20,
+      "currency": "EUR",
+      "merchant": "Café Belga",
+      "category": "Eating out",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3015970139",
+      "date": "2025-10-16",
+      "direction": "OUT",
+      "amount": 14,
+      "currency": "EUR",
+      "merchant": "Café Belga",
+      "category": "Eating out",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3015922283",
+      "date": "2025-10-16",
+      "direction": "OUT",
+      "amount": 4,
+      "currency": "EUR",
+      "merchant": "Frit Flagey Sprl",
+      "category": "Eating out",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3013127959",
+      "date": "2025-10-15",
+      "direction": "OUT",
+      "amount": 3,
+      "currency": "EUR",
+      "merchant": "Safestay",
+      "category": "Trips",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3009277727",
+      "date": "2025-10-14",
+      "direction": "OUT",
+      "amount": 3,
+      "currency": "EUR",
+      "merchant": "Café novo",
+      "category": "Eating out",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3008892316",
+      "date": "2025-10-14",
+      "direction": "OUT",
+      "amount": 11,
+      "currency": "EUR",
+      "merchant": "Café novo",
+      "category": "Eating out",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3008500207",
+      "date": "2025-10-14",
+      "direction": "OUT",
+      "amount": 4,
+      "currency": "EUR",
+      "merchant": "Villo!",
+      "category": "Bills",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3008082617",
+      "date": "2025-10-14",
+      "direction": "OUT",
+      "amount": 71,
+      "currency": "EUR",
+      "merchant": "Safestay Brussels",
+      "category": "Trips",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3007903026",
+      "date": "2025-10-14",
+      "direction": "OUT",
+      "amount": 4,
+      "currency": "EUR",
+      "merchant": "Dgt Bjorni",
+      "category": "Eating out",
+      "note": null
+    },
+    {
+      "id": "TRANSFER-1769654026",
+      "date": "2025-10-14",
+      "direction": "IN",
+      "amount": 150,
+      "currency": "EUR",
+      "merchant": "Patrick Cahill Connolly",
+      "category": "Money added",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3006508713",
+      "date": "2025-10-14",
+      "direction": "OUT",
+      "amount": 3,
+      "currency": "EUR",
+      "merchant": "Dgt Bjorni",
+      "category": "Eating out",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3006437440",
+      "date": "2025-10-14",
+      "direction": "OUT",
+      "amount": 5,
+      "currency": "EUR",
+      "merchant": "Dgt Bjorni",
+      "category": "Eating out",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3006031408",
+      "date": "2025-10-13",
+      "direction": "OUT",
+      "amount": 3,
+      "currency": "EUR",
+      "merchant": "De Overkant",
+      "category": "Eating out",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3005845098",
+      "date": "2025-10-13",
+      "direction": "OUT",
+      "amount": 11,
+      "currency": "EUR",
+      "merchant": "Albert Heijn",
+      "category": "Groceries",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3005657621",
+      "date": "2025-10-13",
+      "direction": "OUT",
+      "amount": 10,
+      "currency": "EUR",
+      "merchant": "Lyca Mobile",
+      "category": "Bills",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3005167179",
+      "date": "2025-10-13",
+      "direction": "OUT",
+      "amount": 8,
+      "currency": "EUR",
+      "merchant": "Albert Heijn",
+      "category": "Groceries",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3004029891",
+      "date": "2025-10-13",
+      "direction": "OUT",
+      "amount": 3,
+      "currency": "EUR",
+      "merchant": "The Golden Stork",
+      "category": "Trips",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3002481661",
+      "date": "2025-10-12",
+      "direction": "OUT",
+      "amount": 6,
+      "currency": "EUR",
+      "merchant": "Budget Supermarkt",
+      "category": "Shopping",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3001796834",
+      "date": "2025-10-12",
+      "direction": "OUT",
+      "amount": 4,
+      "currency": "EUR",
+      "merchant": "Cafe Haags Filmhuis - CCV Payments",
+      "category": "Entertainment",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3001348790",
+      "date": "2025-10-12",
+      "direction": "OUT",
+      "amount": 16,
+      "currency": "EUR",
+      "merchant": "Hema",
+      "category": "Shopping",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3001187474",
+      "date": "2025-10-12",
+      "direction": "OUT",
+      "amount": 5,
+      "currency": "EUR",
+      "merchant": "Albert Heijn",
+      "category": "Groceries",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3000497238",
+      "date": "2025-10-12",
+      "direction": "OUT",
+      "amount": 28,
+      "currency": "EUR",
+      "merchant": "Thegoldenstork",
+      "category": "Trips",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-2999696301",
+      "date": "2025-10-12",
+      "direction": "OUT",
+      "amount": 2,
+      "currency": "EUR",
+      "merchant": "OVpay",
+      "category": "Transport",
+      "note": null
+    },
+    {
+      "id": "TRANSFER-1766072099",
+      "date": "2025-10-11",
+      "direction": "OUT",
+      "amount": 50,
+      "currency": "EUR",
+      "merchant": "Florian Wagner",
+      "category": "General",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-2998431181",
+      "date": "2025-10-11",
+      "direction": "OUT",
+      "amount": 18,
+      "currency": "EUR",
+      "merchant": "Albert Heijn",
+      "category": "Groceries",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-2997387562",
+      "date": "2025-10-11",
+      "direction": "OUT",
+      "amount": 5,
+      "currency": "EUR",
+      "merchant": "Burger 'N Fries",
+      "category": "Eating out",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-2997274160",
+      "date": "2025-10-11",
+      "direction": "OUT",
+      "amount": 9,
+      "currency": "EUR",
+      "merchant": "Omio",
+      "category": "Transport",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-2997174933",
+      "date": "2025-10-11",
+      "direction": "OUT",
+      "amount": 13,
+      "currency": "EUR",
+      "merchant": "Kaafi",
+      "category": "Eating out",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-2995559617",
+      "date": "2025-10-10",
+      "direction": "OUT",
+      "amount": 6,
+      "currency": "EUR",
+      "merchant": "La Patrona B.v.",
+      "category": "Eating out",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-2994376009",
+      "date": "2025-10-10",
+      "direction": "OUT",
+      "amount": 7,
+      "currency": "EUR",
+      "merchant": "O'casey's Irish Pub & Res",
+      "category": "Eating out",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-2987924511",
+      "date": "2025-10-08",
+      "direction": "OUT",
+      "amount": 8,
+      "currency": "EUR",
+      "merchant": "'t Syndicaat",
+      "category": "Eating out",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-2987752291",
+      "date": "2025-10-08",
+      "direction": "OUT",
+      "amount": 11,
+      "currency": "EUR",
+      "merchant": "'t Syndicaat",
+      "category": "Eating out",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-2987637725",
+      "date": "2025-10-08",
+      "direction": "OUT",
+      "amount": 7,
+      "currency": "EUR",
+      "merchant": "Albert Heijn",
+      "category": "Groceries",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-2986279533",
+      "date": "2025-10-08",
+      "direction": "OUT",
+      "amount": 2,
+      "currency": "EUR",
+      "merchant": "Coffee 100",
+      "category": "Eating out",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-2984567525",
+      "date": "2025-10-07",
+      "direction": "OUT",
+      "amount": 39,
+      "currency": "EUR",
+      "merchant": "Anthropic",
+      "category": "Shopping",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-2984190681",
+      "date": "2025-10-07",
+      "direction": "OUT",
+      "amount": 5,
+      "currency": "EUR",
+      "merchant": "The Golden Stork",
+      "category": "Trips",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-2984145645",
+      "date": "2025-10-07",
+      "direction": "OUT",
+      "amount": 11,
+      "currency": "EUR",
+      "merchant": "Albert Heijn",
+      "category": "Groceries",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-2982516312",
+      "date": "2025-10-07",
+      "direction": "OUT",
+      "amount": 3,
+      "currency": "EUR",
+      "merchant": "Cafe Haags Filmhuis - CCV Payments",
+      "category": "Entertainment",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-2981247800",
+      "date": "2025-10-07",
+      "direction": "OUT",
+      "amount": 11,
+      "currency": "EUR",
+      "merchant": "OVpay",
+      "category": "Transport",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-2980336387",
+      "date": "2025-10-06",
+      "direction": "OUT",
+      "amount": 10,
+      "currency": "EUR",
+      "merchant": "Albert Heijn",
+      "category": "Groceries",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-2980190914",
+      "date": "2025-10-06",
+      "direction": "OUT",
+      "amount": 22,
+      "currency": "EUR",
+      "merchant": "Mm Den Haag",
+      "category": "Shopping",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-2980139512",
+      "date": "2025-10-06",
+      "direction": "OUT",
+      "amount": 19,
+      "currency": "EUR",
+      "merchant": "Hema",
+      "category": "Shopping",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-2979096034",
+      "date": "2025-10-06",
+      "direction": "OUT",
+      "amount": 22,
+      "currency": "EUR",
+      "merchant": "Hutchison Telecom",
+      "category": "Shopping",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-2978029566",
+      "date": "2025-10-06",
+      "direction": "OUT",
+      "amount": 169,
+      "currency": "EUR",
+      "merchant": "Thegoldenstork",
+      "category": "Trips",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-2977600382",
+      "date": "2025-10-06",
+      "direction": "OUT",
+      "amount": 4,
+      "currency": "EUR",
+      "merchant": "Uber",
+      "category": "Transport",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-2977593305",
+      "date": "2025-10-06",
+      "direction": "OUT",
+      "amount": 26,
+      "currency": "EUR",
+      "merchant": "Hopp",
+      "category": "Transport",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-2977299869",
+      "date": "2025-10-05",
+      "direction": "OUT",
+      "amount": 19,
+      "currency": "EUR",
+      "merchant": "Anthropic",
+      "category": "Shopping",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-2975174122",
+      "date": "2025-10-05",
+      "direction": "OUT",
+      "amount": 6,
+      "currency": "EUR",
+      "merchant": "Thegoldenstork",
+      "category": "Trips",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-2974168619",
+      "date": "2025-10-04",
+      "direction": "OUT",
+      "amount": 2,
+      "currency": "EUR",
+      "merchant": "Future Bistro",
+      "category": "Eating out",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-2974062483",
+      "date": "2025-10-04",
+      "direction": "OUT",
+      "amount": 1,
+      "currency": "EUR",
+      "merchant": "Metro",
+      "category": "Groceries",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-2970119476",
+      "date": "2025-10-03",
+      "direction": "OUT",
+      "amount": 4,
+      "currency": "EUR",
+      "merchant": "Metro",
+      "category": "Groceries",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-2970037989",
+      "date": "2025-10-03",
+      "direction": "OUT",
+      "amount": 4,
+      "currency": "EUR",
+      "merchant": "The Done Right Inn",
+      "category": "Eating out",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-2964233664",
+      "date": "2025-10-02",
+      "direction": "OUT",
+      "amount": 6,
+      "currency": "EUR",
+      "merchant": "Blackskyweb.xyz",
+      "category": "Shopping",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-2963056665",
+      "date": "2025-10-02",
+      "direction": "OUT",
+      "amount": 19,
+      "currency": "EUR",
+      "merchant": "Anthropic",
+      "category": "Shopping",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-2962654183",
+      "date": "2025-10-01",
+      "direction": "OUT",
+      "amount": 7,
+      "currency": "EUR",
+      "merchant": "Loveless Cafe",
+      "category": "Eating out",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-2959096479",
+      "date": "2025-10-01",
+      "direction": "OUT",
+      "amount": 10,
+      "currency": "EUR",
+      "merchant": "Town Crier Pub",
+      "category": "Eating out",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-2958390027",
+      "date": "2025-09-30",
+      "direction": "OUT",
+      "amount": 3,
+      "currency": "EUR",
+      "merchant": "Tim Hortons",
+      "category": "Eating out",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-2957633925",
+      "date": "2025-09-30",
+      "direction": "OUT",
+      "amount": 3,
+      "currency": "EUR",
+      "merchant": "Woolshed Coffee",
+      "category": "Eating out",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-2957597075",
+      "date": "2025-09-30",
+      "direction": "OUT",
+      "amount": 1,
+      "currency": "EUR",
+      "merchant": "7-Eleven",
+      "category": "Transport",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-2955471092",
+      "date": "2025-09-30",
+      "direction": "OUT",
+      "amount": 19,
+      "currency": "EUR",
+      "merchant": "The Done Right Inn",
+      "category": "Eating out",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-2955261692",
+      "date": "2025-09-30",
+      "direction": "OUT",
+      "amount": 6,
+      "currency": "EUR",
+      "merchant": "No Frills",
+      "category": "Groceries",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-2954062144",
+      "date": "2025-09-29",
+      "direction": "OUT",
+      "amount": 3,
+      "currency": "EUR",
+      "merchant": "White Squirrel Coffee Sh",
+      "category": "Groceries",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-2954025568",
+      "date": "2025-09-29",
+      "direction": "OUT",
+      "amount": 1,
+      "currency": "EUR",
+      "merchant": "7-Eleven",
+      "category": "Transport",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-2951697464",
+      "date": "2025-09-29",
+      "direction": "OUT",
+      "amount": 3,
+      "currency": "EUR",
+      "merchant": "Sam's Food Store",
+      "category": "Shopping",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-2951290400",
+      "date": "2025-09-28",
+      "direction": "OUT",
+      "amount": 8,
+      "currency": "EUR",
+      "merchant": "LCBO",
+      "category": "Shopping",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-2948572745",
+      "date": "2025-09-28",
+      "direction": "OUT",
+      "amount": 10,
+      "currency": "EUR",
+      "merchant": "Jayugonggan Karaoke",
+      "category": "Eating out",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-2948345353",
+      "date": "2025-09-27",
+      "direction": "OUT",
+      "amount": 10,
+      "currency": "EUR",
+      "merchant": "Old Flame Brewing Co",
+      "category": "Eating out",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-2948005875",
+      "date": "2025-09-27",
+      "direction": "OUT",
+      "amount": 19,
+      "currency": "EUR",
+      "merchant": "Anthropic",
+      "category": "Shopping",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-2947789562",
+      "date": "2025-09-27",
+      "direction": "OUT",
+      "amount": 3,
+      "currency": "EUR",
+      "merchant": "Woolshed Coffee",
+      "category": "Eating out",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-2944719762",
+      "date": "2025-09-27",
+      "direction": "OUT",
+      "amount": 21,
+      "currency": "EUR",
+      "merchant": "Future Bistro",
+      "category": "Eating out",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-2944619540",
+      "date": "2025-09-27",
+      "direction": "OUT",
+      "amount": 3,
+      "currency": "EUR",
+      "merchant": "7-Eleven",
+      "category": "Transport",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-2943258143",
+      "date": "2025-09-26",
+      "direction": "OUT",
+      "amount": 3,
+      "currency": "EUR",
+      "merchant": "White Squirrel Coffee",
+      "category": "Groceries",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-2943235153",
+      "date": "2025-09-26",
+      "direction": "OUT",
+      "amount": 4,
+      "currency": "EUR",
+      "merchant": "7-Eleven",
+      "category": "Transport",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-2940750309",
+      "date": "2025-09-26",
+      "direction": "OUT",
+      "amount": 39,
+      "currency": "EUR",
+      "merchant": "Black Dice On",
+      "category": "Cash",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-2937230373",
+      "date": "2025-09-25",
+      "direction": "OUT",
+      "amount": 16,
+      "currency": "EUR",
+      "merchant": "Loveless Cafe",
+      "category": "Eating out",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-2936761638",
+      "date": "2025-09-24",
+      "direction": "OUT",
+      "amount": 19,
+      "currency": "EUR",
+      "merchant": "Anthropic",
+      "category": "Shopping",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-2935809302",
+      "date": "2025-09-24",
+      "direction": "OUT",
+      "amount": 3,
+      "currency": "EUR",
+      "merchant": "White Squirrel Coffee",
+      "category": "Groceries",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-2933356594",
+      "date": "2025-09-23",
+      "direction": "OUT",
+      "amount": 2,
+      "currency": "EUR",
+      "merchant": "White Squirrel Coffee",
+      "category": "Groceries",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-2931576294",
+      "date": "2025-09-23",
+      "direction": "OUT",
+      "amount": 4,
+      "currency": "EUR",
+      "merchant": "White Squirrel Coffee",
+      "category": "Groceries",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-2931547364",
+      "date": "2025-09-23",
+      "direction": "OUT",
+      "amount": 4,
+      "currency": "EUR",
+      "merchant": "7-Eleven",
+      "category": "Transport",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-2929423704",
+      "date": "2025-09-22",
+      "direction": "OUT",
+      "amount": 33,
+      "currency": "EUR",
+      "merchant": "No Frills",
+      "category": "Groceries",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-2927987055",
+      "date": "2025-09-22",
+      "direction": "OUT",
+      "amount": 3,
+      "currency": "EUR",
+      "merchant": "Cafe23",
+      "category": "Eating out",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-2926070691",
+      "date": "2025-09-21",
+      "direction": "OUT",
+      "amount": 30,
+      "currency": "EUR",
+      "merchant": "Uber",
+      "category": "Transport",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-2923524440",
+      "date": "2025-09-21",
+      "direction": "OUT",
+      "amount": 8,
+      "currency": "EUR",
+      "merchant": "Bloor West Lounge",
+      "category": "Eating out",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-2923080240",
+      "date": "2025-09-21",
+      "direction": "OUT",
+      "amount": 7,
+      "currency": "EUR",
+      "merchant": "Liberty Village Restauran",
+      "category": "Eating out",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-2923055740",
+      "date": "2025-09-21",
+      "direction": "OUT",
+      "amount": 4,
+      "currency": "EUR",
+      "merchant": "Jamie & Kelly's No Frills",
+      "category": "Groceries",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-2919561164",
+      "date": "2025-09-20",
+      "direction": "OUT",
+      "amount": 19,
+      "currency": "EUR",
+      "merchant": "Anthropic",
+      "category": "Shopping",
+      "note": null
+    },
+    {
+      "id": "TRANSFER-1730043879",
+      "date": "2025-09-19",
+      "direction": "IN",
+      "amount": 850,
+      "currency": "EUR",
+      "merchant": "Patrick Cahill Connolly",
+      "category": "Money added",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-2915049961",
+      "date": "2025-09-18",
+      "direction": "OUT",
+      "amount": 16,
+      "currency": "EUR",
+      "merchant": "No Frills",
+      "category": "Groceries",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-2914880319",
+      "date": "2025-09-18",
+      "direction": "OUT",
+      "amount": 430,
+      "currency": "EUR",
+      "merchant": "Air Transat Mxlarr",
+      "category": "Trips",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-2911034102",
+      "date": "2025-09-17",
+      "direction": "OUT",
+      "amount": 19,
+      "currency": "EUR",
+      "merchant": "Anthropic",
+      "category": "Shopping",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-2910432325",
+      "date": "2025-09-17",
+      "direction": "OUT",
+      "amount": 0,
+      "currency": "EUR",
+      "merchant": "Bike Share Toronto Parkin",
+      "category": "General",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-2908064284",
+      "date": "2025-09-17",
+      "direction": "OUT",
+      "amount": 9,
+      "currency": "EUR",
+      "merchant": "Prenup Pub",
+      "category": "Eating out",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-2907732859",
+      "date": "2025-09-16",
+      "direction": "OUT",
+      "amount": 4,
+      "currency": "EUR",
+      "merchant": "LCBO",
+      "category": "Shopping",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-2907323243",
+      "date": "2025-09-16",
+      "direction": "OUT",
+      "amount": 3,
+      "currency": "EUR",
+      "merchant": "Tim Hortons",
+      "category": "Eating out",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-2903677285",
+      "date": "2025-09-15",
+      "direction": "OUT",
+      "amount": 4,
+      "currency": "USD",
+      "merchant": "Namecheap.com",
+      "category": "Bills",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-2903677285",
+      "date": "2025-09-15",
+      "direction": "OUT",
+      "amount": 1,
+      "currency": "EUR",
+      "merchant": "Namecheap.com",
+      "category": "Bills",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-2901029788",
+      "date": "2025-09-15",
+      "direction": "OUT",
+      "amount": 30,
+      "currency": "USD",
+      "merchant": "Etsy",
+      "category": "Shopping",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-2900943413",
+      "date": "2025-09-15",
+      "direction": "OUT",
+      "amount": 8,
+      "currency": "USD",
+      "merchant": "Loveless Cafe",
+      "category": "Eating out",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-2900157523",
+      "date": "2025-09-14",
+      "direction": "OUT",
+      "amount": 4,
+      "currency": "USD",
+      "merchant": "Loveless Cafe",
+      "category": "Eating out",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-2898398598",
+      "date": "2025-09-14",
+      "direction": "OUT",
+      "amount": 20,
+      "currency": "USD",
+      "merchant": "Build Peace",
+      "category": "General",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-2897348014",
+      "date": "2025-09-14",
+      "direction": "OUT",
+      "amount": 9,
+      "currency": "USD",
+      "merchant": "No Frills",
+      "category": "Groceries",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-2897327079",
+      "date": "2025-09-14",
+      "direction": "OUT",
+      "amount": 9,
+      "currency": "USD",
+      "merchant": "LCBO",
+      "category": "Shopping",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-2896906870",
+      "date": "2025-09-13",
+      "direction": "OUT",
+      "amount": 4,
+      "currency": "USD",
+      "merchant": "Ls I Deal Coffee",
+      "category": "Eating out",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-2892889342",
+      "date": "2025-09-12",
+      "direction": "OUT",
+      "amount": 7,
+      "currency": "USD",
+      "merchant": "Loveless Cafe",
+      "category": "Eating out",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-2892225714",
+      "date": "2025-09-12",
+      "direction": "OUT",
+      "amount": 4,
+      "currency": "USD",
+      "merchant": "Loveless Cafe",
+      "category": "Eating out",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-2889628748",
+      "date": "2025-09-11",
+      "direction": "OUT",
+      "amount": 3,
+      "currency": "USD",
+      "merchant": "A&W",
+      "category": "Eating out",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-2884672107",
+      "date": "2025-09-10",
+      "direction": "OUT",
+      "amount": 25,
+      "currency": "USD",
+      "merchant": "No Frills",
+      "category": "Groceries",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-2882762149",
+      "date": "2025-09-10",
+      "direction": "OUT",
+      "amount": 7,
+      "currency": "USD",
+      "merchant": "3 Brewers Toronto",
+      "category": "Eating out",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-2881972928",
+      "date": "2025-09-09",
+      "direction": "OUT",
+      "amount": 4,
+      "currency": "USD",
+      "merchant": "Loveless Cafe",
+      "category": "Eating out",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-2879164293",
+      "date": "2025-09-09",
+      "direction": "OUT",
+      "amount": 14,
+      "currency": "USD",
+      "merchant": "Tobys Sports Bar",
+      "category": "Eating out",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-2878243251",
+      "date": "2025-09-08",
+      "direction": "OUT",
+      "amount": 7,
+      "currency": "USD",
+      "merchant": "Sp Alternity",
+      "category": "Shopping",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-2872558112",
+      "date": "2025-09-07",
+      "direction": "OUT",
+      "amount": 9,
+      "currency": "USD",
+      "merchant": "Shoppers Drug Mart",
+      "category": "Personal care",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-2870702570",
+      "date": "2025-09-06",
+      "direction": "OUT",
+      "amount": 4,
+      "currency": "USD",
+      "merchant": "Loveless Cafe",
+      "category": "Eating out",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-2870540227",
+      "date": "2025-09-06",
+      "direction": "OUT",
+      "amount": 10,
+      "currency": "USD",
+      "merchant": "Shell",
+      "category": "Transport",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-2870071967",
+      "date": "2025-09-06",
+      "direction": "OUT",
+      "amount": 2,
+      "currency": "USD",
+      "merchant": "Star Convenience",
+      "category": "Shopping",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-2868534146",
+      "date": "2025-09-06",
+      "direction": "OUT",
+      "amount": 14,
+      "currency": "USD",
+      "merchant": "Loblaws",
+      "category": "Groceries",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-2867132608",
+      "date": "2025-09-05",
+      "direction": "OUT",
+      "amount": 0,
+      "currency": "USD",
+      "merchant": "Bike Share Toronto Parkin",
+      "category": "General",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-2861096204",
+      "date": "2025-09-03",
+      "direction": "OUT",
+      "amount": 3,
+      "currency": "USD",
+      "merchant": "Sun Milk and Variety",
+      "category": "Shopping",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-2860973928",
+      "date": "2025-09-03",
+      "direction": "OUT",
+      "amount": 10,
+      "currency": "USD",
+      "merchant": "Nosso Talho Partnership",
+      "category": "Groceries",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-2860959291",
+      "date": "2025-09-03",
+      "direction": "OUT",
+      "amount": 17,
+      "currency": "USD",
+      "merchant": "LCBO",
+      "category": "Shopping",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-2857828530",
+      "date": "2025-09-03",
+      "direction": "OUT",
+      "amount": 7,
+      "currency": "USD",
+      "merchant": "3 Brewers Toronto",
+      "category": "Eating out",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-2856704275",
+      "date": "2025-09-02",
+      "direction": "OUT",
+      "amount": 4,
+      "currency": "USD",
+      "merchant": "Loveless Cafe",
+      "category": "Eating out",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-2855676858",
+      "date": "2025-09-02",
+      "direction": "OUT",
+      "amount": 7,
+      "currency": "USD",
+      "merchant": "Blackskyweb.xyz",
+      "category": "Shopping",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-2854712726",
+      "date": "2025-09-02",
+      "direction": "OUT",
+      "amount": 23,
+      "currency": "USD",
+      "merchant": "Anthropic",
+      "category": "Shopping",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-2853839485",
+      "date": "2025-09-01",
+      "direction": "OUT",
+      "amount": 5,
+      "currency": "USD",
+      "merchant": "Brothers Discount",
+      "category": "Shopping",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-2852981698",
+      "date": "2025-09-01",
+      "direction": "OUT",
+      "amount": 3,
+      "currency": "USD",
+      "merchant": "Loveless Cafe",
+      "category": "Eating out",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-2852704037",
+      "date": "2025-09-01",
+      "direction": "OUT",
+      "amount": 6,
+      "currency": "USD",
+      "merchant": "Larry's Back Pocket",
+      "category": "Eating out",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-2850267282",
+      "date": "2025-08-31",
+      "direction": "OUT",
+      "amount": 22,
+      "currency": "USD",
+      "merchant": "Canadian National Exh",
+      "category": "Entertainment",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-2843996359",
+      "date": "2025-08-30",
+      "direction": "OUT",
+      "amount": 23,
+      "currency": "USD",
+      "merchant": "Anthropic",
+      "category": "Shopping",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-2836711728",
+      "date": "2025-08-28",
+      "direction": "OUT",
+      "amount": 45,
+      "currency": "USD",
+      "merchant": "Aisle 3 Restaurant Bar",
+      "category": "Eating out",
+      "note": null
+    },
+    {
+      "id": "TRANSFER-1693361469",
+      "date": "2025-08-27",
+      "direction": "IN",
+      "amount": 375,
+      "currency": "USD",
+      "merchant": "Patrick Cahill Connolly",
+      "category": "Money added",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-2833502126",
+      "date": "2025-08-27",
+      "direction": "OUT",
+      "amount": 7,
+      "currency": "EUR",
+      "merchant": "Prenup Pub",
+      "category": "Eating out",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-2832335839",
+      "date": "2025-08-26",
+      "direction": "OUT",
+      "amount": 3,
+      "currency": "EUR",
+      "merchant": "Goldstruck Coffee",
+      "category": "Eating out",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-2829652919",
+      "date": "2025-08-25",
+      "direction": "OUT",
+      "amount": 19,
+      "currency": "EUR",
+      "merchant": "Anthropic",
+      "category": "Shopping",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-2828749041",
+      "date": "2025-08-25",
+      "direction": "OUT",
+      "amount": 3,
+      "currency": "EUR",
+      "merchant": "Loveless Cafe",
+      "category": "Eating out",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-2826429043",
+      "date": "2025-08-24",
+      "direction": "OUT",
+      "amount": 12,
+      "currency": "EUR",
+      "merchant": "No Frills",
+      "category": "Groceries",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-2825682285",
+      "date": "2025-08-24",
+      "direction": "OUT",
+      "amount": 3,
+      "currency": "EUR",
+      "merchant": "Ls I Deal on the Park",
+      "category": "Eating out",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-2823622855",
+      "date": "2025-08-24",
+      "direction": "OUT",
+      "amount": 19,
+      "currency": "EUR",
+      "merchant": "Anthropic",
+      "category": "Shopping",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-2823359889",
+      "date": "2025-08-23",
+      "direction": "OUT",
+      "amount": 2,
+      "currency": "EUR",
+      "merchant": "Future Bistro",
+      "category": "Eating out",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-2822137862",
+      "date": "2025-08-23",
+      "direction": "OUT",
+      "amount": 13,
+      "currency": "EUR",
+      "merchant": "No Frills",
+      "category": "Groceries",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-2822133626",
+      "date": "2025-08-23",
+      "direction": "OUT",
+      "amount": 93,
+      "currency": "EUR",
+      "merchant": "No Frills",
+      "category": "Groceries",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-2819991819",
+      "date": "2025-08-23",
+      "direction": "OUT",
+      "amount": 11,
+      "currency": "EUR",
+      "merchant": "Loblaws",
+      "category": "Groceries",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-2819982797",
+      "date": "2025-08-23",
+      "direction": "OUT",
+      "amount": 3,
+      "currency": "EUR",
+      "merchant": "Flashfood",
+      "category": "Groceries",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-2819753476",
+      "date": "2025-08-22",
+      "direction": "OUT",
+      "amount": 2,
+      "currency": "EUR",
+      "merchant": "Future Bistro",
+      "category": "Eating out",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-2819741302",
+      "date": "2025-08-22",
+      "direction": "OUT",
+      "amount": 1,
+      "currency": "EUR",
+      "merchant": "Metro",
+      "category": "Groceries",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-2819064906",
+      "date": "2025-08-22",
+      "direction": "OUT",
+      "amount": 2,
+      "currency": "EUR",
+      "merchant": "Loft Kitchen Cafe",
+      "category": "Groceries",
+      "note": null
+    },
+    {
+      "id": "TRANSFER-1685431556",
+      "date": "2025-08-22",
+      "direction": "IN",
+      "amount": 1200,
+      "currency": "EUR",
+      "merchant": "Patrick Cahill Connolly",
+      "category": "Money added",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-2806702829",
+      "date": "2025-08-19",
+      "direction": "OUT",
+      "amount": 5,
+      "currency": "EUR",
+      "merchant": "Anthropic",
+      "category": "Shopping",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-2799805935",
+      "date": "2025-08-16",
+      "direction": "OUT",
+      "amount": 10,
+      "currency": "EUR",
+      "merchant": "LCBO",
+      "category": "Shopping",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-2778582874",
+      "date": "2025-08-10",
+      "direction": "OUT",
+      "amount": 3,
+      "currency": "EUR",
+      "merchant": "Shaun & Felicia's Nf 381",
+      "category": "Groceries",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-2774352033",
+      "date": "2025-08-09",
+      "direction": "OUT",
+      "amount": 2,
+      "currency": "EUR",
+      "merchant": "Shell",
+      "category": "Transport",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-2773090542",
+      "date": "2025-08-09",
+      "direction": "OUT",
+      "amount": 1,
+      "currency": "EUR",
+      "merchant": "Tim Hortons",
+      "category": "Eating out",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-2767723403",
+      "date": "2025-08-07",
+      "direction": "OUT",
+      "amount": 3,
+      "currency": "EUR",
+      "merchant": "Loveless Cafe",
+      "category": "Eating out",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-2764974033",
+      "date": "2025-08-06",
+      "direction": "OUT",
+      "amount": 6,
+      "currency": "EUR",
+      "merchant": "Loveless Cafe",
+      "category": "Eating out",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-2761462349",
+      "date": "2025-08-05",
+      "direction": "OUT",
+      "amount": 3,
+      "currency": "EUR",
+      "merchant": "Loveless Cafe",
+      "category": "Eating out",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-2761422108",
+      "date": "2025-08-05",
+      "direction": "OUT",
+      "amount": 4,
+      "currency": "EUR",
+      "merchant": "No Frills",
+      "category": "Groceries",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-2761384509",
+      "date": "2025-08-05",
+      "direction": "OUT",
+      "amount": 8,
+      "currency": "EUR",
+      "merchant": "No Frills",
+      "category": "Groceries",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-2758021924",
+      "date": "2025-08-04",
+      "direction": "OUT",
+      "amount": 7,
+      "currency": "EUR",
+      "merchant": "Sherawali Inc",
+      "category": "Groceries",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-2757721487",
+      "date": "2025-08-04",
+      "direction": "OUT",
+      "amount": 2,
+      "currency": "EUR",
+      "merchant": "Tt Nfta Metro Aug04",
+      "category": "Transport",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-2752564564",
+      "date": "2025-08-03",
+      "direction": "OUT",
+      "amount": 23,
+      "currency": "EUR",
+      "merchant": "The Apple Barrel",
+      "category": "Eating out",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-2752169816",
+      "date": "2025-08-03",
+      "direction": "OUT",
+      "amount": 9,
+      "currency": "EUR",
+      "merchant": "Robert Fresh Market 134",
+      "category": "Groceries",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-2752058301",
+      "date": "2025-08-03",
+      "direction": "OUT",
+      "amount": 11,
+      "currency": "EUR",
+      "merchant": "The Leopard Bar",
+      "category": "Eating out",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-2750417850",
+      "date": "2025-08-02",
+      "direction": "OUT",
+      "amount": 6,
+      "currency": "EUR",
+      "merchant": "Blackskyweb.xyz",
+      "category": "Shopping",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-2748870670",
+      "date": "2025-08-02",
+      "direction": "OUT",
+      "amount": 2,
+      "currency": "EUR",
+      "merchant": "Blue Bikes Nola",
+      "category": "Transport",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-2748820820",
+      "date": "2025-08-02",
+      "direction": "OUT",
+      "amount": 3,
+      "currency": "EUR",
+      "merchant": "Blue Bikes Nola",
+      "category": "Transport",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-2748728265",
+      "date": "2025-08-02",
+      "direction": "OUT",
+      "amount": 4,
+      "currency": "EUR",
+      "merchant": "Blue Bikes Nola",
+      "category": "Transport",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-2748666695",
+      "date": "2025-08-02",
+      "direction": "OUT",
+      "amount": 19,
+      "currency": "EUR",
+      "merchant": "Blue Bikes Nola",
+      "category": "Transport",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-2748472749",
+      "date": "2025-08-02",
+      "direction": "OUT",
+      "amount": 9,
+      "currency": "EUR",
+      "merchant": "Blue Bikes Nola",
+      "category": "Transport",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-2744800395",
+      "date": "2025-08-01",
+      "direction": "OUT",
+      "amount": 14,
+      "currency": "EUR",
+      "merchant": "Igors Checkpoint Charlie",
+      "category": "Eating out",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-2741183745",
+      "date": "2025-07-30",
+      "direction": "OUT",
+      "amount": 14,
+      "currency": "EUR",
+      "merchant": "Capulet",
+      "category": "Eating out",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-2740865849",
+      "date": "2025-07-30",
+      "direction": "OUT",
+      "amount": 22,
+      "currency": "EUR",
+      "merchant": "FlixBus USA",
+      "category": "Transport",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-2740838578",
+      "date": "2025-07-30",
+      "direction": "OUT",
+      "amount": 20,
+      "currency": "EUR",
+      "merchant": "Walgreens",
+      "category": "Personal care",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-2738110211",
+      "date": "2025-07-30",
+      "direction": "OUT",
+      "amount": 4,
+      "currency": "EUR",
+      "merchant": "The Will and the Way",
+      "category": "Eating out",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-2737481919",
+      "date": "2025-07-29",
+      "direction": "OUT",
+      "amount": 4,
+      "currency": "EUR",
+      "merchant": "Flora Flora",
+      "category": "Eating out",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-2737084633",
+      "date": "2025-07-29",
+      "direction": "OUT",
+      "amount": 4,
+      "currency": "EUR",
+      "merchant": "Flora Flora",
+      "category": "Eating out",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-2736770722",
+      "date": "2025-07-29",
+      "direction": "OUT",
+      "amount": 3,
+      "currency": "EUR",
+      "merchant": "Lafitte Trading Compm",
+      "category": "Groceries",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-2728003128",
+      "date": "2025-07-26",
+      "direction": "OUT",
+      "amount": 4,
+      "currency": "EUR",
+      "merchant": "Aquila Bistro",
+      "category": "Eating out",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-2724671179",
+      "date": "2025-07-25",
+      "direction": "OUT",
+      "amount": 20,
+      "currency": "EUR",
+      "merchant": "Victory",
+      "category": "Eating out",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-2723899029",
+      "date": "2025-07-25",
+      "direction": "OUT",
+      "amount": 12,
+      "currency": "EUR",
+      "merchant": "Robert Fresh Market 134",
+      "category": "Groceries",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-2721259144",
+      "date": "2025-07-25",
+      "direction": "OUT",
+      "amount": 10,
+      "currency": "EUR",
+      "merchant": "Big Daddys",
+      "category": "Eating out",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-2720041271",
+      "date": "2025-07-24",
+      "direction": "OUT",
+      "amount": 4,
+      "currency": "EUR",
+      "merchant": "Flora Flora",
+      "category": "Eating out",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-2719973514",
+      "date": "2025-07-24",
+      "direction": "OUT",
+      "amount": 23,
+      "currency": "EUR",
+      "merchant": "Bicycle Michaels Llc",
+      "category": "Shopping",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-2716848193",
+      "date": "2025-07-23",
+      "direction": "OUT",
+      "amount": 4,
+      "currency": "EUR",
+      "merchant": "Flora Flora",
+      "category": "Eating out",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-2714464953",
+      "date": "2025-07-23",
+      "direction": "OUT",
+      "amount": 6,
+      "currency": "EUR",
+      "merchant": "The Rusty Nail - New",
+      "category": "Eating out",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-2714450007",
+      "date": "2025-07-23",
+      "direction": "OUT",
+      "amount": 5,
+      "currency": "EUR",
+      "merchant": "Nesbits Poeyfarre Mark",
+      "category": "Groceries",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-2713140534",
+      "date": "2025-07-22",
+      "direction": "OUT",
+      "amount": 8,
+      "currency": "EUR",
+      "merchant": "Rouses Markets",
+      "category": "Groceries",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-2711207616",
+      "date": "2025-07-22",
+      "direction": "OUT",
+      "amount": 13,
+      "currency": "EUR",
+      "merchant": "Robert Fresh Market 134",
+      "category": "Groceries",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-2710681699",
+      "date": "2025-07-21",
+      "direction": "OUT",
+      "amount": 4,
+      "currency": "EUR",
+      "merchant": "Flora Flora",
+      "category": "Eating out",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-2707678181",
+      "date": "2025-07-20",
+      "direction": "OUT",
+      "amount": 4,
+      "currency": "EUR",
+      "merchant": "Flora Flora",
+      "category": "Eating out",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-2707635955",
+      "date": "2025-07-20",
+      "direction": "OUT",
+      "amount": 4,
+      "currency": "EUR",
+      "merchant": "Til It Matassa's Marke",
+      "category": "Groceries",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-2705003430",
+      "date": "2025-07-20",
+      "direction": "OUT",
+      "amount": 7,
+      "currency": "EUR",
+      "merchant": "B Js Lounge",
+      "category": "Eating out",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-2704557158",
+      "date": "2025-07-19",
+      "direction": "OUT",
+      "amount": 4,
+      "currency": "EUR",
+      "merchant": "Flora Flora",
+      "category": "Eating out",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-2701349172",
+      "date": "2025-07-19",
+      "direction": "OUT",
+      "amount": 39,
+      "currency": "USD",
+      "merchant": "Mister Mao",
+      "category": "Eating out",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-2701349172",
+      "date": "2025-07-19",
+      "direction": "OUT",
+      "amount": 22,
+      "currency": "EUR",
+      "merchant": "Mister Mao",
+      "category": "Eating out",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-2700324700",
+      "date": "2025-07-18",
+      "direction": "OUT",
+      "amount": 2,
+      "currency": "USD",
+      "merchant": "Flora Flora",
+      "category": "Eating out",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-2700324700",
+      "date": "2025-07-18",
+      "direction": "OUT",
+      "amount": 2,
+      "currency": "EUR",
+      "merchant": "Flora Flora",
+      "category": "Eating out",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-2697383645",
+      "date": "2025-07-17",
+      "direction": "OUT",
+      "amount": 36,
+      "currency": "USD",
+      "merchant": "Robert Fresh Market 134",
+      "category": "Groceries",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-2696306076",
+      "date": "2025-07-17",
+      "direction": "OUT",
+      "amount": 5,
+      "currency": "USD",
+      "merchant": "Til It Matassa's Marke",
+      "category": "Groceries",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-2696247350",
+      "date": "2025-07-17",
+      "direction": "OUT",
+      "amount": 9,
+      "currency": "USD",
+      "merchant": "Quarter Deli",
+      "category": "Eating out",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-2694019512",
+      "date": "2025-07-17",
+      "direction": "OUT",
+      "amount": 41,
+      "currency": "USD",
+      "merchant": "Quarter Deli",
+      "category": "Eating out",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-2693504952",
+      "date": "2025-07-16",
+      "direction": "OUT",
+      "amount": 4,
+      "currency": "USD",
+      "merchant": "Cafe Du Monde",
+      "category": "Eating out",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-2690399560",
+      "date": "2025-07-15",
+      "direction": "OUT",
+      "amount": 13,
+      "currency": "USD",
+      "merchant": "FreshCo",
+      "category": "Groceries",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-2689924745",
+      "date": "2025-07-15",
+      "direction": "OUT",
+      "amount": 4,
+      "currency": "USD",
+      "merchant": "Loveless Cafe",
+      "category": "Eating out",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-2687242699",
+      "date": "2025-07-15",
+      "direction": "OUT",
+      "amount": 1,
+      "currency": "USD",
+      "merchant": "Ready Go Store 1",
+      "category": "Groceries",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-2686150340",
+      "date": "2025-07-14",
+      "direction": "OUT",
+      "amount": 4,
+      "currency": "USD",
+      "merchant": "Loveless Cafe",
+      "category": "Eating out",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-2682654633",
+      "date": "2025-07-13",
+      "direction": "OUT",
+      "amount": 0,
+      "currency": "USD",
+      "merchant": "Bike Share Toronto Parkin",
+      "category": "General",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-2680994149",
+      "date": "2025-07-13",
+      "direction": "OUT",
+      "amount": 24,
+      "currency": "USD",
+      "merchant": "Urban House",
+      "category": "Eating out",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-2680527282",
+      "date": "2025-07-12",
+      "direction": "OUT",
+      "amount": 7,
+      "currency": "USD",
+      "merchant": "LCBO",
+      "category": "Shopping",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-2676645968",
+      "date": "2025-07-11",
+      "direction": "OUT",
+      "amount": 25,
+      "currency": "USD",
+      "merchant": "1Rg To",
+      "category": "General",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-2676582341",
+      "date": "2025-07-11",
+      "direction": "OUT",
+      "amount": 3,
+      "currency": "USD",
+      "merchant": "Loveless Cafe",
+      "category": "Eating out",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-2676365904",
+      "date": "2025-07-11",
+      "direction": "OUT",
+      "amount": 13,
+      "currency": "USD",
+      "merchant": "Loveless Cafe",
+      "category": "Eating out",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-2676235026",
+      "date": "2025-07-11",
+      "direction": "OUT",
+      "amount": 25,
+      "currency": "USD",
+      "merchant": "FlixBus USA",
+      "category": "Transport",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-2675606003",
+      "date": "2025-07-11",
+      "direction": "OUT",
+      "amount": 5,
+      "currency": "USD",
+      "merchant": "Sounds Good",
+      "category": "Eating out",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-2673109674",
+      "date": "2025-07-10",
+      "direction": "OUT",
+      "amount": 9,
+      "currency": "USD",
+      "merchant": "LCBO",
+      "category": "Shopping",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-2672253993",
+      "date": "2025-07-10",
+      "direction": "OUT",
+      "amount": 4,
+      "currency": "USD",
+      "merchant": "Loveless Cafe",
+      "category": "Eating out",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-2669464825",
+      "date": "2025-07-09",
+      "direction": "OUT",
+      "amount": 24,
+      "currency": "USD",
+      "merchant": "OpenAI",
+      "category": "Shopping",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-2665825292",
+      "date": "2025-07-08",
+      "direction": "OUT",
+      "amount": 4,
+      "currency": "USD",
+      "merchant": "Loveless Cafe",
+      "category": "Eating out",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-2661987888",
+      "date": "2025-07-07",
+      "direction": "OUT",
+      "amount": 4,
+      "currency": "USD",
+      "merchant": "Loveless Cafe",
+      "category": "Eating out",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-2661700086",
+      "date": "2025-07-07",
+      "direction": "OUT",
+      "amount": 7,
+      "currency": "USD",
+      "merchant": "No Frills",
+      "category": "Groceries",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-2659152538",
+      "date": "2025-07-06",
+      "direction": "OUT",
+      "amount": 6,
+      "currency": "USD",
+      "merchant": "Shell",
+      "category": "Transport",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-2658948356",
+      "date": "2025-07-06",
+      "direction": "OUT",
+      "amount": 2,
+      "currency": "EUR",
+      "merchant": "Ultramar",
+      "category": "Transport",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-2658918600",
+      "date": "2025-07-06",
+      "direction": "OUT",
+      "amount": 3,
+      "currency": "EUR",
+      "merchant": "Ultramar",
+      "category": "Transport",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-2656146430",
+      "date": "2025-07-05",
+      "direction": "OUT",
+      "amount": 4,
+      "currency": "EUR",
+      "merchant": "Presqu'ile Park Place",
+      "category": "Eating out",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-2655601528",
+      "date": "2025-07-05",
+      "direction": "OUT",
+      "amount": 0,
+      "currency": "EUR",
+      "merchant": "Bike Share Toronto Parkin",
+      "category": "General",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-2652707875",
+      "date": "2025-07-04",
+      "direction": "OUT",
+      "amount": 3,
+      "currency": "EUR",
+      "merchant": "Dollarama",
+      "category": "Shopping",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-2652659998",
+      "date": "2025-07-04",
+      "direction": "OUT",
+      "amount": 231,
+      "currency": "EUR",
+      "merchant": "JetBlue Airways",
+      "category": "Trips",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-2652530657",
+      "date": "2025-07-04",
+      "direction": "OUT",
+      "amount": 3,
+      "currency": "EUR",
+      "merchant": "DarkhorseAir",
+      "category": "Eating out",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-2651776267",
+      "date": "2025-07-04",
+      "direction": "OUT",
+      "amount": 4,
+      "currency": "EUR",
+      "merchant": "Loveless Cafe",
+      "category": "Eating out",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-2649155927",
+      "date": "2025-07-04",
+      "direction": "OUT",
+      "amount": 6,
+      "currency": "EUR",
+      "merchant": "Loons",
+      "category": "Eating out",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-2648952949",
+      "date": "2025-07-03",
+      "direction": "OUT",
+      "amount": 7,
+      "currency": "EUR",
+      "merchant": "No Frills",
+      "category": "Groceries",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-2648180306",
+      "date": "2025-07-03",
+      "direction": "OUT",
+      "amount": 3,
+      "currency": "EUR",
+      "merchant": "Loveless Cafe",
+      "category": "Eating out",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-2644349927",
+      "date": "2025-07-02",
+      "direction": "OUT",
+      "amount": 6,
+      "currency": "EUR",
+      "merchant": "Blackskyweb.xyz",
+      "category": "Shopping",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-2641959530",
+      "date": "2025-07-01",
+      "direction": "OUT",
+      "amount": 27,
+      "currency": "EUR",
+      "merchant": "Wine Rack",
+      "category": "Eating out",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-2638516204",
+      "date": "2025-07-01",
+      "direction": "OUT",
+      "amount": 3,
+      "currency": "EUR",
+      "merchant": "Future Bistro",
+      "category": "Eating out",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-2637728356",
+      "date": "2025-06-30",
+      "direction": "OUT",
+      "amount": 3,
+      "currency": "EUR",
+      "merchant": "Field Trip Cafe",
+      "category": "Groceries",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-2637707956",
+      "date": "2025-06-30",
+      "direction": "OUT",
+      "amount": 5,
+      "currency": "EUR",
+      "merchant": "Bike Share Toronto Parkin",
+      "category": "General",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-2635129839",
+      "date": "2025-06-30",
+      "direction": "OUT",
+      "amount": 4,
+      "currency": "EUR",
+      "merchant": "7-Eleven",
+      "category": "Transport",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-2634399091",
+      "date": "2025-06-29",
+      "direction": "OUT",
+      "amount": 20,
+      "currency": "EUR",
+      "merchant": "No Frills",
+      "category": "Groceries",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-2634299571",
+      "date": "2025-06-29",
+      "direction": "OUT",
+      "amount": 1,
+      "currency": "EUR",
+      "merchant": "Bike Share Toronto Parkin",
+      "category": "General",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-2632423973",
+      "date": "2025-06-29",
+      "direction": "OUT",
+      "amount": 7,
+      "currency": "EUR",
+      "merchant": "Tst-Miracle Toronto",
+      "category": "Eating out",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-2632174822",
+      "date": "2025-06-29",
+      "direction": "OUT",
+      "amount": 6,
+      "currency": "EUR",
+      "merchant": "Penny's",
+      "category": "Eating out",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-2631986301",
+      "date": "2025-06-29",
+      "direction": "OUT",
+      "amount": 7,
+      "currency": "EUR",
+      "merchant": "Loveless Cafe",
+      "category": "Eating out",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-2631790458",
+      "date": "2025-06-28",
+      "direction": "OUT",
+      "amount": 12,
+      "currency": "EUR",
+      "merchant": "No Frills",
+      "category": "Groceries",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-2631146767",
+      "date": "2025-06-28",
+      "direction": "OUT",
+      "amount": 4,
+      "currency": "EUR",
+      "merchant": "Saving Mondays",
+      "category": "Groceries",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-2627448622",
+      "date": "2025-06-27",
+      "direction": "OUT",
+      "amount": 8,
+      "currency": "EUR",
+      "merchant": "Ufo Restaurent",
+      "category": "Eating out",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-2628112989",
+      "date": "2025-06-27",
+      "direction": "OUT",
+      "amount": 13,
+      "currency": "EUR",
+      "merchant": "Loveless Cafe",
+      "category": "Eating out",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-2624275811",
+      "date": "2025-06-26",
+      "direction": "OUT",
+      "amount": 3,
+      "currency": "EUR",
+      "merchant": "Hale Coffee",
+      "category": "Groceries",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-2624172676",
+      "date": "2025-06-26",
+      "direction": "OUT",
+      "amount": 9,
+      "currency": "EUR",
+      "merchant": "Metro",
+      "category": "Groceries",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-2618330201",
+      "date": "2025-06-25",
+      "direction": "OUT",
+      "amount": 9,
+      "currency": "EUR",
+      "merchant": "Prenup Pub",
+      "category": "Eating out",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-2618105639",
+      "date": "2025-06-24",
+      "direction": "OUT",
+      "amount": 2,
+      "currency": "EUR",
+      "merchant": "Metro",
+      "category": "Groceries",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-2617215800",
+      "date": "2025-06-24",
+      "direction": "OUT",
+      "amount": 4,
+      "currency": "EUR",
+      "merchant": "Field Trip Cafe",
+      "category": "Groceries",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-2615189824",
+      "date": "2025-06-24",
+      "direction": "OUT",
+      "amount": 276,
+      "currency": "EUR",
+      "merchant": "BetterHelp",
+      "category": "Personal care",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-2615144408",
+      "date": "2025-06-23",
+      "direction": "OUT",
+      "amount": 7,
+      "currency": "EUR",
+      "merchant": "Loveless Cafe",
+      "category": "Eating out",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-2614641443",
+      "date": "2025-06-23",
+      "direction": "OUT",
+      "amount": 3,
+      "currency": "EUR",
+      "merchant": "Loveless Cafe",
+      "category": "Eating out",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-2613686012",
+      "date": "2025-06-23",
+      "direction": "OUT",
+      "amount": 3,
+      "currency": "EUR",
+      "merchant": "Loveless Cafe",
+      "category": "Eating out",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-2611856509",
+      "date": "2025-06-23",
+      "direction": "OUT",
+      "amount": 23,
+      "currency": "EUR",
+      "merchant": "The Hole in the Wall",
+      "category": "Eating out",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-2611278693",
+      "date": "2025-06-22",
+      "direction": "OUT",
+      "amount": 2,
+      "currency": "EUR",
+      "merchant": "Pj's No Frills 9584",
+      "category": "Groceries",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-2610859528",
+      "date": "2025-06-22",
+      "direction": "OUT",
+      "amount": 1,
+      "currency": "EUR",
+      "merchant": "Bike Share Toronto Parkin",
+      "category": "General",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-2611314537",
+      "date": "2025-06-22",
+      "direction": "OUT",
+      "amount": 12,
+      "currency": "EUR",
+      "merchant": "Loveless Cafe",
+      "category": "Eating out",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-2608690108",
+      "date": "2025-06-21",
+      "direction": "OUT",
+      "amount": 3,
+      "currency": "EUR",
+      "merchant": "Loblaw Mlg 1007",
+      "category": "Groceries",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-2608668541",
+      "date": "2025-06-21",
+      "direction": "OUT",
+      "amount": 11,
+      "currency": "EUR",
+      "merchant": "LCBO",
+      "category": "Shopping",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-2608661105",
+      "date": "2025-06-21",
+      "direction": "OUT",
+      "amount": 4,
+      "currency": "EUR",
+      "merchant": "Shoppers Drug Mart",
+      "category": "Personal care",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-2608275371",
+      "date": "2025-06-21",
+      "direction": "OUT",
+      "amount": 3,
+      "currency": "EUR",
+      "merchant": "Loveless Cafe",
+      "category": "Eating out",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-2601565765",
+      "date": "2025-06-19",
+      "direction": "OUT",
+      "amount": 2,
+      "currency": "EUR",
+      "merchant": "Loveless Cafe",
+      "category": "Eating out",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-2600865909",
+      "date": "2025-06-19",
+      "direction": "OUT",
+      "amount": 4,
+      "currency": "EUR",
+      "merchant": "Loveless Cafe",
+      "category": "Eating out",
+      "note": null
+    }
+  ]
 }
