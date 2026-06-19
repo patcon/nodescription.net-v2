@@ -39,14 +39,14 @@ const lastMonthTxns = transactions.filter(t => t.date?.startsWith(lastMonth ?? '
 const lastMonthOut = lastMonthTxns.filter(t => t.direction === 'OUT');
 const lastMonthIn = lastMonthTxns.filter(t => t.direction === 'IN');
 
-const totalOut = lastMonthOut.reduce((sum, t) => sum + t.amount, 0);
-const totalIn = lastMonthIn.reduce((sum, t) => sum + t.amount, 0);
+const totalOut = lastMonthOut.reduce((sum, t) => sum + convertToDisplay(t.amount, t.currency), 0);
+const totalIn = lastMonthIn.reduce((sum, t) => sum + convertToDisplay(t.amount, t.currency), 0);
 
 // Category breakdown for outflows
 const byCategory: Record<string, number> = {};
 for (const t of lastMonthOut) {
   const cat = t.category ?? 'Uncategorized';
-  byCategory[cat] = (byCategory[cat] ?? 0) + t.amount;
+  byCategory[cat] = (byCategory[cat] ?? 0) + convertToDisplay(t.amount, t.currency);
 }
 const categoryBreakdown = Object.entries(byCategory).sort((a, b) => b[1] - a[1]);
 ---
@@ -79,12 +79,12 @@ const categoryBreakdown = Object.entries(byCategory).sort((a, b) => b[1] - a[1])
         <div class="flex gap-8 mb-4">
           <div>
             <p class="text-sm text-gray-500">Spent</p>
-            <p class="text-2xl font-bold text-red-600">{totalOut} EUR</p>
+            <p class="text-2xl font-bold text-red-600">${totalOut} {DISPLAY_CURRENCY}</p>
           </div>
           {totalIn > 0 && (
             <div>
               <p class="text-sm text-gray-500">Received</p>
-              <p class="text-2xl font-bold text-green-600">{totalIn} EUR</p>
+              <p class="text-2xl font-bold text-green-600">${totalIn} {DISPLAY_CURRENCY}</p>
             </div>
           )}
         </div>
@@ -93,7 +93,7 @@ const categoryBreakdown = Object.entries(byCategory).sort((a, b) => b[1] - a[1])
             {categoryBreakdown.map(([cat, amount]) => (
               <div class="flex justify-between text-sm">
                 <span class="text-gray-600">{cat}</span>
-                <span class="font-mono text-gray-800">{amount} EUR</span>
+                <span class="font-mono text-gray-800">${amount} {DISPLAY_CURRENCY}</span>
               </div>
             ))}
           </div>
