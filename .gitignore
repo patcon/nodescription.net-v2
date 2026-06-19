@@ -2,3 +2,6 @@
 dist/
 node_modules/
 .astro/
+
+# Finance exports — never commit raw CSV files (contain unrounded amounts)
+*.csv
