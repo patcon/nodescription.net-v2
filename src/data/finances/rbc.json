@@ -1,6 +1,6 @@
 {
   "account": "rbc",
-  "label": "RBC",
+  "label": "Bank",
   "sub_accounts": [
     { "label": "Chequing", "amount": 50, "currency": "CAD" },
     { "label": "Savings", "amount": 290, "currency": "CAD" }

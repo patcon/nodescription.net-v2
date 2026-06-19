@@ -70,7 +70,7 @@ const categoryBreakdown = Object.entries(byCategory).sort((a, b) => b[1] - a[1])
     <div class="grid grid-cols-2 gap-4 mb-8">
       <!-- Wise -->
       <div class="bg-white rounded-xl border border-gray-200 p-4">
-        <p class="text-xs text-gray-500 uppercase tracking-wide mb-1">Wise</p>
+        <p class="text-xs text-gray-500 uppercase tracking-wide mb-1">Wise App</p>
         <p class="text-xl font-semibold text-gray-800">${wiseTotal} {DISPLAY_CURRENCY}</p>
         {wiseSubBalances.length > 0 && (
           <p class="text-xs text-gray-400 mt-1">
@@ -86,7 +86,7 @@ const categoryBreakdown = Object.entries(byCategory).sort((a, b) => b[1] - a[1])
 
       <!-- RBC -->
       <div class="bg-white rounded-xl border border-gray-200 p-4">
-        <p class="text-xs text-gray-500 uppercase tracking-wide mb-1">RBC</p>
+        <p class="text-xs text-gray-500 uppercase tracking-wide mb-1">{rbcData.label}</p>
         <p class="text-xl font-semibold text-gray-800">${rbcTotal} {DISPLAY_CURRENCY}</p>
         <p class="text-xs text-gray-400 mt-1">
           {rbcData.sub_accounts.map((a, i) => (
