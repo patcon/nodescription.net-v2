@@ -2,7 +2,31 @@
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import financeData from '../../data/finances/wise.json';
 
-const { balance, balance_currency, balance_updated, transactions } = financeData;
+const { balances, balance_updated, transactions } = financeData;
+const DISPLAY_CURRENCY = 'CAD';
+
+// Fetch exchange rates at build time (from CAD, so rates[X] = how many X per 1 CAD)
+let toCadRates: Record<string, number> = {};
+try {
+  const res = await fetch(`https://api.frankfurter.app/latest?from=${DISPLAY_CURRENCY}`);
+  const data = await res.json();
+  toCadRates = data.rates ?? {};
+  toCadRates[DISPLAY_CURRENCY] = 1;
+} catch {
+  // Fallback: no conversion, show raw balances only
+}
+
+const convertToDisplay = (amount: number, currency: string): number => {
+  if (currency === DISPLAY_CURRENCY) return amount;
+  const rate = toCadRates[currency];
+  return rate ? Math.round(amount / rate) : 0;
+};
+
+const totalDisplay = Object.entries(balances).reduce(
+  (sum, [currency, amount]) => sum + convertToDisplay(amount, currency), 0
+);
+
+const subBalances = Object.entries(balances).filter(([, amount]) => amount > 0);
 
 // Last-month summary: find the most recent month in the data
 const months = [...new Set(transactions.map(t => t.date?.slice(0, 7)))].sort().reverse();
@@ -25,9 +49,6 @@ for (const t of lastMonthOut) {
   byCategory[cat] = (byCategory[cat] ?? 0) + t.amount;
 }
 const categoryBreakdown = Object.entries(byCategory).sort((a, b) => b[1] - a[1]);
-
-const formatAmount = (amount: number, currency: string) =>
-  `${currency === 'EUR' ? '€' : ''}${amount} ${currency}`;
 ---
 
 <BaseLayout title="Finances">
@@ -37,10 +58,15 @@ const formatAmount = (amount: number, currency: string) =>
 
     <!-- Current Balance -->
     <div class="bg-white rounded-xl border border-gray-200 p-6 mb-8">
-      <p class="text-sm text-gray-500 uppercase tracking-wide mb-1">Current Balance (Wise)</p>
-      <p class="text-4xl font-bold text-gray-900">
-        {balance !== null ? formatAmount(balance, balance_currency) : '—'}
-      </p>
+      <p class="text-sm text-gray-500 uppercase tracking-wide mb-1">Total Balance (Wise)</p>
+      <p class="text-4xl font-bold text-gray-900">${totalDisplay} {DISPLAY_CURRENCY}</p>
+      {subBalances.length > 0 && (
+        <p class="text-sm text-gray-400 mt-2">
+          {subBalances.map(([currency, amount], i) => (
+            <span>{i > 0 && ' · '}{amount} {currency}</span>
+          ))}
+        </p>
+      )}
       {balance_updated && (
         <p class="text-xs text-gray-400 mt-1">Updated {balance_updated}</p>
       )}
@@ -53,12 +79,12 @@ const formatAmount = (amount: number, currency: string) =>
         <div class="flex gap-8 mb-4">
           <div>
             <p class="text-sm text-gray-500">Spent</p>
-            <p class="text-2xl font-bold text-red-600">€{totalOut} EUR</p>
+            <p class="text-2xl font-bold text-red-600">{totalOut} EUR</p>
           </div>
           {totalIn > 0 && (
             <div>
               <p class="text-sm text-gray-500">Received</p>
-              <p class="text-2xl font-bold text-green-600">€{totalIn} EUR</p>
+              <p class="text-2xl font-bold text-green-600">{totalIn} EUR</p>
             </div>
           )}
         </div>
@@ -67,7 +93,7 @@ const formatAmount = (amount: number, currency: string) =>
             {categoryBreakdown.map(([cat, amount]) => (
               <div class="flex justify-between text-sm">
                 <span class="text-gray-600">{cat}</span>
-                <span class="font-mono text-gray-800">€{amount}</span>
+                <span class="font-mono text-gray-800">{amount} EUR</span>
               </div>
             ))}
           </div>
@@ -99,9 +125,7 @@ const formatAmount = (amount: number, currency: string) =>
                       {t.direction}
                     </span>
                   </td>
-                  <td class="px-4 py-3 text-right font-mono">
-                    {formatAmount(t.amount, t.currency)}
-                  </td>
+                  <td class="px-4 py-3 text-right font-mono">{t.amount} {t.currency}</td>
                   <td class="px-4 py-3 text-gray-700 max-w-[200px] truncate">{t.merchant}</td>
                   <td class="px-4 py-3 text-gray-500 hidden sm:table-cell">{t.category ?? '—'}</td>
                 </tr>

@@ -1,7 +1,10 @@
 {
   "account": "wise",
-  "balance": 129,
-  "balance_currency": "EUR",
+  "balances": {
+    "EUR": 129,
+    "CAD": 0,
+    "GBP": 0
+  },
   "balance_updated": "2026-06-19",
   "transactions": [
     {
