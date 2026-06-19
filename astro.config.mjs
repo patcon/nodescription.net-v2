@@ -7,6 +7,7 @@ import mdx from '@astrojs/mdx';
 // https://astro.build/config
 export default defineConfig({
   site: 'https://nodescription.net',
+  base: process.env.BASE_PATH || '/',
   output: 'static',
   integrations: [react(), tailwind(), mdx()],
   redirects: {
