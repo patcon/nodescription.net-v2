@@ -2,9 +2,678 @@
   "account": "rbc",
   "label": "Bank",
   "sub_accounts": [
-    { "label": "Chequing", "amount": 294, "currency": "CAD" },
-    { "label": "Savings", "amount": 277, "currency": "CAD" }
+    {
+      "label": "Chequing",
+      "amount": 294,
+      "currency": "CAD"
+    },
+    {
+      "label": "Savings",
+      "amount": 277,
+      "currency": "CAD"
+    }
   ],
   "balance_updated": "2026-06-20",
-  "transactions": []
+  "transactions": [
+    {
+      "id": "rbc-2025-06-20-visa_debit_purchase_-_0480_spotify_p37dc6f--14",
+      "date": "2025-06-20",
+      "direction": "OUT",
+      "amount": 14,
+      "currency": "CAD",
+      "merchant": "VISA DEBIT PURCHASE - 0480 SPOTIFY P37DC6F",
+      "category": null,
+      "note": "VISA DEBIT PURCHASE - 0480 SPOTIFY P37DC6F"
+    },
+    {
+      "id": "rbc-2025-07-02-visa_debit_purchase_-_6651_amazon_web_serv--5",
+      "date": "2025-07-02",
+      "direction": "OUT",
+      "amount": 5,
+      "currency": "CAD",
+      "merchant": "VISA DEBIT PURCHASE - 6651 AMAZON WEB SERV",
+      "category": null,
+      "note": "VISA DEBIT PURCHASE - 6651 AMAZON WEB SERV"
+    },
+    {
+      "id": "rbc-2025-07-04-monthly_fee--4",
+      "date": "2025-07-04",
+      "direction": "OUT",
+      "amount": 4,
+      "currency": "CAD",
+      "merchant": "MONTHLY FEE",
+      "category": null,
+      "note": "MONTHLY FEE"
+    },
+    {
+      "id": "rbc-2025-07-17-fees/dues_planet_fitness--23",
+      "date": "2025-07-17",
+      "direction": "OUT",
+      "amount": 23,
+      "currency": "CAD",
+      "merchant": "FEES/DUES PLANET FITNESS",
+      "category": null,
+      "note": "FEES/DUES PLANET FITNESS"
+    },
+    {
+      "id": "rbc-2025-08-01-visa_debit_purchase_-_5565_amazon_web_serv--5",
+      "date": "2025-08-01",
+      "direction": "OUT",
+      "amount": 5,
+      "currency": "CAD",
+      "merchant": "VISA DEBIT PURCHASE - 5565 AMAZON WEB SERV",
+      "category": null,
+      "note": "VISA DEBIT PURCHASE - 5565 AMAZON WEB SERV"
+    },
+    {
+      "id": "rbc-2025-08-06-monthly_fee--4",
+      "date": "2025-08-06",
+      "direction": "OUT",
+      "amount": 4,
+      "currency": "CAD",
+      "merchant": "MONTHLY FEE",
+      "category": null,
+      "note": "MONTHLY FEE"
+    },
+    {
+      "id": "rbc-2025-08-08-online_banking_transfer_-_4175--15",
+      "date": "2025-08-08",
+      "direction": "IN",
+      "amount": 15,
+      "currency": "CAD",
+      "merchant": "ONLINE BANKING TRANSFER - 4175",
+      "category": null,
+      "note": "ONLINE BANKING TRANSFER - 4175"
+    },
+    {
+      "id": "rbc-2025-08-11-contactless_interac_purchase_-_3414_circle_k_/_irvi--8",
+      "date": "2025-08-11",
+      "direction": "OUT",
+      "amount": 8,
+      "currency": "CAD",
+      "merchant": "CONTACTLESS INTERAC PURCHASE - 3414 CIRCLE K / IRVI",
+      "category": null,
+      "note": "CONTACTLESS INTERAC PURCHASE - 3414 CIRCLE K / IRVI"
+    },
+    {
+      "id": "rbc-2025-08-15-contactless_interac_purchase_-_2144_tim_hortons_#39--2",
+      "date": "2025-08-15",
+      "direction": "OUT",
+      "amount": 2,
+      "currency": "CAD",
+      "merchant": "CONTACTLESS INTERAC PURCHASE - 2144 TIM HORTONS #39",
+      "category": null,
+      "note": "CONTACTLESS INTERAC PURCHASE - 2144 TIM HORTONS #39"
+    },
+    {
+      "id": "rbc-2025-08-18-fees/dues_planet_fitness--23",
+      "date": "2025-08-18",
+      "direction": "OUT",
+      "amount": 23,
+      "currency": "CAD",
+      "merchant": "FEES/DUES PLANET FITNESS",
+      "category": null,
+      "note": "FEES/DUES PLANET FITNESS"
+    },
+    {
+      "id": "rbc-2025-08-19-overdraft_handling_fee_1_@_$_5.00--5",
+      "date": "2025-08-19",
+      "direction": "OUT",
+      "amount": 5,
+      "currency": "CAD",
+      "merchant": "OVERDRAFT HANDLING FEE 1 @ $ 5.00",
+      "category": null,
+      "note": "OVERDRAFT HANDLING FEE 1 @ $ 5.00"
+    },
+    {
+      "id": "rbc-2025-08-25-online_banking_transfer_-_9751--65",
+      "date": "2025-08-25",
+      "direction": "IN",
+      "amount": 65,
+      "currency": "CAD",
+      "merchant": "ONLINE BANKING TRANSFER - 9751",
+      "category": null,
+      "note": "ONLINE BANKING TRANSFER - 9751"
+    },
+    {
+      "id": "rbc-2025-09-02-visa_debit_purchase_-_8793_amazon_web_serv--27",
+      "date": "2025-09-02",
+      "direction": "OUT",
+      "amount": 27,
+      "currency": "CAD",
+      "merchant": "VISA DEBIT PURCHASE - 8793 AMAZON WEB SERV",
+      "category": null,
+      "note": "VISA DEBIT PURCHASE - 8793 AMAZON WEB SERV"
+    },
+    {
+      "id": "rbc-2025-09-05-monthly_fee--4",
+      "date": "2025-09-05",
+      "direction": "OUT",
+      "amount": 4,
+      "currency": "CAD",
+      "merchant": "MONTHLY FEE",
+      "category": null,
+      "note": "MONTHLY FEE"
+    },
+    {
+      "id": "rbc-2025-09-17-overdraft_interest--0",
+      "date": "2025-09-17",
+      "direction": "OUT",
+      "amount": 0,
+      "currency": "CAD",
+      "merchant": "OVERDRAFT INTEREST",
+      "category": null,
+      "note": "OVERDRAFT INTEREST"
+    },
+    {
+      "id": "rbc-2025-09-17-fees/dues_planet_fitness--23",
+      "date": "2025-09-17",
+      "direction": "OUT",
+      "amount": 23,
+      "currency": "CAD",
+      "merchant": "FEES/DUES PLANET FITNESS",
+      "category": null,
+      "note": "FEES/DUES PLANET FITNESS"
+    },
+    {
+      "id": "rbc-2025-09-18-overdraft_handling_fee_1_@_$_5.00--5",
+      "date": "2025-09-18",
+      "direction": "OUT",
+      "amount": 5,
+      "currency": "CAD",
+      "merchant": "OVERDRAFT HANDLING FEE 1 @ $ 5.00",
+      "category": null,
+      "note": "OVERDRAFT HANDLING FEE 1 @ $ 5.00"
+    },
+    {
+      "id": "rbc-2025-10-06-monthly_fee--4",
+      "date": "2025-10-06",
+      "direction": "OUT",
+      "amount": 4,
+      "currency": "CAD",
+      "merchant": "MONTHLY FEE",
+      "category": null,
+      "note": "MONTHLY FEE"
+    },
+    {
+      "id": "rbc-2025-10-08-online_banking_transfer_-_3530--60",
+      "date": "2025-10-08",
+      "direction": "IN",
+      "amount": 60,
+      "currency": "CAD",
+      "merchant": "ONLINE BANKING TRANSFER - 3530",
+      "category": null,
+      "note": "ONLINE BANKING TRANSFER - 3530"
+    },
+    {
+      "id": "rbc-2025-10-09-visa_debit_purchase_-_4874_amazon_web_serv--5",
+      "date": "2025-10-09",
+      "direction": "OUT",
+      "amount": 5,
+      "currency": "CAD",
+      "merchant": "VISA DEBIT PURCHASE - 4874 AMAZON WEB SERV",
+      "category": null,
+      "note": "VISA DEBIT PURCHASE - 4874 AMAZON WEB SERV"
+    },
+    {
+      "id": "rbc-2025-10-17-overdraft_interest--0",
+      "date": "2025-10-17",
+      "direction": "OUT",
+      "amount": 0,
+      "currency": "CAD",
+      "merchant": "OVERDRAFT INTEREST",
+      "category": null,
+      "note": "OVERDRAFT INTEREST"
+    },
+    {
+      "id": "rbc-2025-10-17-fees/dues_planet_fitness--23",
+      "date": "2025-10-17",
+      "direction": "OUT",
+      "amount": 23,
+      "currency": "CAD",
+      "merchant": "FEES/DUES PLANET FITNESS",
+      "category": null,
+      "note": "FEES/DUES PLANET FITNESS"
+    },
+    {
+      "id": "rbc-2025-11-06-monthly_fee--4",
+      "date": "2025-11-06",
+      "direction": "OUT",
+      "amount": 4,
+      "currency": "CAD",
+      "merchant": "MONTHLY FEE",
+      "category": null,
+      "note": "MONTHLY FEE"
+    },
+    {
+      "id": "rbc-2025-11-17-fees/dues_planet_fitness--23",
+      "date": "2025-11-17",
+      "direction": "OUT",
+      "amount": 23,
+      "currency": "CAD",
+      "merchant": "FEES/DUES PLANET FITNESS",
+      "category": null,
+      "note": "FEES/DUES PLANET FITNESS"
+    },
+    {
+      "id": "rbc-2025-11-18-overdraft_handling_fee_1_@_$_5.00--5",
+      "date": "2025-11-18",
+      "direction": "OUT",
+      "amount": 5,
+      "currency": "CAD",
+      "merchant": "OVERDRAFT HANDLING FEE 1 @ $ 5.00",
+      "category": null,
+      "note": "OVERDRAFT HANDLING FEE 1 @ $ 5.00"
+    },
+    {
+      "id": "rbc-2025-11-25-online_banking_transfer_-_1014--100",
+      "date": "2025-11-25",
+      "direction": "IN",
+      "amount": 100,
+      "currency": "CAD",
+      "merchant": "ONLINE BANKING TRANSFER - 1014",
+      "category": null,
+      "note": "ONLINE BANKING TRANSFER - 1014"
+    },
+    {
+      "id": "rbc-2025-11-28-contactless_interac_purchase_-_1261_sq_*field_trip--5",
+      "date": "2025-11-28",
+      "direction": "OUT",
+      "amount": 5,
+      "currency": "CAD",
+      "merchant": "CONTACTLESS INTERAC PURCHASE - 1261 SQ *FIELD TRIP",
+      "category": null,
+      "note": "CONTACTLESS INTERAC PURCHASE - 1261 SQ *FIELD TRIP"
+    },
+    {
+      "id": "rbc-2025-12-01-contactless_interac_purchase_-_1627_future_bistro--3",
+      "date": "2025-12-01",
+      "direction": "OUT",
+      "amount": 3,
+      "currency": "CAD",
+      "merchant": "CONTACTLESS INTERAC PURCHASE - 1627 FUTURE BISTRO",
+      "category": null,
+      "note": "CONTACTLESS INTERAC PURCHASE - 1627 FUTURE BISTRO"
+    },
+    {
+      "id": "rbc-2025-12-02-visa_debit_purchase_-_6310_amazon_web_serv--28",
+      "date": "2025-12-02",
+      "direction": "OUT",
+      "amount": 28,
+      "currency": "CAD",
+      "merchant": "VISA DEBIT PURCHASE - 6310 AMAZON WEB SERV",
+      "category": null,
+      "note": "VISA DEBIT PURCHASE - 6310 AMAZON WEB SERV"
+    },
+    {
+      "id": "rbc-2025-12-04-contactless_interac_purchase_-_4050_sq_*goldstruck--5",
+      "date": "2025-12-04",
+      "direction": "OUT",
+      "amount": 5,
+      "currency": "CAD",
+      "merchant": "CONTACTLESS INTERAC PURCHASE - 4050 SQ *GOLDSTRUCK",
+      "category": null,
+      "note": "CONTACTLESS INTERAC PURCHASE - 4050 SQ *GOLDSTRUCK"
+    },
+    {
+      "id": "rbc-2025-12-05-monthly_fee--4",
+      "date": "2025-12-05",
+      "direction": "OUT",
+      "amount": 4,
+      "currency": "CAD",
+      "merchant": "MONTHLY FEE",
+      "category": null,
+      "note": "MONTHLY FEE"
+    },
+    {
+      "id": "rbc-2025-12-08-contactless_interac_purchase_-_4480_sq_*the_loveles--4",
+      "date": "2025-12-08",
+      "direction": "OUT",
+      "amount": 4,
+      "currency": "CAD",
+      "merchant": "CONTACTLESS INTERAC PURCHASE - 4480 SQ *THE LOVELES",
+      "category": null,
+      "note": "CONTACTLESS INTERAC PURCHASE - 4480 SQ *THE LOVELES"
+    },
+    {
+      "id": "rbc-2025-12-08-contactless_interac_purchase_-_4068_tim_hortons_#31--2",
+      "date": "2025-12-08",
+      "direction": "OUT",
+      "amount": 2,
+      "currency": "CAD",
+      "merchant": "CONTACTLESS INTERAC PURCHASE - 4068 TIM HORTONS #31",
+      "category": null,
+      "note": "CONTACTLESS INTERAC PURCHASE - 4068 TIM HORTONS #31"
+    },
+    {
+      "id": "rbc-2025-12-12-contactless_interac_purchase_-_5824_sq_*the_loveles--4",
+      "date": "2025-12-12",
+      "direction": "OUT",
+      "amount": 4,
+      "currency": "CAD",
+      "merchant": "CONTACTLESS INTERAC PURCHASE - 5824 SQ *THE LOVELES",
+      "category": null,
+      "note": "CONTACTLESS INTERAC PURCHASE - 5824 SQ *THE LOVELES"
+    },
+    {
+      "id": "rbc-2025-12-17-overdraft_interest--0",
+      "date": "2025-12-17",
+      "direction": "OUT",
+      "amount": 0,
+      "currency": "CAD",
+      "merchant": "OVERDRAFT INTEREST",
+      "category": null,
+      "note": "OVERDRAFT INTEREST"
+    },
+    {
+      "id": "rbc-2025-12-17-fees/dues_planet_fitness--23",
+      "date": "2025-12-17",
+      "direction": "OUT",
+      "amount": 23,
+      "currency": "CAD",
+      "merchant": "FEES/DUES PLANET FITNESS",
+      "category": null,
+      "note": "FEES/DUES PLANET FITNESS"
+    },
+    {
+      "id": "rbc-2025-12-18-overdraft_handling_fee_1_@_$_5.00--5",
+      "date": "2025-12-18",
+      "direction": "OUT",
+      "amount": 5,
+      "currency": "CAD",
+      "merchant": "OVERDRAFT HANDLING FEE 1 @ $ 5.00",
+      "category": null,
+      "note": "OVERDRAFT HANDLING FEE 1 @ $ 5.00"
+    },
+    {
+      "id": "rbc-2025-12-23-online_banking_transfer_-_9822--30",
+      "date": "2025-12-23",
+      "direction": "IN",
+      "amount": 30,
+      "currency": "CAD",
+      "merchant": "ONLINE BANKING TRANSFER - 9822",
+      "category": null,
+      "note": "ONLINE BANKING TRANSFER - 9822"
+    },
+    {
+      "id": "rbc-2026-01-02-visa_debit_purchase_-_4210_amazon_web_serv--5",
+      "date": "2026-01-02",
+      "direction": "OUT",
+      "amount": 5,
+      "currency": "CAD",
+      "merchant": "VISA DEBIT PURCHASE - 4210 AMAZON WEB SERV",
+      "category": null,
+      "note": "VISA DEBIT PURCHASE - 4210 AMAZON WEB SERV"
+    },
+    {
+      "id": "rbc-2026-01-06-monthly_fee--4",
+      "date": "2026-01-06",
+      "direction": "OUT",
+      "amount": 4,
+      "currency": "CAD",
+      "merchant": "MONTHLY FEE",
+      "category": null,
+      "note": "MONTHLY FEE"
+    },
+    {
+      "id": "rbc-2026-01-12-online_banking_transfer_-_1022--20",
+      "date": "2026-01-12",
+      "direction": "IN",
+      "amount": 20,
+      "currency": "CAD",
+      "merchant": "ONLINE BANKING TRANSFER - 1022",
+      "category": null,
+      "note": "ONLINE BANKING TRANSFER - 1022"
+    },
+    {
+      "id": "rbc-2026-01-19-overdraft_interest--0",
+      "date": "2026-01-19",
+      "direction": "OUT",
+      "amount": 0,
+      "currency": "CAD",
+      "merchant": "OVERDRAFT INTEREST",
+      "category": null,
+      "note": "OVERDRAFT INTEREST"
+    },
+    {
+      "id": "rbc-2026-01-19-fees/dues_planet_fitness--23",
+      "date": "2026-01-19",
+      "direction": "OUT",
+      "amount": 23,
+      "currency": "CAD",
+      "merchant": "FEES/DUES PLANET FITNESS",
+      "category": null,
+      "note": "FEES/DUES PLANET FITNESS"
+    },
+    {
+      "id": "rbc-2026-02-02-fees/dues_planet_fitness--44",
+      "date": "2026-02-02",
+      "direction": "OUT",
+      "amount": 44,
+      "currency": "CAD",
+      "merchant": "FEES/DUES PLANET FITNESS",
+      "category": null,
+      "note": "FEES/DUES PLANET FITNESS"
+    },
+    {
+      "id": "rbc-2026-02-03-overdraft_handling_fee_1_@_$_5.00--5",
+      "date": "2026-02-03",
+      "direction": "OUT",
+      "amount": 5,
+      "currency": "CAD",
+      "merchant": "OVERDRAFT HANDLING FEE 1 @ $ 5.00",
+      "category": null,
+      "note": "OVERDRAFT HANDLING FEE 1 @ $ 5.00"
+    },
+    {
+      "id": "rbc-2026-02-06-monthly_fee--4",
+      "date": "2026-02-06",
+      "direction": "OUT",
+      "amount": 4,
+      "currency": "CAD",
+      "merchant": "MONTHLY FEE",
+      "category": null,
+      "note": "MONTHLY FEE"
+    },
+    {
+      "id": "rbc-2026-02-16-online_banking_transfer_-_2369--90",
+      "date": "2026-02-16",
+      "direction": "IN",
+      "amount": 90,
+      "currency": "CAD",
+      "merchant": "ONLINE BANKING TRANSFER - 2369",
+      "category": null,
+      "note": "ONLINE BANKING TRANSFER - 2369"
+    },
+    {
+      "id": "rbc-2026-02-17-overdraft_interest--0",
+      "date": "2026-02-17",
+      "direction": "OUT",
+      "amount": 0,
+      "currency": "CAD",
+      "merchant": "OVERDRAFT INTEREST",
+      "category": null,
+      "note": "OVERDRAFT INTEREST"
+    },
+    {
+      "id": "rbc-2026-02-17-fees/dues_planet_fitness--23",
+      "date": "2026-02-17",
+      "direction": "OUT",
+      "amount": 23,
+      "currency": "CAD",
+      "merchant": "FEES/DUES PLANET FITNESS",
+      "category": null,
+      "note": "FEES/DUES PLANET FITNESS"
+    },
+    {
+      "id": "rbc-2026-03-06-monthly_fee--4",
+      "date": "2026-03-06",
+      "direction": "OUT",
+      "amount": 4,
+      "currency": "CAD",
+      "merchant": "MONTHLY FEE",
+      "category": null,
+      "note": "MONTHLY FEE"
+    },
+    {
+      "id": "rbc-2026-03-10-deposit_interest--0",
+      "date": "2026-03-10",
+      "direction": "IN",
+      "amount": 0,
+      "currency": "CAD",
+      "merchant": "DEPOSIT INTEREST",
+      "category": null,
+      "note": "DEPOSIT INTEREST"
+    },
+    {
+      "id": "rbc-2026-03-10-rev_extra_debit--1",
+      "date": "2026-03-10",
+      "direction": "IN",
+      "amount": 1,
+      "currency": "CAD",
+      "merchant": "REV EXTRA DEBIT",
+      "category": null,
+      "note": "REV EXTRA DEBIT"
+    },
+    {
+      "id": "rbc-2026-03-17-fees/dues_planet_fitness--23",
+      "date": "2026-03-17",
+      "direction": "OUT",
+      "amount": 23,
+      "currency": "CAD",
+      "merchant": "FEES/DUES PLANET FITNESS",
+      "category": null,
+      "note": "FEES/DUES PLANET FITNESS"
+    },
+    {
+      "id": "rbc-2026-04-06-monthly_fee--4",
+      "date": "2026-04-06",
+      "direction": "OUT",
+      "amount": 4,
+      "currency": "CAD",
+      "merchant": "MONTHLY FEE",
+      "category": null,
+      "note": "MONTHLY FEE"
+    },
+    {
+      "id": "rbc-2026-04-17-overdraft_interest--0",
+      "date": "2026-04-17",
+      "direction": "OUT",
+      "amount": 0,
+      "currency": "CAD",
+      "merchant": "OVERDRAFT INTEREST",
+      "category": null,
+      "note": "OVERDRAFT INTEREST"
+    },
+    {
+      "id": "rbc-2026-04-17-fees/dues_planet_fitness--23",
+      "date": "2026-04-17",
+      "direction": "OUT",
+      "amount": 23,
+      "currency": "CAD",
+      "merchant": "FEES/DUES PLANET FITNESS",
+      "category": null,
+      "note": "FEES/DUES PLANET FITNESS"
+    },
+    {
+      "id": "rbc-2026-04-20-overdraft_handling_fee_1_@_$_5.00--5",
+      "date": "2026-04-20",
+      "direction": "OUT",
+      "amount": 5,
+      "currency": "CAD",
+      "merchant": "OVERDRAFT HANDLING FEE 1 @ $ 5.00",
+      "category": null,
+      "note": "OVERDRAFT HANDLING FEE 1 @ $ 5.00"
+    },
+    {
+      "id": "rbc-2026-04-22-online_banking_transfer_-_4715--60",
+      "date": "2026-04-22",
+      "direction": "IN",
+      "amount": 60,
+      "currency": "CAD",
+      "merchant": "ONLINE BANKING TRANSFER - 4715",
+      "category": null,
+      "note": "ONLINE BANKING TRANSFER - 4715"
+    },
+    {
+      "id": "rbc-2026-05-06-monthly_fee--4",
+      "date": "2026-05-06",
+      "direction": "OUT",
+      "amount": 4,
+      "currency": "CAD",
+      "merchant": "MONTHLY FEE",
+      "category": null,
+      "note": "MONTHLY FEE"
+    },
+    {
+      "id": "rbc-2026-05-19-fees/dues_planet_fitness--23",
+      "date": "2026-05-19",
+      "direction": "OUT",
+      "amount": 23,
+      "currency": "CAD",
+      "merchant": "FEES/DUES PLANET FITNESS",
+      "category": null,
+      "note": "FEES/DUES PLANET FITNESS"
+    },
+    {
+      "id": "rbc-2026-05-20-overdraft_interest--0",
+      "date": "2026-05-20",
+      "direction": "OUT",
+      "amount": 0,
+      "currency": "CAD",
+      "merchant": "OVERDRAFT INTEREST",
+      "category": null,
+      "note": "OVERDRAFT INTEREST"
+    },
+    {
+      "id": "rbc-2026-06-05-monthly_fee--4",
+      "date": "2026-06-05",
+      "direction": "OUT",
+      "amount": 4,
+      "currency": "CAD",
+      "merchant": "MONTHLY FEE",
+      "category": null,
+      "note": "MONTHLY FEE"
+    },
+    {
+      "id": "rbc-2026-06-15-online_banking_transfer_-_7861--50",
+      "date": "2026-06-15",
+      "direction": "IN",
+      "amount": 50,
+      "currency": "CAD",
+      "merchant": "ONLINE BANKING TRANSFER - 7861",
+      "category": null,
+      "note": "ONLINE BANKING TRANSFER - 7861"
+    },
+    {
+      "id": "rbc-2026-06-17-overdraft_interest--0",
+      "date": "2026-06-17",
+      "direction": "OUT",
+      "amount": 0,
+      "currency": "CAD",
+      "merchant": "OVERDRAFT INTEREST",
+      "category": null,
+      "note": "OVERDRAFT INTEREST"
+    },
+    {
+      "id": "rbc-2026-06-17-fees/dues_planet_fitness--23",
+      "date": "2026-06-17",
+      "direction": "OUT",
+      "amount": 23,
+      "currency": "CAD",
+      "merchant": "FEES/DUES PLANET FITNESS",
+      "category": null,
+      "note": "FEES/DUES PLANET FITNESS"
+    },
+    {
+      "id": "rbc-2026-06-18-misc_payment_paypal--268",
+      "date": "2026-06-18",
+      "direction": "IN",
+      "amount": 268,
+      "currency": "CAD",
+      "merchant": "MISC PAYMENT PAYPAL",
+      "category": null,
+      "note": "MISC PAYMENT PAYPAL"
+    }
+  ]
 }
