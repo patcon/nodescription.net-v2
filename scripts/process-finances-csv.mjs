@@ -55,7 +55,7 @@ function processWise(lines, COL) {
   if (existsSync(OUTPUT_PATH)) existing = JSON.parse(readFileSync(OUTPUT_PATH, 'utf8'));
   const existingById = Object.fromEntries(existing.transactions.map(t => [t.id, t]));
 
-  const transactions = [];
+  const rawTransactions = [];
   for (let i = 1; i < lines.length; i++) {
     const line = lines[i].trim();
     if (!line) continue;
@@ -67,21 +67,40 @@ function processWise(lines, COL) {
     const date = row[COL['Created on']]?.trim().slice(0, 10);
     if (sinceDate && date < sinceDate) continue;
 
+    const currency = row[COL['Source currency']]?.trim();
     const rawAmount = parseFloat(row[COL['Source amount (after fees)']] || '0');
-    const prev = existingById[id];
-    transactions.push({
+    rawTransactions.push({
       id,
       date,
       direction: row[COL['Direction']]?.trim(),
       amount: Math.round(Math.abs(rawAmount)),
-      currency: row[COL['Source currency']]?.trim(),
+      currency,
       merchant: (row[COL['Target name']]?.trim() || row[COL['Reference']]?.trim() || '').slice(0, 60),
-      category: prev?.category ?? (row[COL['Category']]?.trim() || null),
+      category: row[COL['Category']]?.trim() || null,
       note: row[COL['Note']]?.trim() || null,
     });
   }
 
-  const merged = mergeTransactions(existing.transactions, transactions);
+  // Wise reuses the same ID for split payments across multiple currency accounts.
+  // Detect those and suffix the ID with the currency so both rows are preserved.
+  const idCounts = {};
+  for (const t of rawTransactions) idCounts[t.id] = (idCounts[t.id] || 0) + 1;
+  const disambiguatedBaseIds = new Set(Object.keys(idCounts).filter(id => idCounts[id] > 1));
+
+  const transactions = rawTransactions.map(t => {
+    const disambiguatedId = idCounts[t.id] > 1 ? `${t.id}-${t.currency}` : t.id;
+    // Prefer category from existing data; fall back on the unsuffixed id for migration
+    // of entries that were saved before this disambiguation was introduced.
+    const prev = existingById[disambiguatedId] ?? existingById[t.id];
+    return { ...t, id: disambiguatedId, category: prev?.category ?? t.category };
+  });
+
+  // Drop legacy unsuffixed entries that have now been replaced by suffixed versions,
+  // so we don't end up with both the old un-suffixed and new suffixed rows.
+  // Category is already preserved above via the existingById[t.id] fallback.
+  const cleanedExisting = existing.transactions.filter(t => !disambiguatedBaseIds.has(t.id));
+
+  const merged = mergeTransactions(cleanedExisting, transactions);
   writeFileSync(OUTPUT_PATH, JSON.stringify({ ...existing, transactions: merged }, null, 2) + '\n');
   console.log(`Wrote ${merged.length} Wise transactions to ${OUTPUT_PATH} (${transactions.length} from CSV, ${merged.length - transactions.length} preserved from prior runs)`);
   console.log('Remember to update balances and balance_updated manually in the JSON file.');

@@ -6,7 +6,8 @@
     "dev": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
-    "astro": "astro"
+    "astro": "astro",
+    "process-csv": "node scripts/process-finances-csv.mjs"
   },
   "dependencies": {
     "@astrojs/mdx": "^4.3.0",

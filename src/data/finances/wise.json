@@ -8,6 +8,16 @@
   "balance_updated": "2026-06-19",
   "transactions": [
     {
+      "id": "CARD_TRANSACTION-3950177430",
+      "date": "2026-06-20",
+      "direction": "OUT",
+      "amount": 4,
+      "currency": "EUR",
+      "merchant": "FreshCo",
+      "category": "Groceries",
+      "note": null
+    },
+    {
       "id": "CARD_TRANSACTION-3944000803",
       "date": "2026-06-19",
       "direction": "OUT",
@@ -15,6 +25,36 @@
       "currency": "EUR",
       "merchant": "Tim Hortons",
       "category": "Cafe Rent",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3945671233",
+      "date": "2026-06-19",
+      "direction": "OUT",
+      "amount": 4,
+      "currency": "EUR",
+      "merchant": "Dufferin Grove Park",
+      "category": "Eating out",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3945476604",
+      "date": "2026-06-19",
+      "direction": "OUT",
+      "amount": 3,
+      "currency": "EUR",
+      "merchant": "FreshCo",
+      "category": "Groceries",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3944525293",
+      "date": "2026-06-19",
+      "direction": "OUT",
+      "amount": 4,
+      "currency": "EUR",
+      "merchant": "Abc P 00969 Pf Galleria",
+      "category": "Shopping",
       "note": null
     },
     {
@@ -508,7 +548,7 @@
       "note": null
     },
     {
-      "id": "CARD_TRANSACTION-3834061790",
+      "id": "CARD_TRANSACTION-3834061790-GBP",
       "date": "2026-05-24",
       "direction": "OUT",
       "amount": 17,
@@ -518,7 +558,7 @@
       "note": null
     },
     {
-      "id": "CARD_TRANSACTION-3834061790",
+      "id": "CARD_TRANSACTION-3834061790-EUR",
       "date": "2026-05-24",
       "direction": "OUT",
       "amount": 0,
@@ -1108,7 +1148,17 @@
       "note": null
     },
     {
-      "id": "CARD_TRANSACTION-3732542888",
+      "id": "CARD_TRANSACTION-3732246354",
+      "date": "2026-04-30",
+      "direction": "OUT",
+      "amount": 8,
+      "currency": "USD",
+      "merchant": "Detox Deli & Grill",
+      "category": "Eating out",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3732542888-USD",
       "date": "2026-04-30",
       "direction": "OUT",
       "amount": 14,
@@ -1118,23 +1168,13 @@
       "note": null
     },
     {
-      "id": "CARD_TRANSACTION-3732542888",
+      "id": "CARD_TRANSACTION-3732542888-GBP",
       "date": "2026-04-30",
       "direction": "OUT",
       "amount": 11,
       "currency": "GBP",
       "merchant": "Nostrand Avenue Pub",
       "category": "Social",
-      "note": null
-    },
-    {
-      "id": "CARD_TRANSACTION-3732246354",
-      "date": "2026-04-30",
-      "direction": "OUT",
-      "amount": 8,
-      "currency": "USD",
-      "merchant": "Detox Deli & Grill",
-      "category": "Eating out",
       "note": null
     },
     {
@@ -1494,7 +1534,7 @@
       "amount": 4,
       "currency": "EUR",
       "merchant": "Brothers Discount",
-      "category": null,
+      "category": "Shopping",
       "note": null
     },
     {
@@ -1578,7 +1618,7 @@
       "note": null
     },
     {
-      "id": "CARD_TRANSACTION-3662770926",
+      "id": "CARD_TRANSACTION-3662770926-GBP",
       "date": "2026-04-12",
       "direction": "OUT",
       "amount": 10,
@@ -1588,7 +1628,7 @@
       "note": null
     },
     {
-      "id": "CARD_TRANSACTION-3662770926",
+      "id": "CARD_TRANSACTION-3662770926-EUR",
       "date": "2026-04-12",
       "direction": "OUT",
       "amount": 9,
@@ -1898,7 +1938,7 @@
       "note": null
     },
     {
-      "id": "CARD_TRANSACTION-3590229838",
+      "id": "CARD_TRANSACTION-3590229838-CAD",
       "date": "2026-03-24",
       "direction": "OUT",
       "amount": 4,
@@ -1908,7 +1948,7 @@
       "note": null
     },
     {
-      "id": "CARD_TRANSACTION-3590229838",
+      "id": "CARD_TRANSACTION-3590229838-GBP",
       "date": "2026-03-24",
       "direction": "OUT",
       "amount": 416,
@@ -2248,7 +2288,17 @@
       "note": null
     },
     {
-      "id": "CARD_TRANSACTION-3527169253",
+      "id": "TRANSFER-2008765606",
+      "date": "2026-03-06",
+      "direction": "IN",
+      "amount": 900,
+      "currency": "GBP",
+      "merchant": "Patrick Cahill Connolly",
+      "category": "Money added",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3527169253-USD",
       "date": "2026-03-06",
       "direction": "OUT",
       "amount": 100,
@@ -2258,7 +2308,7 @@
       "note": null
     },
     {
-      "id": "CARD_TRANSACTION-3527169253",
+      "id": "CARD_TRANSACTION-3527169253-CAD",
       "date": "2026-03-06",
       "direction": "OUT",
       "amount": 9,
@@ -2268,23 +2318,13 @@
       "note": null
     },
     {
-      "id": "CARD_TRANSACTION-3527169253",
+      "id": "CARD_TRANSACTION-3527169253-GBP",
       "date": "2026-03-06",
       "direction": "OUT",
       "amount": 40,
       "currency": "GBP",
       "merchant": "Medipac Travel Insurance",
       "category": "Bills",
-      "note": null
-    },
-    {
-      "id": "TRANSFER-2008765606",
-      "date": "2026-03-06",
-      "direction": "IN",
-      "amount": 900,
-      "currency": "GBP",
-      "merchant": "Patrick Cahill Connolly",
-      "category": "Money added",
       "note": null
     },
     {
@@ -2398,7 +2438,17 @@
       "note": null
     },
     {
-      "id": "CARD_TRANSACTION-3479160517",
+      "id": "TRANSFER-1983705396",
+      "date": "2026-02-21",
+      "direction": "IN",
+      "amount": 100,
+      "currency": "CAD",
+      "merchant": "Patrick Cahill Connolly",
+      "category": "Money added",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3479160517-CAD",
       "date": "2026-02-21",
       "direction": "OUT",
       "amount": 16,
@@ -2408,23 +2458,13 @@
       "note": null
     },
     {
-      "id": "CARD_TRANSACTION-3479160517",
+      "id": "CARD_TRANSACTION-3479160517-GBP",
       "date": "2026-02-21",
       "direction": "OUT",
       "amount": 4,
       "currency": "GBP",
       "merchant": "Uber Eats",
       "category": "Eating out",
-      "note": null
-    },
-    {
-      "id": "TRANSFER-1983705396",
-      "date": "2026-02-21",
-      "direction": "IN",
-      "amount": 100,
-      "currency": "CAD",
-      "merchant": "Patrick Cahill Connolly",
-      "category": "Money added",
       "note": null
     },
     {
@@ -3018,7 +3058,7 @@
       "note": null
     },
     {
-      "id": "CARD_TRANSACTION-3335244813",
+      "id": "CARD_TRANSACTION-3335244813-CAD",
       "date": "2026-01-12",
       "direction": "OUT",
       "amount": 34,
@@ -3028,7 +3068,7 @@
       "note": null
     },
     {
-      "id": "CARD_TRANSACTION-3335244813",
+      "id": "CARD_TRANSACTION-3335244813-GBP",
       "date": "2026-01-12",
       "direction": "OUT",
       "amount": 3,
@@ -3058,7 +3098,7 @@
       "note": null
     },
     {
-      "id": "CARD_TRANSACTION-3208059602",
+      "id": "CARD_TRANSACTION-3208059602-USD",
       "date": "2025-12-08",
       "direction": "OUT",
       "amount": 0,
@@ -3068,7 +3108,7 @@
       "note": null
     },
     {
-      "id": "CARD_TRANSACTION-3208059602",
+      "id": "CARD_TRANSACTION-3208059602-CAD",
       "date": "2025-12-08",
       "direction": "OUT",
       "amount": 31,
@@ -3298,7 +3338,17 @@
       "note": null
     },
     {
-      "id": "CARD_TRANSACTION-3100000204",
+      "id": "CARD_TRANSACTION-3099514233",
+      "date": "2025-11-08",
+      "direction": "OUT",
+      "amount": 16,
+      "currency": "CAD",
+      "merchant": "Ls I Deal Coffee",
+      "category": "Eating out",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3100000204-CAD",
       "date": "2025-11-08",
       "direction": "OUT",
       "amount": 27,
@@ -3308,23 +3358,13 @@
       "note": null
     },
     {
-      "id": "CARD_TRANSACTION-3100000204",
+      "id": "CARD_TRANSACTION-3100000204-GBP",
       "date": "2025-11-08",
       "direction": "OUT",
       "amount": 3,
       "currency": "GBP",
       "merchant": "Anthropic",
       "category": "Shopping",
-      "note": null
-    },
-    {
-      "id": "CARD_TRANSACTION-3099514233",
-      "date": "2025-11-08",
-      "direction": "OUT",
-      "amount": 16,
-      "currency": "CAD",
-      "merchant": "Ls I Deal Coffee",
-      "category": "Eating out",
       "note": null
     },
     {
@@ -3448,26 +3488,6 @@
       "note": null
     },
     {
-      "id": "CARD_TRANSACTION-3083962490",
-      "date": "2025-11-04",
-      "direction": "OUT",
-      "amount": 0,
-      "currency": "GBP",
-      "merchant": "Doctorsa",
-      "category": "Personal care",
-      "note": null
-    },
-    {
-      "id": "CARD_TRANSACTION-3083962490",
-      "date": "2025-11-04",
-      "direction": "OUT",
-      "amount": 45,
-      "currency": "EUR",
-      "merchant": "Doctorsa",
-      "category": "Personal care",
-      "note": null
-    },
-    {
       "id": "TRANSFER-1803568687",
       "date": "2025-11-04",
       "direction": "IN",
@@ -3485,6 +3505,26 @@
       "currency": "GBP",
       "merchant": "Patrick Cahill Connolly",
       "category": "Money added",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3083962490-GBP",
+      "date": "2025-11-04",
+      "direction": "OUT",
+      "amount": 0,
+      "currency": "GBP",
+      "merchant": "Doctorsa",
+      "category": "Personal care",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-3083962490-EUR",
+      "date": "2025-11-04",
+      "direction": "OUT",
+      "amount": 45,
+      "currency": "EUR",
+      "merchant": "Doctorsa",
+      "category": "Personal care",
       "note": null
     },
     {
@@ -4978,26 +5018,6 @@
       "note": null
     },
     {
-      "id": "CARD_TRANSACTION-2903677285",
-      "date": "2025-09-15",
-      "direction": "OUT",
-      "amount": 4,
-      "currency": "USD",
-      "merchant": "Namecheap.com",
-      "category": "Bills",
-      "note": null
-    },
-    {
-      "id": "CARD_TRANSACTION-2903677285",
-      "date": "2025-09-15",
-      "direction": "OUT",
-      "amount": 1,
-      "currency": "EUR",
-      "merchant": "Namecheap.com",
-      "category": "Bills",
-      "note": null
-    },
-    {
       "id": "CARD_TRANSACTION-2901029788",
       "date": "2025-09-15",
       "direction": "OUT",
@@ -5015,6 +5035,26 @@
       "currency": "USD",
       "merchant": "Loveless Cafe",
       "category": "Eating out",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-2903677285-USD",
+      "date": "2025-09-15",
+      "direction": "OUT",
+      "amount": 4,
+      "currency": "USD",
+      "merchant": "Namecheap.com",
+      "category": "Bills",
+      "note": null
+    },
+    {
+      "id": "CARD_TRANSACTION-2903677285-EUR",
+      "date": "2025-09-15",
+      "direction": "OUT",
+      "amount": 1,
+      "currency": "EUR",
+      "merchant": "Namecheap.com",
+      "category": "Bills",
       "note": null
     },
     {
@@ -5958,7 +5998,7 @@
       "note": null
     },
     {
-      "id": "CARD_TRANSACTION-2701349172",
+      "id": "CARD_TRANSACTION-2701349172-USD",
       "date": "2025-07-19",
       "direction": "OUT",
       "amount": 39,
@@ -5968,7 +6008,7 @@
       "note": null
     },
     {
-      "id": "CARD_TRANSACTION-2701349172",
+      "id": "CARD_TRANSACTION-2701349172-EUR",
       "date": "2025-07-19",
       "direction": "OUT",
       "amount": 22,
@@ -5978,7 +6018,7 @@
       "note": null
     },
     {
-      "id": "CARD_TRANSACTION-2700324700",
+      "id": "CARD_TRANSACTION-2700324700-USD",
       "date": "2025-07-18",
       "direction": "OUT",
       "amount": 2,
@@ -5988,7 +6028,7 @@
       "note": null
     },
     {
-      "id": "CARD_TRANSACTION-2700324700",
+      "id": "CARD_TRANSACTION-2700324700-EUR",
       "date": "2025-07-18",
       "direction": "OUT",
       "amount": 2,
@@ -6689,4 +6729,3 @@
     }
   ]
 }
-
