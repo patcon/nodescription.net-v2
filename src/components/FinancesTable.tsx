@@ -39,6 +39,7 @@ const CATEGORIES = [
   'Cash',
   'Cafe Rent',
   'Social',
+  'Supporters',
 ] as const;
 
 function downloadJson(data: object, filename: string) {
