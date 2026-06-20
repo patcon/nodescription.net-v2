@@ -26,8 +26,8 @@ export default function FinancesChart({ data }: { data: MonthlyDataPoint[] }) {
         <YAxis tick={{ fontSize: 11, fill: '#6b7280' }} tickFormatter={(v: number) => `$${v}`} />
         <Tooltip formatter={(v: number) => `$${Math.abs(v)} CAD`} />
         <Legend wrapperStyle={{ fontSize: 12 }} />
-        <Bar dataKey="income" fill="#16a34a" name="Income" />
-        <Bar dataKey="expenses" fill="#dc2626" name="Expenses" />
+        <Bar dataKey="income" stackId="pnl" fill="#16a34a" name="Income" />
+        <Bar dataKey="expenses" stackId="pnl" fill="#dc2626" name="Expenses" />
         <Line
           type="monotone"
           dataKey="balance"
