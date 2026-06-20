@@ -1,0 +1,168 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import wiseData from '../../data/finances/wise.json';
+import rbcData from '../../data/finances/rbc.json';
+
+const DISPLAY_CURRENCY = 'CAD';
+
+// Fetch exchange rates at build time (from CAD, so rates[X] = how many X per 1 CAD)
+let toCadRates: Record<string, number> = {};
+try {
+  const res = await fetch(`https://api.frankfurter.app/latest?from=${DISPLAY_CURRENCY}`);
+  const data = await res.json();
+  toCadRates = data.rates ?? {};
+  toCadRates[DISPLAY_CURRENCY] = 1;
+} catch {
+  // Fallback: no conversion, show raw balances only
+}
+
+const convertToDisplay = (amount: number, currency: string): number => {
+  if (currency === DISPLAY_CURRENCY) return amount;
+  const rate = toCadRates[currency];
+  return rate ? Math.round(amount / rate) : 0;
+};
+
+// Wise account
+const wiseSubBalances = Object.entries(wiseData.balances).filter(([, amount]) => amount > 0);
+const wiseTotal = wiseSubBalances.reduce((sum, [currency, amount]) => sum + convertToDisplay(amount, currency), 0);
+
+// RBC account
+const rbcTotal = rbcData.sub_accounts.reduce((sum, a) => sum + convertToDisplay(a.amount, a.currency), 0);
+
+// Grand total
+const grandTotal = wiseTotal + rbcTotal;
+
+// Transactions (Wise only for now)
+const { transactions } = wiseData;
+const months = [...new Set(transactions.map(t => t.date?.slice(0, 7)))].sort().reverse();
+const lastMonth = months[0];
+const lastMonthLabel = lastMonth
+  ? new Date(lastMonth + '-01').toLocaleDateString('en-US', { month: 'long', year: 'numeric' })
+  : null;
+
+const lastMonthTxns = transactions.filter(t => t.date?.startsWith(lastMonth ?? ''));
+const lastMonthOut = lastMonthTxns.filter(t => t.direction === 'OUT');
+const lastMonthIn = lastMonthTxns.filter(t => t.direction === 'IN');
+
+const totalOut = lastMonthOut.reduce((sum, t) => sum + convertToDisplay(t.amount, t.currency), 0);
+const totalIn = lastMonthIn.reduce((sum, t) => sum + convertToDisplay(t.amount, t.currency), 0);
+
+const byCategory: Record<string, number> = {};
+for (const t of lastMonthOut) {
+  const cat = t.category ?? 'Uncategorized';
+  byCategory[cat] = (byCategory[cat] ?? 0) + convertToDisplay(t.amount, t.currency);
+}
+const categoryBreakdown = Object.entries(byCategory).sort((a, b) => b[1] - a[1]);
+---
+
+<BaseLayout title="Finances">
+  <div class="max-w-3xl">
+    <h1 class="text-3xl font-bold mb-1">Finances</h1>
+    <p class="text-gray-500 mb-8">Approximate balances and transactions, rounded to the nearest dollar.</p>
+
+    <!-- Grand Total -->
+    <div class="bg-white rounded-xl border border-gray-200 p-6 mb-4">
+      <p class="text-sm text-gray-500 uppercase tracking-wide mb-1">Total Balance</p>
+      <p class="text-4xl font-bold text-gray-900">${grandTotal} {DISPLAY_CURRENCY}</p>
+    </div>
+
+    <!-- Per-account sub-balances -->
+    <div class="grid grid-cols-2 gap-4 mb-8">
+      <!-- Wise -->
+      <div class="bg-white rounded-xl border border-gray-200 p-4">
+        <p class="text-xs text-gray-500 uppercase tracking-wide mb-1">Wise App</p>
+        <p class="text-xl font-semibold text-gray-800">${wiseTotal} {DISPLAY_CURRENCY}</p>
+        {wiseSubBalances.length > 0 && (
+          <p class="text-xs text-gray-400 mt-1">
+            {wiseSubBalances.map(([currency, amount], i) => (
+              <span>{i > 0 && ' · '}{amount} {currency}</span>
+            ))}
+          </p>
+        )}
+        {wiseData.balance_updated && (
+          <p class="text-xs text-gray-300 mt-1">Updated {wiseData.balance_updated}</p>
+        )}
+      </div>
+
+      <!-- RBC -->
+      <div class="bg-white rounded-xl border border-gray-200 p-4">
+        <p class="text-xs text-gray-500 uppercase tracking-wide mb-1">{rbcData.label}</p>
+        <p class="text-xl font-semibold text-gray-800">${rbcTotal} {DISPLAY_CURRENCY}</p>
+        <p class="text-xs text-gray-400 mt-1">
+          {rbcData.sub_accounts.map((a, i) => (
+            <span>{i > 0 && ' · '}{a.label} {a.amount}</span>
+          ))}
+        </p>
+        {rbcData.balance_updated && (
+          <p class="text-xs text-gray-300 mt-1">Updated {rbcData.balance_updated}</p>
+        )}
+      </div>
+    </div>
+
+    <!-- Last Month Summary -->
+    {lastMonth && (
+      <div class="bg-white rounded-xl border border-gray-200 p-6 mb-8">
+        <h2 class="text-lg font-semibold mb-4">{lastMonthLabel} Summary</h2>
+        <div class="flex gap-8 mb-4">
+          <div>
+            <p class="text-sm text-gray-500">Spent</p>
+            <p class="text-2xl font-bold text-red-600">${totalOut} {DISPLAY_CURRENCY}</p>
+          </div>
+          {totalIn > 0 && (
+            <div>
+              <p class="text-sm text-gray-500">Received</p>
+              <p class="text-2xl font-bold text="text-green-600">${totalIn} {DISPLAY_CURRENCY}</p>
+            </div>
+          )}
+        </div>
+        {categoryBreakdown.length > 0 && (
+          <div class="space-y-1">
+            {categoryBreakdown.map(([cat, amount]) => (
+              <div class="flex justify-between text-sm">
+                <span class="text-gray-600">{cat}</span>
+                <span class="font-mono text-gray-800">${amount} {DISPLAY_CURRENCY}</span>
+              </div>
+            ))}
+          </div>
+        )}
+      </div>
+    )}
+
+    <!-- Transaction Table (Wise) -->
+    {transactions.length > 0 ? (
+      <div class="bg-white rounded-xl border border-gray-200 overflow-hidden">
+        <h2 class="text-lg font-semibold p-6 pb-0">Transactions <span class="text-sm font-normal text-gray-400">(Wise)</span></h2>
+        <div class="overflow-x-auto mt-4">
+          <table class="w-full text-sm">
+            <thead class="bg-gray-50 border-y border-gray-200">
+              <tr>
+                <th class="text-left px-6 py-3 text-gray-500 font-medium">Date</th>
+                <th class="text-left px-4 py-3 text-gray-500 font-medium">Direction</th>
+                <th class="text-right px-4 py-3 text-gray-500 font-medium">Amount</th>
+                <th class="text-left px-4 py-3 text-gray-500 font-medium">Merchant</th>
+                <th class="text-left px-4 py-3 text-gray-500 font-medium hidden sm:table-cell">Category</th>
+              </tr>
+            </thead>
+            <tbody class="divide-y divide-gray-100">
+              {transactions.map(t => (
+                <tr class="hover:bg-gray-50">
+                  <td class="px-6 py-3 font-mono text-gray-500 whitespace-nowrap">{t.date}</td>
+                  <td class="px-4 py-3">
+                    <span class={`text-xs font-medium px-2 py-0.5 rounded-full ${t.direction === 'IN' ? 'bg-green-100 text-green-700' : 'bg-red-100 text-red-700'}`}>
+                      {t.direction}
+                    </span>
+                  </td>
+                  <td class="px-4 py-3 text-right font-mono">{t.amount} {t.currency}</td>
+                  <td class="px-4 py-3 text-gray-700 max-w-[200px] truncate">{t.merchant}</td>
+                  <td class="px-4 py-3 text-gray-500 hidden sm:table-cell">{t.category ?? '—'}</td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+      </div>
+    ) : (
+      <p class="text-gray-400 text-sm">No transactions yet. Run the import script to populate data.</p>
+    )}
+  </div>
+</BaseLayout>
