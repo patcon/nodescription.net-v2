@@ -1,12 +1,13 @@
 ---
+const base = import.meta.env.BASE_URL; // '/' in prod, '/pr-preview/pr-N/' in previews
 const links = [
-  { href: '/', label: 'Home' },
-  { href: '/about/', label: 'About' },
-  { href: '/finances/', label: 'Finances' },
-  { href: '/blog/', label: 'Blog' },
-  { href: '/notes/', label: 'Notes' },
-  { href: '/projects/', label: 'Projects' },
-  { href: '/now/', label: 'Now' },
+  { href: `${base}`, label: 'Home' },
+  { href: `${base}about/`, label: 'About' },
+  { href: `${base}finances/`, label: 'Finances' },
+  { href: `${base}blog/`, label: 'Blog' },
+  { href: `${base}notes/`, label: 'Notes' },
+  { href: `${base}projects/`, label: 'Projects' },
+  { href: `${base}now/`, label: 'Now' },
 ];
 
 const currentPath = Astro.url.pathname;
@@ -36,7 +37,7 @@ const currentPath = Astro.url.pathname;
         href={href}
         class:list={[
           'no-underline transition-colors',
-          currentPath === href || (href !== '/' && currentPath.startsWith(href))
+          currentPath === href || (href !== base && currentPath.startsWith(href))
             ? 'text-accent-600'
             : 'text-gray-500 hover:text-gray-900',
         ]}
@@ -55,7 +56,7 @@ const currentPath = Astro.url.pathname;
         href={href}
         class:list={[
           'no-underline transition-colors',
-          currentPath === href || (href !== '/' && currentPath.startsWith(href))
+          currentPath === href || (href !== base && currentPath.startsWith(href))
             ? 'text-accent-600'
             : 'text-gray-500 hover:text-gray-900',
         ]}
