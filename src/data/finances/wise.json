@@ -304,7 +304,7 @@
       "amount": 3,
       "currency": "EUR",
       "merchant": "Loveless Cafe",
-      "category": "Eating out",
+      "category": "Cafe Rent",
       "note": null
     },
     {
@@ -314,7 +314,7 @@
       "amount": 3,
       "currency": "EUR",
       "merchant": "Amazon Web Services",
-      "category": "Bills",
+      "category": "Digital Services",
       "note": null
     },
     {
@@ -324,7 +324,7 @@
       "amount": 20,
       "currency": "EUR",
       "merchant": "Google One",
-      "category": "Entertainment",
+      "category": "Digital Services",
       "note": null
     },
     {
@@ -334,7 +334,7 @@
       "amount": 6,
       "currency": "EUR",
       "merchant": "Trinity Common",
-      "category": "Eating out",
+      "category": "Social",
       "note": null
     },
     {
