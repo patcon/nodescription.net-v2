@@ -65,24 +65,29 @@ export default function FinancesDashboard({
       balance: convert(d.balance),
     }));
 
-  const altCurrencies: Currency[] = (['CAD', 'EUR', 'USD', 'GBP'] as Currency[]).filter(c => c !== currency);
+  const ALL_CURRENCIES: Currency[] = ['CAD', 'EUR', 'USD', 'GBP'];
 
   return (
     <>
       {/* Grand Total */}
       <div className="bg-white rounded-xl border border-gray-200 p-6 mb-4">
         <p className="text-sm text-gray-500 uppercase tracking-wide mb-1">Total Balance</p>
-        <p className="text-4xl font-bold text-gray-900">{sym}{convert(grandTotalCad)} {currency}</p>
-        <div className="flex gap-3 mt-2">
-          {altCurrencies.map(c => (
-            <button
-              key={c}
-              onClick={() => setCurrency(c)}
-              className="text-sm text-gray-400 hover:text-gray-700"
-            >
-              {c}
-            </button>
-          ))}
+        <div className="flex items-baseline gap-2">
+          <span className="text-4xl font-bold text-gray-900">{sym}{convert(grandTotalCad)}</span>
+          <div>
+            <div className="text-4xl font-bold text-gray-900 leading-none">{currency}</div>
+            <div className="flex gap-3 mt-1">
+              {ALL_CURRENCIES.map(c => (
+                <button
+                  key={c}
+                  onClick={() => setCurrency(c)}
+                  className={`text-sm font-bold ${c === currency ? 'text-gray-900' : 'text-gray-400 hover:text-gray-700'}`}
+                >
+                  {c}
+                </button>
+              ))}
+            </div>
+          </div>
         </div>
       </div>
 
