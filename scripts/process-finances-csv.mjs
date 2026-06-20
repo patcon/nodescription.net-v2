@@ -20,7 +20,18 @@ if (!csvPath) {
   process.exit(1);
 }
 
-const csv = readFileSync(resolve(csvPath), 'utf8');
+let csv;
+if (/^https?:\/\/drive\.google\.com\//.test(csvPath)) {
+  const fileId = csvPath.match(/\/file\/d\/([a-zA-Z0-9_-]+)/)?.[1];
+  if (!fileId) { console.error('Could not extract file ID from Google Drive URL.'); process.exit(1); }
+  const url = `https://drive.usercontent.google.com/download?id=${fileId}&export=download`;
+  const res = await fetch(url);
+  if (!res.ok) { console.error(`Failed to download from Google Drive: ${res.status} ${res.statusText}`); process.exit(1); }
+  csv = await res.text();
+  console.log(`Downloaded CSV from Google Drive (file ID: ${fileId})`);
+} else {
+  csv = readFileSync(resolve(csvPath), 'utf8');
+}
 const lines = csv.trim().split('\n');
 const headers = parseCSVLine(lines[0]);
 const COL = Object.fromEntries(headers.map((h, i) => [h.trim(), i]));
