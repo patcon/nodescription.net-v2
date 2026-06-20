@@ -133,7 +133,7 @@
       "currency": "CAD",
       "account_type": "chequing",
       "merchant": "ONLINE BANKING TRANSFER - 4715",
-      "category": null,
+      "category": "Account Transfer",
       "note": "ONLINE BANKING TRANSFER - 4715"
     },
     {
@@ -144,7 +144,7 @@
       "currency": "CAD",
       "account_type": "savings",
       "merchant": "ONLINE TRANSFER TO DEPOSIT ACCOUNT-4715",
-      "category": null,
+      "category": "Account Transfer",
       "note": "ONLINE TRANSFER TO DEPOSIT ACCOUNT-4715"
     },
     {
@@ -155,7 +155,7 @@
       "currency": "CAD",
       "account_type": "savings",
       "merchant": "E-TRANSFER SENT JIM ROOTHAM 5TWVS2",
-      "category": null,
+      "category": "Social",
       "note": "E-TRANSFER SENT JIM ROOTHAM 5TWVS2"
     },
     {
@@ -166,7 +166,7 @@
       "currency": "CAD",
       "account_type": "chequing",
       "merchant": "OVERDRAFT HANDLING FEE 1 @ $ 5.00",
-      "category": null,
+      "category": "Bills",
       "note": "OVERDRAFT HANDLING FEE 1 @ $ 5.00"
     },
     {
@@ -188,7 +188,7 @@
       "currency": "CAD",
       "account_type": "chequing",
       "merchant": "FEES/DUES PLANET FITNESS",
-      "category": null,
+      "category": "Fitness",
       "note": "FEES/DUES PLANET FITNESS"
     },
     {
@@ -199,7 +199,7 @@
       "currency": "CAD",
       "account_type": "savings",
       "merchant": "MONTHLY FEE",
-      "category": null,
+      "category": "Bills",
       "note": "MONTHLY FEE"
     },
     {
@@ -210,7 +210,7 @@
       "currency": "CAD",
       "account_type": "savings",
       "merchant": "E-TRANSFER - AUTODEPOSIT AMY CONNOLLY C1AS4YUM3GKG",
-      "category": null,
+      "category": "Gift",
       "note": "E-TRANSFER - AUTODEPOSIT AMY CONNOLLY C1AS4YUM3GKG"
     },
     {
