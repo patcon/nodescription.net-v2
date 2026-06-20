@@ -23,7 +23,7 @@
       "currency": "CAD",
       "account_type": "chequing",
       "merchant": "MISC PAYMENT PAYPAL",
-      "category": null,
+      "category": "Supporters",
       "note": "MISC PAYMENT PAYPAL"
     },
     {
@@ -34,7 +34,7 @@
       "currency": "CAD",
       "account_type": "chequing",
       "merchant": "OVERDRAFT INTEREST",
-      "category": null,
+      "category": "Bills",
       "note": "OVERDRAFT INTEREST"
     },
     {
@@ -45,7 +45,7 @@
       "currency": "CAD",
       "account_type": "chequing",
       "merchant": "FEES/DUES PLANET FITNESS",
-      "category": null,
+      "category": "Fitness",
       "note": "FEES/DUES PLANET FITNESS"
     },
     {
@@ -56,7 +56,7 @@
       "currency": "CAD",
       "account_type": "chequing",
       "merchant": "ONLINE BANKING TRANSFER - 7861",
-      "category": null,
+      "category": "Account Transfer",
       "note": "ONLINE BANKING TRANSFER - 7861"
     },
     {
@@ -67,7 +67,7 @@
       "currency": "CAD",
       "account_type": "savings",
       "merchant": "ONLINE TRANSFER TO DEPOSIT ACCOUNT-7861",
-      "category": null,
+      "category": "Account Transfer",
       "note": "ONLINE TRANSFER TO DEPOSIT ACCOUNT-7861"
     },
     {
@@ -78,7 +78,7 @@
       "currency": "CAD",
       "account_type": "savings",
       "merchant": "MONTHLY FEE",
-      "category": null,
+      "category": "Bills",
       "note": "MONTHLY FEE"
     },
     {
@@ -1612,3 +1612,4 @@
     }
   ]
 }
+

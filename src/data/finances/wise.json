@@ -14,7 +14,7 @@
       "amount": 1,
       "currency": "EUR",
       "merchant": "Tim Hortons",
-      "category": "Eating out",
+      "category": "Cafe Rent",
       "note": null
     },
     {
@@ -24,7 +24,7 @@
       "amount": 3,
       "currency": "EUR",
       "merchant": "Pamenar",
-      "category": "Eating out",
+      "category": "Social",
       "note": null
     },
     {
@@ -34,7 +34,7 @@
       "amount": 3,
       "currency": "EUR",
       "merchant": "Dollarama",
-      "category": "Shopping",
+      "category": "Household",
       "note": null
     },
     {
@@ -44,7 +44,7 @@
       "amount": 9,
       "currency": "EUR",
       "merchant": "Value Village",
-      "category": "Shopping",
+      "category": "Household",
       "note": null
     },
     {
@@ -74,7 +74,7 @@
       "amount": 1,
       "currency": "EUR",
       "merchant": "Tim Hortons",
-      "category": "Eating out",
+      "category": "Cafe Rent",
       "note": null
     },
     {
@@ -84,7 +84,7 @@
       "amount": 2,
       "currency": "EUR",
       "merchant": "Dollarama",
-      "category": "Shopping",
+      "category": "Household",
       "note": null
     },
     {
@@ -104,7 +104,7 @@
       "amount": 0,
       "currency": "EUR",
       "merchant": "Hetzner",
-      "category": "Bills",
+      "category": "Digital Services",
       "note": null
     },
     {
@@ -114,7 +114,7 @@
       "amount": 3,
       "currency": "EUR",
       "merchant": "Ls I Deal Coffee",
-      "category": "Eating out",
+      "category": "Cafe Rent",
       "note": null
     },
     {
@@ -144,7 +144,7 @@
       "amount": 2,
       "currency": "EUR",
       "merchant": "Future Bistro",
-      "category": "Eating out",
+      "category": "Cafe Rent",
       "note": null
     },
     {
@@ -164,7 +164,7 @@
       "amount": 2,
       "currency": "EUR",
       "merchant": "Future Bistro",
-      "category": "Eating out",
+      "category": "Cafe Rent",
       "note": null
     },
     {
@@ -174,7 +174,7 @@
       "amount": 5,
       "currency": "EUR",
       "merchant": "Esim.dog",
-      "category": "Shopping",
+      "category": "Bills",
       "note": null
     },
     {
@@ -184,7 +184,7 @@
       "amount": 1,
       "currency": "EUR",
       "merchant": "Tim Hortons",
-      "category": "Eating out",
+      "category": "Cafe Rent",
       "note": null
     },
     {
@@ -194,7 +194,7 @@
       "amount": 3,
       "currency": "EUR",
       "merchant": "Ls I Deal on the Park",
-      "category": "Eating out",
+      "category": "Cafe Rent",
       "note": null
     },
     {
@@ -224,7 +224,7 @@
       "amount": 3,
       "currency": "EUR",
       "merchant": "Ls I Deal Coffee",
-      "category": "Eating out",
+      "category": "Cafe Rent",
       "note": null
     },
     {
@@ -234,7 +234,7 @@
       "amount": 7,
       "currency": "EUR",
       "merchant": "Morning Parade Coffee",
-      "category": "Eating out",
+      "category": "Cafe Rent",
       "note": null
     },
     {
@@ -254,7 +254,7 @@
       "amount": 3,
       "currency": "EUR",
       "merchant": "Loveless Cafe",
-      "category": "Eating out",
+      "category": "Cafe Rent",
       "note": null
     },
     {
@@ -264,7 +264,7 @@
       "amount": 1,
       "currency": "EUR",
       "merchant": "Tim Hortons",
-      "category": "Eating out",
+      "category": "Cafe Rent",
       "note": null
     },
     {
@@ -284,7 +284,7 @@
       "amount": 1,
       "currency": "EUR",
       "merchant": "Tim Hortons",
-      "category": "Eating out",
+      "category": "Cafe Rent",
       "note": null
     },
     {
@@ -294,7 +294,7 @@
       "amount": 20,
       "currency": "EUR",
       "merchant": "Anthropic",
-      "category": "Shopping",
+      "category": "Digital Services",
       "note": null
     },
     {
@@ -304,7 +304,7 @@
       "amount": 3,
       "currency": "EUR",
       "merchant": "Loveless Cafe",
-      "category": "Eating out",
+      "category": "Cafe Rent",
       "note": null
     },
     {
@@ -314,7 +314,7 @@
       "amount": 3,
       "currency": "EUR",
       "merchant": "Amazon Web Services",
-      "category": "Bills",
+      "category": "Digital Services",
       "note": null
     },
     {
@@ -324,7 +324,7 @@
       "amount": 20,
       "currency": "EUR",
       "merchant": "Google One",
-      "category": "Entertainment",
+      "category": "Digital Services",
       "note": null
     },
     {
@@ -334,7 +334,7 @@
       "amount": 6,
       "currency": "EUR",
       "merchant": "Trinity Common",
-      "category": "Eating out",
+      "category": "Social",
       "note": null
     },
     {
@@ -6689,3 +6689,4 @@
     }
   ]
 }
+

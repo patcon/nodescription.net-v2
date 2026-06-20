@@ -1,6 +1,7 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import FinancesDashboard from '../../components/FinancesDashboard';
+import FinancesTable from '../../components/FinancesTable';
 import wiseData from '../../data/finances/wise.json';
 import rbcData from '../../data/finances/rbc.json';
 
@@ -60,6 +61,7 @@ const buildMonthlyData = (numMonths: number): MonthlyDataPoint[] => {
   const buckets: Record<string, { income: number; expenses: number }> = {};
   for (const m of months) buckets[m] = { income: 0, expenses: 0 };
   for (const t of allTransactions) {
+    if (t.category === 'Account Transfer') continue;
     const m = t.date?.slice(0, 7);
     if (m && buckets[m]) {
       const cad = convertToDisplay(t.amount, t.currency);
@@ -90,8 +92,8 @@ const lastMonthLabel = lastMonth
   : null;
 
 const lastMonthTxns = transactions.filter(t => t.date?.startsWith(lastMonth ?? ''));
-const lastMonthOut = lastMonthTxns.filter(t => t.direction === 'OUT');
-const lastMonthIn = lastMonthTxns.filter(t => t.direction === 'IN');
+const lastMonthOut = lastMonthTxns.filter(t => t.direction === 'OUT' && t.category !== 'Account Transfer');
+const lastMonthIn = lastMonthTxns.filter(t => t.direction === 'IN' && t.category !== 'Account Transfer');
 
 const totalOut = lastMonthOut.reduce((sum, t) => sum + convertToDisplay(t.amount, t.currency), 0);
 const totalIn = lastMonthIn.reduce((sum, t) => sum + convertToDisplay(t.amount, t.currency), 0);
@@ -129,46 +131,11 @@ const categoryBreakdown = Object.entries(byCategory).sort((a, b) => b[1] - a[1])
     />
 
     <!-- Transaction Table -->
-    {transactions.length > 0 ? (
-      <div class="bg-white rounded-xl border border-gray-200 overflow-hidden">
-        <h2 class="text-lg font-semibold p-6 pb-0">Transactions</h2>
-        <div class="overflow-x-auto mt-4">
-          <table class="w-full text-sm">
-            <thead class="bg-gray-50 border-y border-gray-200">
-              <tr>
-                <th class="text-left px-6 py-3 text-gray-500 font-medium">Date</th>
-                <th class="text-left px-4 py-3 text-gray-500 font-medium">Direction</th>
-                <th class="text-right px-4 py-3 text-gray-500 font-medium">Amount</th>
-                <th class="text-left px-4 py-3 text-gray-500 font-medium">Merchant</th>
-                <th class="text-left px-4 py-3 text-gray-500 font-medium">Category</th>
-                <th class="text-left px-4 py-3 text-gray-500 font-medium">Source</th>
-              </tr>
-            </thead>
-            <tbody class="divide-y divide-gray-100">
-              {transactions.map(t => (
-                <tr class="hover:bg-gray-50">
-                  <td class="px-6 py-3 font-mono text-gray-500 whitespace-nowrap">{t.date}</td>
-                  <td class="px-4 py-3">
-                    <span class={`text-xs font-medium px-2 py-0.5 rounded-full ${t.direction === 'IN' ? 'bg-green-100 text-green-700' : 'bg-red-100 text-red-700'}`}>
-                      {t.direction}
-                    </span>
-                  </td>
-                  <td class="px-4 py-3 text-right font-mono">{t.amount} {t.currency}</td>
-                  <td class="px-4 py-3 text-gray-700 max-w-[200px] truncate">{t.merchant}</td>
-                  <td class="px-4 py-3 text-gray-500">{t.category ?? '—'}</td>
-                  <td class="px-4 py-3">
-                    <span class="text-xs font-medium px-2 py-0.5 rounded-full bg-gray-100 text-gray-500">
-                      {t.source === 'wise' ? 'Wise' : t.account_type === 'chequing' ? 'Bank:CHQ' : t.account_type === 'savings' ? 'Bank:SAV' : 'Bank'}
-                    </span>
-                  </td>
-                </tr>
-              ))}
-            </tbody>
-          </table>
-        </div>
-      </div>
-    ) : (
-      <p class="text-gray-400 text-sm">No transactions yet. Run the import script to populate data.</p>
-    )}
+    <FinancesTable
+      initialTransactions={transactions}
+      wiseRaw={wiseData}
+      rbcRaw={rbcData}
+      client:only="react"
+    />
   </div>
 </BaseLayout>
