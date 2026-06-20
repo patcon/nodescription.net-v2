@@ -182,11 +182,11 @@ export default function FinancesDashboard({
                   </div>
                 ))}
                 <div className="flex justify-between text-sm">
-                  <span className="text-gray-600">Rent</span>
-                  <span className="font-mono text-red-600">{sym}0 {currency} *</span>
+                  <span className="text-gray-600">Rent *</span>
+                  <span className="font-mono text-red-600">{sym}0 {currency}</span>
                 </div>
               </div>
-              <p className="text-xs text-gray-400 mt-3">* Rent exchanged for childcare</p>
+              <p className="text-xs text-gray-400 mt-3">* $0 — exchanged for childcare</p>
             </div>
             {summary.incomeBreakdown.length > 0 && (
               <div className="bg-gray-50 rounded-lg p-4">
