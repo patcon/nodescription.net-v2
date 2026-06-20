@@ -1,5 +1,5 @@
 ---
-const base = import.meta.env.BASE_URL; // '/' in prod, '/pr-preview/pr-N/' in previews
+const base = import.meta.env.BASE_URL.replace(/\/?$/, '/'); // ensure trailing slash
 const links = [
   { href: `${base}`, label: 'Home' },
   { href: `${base}about/`, label: 'About' },
