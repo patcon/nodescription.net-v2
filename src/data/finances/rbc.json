@@ -21,6 +21,7 @@
       "direction": "IN",
       "amount": 268,
       "currency": "CAD",
+      "account_type": "chequing",
       "merchant": "MISC PAYMENT PAYPAL",
       "category": null,
       "note": "MISC PAYMENT PAYPAL"
@@ -31,6 +32,7 @@
       "direction": "OUT",
       "amount": 0,
       "currency": "CAD",
+      "account_type": "chequing",
       "merchant": "OVERDRAFT INTEREST",
       "category": null,
       "note": "OVERDRAFT INTEREST"
@@ -41,6 +43,7 @@
       "direction": "OUT",
       "amount": 23,
       "currency": "CAD",
+      "account_type": "chequing",
       "merchant": "FEES/DUES PLANET FITNESS",
       "category": null,
       "note": "FEES/DUES PLANET FITNESS"
@@ -51,6 +54,7 @@
       "direction": "IN",
       "amount": 50,
       "currency": "CAD",
+      "account_type": "chequing",
       "merchant": "ONLINE BANKING TRANSFER - 7861",
       "category": null,
       "note": "ONLINE BANKING TRANSFER - 7861"
@@ -61,6 +65,7 @@
       "direction": "OUT",
       "amount": 50,
       "currency": "CAD",
+      "account_type": "savings",
       "merchant": "ONLINE TRANSFER TO DEPOSIT ACCOUNT-7861",
       "category": null,
       "note": "ONLINE TRANSFER TO DEPOSIT ACCOUNT-7861"
@@ -71,6 +76,7 @@
       "direction": "OUT",
       "amount": 4,
       "currency": "CAD",
+      "account_type": "savings",
       "merchant": "MONTHLY FEE",
       "category": null,
       "note": "MONTHLY FEE"
@@ -81,6 +87,7 @@
       "direction": "IN",
       "amount": 49,
       "currency": "CAD",
+      "account_type": "savings",
       "merchant": "E-TRANSFER - AUTODEPOSIT CANADIAN BREAD SETTLEMENT 2987236",
       "category": null,
       "note": "E-TRANSFER - AUTODEPOSIT CANADIAN BREAD SETTLEMENT 2987236"
@@ -91,6 +98,7 @@
       "direction": "OUT",
       "amount": 0,
       "currency": "CAD",
+      "account_type": "chequing",
       "merchant": "OVERDRAFT INTEREST",
       "category": null,
       "note": "OVERDRAFT INTEREST"
@@ -101,6 +109,7 @@
       "direction": "OUT",
       "amount": 23,
       "currency": "CAD",
+      "account_type": "chequing",
       "merchant": "FEES/DUES PLANET FITNESS",
       "category": null,
       "note": "FEES/DUES PLANET FITNESS"
@@ -111,6 +120,7 @@
       "direction": "OUT",
       "amount": 4,
       "currency": "CAD",
+      "account_type": "savings",
       "merchant": "MONTHLY FEE",
       "category": null,
       "note": "MONTHLY FEE"
@@ -121,6 +131,7 @@
       "direction": "IN",
       "amount": 60,
       "currency": "CAD",
+      "account_type": "chequing",
       "merchant": "ONLINE BANKING TRANSFER - 4715",
       "category": null,
       "note": "ONLINE BANKING TRANSFER - 4715"
@@ -131,6 +142,7 @@
       "direction": "OUT",
       "amount": 60,
       "currency": "CAD",
+      "account_type": "savings",
       "merchant": "ONLINE TRANSFER TO DEPOSIT ACCOUNT-4715",
       "category": null,
       "note": "ONLINE TRANSFER TO DEPOSIT ACCOUNT-4715"
@@ -141,6 +153,7 @@
       "direction": "OUT",
       "amount": 15,
       "currency": "CAD",
+      "account_type": "savings",
       "merchant": "E-TRANSFER SENT JIM ROOTHAM 5TWVS2",
       "category": null,
       "note": "E-TRANSFER SENT JIM ROOTHAM 5TWVS2"
@@ -151,6 +164,7 @@
       "direction": "OUT",
       "amount": 5,
       "currency": "CAD",
+      "account_type": "chequing",
       "merchant": "OVERDRAFT HANDLING FEE 1 @ $ 5.00",
       "category": null,
       "note": "OVERDRAFT HANDLING FEE 1 @ $ 5.00"
@@ -161,6 +175,7 @@
       "direction": "OUT",
       "amount": 0,
       "currency": "CAD",
+      "account_type": "chequing",
       "merchant": "OVERDRAFT INTEREST",
       "category": null,
       "note": "OVERDRAFT INTEREST"
@@ -171,6 +186,7 @@
       "direction": "OUT",
       "amount": 23,
       "currency": "CAD",
+      "account_type": "chequing",
       "merchant": "FEES/DUES PLANET FITNESS",
       "category": null,
       "note": "FEES/DUES PLANET FITNESS"
@@ -181,6 +197,7 @@
       "direction": "OUT",
       "amount": 4,
       "currency": "CAD",
+      "account_type": "savings",
       "merchant": "MONTHLY FEE",
       "category": null,
       "note": "MONTHLY FEE"
@@ -191,6 +208,7 @@
       "direction": "IN",
       "amount": 140,
       "currency": "CAD",
+      "account_type": "savings",
       "merchant": "E-TRANSFER - AUTODEPOSIT AMY CONNOLLY C1AS4YUM3GKG",
       "category": null,
       "note": "E-TRANSFER - AUTODEPOSIT AMY CONNOLLY C1AS4YUM3GKG"
@@ -201,6 +219,7 @@
       "direction": "OUT",
       "amount": 23,
       "currency": "CAD",
+      "account_type": "chequing",
       "merchant": "FEES/DUES PLANET FITNESS",
       "category": null,
       "note": "FEES/DUES PLANET FITNESS"
@@ -211,6 +230,7 @@
       "direction": "IN",
       "amount": 0,
       "currency": "CAD",
+      "account_type": "savings",
       "merchant": "DEPOSIT INTEREST",
       "category": null,
       "note": "DEPOSIT INTEREST"
@@ -221,6 +241,7 @@
       "direction": "IN",
       "amount": 1,
       "currency": "CAD",
+      "account_type": "chequing",
       "merchant": "REV EXTRA DEBIT",
       "category": null,
       "note": "REV EXTRA DEBIT"
@@ -231,6 +252,7 @@
       "direction": "IN",
       "amount": 4,
       "currency": "CAD",
+      "account_type": "savings",
       "merchant": "REV EXTRA DEBIT",
       "category": null,
       "note": "REV EXTRA DEBIT"
@@ -241,6 +263,7 @@
       "direction": "OUT",
       "amount": 4,
       "currency": "CAD",
+      "account_type": "savings",
       "merchant": "MONTHLY FEE",
       "category": null,
       "note": "MONTHLY FEE"
@@ -251,6 +274,7 @@
       "direction": "IN",
       "amount": 200,
       "currency": "CAD",
+      "account_type": "savings",
       "merchant": "E-TRANSFER - AUTODEPOSIT DONAL CONNOLLY C1AC4WCRU7MU",
       "category": null,
       "note": "E-TRANSFER - AUTODEPOSIT DONAL CONNOLLY C1AC4WCRU7MU"
@@ -261,6 +285,7 @@
       "direction": "OUT",
       "amount": 100,
       "currency": "CAD",
+      "account_type": "savings",
       "merchant": "MISC PAYMENT WISE",
       "category": null,
       "note": "MISC PAYMENT WISE"
@@ -271,6 +296,7 @@
       "direction": "OUT",
       "amount": 0,
       "currency": "CAD",
+      "account_type": "chequing",
       "merchant": "OVERDRAFT INTEREST",
       "category": null,
       "note": "OVERDRAFT INTEREST"
@@ -281,6 +307,7 @@
       "direction": "OUT",
       "amount": 23,
       "currency": "CAD",
+      "account_type": "chequing",
       "merchant": "FEES/DUES PLANET FITNESS",
       "category": null,
       "note": "FEES/DUES PLANET FITNESS"
@@ -291,6 +318,7 @@
       "direction": "IN",
       "amount": 70,
       "currency": "CAD",
+      "account_type": "savings",
       "merchant": "E-TRANSFER - AUTODEPOSIT MELICA MIRSAFIAN TWQ0SVSGR8BMZ0FTLU",
       "category": null,
       "note": "E-TRANSFER - AUTODEPOSIT MELICA MIRSAFIAN TWQ0SVSGR8BMZ0FTLUYEIM9PVKSK2XTD2VZ"
@@ -301,6 +329,7 @@
       "direction": "IN",
       "amount": 90,
       "currency": "CAD",
+      "account_type": "chequing",
       "merchant": "ONLINE BANKING TRANSFER - 2369",
       "category": null,
       "note": "ONLINE BANKING TRANSFER - 2369"
@@ -311,6 +340,7 @@
       "direction": "OUT",
       "amount": 90,
       "currency": "CAD",
+      "account_type": "savings",
       "merchant": "ONLINE TRANSFER TO DEPOSIT ACCOUNT-2369",
       "category": null,
       "note": "ONLINE TRANSFER TO DEPOSIT ACCOUNT-2369"
@@ -321,6 +351,7 @@
       "direction": "IN",
       "amount": 62,
       "currency": "CAD",
+      "account_type": "savings",
       "merchant": "E-TRANSFER - AUTODEPOSIT ALEX OLSON C1AAVQXQWMR9",
       "category": null,
       "note": "E-TRANSFER - AUTODEPOSIT ALEX OLSON C1AAVQXQWMR9"
@@ -331,6 +362,7 @@
       "direction": "IN",
       "amount": 12,
       "currency": "CAD",
+      "account_type": "savings",
       "merchant": "E-TRANSFER - AUTODEPOSIT AMY CONNOLLY C1AGMD28ZUUK",
       "category": null,
       "note": "E-TRANSFER - AUTODEPOSIT AMY CONNOLLY C1AGMD28ZUUK"
@@ -341,6 +373,7 @@
       "direction": "OUT",
       "amount": 4,
       "currency": "CAD",
+      "account_type": "savings",
       "merchant": "MONTHLY FEE",
       "category": null,
       "note": "MONTHLY FEE"
@@ -351,6 +384,7 @@
       "direction": "OUT",
       "amount": 5,
       "currency": "CAD",
+      "account_type": "chequing",
       "merchant": "OVERDRAFT HANDLING FEE 1 @ $ 5.00",
       "category": null,
       "note": "OVERDRAFT HANDLING FEE 1 @ $ 5.00"
@@ -361,6 +395,7 @@
       "direction": "OUT",
       "amount": 44,
       "currency": "CAD",
+      "account_type": "chequing",
       "merchant": "FEES/DUES PLANET FITNESS",
       "category": null,
       "note": "FEES/DUES PLANET FITNESS"
@@ -371,6 +406,7 @@
       "direction": "OUT",
       "amount": 0,
       "currency": "CAD",
+      "account_type": "chequing",
       "merchant": "OVERDRAFT INTEREST",
       "category": null,
       "note": "OVERDRAFT INTEREST"
@@ -381,6 +417,7 @@
       "direction": "OUT",
       "amount": 23,
       "currency": "CAD",
+      "account_type": "chequing",
       "merchant": "FEES/DUES PLANET FITNESS",
       "category": null,
       "note": "FEES/DUES PLANET FITNESS"
@@ -391,6 +428,7 @@
       "direction": "IN",
       "amount": 20,
       "currency": "CAD",
+      "account_type": "chequing",
       "merchant": "ONLINE BANKING TRANSFER - 1022",
       "category": null,
       "note": "ONLINE BANKING TRANSFER - 1022"
@@ -401,6 +439,7 @@
       "direction": "IN",
       "amount": 25,
       "currency": "CAD",
+      "account_type": "savings",
       "merchant": "E-TRANSFER - AUTODEPOSIT SANDRA RIML C1AQRTUJJRPX",
       "category": null,
       "note": "E-TRANSFER - AUTODEPOSIT SANDRA RIML C1AQRTUJJRPX"
@@ -411,6 +450,7 @@
       "direction": "OUT",
       "amount": 5,
       "currency": "CAD",
+      "account_type": "savings",
       "merchant": "INTERAC PURCHASE - 2730 SQ *THE LOVELES",
       "category": null,
       "note": "INTERAC PURCHASE - 2730 SQ *THE LOVELES"
@@ -421,6 +461,7 @@
       "direction": "OUT",
       "amount": 15,
       "currency": "CAD",
+      "account_type": "savings",
       "merchant": "INTERAC PURCHASE - 7684 WINE RACK 330",
       "category": null,
       "note": "INTERAC PURCHASE - 7684 WINE RACK 330"
@@ -431,6 +472,7 @@
       "direction": "OUT",
       "amount": 2,
       "currency": "CAD",
+      "account_type": "savings",
       "merchant": "INTERAC PURCHASE - 6964 TIM HORTONS #31",
       "category": null,
       "note": "INTERAC PURCHASE - 6964 TIM HORTONS #31"
@@ -441,6 +483,7 @@
       "direction": "OUT",
       "amount": 20,
       "currency": "CAD",
+      "account_type": "savings",
       "merchant": "ONLINE TRANSFER TO DEPOSIT ACCOUNT-1022",
       "category": null,
       "note": "ONLINE TRANSFER TO DEPOSIT ACCOUNT-1022"
@@ -451,6 +494,7 @@
       "direction": "OUT",
       "amount": 2,
       "currency": "CAD",
+      "account_type": "savings",
       "merchant": "INTERAC PURCHASE - 1319 TIM HORTONS #21",
       "category": null,
       "note": "INTERAC PURCHASE - 1319 TIM HORTONS #21"
@@ -461,6 +505,7 @@
       "direction": "OUT",
       "amount": 4,
       "currency": "CAD",
+      "account_type": "savings",
       "merchant": "MONTHLY FEE",
       "category": null,
       "note": "MONTHLY FEE"
@@ -471,6 +516,7 @@
       "direction": "OUT",
       "amount": 18,
       "currency": "CAD",
+      "account_type": "savings",
       "merchant": "FEE ELECTRONIC TRANSACTION  14 @ $1.25",
       "category": null,
       "note": "FEE ELECTRONIC TRANSACTION  14 @ $1.25"
@@ -481,6 +527,7 @@
       "direction": "OUT",
       "amount": 19,
       "currency": "CAD",
+      "account_type": "savings",
       "merchant": "INTERAC PURCHASE - 2248 MIKE'S NO FRILL",
       "category": null,
       "note": "INTERAC PURCHASE - 2248 MIKE'S NO FRILL"
@@ -491,6 +538,7 @@
       "direction": "OUT",
       "amount": 4,
       "currency": "CAD",
+      "account_type": "savings",
       "merchant": "INTERAC PURCHASE - 7715 FUTURE BISTRO",
       "category": null,
       "note": "INTERAC PURCHASE - 7715 FUTURE BISTRO"
@@ -501,6 +549,7 @@
       "direction": "OUT",
       "amount": 2,
       "currency": "CAD",
+      "account_type": "savings",
       "merchant": "INTERAC PURCHASE - 6143 TIM HORTONS #32",
       "category": null,
       "note": "INTERAC PURCHASE - 6143 TIM HORTONS #32"
@@ -511,6 +560,7 @@
       "direction": "OUT",
       "amount": 20,
       "currency": "CAD",
+      "account_type": "savings",
       "merchant": "INTERAC PURCHASE - 6077 MIKE'S NO FRILL",
       "category": null,
       "note": "INTERAC PURCHASE - 6077 MIKE'S NO FRILL"
@@ -521,6 +571,7 @@
       "direction": "OUT",
       "amount": 5,
       "currency": "CAD",
+      "account_type": "chequing",
       "merchant": "VISA DEBIT PURCHASE - 4210 AMAZON WEB SERV",
       "category": null,
       "note": "VISA DEBIT PURCHASE - 4210 AMAZON WEB SERV"
@@ -531,6 +582,7 @@
       "direction": "OUT",
       "amount": 19,
       "currency": "CAD",
+      "account_type": "savings",
       "merchant": "INTERAC PURCHASE - 4435 MIKE'S NO FRILL",
       "category": null,
       "note": "INTERAC PURCHASE - 4435 MIKE'S NO FRILL"
@@ -541,6 +593,7 @@
       "direction": "OUT",
       "amount": 7,
       "currency": "CAD",
+      "account_type": "savings",
       "merchant": "INTERAC PURCHASE - 8056 MIKE'S NO FRILL",
       "category": null,
       "note": "INTERAC PURCHASE - 8056 MIKE'S NO FRILL"
@@ -551,6 +604,7 @@
       "direction": "OUT",
       "amount": 12,
       "currency": "CAD",
+      "account_type": "savings",
       "merchant": "INTERAC PURCHASE - 4086 MIKE'S NO FRILL",
       "category": null,
       "note": "INTERAC PURCHASE - 4086 MIKE'S NO FRILL"
@@ -561,6 +615,7 @@
       "direction": "IN",
       "amount": 30,
       "currency": "CAD",
+      "account_type": "chequing",
       "merchant": "ONLINE BANKING TRANSFER - 9822",
       "category": null,
       "note": "ONLINE BANKING TRANSFER - 9822"
@@ -571,6 +626,7 @@
       "direction": "OUT",
       "amount": 18,
       "currency": "CAD",
+      "account_type": "savings",
       "merchant": "INTERAC PURCHASE - 6107 MIKE'S NO FRILL",
       "category": null,
       "note": "INTERAC PURCHASE - 6107 MIKE'S NO FRILL"
@@ -581,6 +637,7 @@
       "direction": "OUT",
       "amount": 30,
       "currency": "CAD",
+      "account_type": "savings",
       "merchant": "ONLINE TRANSFER TO DEPOSIT ACCOUNT-9822",
       "category": null,
       "note": "ONLINE TRANSFER TO DEPOSIT ACCOUNT-9822"
@@ -591,6 +648,7 @@
       "direction": "OUT",
       "amount": 11,
       "currency": "CAD",
+      "account_type": "savings",
       "merchant": "INTERAC PURCHASE - 4195 MIKE'S NO FRILL",
       "category": null,
       "note": "INTERAC PURCHASE - 4195 MIKE'S NO FRILL"
@@ -601,6 +659,7 @@
       "direction": "OUT",
       "amount": 17,
       "currency": "CAD",
+      "account_type": "savings",
       "merchant": "INTERAC PURCHASE - 1106 LCBO/RAO #0534",
       "category": null,
       "note": "INTERAC PURCHASE - 1106 LCBO/RAO #0534"
@@ -611,6 +670,7 @@
       "direction": "OUT",
       "amount": 13,
       "currency": "CAD",
+      "account_type": "savings",
       "merchant": "INTERAC PURCHASE - 4235 THE QUEEN & BEA",
       "category": null,
       "note": "INTERAC PURCHASE - 4235 THE QUEEN & BEA"
@@ -621,6 +681,7 @@
       "direction": "OUT",
       "amount": 2,
       "currency": "CAD",
+      "account_type": "savings",
       "merchant": "INTERAC PURCHASE - 9815 TIM HORTONS #31",
       "category": null,
       "note": "INTERAC PURCHASE - 9815 TIM HORTONS #31"
@@ -631,6 +692,7 @@
       "direction": "OUT",
       "amount": 24,
       "currency": "CAD",
+      "account_type": "savings",
       "merchant": "INTERAC PURCHASE - 1127 MIKE'S NO FRILL",
       "category": null,
       "note": "INTERAC PURCHASE - 1127 MIKE'S NO FRILL"
@@ -641,6 +703,7 @@
       "direction": "OUT",
       "amount": 5,
       "currency": "CAD",
+      "account_type": "savings",
       "merchant": "INTERAC PURCHASE - 2230 THE TINY GENERA",
       "category": null,
       "note": "INTERAC PURCHASE - 2230 THE TINY GENERA"
@@ -651,6 +714,7 @@
       "direction": "OUT",
       "amount": 5,
       "currency": "CAD",
+      "account_type": "chequing",
       "merchant": "OVERDRAFT HANDLING FEE 1 @ $ 5.00",
       "category": null,
       "note": "OVERDRAFT HANDLING FEE 1 @ $ 5.00"
@@ -661,6 +725,7 @@
       "direction": "OUT",
       "amount": 2,
       "currency": "CAD",
+      "account_type": "savings",
       "merchant": "INTERAC PURCHASE - 7217 TIM HORTONS #31",
       "category": null,
       "note": "INTERAC PURCHASE - 7217 TIM HORTONS #31"
@@ -671,6 +736,7 @@
       "direction": "OUT",
       "amount": 3,
       "currency": "CAD",
+      "account_type": "savings",
       "merchant": "INTERAC PURCHASE - 9059 FUTURE BISTRO",
       "category": null,
       "note": "INTERAC PURCHASE - 9059 FUTURE BISTRO"
@@ -681,6 +747,7 @@
       "direction": "OUT",
       "amount": 0,
       "currency": "CAD",
+      "account_type": "chequing",
       "merchant": "OVERDRAFT INTEREST",
       "category": null,
       "note": "OVERDRAFT INTEREST"
@@ -691,6 +758,7 @@
       "direction": "OUT",
       "amount": 23,
       "currency": "CAD",
+      "account_type": "chequing",
       "merchant": "FEES/DUES PLANET FITNESS",
       "category": null,
       "note": "FEES/DUES PLANET FITNESS"
@@ -701,6 +769,7 @@
       "direction": "OUT",
       "amount": 12,
       "currency": "CAD",
+      "account_type": "savings",
       "merchant": "INTERAC PURCHASE - 3067 MIKE'S NO FRILL",
       "category": null,
       "note": "INTERAC PURCHASE - 3067 MIKE'S NO FRILL"
@@ -711,6 +780,7 @@
       "direction": "OUT",
       "amount": 2,
       "currency": "CAD",
+      "account_type": "savings",
       "merchant": "INTERAC PURCHASE - 2856 TIM HORTONS #31",
       "category": null,
       "note": "INTERAC PURCHASE - 2856 TIM HORTONS #31"
@@ -721,6 +791,7 @@
       "direction": "OUT",
       "amount": 4,
       "currency": "CAD",
+      "account_type": "savings",
       "merchant": "INTERAC PURCHASE - 4195 SECOND CUP",
       "category": null,
       "note": "INTERAC PURCHASE - 4195 SECOND CUP"
@@ -731,6 +802,7 @@
       "direction": "OUT",
       "amount": 4,
       "currency": "CAD",
+      "account_type": "savings",
       "merchant": "INTERAC PURCHASE - 3361 WALMART STORE #",
       "category": null,
       "note": "INTERAC PURCHASE - 3361 WALMART STORE #"
@@ -741,6 +813,7 @@
       "direction": "OUT",
       "amount": 4,
       "currency": "CAD",
+      "account_type": "savings",
       "merchant": "INTERAC PURCHASE - 2098 FUTURE BISTRO",
       "category": null,
       "note": "INTERAC PURCHASE - 2098 FUTURE BISTRO"
@@ -751,6 +824,7 @@
       "direction": "OUT",
       "amount": 2,
       "currency": "CAD",
+      "account_type": "savings",
       "merchant": "INTERAC PURCHASE - 1171 TIM HORTONS #31",
       "category": null,
       "note": "INTERAC PURCHASE - 1171 TIM HORTONS #31"
@@ -761,6 +835,7 @@
       "direction": "OUT",
       "amount": 4,
       "currency": "CAD",
+      "account_type": "chequing",
       "merchant": "CONTACTLESS INTERAC PURCHASE - 5824 SQ *THE LOVELES",
       "category": null,
       "note": "CONTACTLESS INTERAC PURCHASE - 5824 SQ *THE LOVELES"
@@ -771,6 +846,7 @@
       "direction": "OUT",
       "amount": 25,
       "currency": "CAD",
+      "account_type": "savings",
       "merchant": "INTERAC PURCHASE - 1884 MIKE'S NO FRILL",
       "category": null,
       "note": "INTERAC PURCHASE - 1884 MIKE'S NO FRILL"
@@ -781,6 +857,7 @@
       "direction": "OUT",
       "amount": 3,
       "currency": "CAD",
+      "account_type": "savings",
       "merchant": "INTERAC PURCHASE - 3883 FUTURE BISTRO",
       "category": null,
       "note": "INTERAC PURCHASE - 3883 FUTURE BISTRO"
@@ -791,6 +868,7 @@
       "direction": "OUT",
       "amount": 4,
       "currency": "CAD",
+      "account_type": "chequing",
       "merchant": "CONTACTLESS INTERAC PURCHASE - 4480 SQ *THE LOVELES",
       "category": null,
       "note": "CONTACTLESS INTERAC PURCHASE - 4480 SQ *THE LOVELES"
@@ -801,6 +879,7 @@
       "direction": "OUT",
       "amount": 2,
       "currency": "CAD",
+      "account_type": "chequing",
       "merchant": "CONTACTLESS INTERAC PURCHASE - 4068 TIM HORTONS #31",
       "category": null,
       "note": "CONTACTLESS INTERAC PURCHASE - 4068 TIM HORTONS #31"
@@ -811,6 +890,7 @@
       "direction": "OUT",
       "amount": 16,
       "currency": "CAD",
+      "account_type": "savings",
       "merchant": "INTERAC PURCHASE - 5148 MIKE'S NO FRILL",
       "category": null,
       "note": "INTERAC PURCHASE - 5148 MIKE'S NO FRILL"
@@ -821,6 +901,7 @@
       "direction": "OUT",
       "amount": 19,
       "currency": "CAD",
+      "account_type": "savings",
       "merchant": "INTERAC PURCHASE - 4689 LOBLAWS #1029",
       "category": null,
       "note": "INTERAC PURCHASE - 4689 LOBLAWS #1029"
@@ -831,6 +912,7 @@
       "direction": "OUT",
       "amount": 4,
       "currency": "CAD",
+      "account_type": "savings",
       "merchant": "MONTHLY FEE",
       "category": null,
       "note": "MONTHLY FEE"
@@ -841,6 +923,7 @@
       "direction": "OUT",
       "amount": 5,
       "currency": "CAD",
+      "account_type": "chequing",
       "merchant": "CONTACTLESS INTERAC PURCHASE - 4050 SQ *GOLDSTRUCK",
       "category": null,
       "note": "CONTACTLESS INTERAC PURCHASE - 4050 SQ *GOLDSTRUCK"
@@ -851,6 +934,7 @@
       "direction": "OUT",
       "amount": 6,
       "currency": "CAD",
+      "account_type": "savings",
       "merchant": "INTERAC PURCHASE - 4822 MIKE'S NO FRILL",
       "category": null,
       "note": "INTERAC PURCHASE - 4822 MIKE'S NO FRILL"
@@ -861,6 +945,7 @@
       "direction": "IN",
       "amount": 300,
       "currency": "CAD",
+      "account_type": "savings",
       "merchant": "E-TRANSFER - AUTODEPOSIT DONAL CONNOLLY C1ASSS37QEM3",
       "category": null,
       "note": "E-TRANSFER - AUTODEPOSIT DONAL CONNOLLY C1ASSS37QEM3"
@@ -871,6 +956,7 @@
       "direction": "OUT",
       "amount": 28,
       "currency": "CAD",
+      "account_type": "chequing",
       "merchant": "VISA DEBIT PURCHASE - 6310 AMAZON WEB SERV",
       "category": null,
       "note": "VISA DEBIT PURCHASE - 6310 AMAZON WEB SERV"
@@ -881,6 +967,7 @@
       "direction": "OUT",
       "amount": 100,
       "currency": "CAD",
+      "account_type": "savings",
       "merchant": "MISC PAYMENT WISE",
       "category": null,
       "note": "MISC PAYMENT WISE"
@@ -891,6 +978,7 @@
       "direction": "OUT",
       "amount": 3,
       "currency": "CAD",
+      "account_type": "chequing",
       "merchant": "CONTACTLESS INTERAC PURCHASE - 1627 FUTURE BISTRO",
       "category": null,
       "note": "CONTACTLESS INTERAC PURCHASE - 1627 FUTURE BISTRO"
@@ -901,6 +989,7 @@
       "direction": "OUT",
       "amount": 33,
       "currency": "CAD",
+      "account_type": "savings",
       "merchant": "INTERAC PURCHASE - 5691 MIKE'S NO FRILL",
       "category": null,
       "note": "INTERAC PURCHASE - 5691 MIKE'S NO FRILL"
@@ -911,6 +1000,7 @@
       "direction": "OUT",
       "amount": 5,
       "currency": "CAD",
+      "account_type": "chequing",
       "merchant": "CONTACTLESS INTERAC PURCHASE - 1261 SQ *FIELD TRIP",
       "category": null,
       "note": "CONTACTLESS INTERAC PURCHASE - 1261 SQ *FIELD TRIP"
@@ -921,6 +1011,7 @@
       "direction": "IN",
       "amount": 100,
       "currency": "CAD",
+      "account_type": "chequing",
       "merchant": "ONLINE BANKING TRANSFER - 1014",
       "category": null,
       "note": "ONLINE BANKING TRANSFER - 1014"
@@ -931,6 +1022,7 @@
       "direction": "OUT",
       "amount": 100,
       "currency": "CAD",
+      "account_type": "savings",
       "merchant": "ONLINE TRANSFER TO DEPOSIT ACCOUNT-1014",
       "category": null,
       "note": "ONLINE TRANSFER TO DEPOSIT ACCOUNT-1014"
@@ -941,6 +1033,7 @@
       "direction": "IN",
       "amount": 200,
       "currency": "CAD",
+      "account_type": "savings",
       "merchant": "E-TRANSFER - AUTODEPOSIT CIARAN LAZENBY CEC334067F7149C186A8",
       "category": null,
       "note": "E-TRANSFER - AUTODEPOSIT CIARAN LAZENBY CEC334067F7149C186A8B5D8C9C540B7"
@@ -951,6 +1044,7 @@
       "direction": "OUT",
       "amount": 24,
       "currency": "CAD",
+      "account_type": "savings",
       "merchant": "INTERAC PURCHASE - 1021 MIKE'S NO FRILL",
       "category": null,
       "note": "INTERAC PURCHASE - 1021 MIKE'S NO FRILL"
@@ -961,6 +1055,7 @@
       "direction": "IN",
       "amount": 31,
       "currency": "CAD",
+      "account_type": "savings",
       "merchant": "DEPOSIT",
       "category": null,
       "note": "DEPOSIT"
@@ -971,6 +1066,7 @@
       "direction": "OUT",
       "amount": 13,
       "currency": "CAD",
+      "account_type": "savings",
       "merchant": "INTERAC PURCHASE - 6656 MIKE'S NO FRILL",
       "category": null,
       "note": "INTERAC PURCHASE - 6656 MIKE'S NO FRILL"
@@ -981,6 +1077,7 @@
       "direction": "OUT",
       "amount": 5,
       "currency": "CAD",
+      "account_type": "chequing",
       "merchant": "OVERDRAFT HANDLING FEE 1 @ $ 5.00",
       "category": null,
       "note": "OVERDRAFT HANDLING FEE 1 @ $ 5.00"
@@ -991,6 +1088,7 @@
       "direction": "OUT",
       "amount": 23,
       "currency": "CAD",
+      "account_type": "chequing",
       "merchant": "FEES/DUES PLANET FITNESS",
       "category": null,
       "note": "FEES/DUES PLANET FITNESS"
@@ -1001,6 +1099,7 @@
       "direction": "IN",
       "amount": 76,
       "currency": "CAD",
+      "account_type": "savings",
       "merchant": "MISC PAYMENT PAYPAL",
       "category": null,
       "note": "MISC PAYMENT PAYPAL"
@@ -1011,6 +1110,7 @@
       "direction": "OUT",
       "amount": 37,
       "currency": "CAD",
+      "account_type": "savings",
       "merchant": "INTERAC PURCHASE - 4201 MIKE'S NO FRILL",
       "category": null,
       "note": "INTERAC PURCHASE - 4201 MIKE'S NO FRILL"
@@ -1021,6 +1121,7 @@
       "direction": "OUT",
       "amount": 4,
       "currency": "CAD",
+      "account_type": "savings",
       "merchant": "MONTHLY FEE",
       "category": null,
       "note": "MONTHLY FEE"
@@ -1031,6 +1132,7 @@
       "direction": "IN",
       "amount": 50,
       "currency": "CAD",
+      "account_type": "savings",
       "merchant": "E-TRANSFER - AUTODEPOSIT CHRISTOPHER CONNOLLY DFONMEBPARK4OB",
       "category": null,
       "note": "E-TRANSFER - AUTODEPOSIT CHRISTOPHER CONNOLLY DFONMEBPARK4OBQMJKAGNEYBHMPFLPVPZNM"
@@ -1041,6 +1143,7 @@
       "direction": "IN",
       "amount": 300,
       "currency": "CAD",
+      "account_type": "savings",
       "merchant": "E-TRANSFER - AUTODEPOSIT DONAL CONNOLLY C1ATPGYTFB6P",
       "category": null,
       "note": "E-TRANSFER - AUTODEPOSIT DONAL CONNOLLY C1ATPGYTFB6P"
@@ -1051,6 +1154,7 @@
       "direction": "OUT",
       "amount": 305,
       "currency": "CAD",
+      "account_type": "savings",
       "merchant": "E-TRANSFER REQUEST FULFILLED WISE PAYMENTS LTD. GNKWAL",
       "category": null,
       "note": "E-TRANSFER REQUEST FULFILLED WISE PAYMENTS LTD. GNKWAL"
@@ -1061,6 +1165,7 @@
       "direction": "IN",
       "amount": 26,
       "currency": "CAD",
+      "account_type": "savings",
       "merchant": "SETTLEMENT CR",
       "category": null,
       "note": "SETTLEMENT CR"
@@ -1071,6 +1176,7 @@
       "direction": "OUT",
       "amount": 0,
       "currency": "CAD",
+      "account_type": "chequing",
       "merchant": "OVERDRAFT INTEREST",
       "category": null,
       "note": "OVERDRAFT INTEREST"
@@ -1081,6 +1187,7 @@
       "direction": "OUT",
       "amount": 23,
       "currency": "CAD",
+      "account_type": "chequing",
       "merchant": "FEES/DUES PLANET FITNESS",
       "category": null,
       "note": "FEES/DUES PLANET FITNESS"
@@ -1091,6 +1198,7 @@
       "direction": "OUT",
       "amount": 5,
       "currency": "CAD",
+      "account_type": "chequing",
       "merchant": "VISA DEBIT PURCHASE - 4874 AMAZON WEB SERV",
       "category": null,
       "note": "VISA DEBIT PURCHASE - 4874 AMAZON WEB SERV"
@@ -1101,6 +1209,7 @@
       "direction": "IN",
       "amount": 60,
       "currency": "CAD",
+      "account_type": "chequing",
       "merchant": "ONLINE BANKING TRANSFER - 3530",
       "category": null,
       "note": "ONLINE BANKING TRANSFER - 3530"
@@ -1111,6 +1220,7 @@
       "direction": "OUT",
       "amount": 60,
       "currency": "CAD",
+      "account_type": "savings",
       "merchant": "ONLINE TRANSFER TO DEPOSIT ACCOUNT-3530",
       "category": null,
       "note": "ONLINE TRANSFER TO DEPOSIT ACCOUNT-3530"
@@ -1121,6 +1231,7 @@
       "direction": "OUT",
       "amount": 4,
       "currency": "CAD",
+      "account_type": "savings",
       "merchant": "MONTHLY FEE",
       "category": null,
       "note": "MONTHLY FEE"
@@ -1131,6 +1242,7 @@
       "direction": "OUT",
       "amount": 5,
       "currency": "CAD",
+      "account_type": "chequing",
       "merchant": "OVERDRAFT HANDLING FEE 1 @ $ 5.00",
       "category": null,
       "note": "OVERDRAFT HANDLING FEE 1 @ $ 5.00"
@@ -1141,6 +1253,7 @@
       "direction": "OUT",
       "amount": 0,
       "currency": "CAD",
+      "account_type": "chequing",
       "merchant": "OVERDRAFT INTEREST",
       "category": null,
       "note": "OVERDRAFT INTEREST"
@@ -1151,6 +1264,7 @@
       "direction": "OUT",
       "amount": 23,
       "currency": "CAD",
+      "account_type": "chequing",
       "merchant": "FEES/DUES PLANET FITNESS",
       "category": null,
       "note": "FEES/DUES PLANET FITNESS"
@@ -1161,6 +1275,7 @@
       "direction": "OUT",
       "amount": 4,
       "currency": "CAD",
+      "account_type": "savings",
       "merchant": "MONTHLY FEE",
       "category": null,
       "note": "MONTHLY FEE"
@@ -1171,6 +1286,7 @@
       "direction": "OUT",
       "amount": 27,
       "currency": "CAD",
+      "account_type": "chequing",
       "merchant": "VISA DEBIT PURCHASE - 8793 AMAZON WEB SERV",
       "category": null,
       "note": "VISA DEBIT PURCHASE - 8793 AMAZON WEB SERV"
@@ -1181,6 +1297,7 @@
       "direction": "OUT",
       "amount": 80,
       "currency": "CAD",
+      "account_type": "savings",
       "merchant": "E-TRANSFER SENT CHRIS CONNOLLY WGBGJR",
       "category": null,
       "note": "E-TRANSFER SENT CHRIS CONNOLLY WGBGJR"
@@ -1191,6 +1308,7 @@
       "direction": "OUT",
       "amount": 80,
       "currency": "CAD",
+      "account_type": "savings",
       "merchant": "E-TRANSFER SENT AMY CONNOLLY SF4XCD",
       "category": null,
       "note": "E-TRANSFER SENT AMY CONNOLLY SF4XCD"
@@ -1201,6 +1319,7 @@
       "direction": "IN",
       "amount": 65,
       "currency": "CAD",
+      "account_type": "chequing",
       "merchant": "ONLINE BANKING TRANSFER - 9751",
       "category": null,
       "note": "ONLINE BANKING TRANSFER - 9751"
@@ -1211,6 +1330,7 @@
       "direction": "IN",
       "amount": 250,
       "currency": "CAD",
+      "account_type": "savings",
       "merchant": "MISC PAYMENT PAYPAL",
       "category": null,
       "note": "MISC PAYMENT PAYPAL"
@@ -1221,6 +1341,7 @@
       "direction": "OUT",
       "amount": 65,
       "currency": "CAD",
+      "account_type": "savings",
       "merchant": "ONLINE TRANSFER TO DEPOSIT ACCOUNT-9751",
       "category": null,
       "note": "ONLINE TRANSFER TO DEPOSIT ACCOUNT-9751"
@@ -1231,6 +1352,7 @@
       "direction": "IN",
       "amount": 100,
       "currency": "CAD",
+      "account_type": "savings",
       "merchant": "E-TRANSFER - AUTODEPOSIT AMY CONNOLLY C1AQHDTUAPNN",
       "category": null,
       "note": "E-TRANSFER - AUTODEPOSIT AMY CONNOLLY C1AQHDTUAPNN"
@@ -1241,6 +1363,7 @@
       "direction": "OUT",
       "amount": 5,
       "currency": "CAD",
+      "account_type": "chequing",
       "merchant": "OVERDRAFT HANDLING FEE 1 @ $ 5.00",
       "category": null,
       "note": "OVERDRAFT HANDLING FEE 1 @ $ 5.00"
@@ -1251,6 +1374,7 @@
       "direction": "OUT",
       "amount": 23,
       "currency": "CAD",
+      "account_type": "chequing",
       "merchant": "FEES/DUES PLANET FITNESS",
       "category": null,
       "note": "FEES/DUES PLANET FITNESS"
@@ -1261,6 +1385,7 @@
       "direction": "OUT",
       "amount": 75,
       "currency": "CAD",
+      "account_type": "savings",
       "merchant": "INTERAC PURCHASE - 5278 PETRO-CANADA 65",
       "category": null,
       "note": "INTERAC PURCHASE - 5278 PETRO-CANADA 65"
@@ -1271,6 +1396,7 @@
       "direction": "OUT",
       "amount": 5,
       "currency": "CAD",
+      "account_type": "savings",
       "merchant": "INTERAC PURCHASE - 5868 PETRO-CANADA 14",
       "category": null,
       "note": "INTERAC PURCHASE - 5868 PETRO-CANADA 14"
@@ -1281,6 +1407,7 @@
       "direction": "OUT",
       "amount": 5,
       "currency": "CAD",
+      "account_type": "savings",
       "merchant": "INTERAC PURCHASE - 5307 PETRO-CANADA 14",
       "category": null,
       "note": "INTERAC PURCHASE - 5307 PETRO-CANADA 14"
@@ -1291,6 +1418,7 @@
       "direction": "OUT",
       "amount": 2,
       "currency": "CAD",
+      "account_type": "chequing",
       "merchant": "CONTACTLESS INTERAC PURCHASE - 2144 TIM HORTONS #39",
       "category": null,
       "note": "CONTACTLESS INTERAC PURCHASE - 2144 TIM HORTONS #39"
@@ -1301,6 +1429,7 @@
       "direction": "OUT",
       "amount": 26,
       "currency": "CAD",
+      "account_type": "savings",
       "merchant": "INTERAC PURCHASE - 3238 CIRCLE K / IRVI",
       "category": null,
       "note": "INTERAC PURCHASE - 3238 CIRCLE K / IRVI"
@@ -1311,6 +1440,7 @@
       "direction": "OUT",
       "amount": 76,
       "currency": "CAD",
+      "account_type": "savings",
       "merchant": "INTERAC PURCHASE - 4479 SHELL C81149",
       "category": null,
       "note": "INTERAC PURCHASE - 4479 SHELL C81149"
@@ -1321,6 +1451,7 @@
       "direction": "OUT",
       "amount": 7,
       "currency": "CAD",
+      "account_type": "savings",
       "merchant": "INTERAC PURCHASE - 3549 SHELL 4622",
       "category": null,
       "note": "INTERAC PURCHASE - 3549 SHELL 4622"
@@ -1331,6 +1462,7 @@
       "direction": "OUT",
       "amount": 8,
       "currency": "CAD",
+      "account_type": "chequing",
       "merchant": "CONTACTLESS INTERAC PURCHASE - 3414 CIRCLE K / IRVI",
       "category": null,
       "note": "CONTACTLESS INTERAC PURCHASE - 3414 CIRCLE K / IRVI"
@@ -1341,6 +1473,7 @@
       "direction": "OUT",
       "amount": 40,
       "currency": "CAD",
+      "account_type": "savings",
       "merchant": "INTERAC PURCHASE - 9416 CIRCLE K / IRVI",
       "category": null,
       "note": "INTERAC PURCHASE - 9416 CIRCLE K / IRVI"
@@ -1351,6 +1484,7 @@
       "direction": "IN",
       "amount": 15,
       "currency": "CAD",
+      "account_type": "chequing",
       "merchant": "ONLINE BANKING TRANSFER - 4175",
       "category": null,
       "note": "ONLINE BANKING TRANSFER - 4175"
@@ -1361,6 +1495,7 @@
       "direction": "IN",
       "amount": 100,
       "currency": "CAD",
+      "account_type": "savings",
       "merchant": "E-TRANSFER - AUTODEPOSIT CHRISTOPHER CONNOLLY CXP88HBZ82LATJ",
       "category": null,
       "note": "E-TRANSFER - AUTODEPOSIT CHRISTOPHER CONNOLLY CXP88HBZ82LATJ6GKSSFW3XJ8CFVDUX0YMH"
@@ -1371,6 +1506,7 @@
       "direction": "OUT",
       "amount": 15,
       "currency": "CAD",
+      "account_type": "savings",
       "merchant": "ONLINE TRANSFER TO DEPOSIT ACCOUNT-4175",
       "category": null,
       "note": "ONLINE TRANSFER TO DEPOSIT ACCOUNT-4175"
@@ -1381,6 +1517,7 @@
       "direction": "OUT",
       "amount": 4,
       "currency": "CAD",
+      "account_type": "savings",
       "merchant": "MONTHLY FEE",
       "category": null,
       "note": "MONTHLY FEE"
@@ -1391,6 +1528,7 @@
       "direction": "IN",
       "amount": 60,
       "currency": "CAD",
+      "account_type": "savings",
       "merchant": "E-TRANSFER - AUTODEPOSIT CHRISTIANA MURRAY 8665BDC827174AC1",
       "category": null,
       "note": "E-TRANSFER - AUTODEPOSIT CHRISTIANA MURRAY 8665BDC827174AC1"
@@ -1401,6 +1539,7 @@
       "direction": "OUT",
       "amount": 5,
       "currency": "CAD",
+      "account_type": "chequing",
       "merchant": "VISA DEBIT PURCHASE - 5565 AMAZON WEB SERV",
       "category": null,
       "note": "VISA DEBIT PURCHASE - 5565 AMAZON WEB SERV"
@@ -1411,6 +1550,7 @@
       "direction": "OUT",
       "amount": 23,
       "currency": "CAD",
+      "account_type": "chequing",
       "merchant": "FEES/DUES PLANET FITNESS",
       "category": null,
       "note": "FEES/DUES PLANET FITNESS"
@@ -1421,6 +1561,7 @@
       "direction": "OUT",
       "amount": 20,
       "currency": "CAD",
+      "account_type": "savings",
       "merchant": "E-TRANSFER SENT JOHN PEAT 9BAR2E",
       "category": null,
       "note": "E-TRANSFER SENT JOHN PEAT 9BAR2E"
@@ -1431,6 +1572,7 @@
       "direction": "OUT",
       "amount": 30,
       "currency": "CAD",
+      "account_type": "savings",
       "merchant": "E-TRANSFER SENT ANDREA LAPP N9PKLL",
       "category": null,
       "note": "E-TRANSFER SENT ANDREA LAPP N9PKLL"
@@ -1441,6 +1583,7 @@
       "direction": "OUT",
       "amount": 4,
       "currency": "CAD",
+      "account_type": "savings",
       "merchant": "MONTHLY FEE",
       "category": null,
       "note": "MONTHLY FEE"
@@ -1451,6 +1594,7 @@
       "direction": "OUT",
       "amount": 5,
       "currency": "CAD",
+      "account_type": "chequing",
       "merchant": "VISA DEBIT PURCHASE - 6651 AMAZON WEB SERV",
       "category": null,
       "note": "VISA DEBIT PURCHASE - 6651 AMAZON WEB SERV"
@@ -1461,6 +1605,7 @@
       "direction": "OUT",
       "amount": 14,
       "currency": "CAD",
+      "account_type": "chequing",
       "merchant": "VISA DEBIT PURCHASE - 0480 SPOTIFY P37DC6F",
       "category": null,
       "note": "VISA DEBIT PURCHASE - 0480 SPOTIFY P37DC6F"

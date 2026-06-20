@@ -118,6 +118,7 @@ function processRBC(lines, COL) {
       .join('-');
     const id = `rbc-${idParts}`;
 
+    const accountType = row[COL['Account Type']]?.trim().toLowerCase();
     const prev = existingById[id];
     transactions.push({
       id,
@@ -125,6 +126,7 @@ function processRBC(lines, COL) {
       direction: rawAmount > 0 ? 'IN' : 'OUT',
       amount: roundedAmount,
       currency: 'CAD',
+      account_type: accountType || null,
       merchant: (desc2 || desc1).slice(0, 60),
       category: prev?.category ?? null,
       note: desc1 || null,

@@ -163,7 +163,7 @@ const categoryBreakdown = Object.entries(byCategory).sort((a, b) => b[1] - a[1])
                   <td class="px-4 py-3 text-gray-500">{t.category ?? '—'}</td>
                   <td class="px-4 py-3">
                     <span class="text-xs font-medium px-2 py-0.5 rounded-full bg-gray-100 text-gray-500">
-                      {t.source === 'wise' ? 'Wise' : 'Bank'}
+                      {t.source === 'wise' ? 'Wise' : t.account_type === 'chequing' ? 'Bank:CHQ' : t.account_type === 'savings' ? 'Bank:SAV' : 'Bank'}
                     </span>
                   </td>
                 </tr>
