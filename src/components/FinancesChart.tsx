@@ -47,6 +47,7 @@ export default function FinancesChart({ data6, data12, currency }: { data6: Mont
 
   return (
     <div>
+      <style>{`.recharts-wrapper *:focus { outline: none; }`}</style>
       <div className="flex gap-3 mb-4 text-sm justify-end">
         <button
           onClick={() => setRange(6)}
@@ -61,7 +62,7 @@ export default function FinancesChart({ data6, data12, currency }: { data6: Mont
           12M
         </button>
       </div>
-      <ResponsiveContainer width="100%" height={250}>
+      <ResponsiveContainer width="100%" height={250} style={{ outline: 'none' }}>
         <ComposedChart data={data} margin={{ top: 4, right: 8, left: 0, bottom: 0 }}>
           <CartesianGrid strokeDasharray="3 3" stroke="#f0f0f0" />
           <XAxis dataKey="label" tick={{ fontSize: 11, fill: '#6b7280' }} />
