@@ -1,5 +1,6 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
+import FinancesChart from '../../components/FinancesChart';
 import wiseData from '../../data/finances/wise.json';
 import rbcData from '../../data/finances/rbc.json';
 
@@ -32,8 +33,50 @@ const rbcTotal = rbcData.sub_accounts.reduce((sum, a) => sum + convertToDisplay(
 // Grand total
 const grandTotal = wiseTotal + rbcTotal;
 
-// Transactions (Wise only for now)
-const { transactions } = wiseData;
+// Transactions (combined, sorted by date descending)
+const allTransactions = [
+  ...wiseData.transactions.map(t => ({ ...t, source: 'wise' as const })),
+  ...rbcData.transactions.map(t => ({ ...t, source: 'rbc' as const })),
+].sort((a, b) => (b.date ?? '').localeCompare(a.date ?? ''));
+
+const transactions = allTransactions;
+
+// Net income & expense chart data
+type MonthlyDataPoint = { label: string; income: number; expenses: number; net: number; balance: number };
+
+const buildMonthlyData = (numMonths: number): MonthlyDataPoint[] => {
+  const today = new Date('2026-06-20');
+  const months: string[] = [];
+  for (let i = numMonths - 1; i >= 0; i--) {
+    const d = new Date(today.getFullYear(), today.getMonth() - i, 1);
+    months.push(`${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}`);
+  }
+  const buckets: Record<string, { income: number; expenses: number }> = {};
+  for (const m of months) buckets[m] = { income: 0, expenses: 0 };
+  for (const t of allTransactions) {
+    const m = t.date?.slice(0, 7);
+    if (m && buckets[m]) {
+      const cad = convertToDisplay(t.amount, t.currency);
+      if (t.direction === 'IN') buckets[m].income += cad;
+      else buckets[m].expenses += cad;
+    }
+  }
+  const result: MonthlyDataPoint[] = [];
+  let runningBalance = grandTotal;
+  for (let i = months.length - 1; i >= 0; i--) {
+    const m = months[i];
+    const { income, expenses } = buckets[m];
+    const net = income - expenses;
+    const label = new Date(m + '-02').toLocaleDateString('en-US', { month: 'short', year: '2-digit' });
+    result.unshift({ label, income, expenses, net, balance: Math.round(runningBalance) });
+    runningBalance -= net;
+  }
+  return result;
+};
+
+const monthlyData6 = buildMonthlyData(6);
+const monthlyData12 = buildMonthlyData(12);
+
 const months = [...new Set(transactions.map(t => t.date?.slice(0, 7)))].sort().reverse();
 const lastMonth = months[0];
 const lastMonthLabel = lastMonth
@@ -73,11 +116,11 @@ const categoryBreakdown = Object.entries(byCategory).sort((a, b) => b[1] - a[1])
         <p class="text-xs text-gray-500 uppercase tracking-wide mb-1">Wise App</p>
         <p class="text-xl font-semibold text-gray-800">${wiseTotal} {DISPLAY_CURRENCY}</p>
         {wiseSubBalances.length > 0 && (
-          <p class="text-xs text-gray-400 mt-1">
-            {wiseSubBalances.map(([currency, amount], i) => (
-              <span>{i > 0 && ' · '}{amount} {currency}</span>
+          <div class="text-xs text-gray-400 mt-1 space-y-0.5">
+            {wiseSubBalances.map(([currency, amount]) => (
+              <p>{amount} {currency}</p>
             ))}
-          </p>
+          </div>
         )}
         {wiseData.balance_updated && (
           <p class="text-xs text-gray-300 mt-1">Updated {wiseData.balance_updated}</p>
@@ -88,15 +131,21 @@ const categoryBreakdown = Object.entries(byCategory).sort((a, b) => b[1] - a[1])
       <div class="bg-white rounded-xl border border-gray-200 p-4">
         <p class="text-xs text-gray-500 uppercase tracking-wide mb-1">{rbcData.label}</p>
         <p class="text-xl font-semibold text-gray-800">${rbcTotal} {DISPLAY_CURRENCY}</p>
-        <p class="text-xs text-gray-400 mt-1">
-          {rbcData.sub_accounts.map((a, i) => (
-            <span>{i > 0 && ' · '}{a.label} {a.amount}</span>
+        <div class="text-xs text-gray-400 mt-1 space-y-0.5">
+          {rbcData.sub_accounts.filter(a => a.amount > 0).map(a => (
+            <p>{a.amount} {a.currency} {a.label}</p>
           ))}
-        </p>
+        </div>
         {rbcData.balance_updated && (
           <p class="text-xs text-gray-300 mt-1">Updated {rbcData.balance_updated}</p>
         )}
       </div>
+    </div>
+
+    <!-- 6-Month Net Income & Expense Chart -->
+    <div class="bg-white rounded-xl border border-gray-200 p-6 mb-8">
+      <h2 class="text-lg font-semibold mb-4">6-Month Net Income &amp; Expense</h2>
+      <FinancesChart data6={monthlyData6} data12={monthlyData12} client:only="react" />
     </div>
 
     <!-- Last Month Summary -->
@@ -128,10 +177,10 @@ const categoryBreakdown = Object.entries(byCategory).sort((a, b) => b[1] - a[1])
       </div>
     )}
 
-    <!-- Transaction Table (Wise) -->
+    <!-- Transaction Table -->
     {transactions.length > 0 ? (
       <div class="bg-white rounded-xl border border-gray-200 overflow-hidden">
-        <h2 class="text-lg font-semibold p-6 pb-0">Transactions <span class="text-sm font-normal text-gray-400">(Wise)</span></h2>
+        <h2 class="text-lg font-semibold p-6 pb-0">Transactions</h2>
         <div class="overflow-x-auto mt-4">
           <table class="w-full text-sm">
             <thead class="bg-gray-50 border-y border-gray-200">
@@ -140,7 +189,8 @@ const categoryBreakdown = Object.entries(byCategory).sort((a, b) => b[1] - a[1])
                 <th class="text-left px-4 py-3 text-gray-500 font-medium">Direction</th>
                 <th class="text-right px-4 py-3 text-gray-500 font-medium">Amount</th>
                 <th class="text-left px-4 py-3 text-gray-500 font-medium">Merchant</th>
-                <th class="text-left px-4 py-3 text-gray-500 font-medium hidden sm:table-cell">Category</th>
+                <th class="text-left px-4 py-3 text-gray-500 font-medium">Category</th>
+                <th class="text-left px-4 py-3 text-gray-500 font-medium">Source</th>
               </tr>
             </thead>
             <tbody class="divide-y divide-gray-100">
@@ -154,7 +204,12 @@ const categoryBreakdown = Object.entries(byCategory).sort((a, b) => b[1] - a[1])
                   </td>
                   <td class="px-4 py-3 text-right font-mono">{t.amount} {t.currency}</td>
                   <td class="px-4 py-3 text-gray-700 max-w-[200px] truncate">{t.merchant}</td>
-                  <td class="px-4 py-3 text-gray-500 hidden sm:table-cell">{t.category ?? '—'}</td>
+                  <td class="px-4 py-3 text-gray-500">{t.category ?? '—'}</td>
+                  <td class="px-4 py-3">
+                    <span class="text-xs font-medium px-2 py-0.5 rounded-full bg-gray-100 text-gray-500">
+                      {t.source === 'wise' ? 'Wise' : t.account_type === 'chequing' ? 'Bank:CHQ' : t.account_type === 'savings' ? 'Bank:SAV' : 'Bank'}
+                    </span>
+                  </td>
                 </tr>
               ))}
             </tbody>
