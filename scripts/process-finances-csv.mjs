@@ -70,8 +70,9 @@ function processWise(lines, COL) {
     });
   }
 
-  writeFileSync(OUTPUT_PATH, JSON.stringify({ ...existing, transactions }, null, 2) + '\n');
-  console.log(`Wrote ${transactions.length} Wise transactions to ${OUTPUT_PATH}`);
+  const merged = mergeTransactions(existing.transactions, transactions);
+  writeFileSync(OUTPUT_PATH, JSON.stringify({ ...existing, transactions: merged }, null, 2) + '\n');
+  console.log(`Wrote ${merged.length} Wise transactions to ${OUTPUT_PATH} (${transactions.length} from CSV, ${merged.length - transactions.length} preserved from prior runs)`);
   console.log('Remember to update balances and balance_updated manually in the JSON file.');
 }
 
@@ -119,9 +120,16 @@ function processRBC(lines, COL) {
     });
   }
 
-  writeFileSync(OUTPUT_PATH, JSON.stringify({ ...existing, transactions }, null, 2) + '\n');
-  console.log(`Wrote ${transactions.length} RBC transactions to ${OUTPUT_PATH}`);
+  const merged = mergeTransactions(existing.transactions, transactions);
+  writeFileSync(OUTPUT_PATH, JSON.stringify({ ...existing, transactions: merged }, null, 2) + '\n');
+  console.log(`Wrote ${merged.length} RBC transactions to ${OUTPUT_PATH} (${transactions.length} from CSV, ${merged.length - transactions.length} preserved from prior runs)`);
   console.log('Remember to update sub_accounts and balance_updated manually in the JSON file.');
+}
+
+function mergeTransactions(existing, incoming) {
+  const map = Object.fromEntries(existing.map(t => [t.id, t]));
+  for (const t of incoming) map[t.id] = t;
+  return Object.values(map).sort((a, b) => (b.date ?? '').localeCompare(a.date ?? ''));
 }
 
 function parseRBCDate(str) {
