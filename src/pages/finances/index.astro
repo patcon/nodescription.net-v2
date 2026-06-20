@@ -99,8 +99,14 @@ const monthlySummaries = months.map(month => {
     byCategory[cat] = (byCategory[cat] ?? 0) + convertToDisplay(t.amount, t.currency);
   }
   const categoryBreakdown = Object.entries(byCategory).filter(([, v]) => v > 0).sort((a, b) => b[1] - a[1]);
+  const byIncomeCategory: Record<string, number> = {};
+  for (const t of monthIn) {
+    const cat = t.category ?? 'Uncategorized';
+    byIncomeCategory[cat] = (byIncomeCategory[cat] ?? 0) + convertToDisplay(t.amount, t.currency);
+  }
+  const incomeBreakdown = Object.entries(byIncomeCategory).filter(([, v]) => v > 0).sort((a, b) => b[1] - a[1]);
   const label = new Date(month + '-01').toLocaleDateString('en-US', { month: 'long', year: 'numeric' });
-  return { label, totalOut, totalIn, categoryBreakdown };
+  return { label, totalOut, totalIn, categoryBreakdown, incomeBreakdown };
 });
 ---
 

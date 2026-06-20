@@ -14,6 +14,7 @@ type MonthlySummary = {
   totalOut: number;
   totalIn: number;
   categoryBreakdown: [string, number][];
+  incomeBreakdown: [string, number][];
 };
 
 type Currency = 'CAD' | 'EUR' | 'USD' | 'GBP';
@@ -160,28 +161,36 @@ export default function FinancesDashboard({
               →
             </button>
           </div>
-          <div className="flex gap-8 mb-4">
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
             <div>
-              <p className="text-sm text-gray-500">Spent</p>
-              <p className="text-2xl font-bold text-red-600">{sym}{convert(summary.totalOut)} {currency}</p>
-            </div>
-            {summary.totalIn > 0 && (
-              <div>
-                <p className="text-sm text-gray-500">Received</p>
-                <p className="text-2xl font-bold text-green-600">{sym}{convert(summary.totalIn)} {currency}</p>
-              </div>
-            )}
-          </div>
-          {summary.categoryBreakdown.length > 0 && (
-            <div className="space-y-1">
-              {summary.categoryBreakdown.map(([cat, amount]) => (
-                <div key={cat} className="flex justify-between text-sm">
-                  <span className="text-gray-600">{cat}</span>
-                  <span className="font-mono text-gray-800">{sym}{convert(amount)} {currency}</span>
+              <p className="text-sm text-gray-500 mb-1">Spent</p>
+              <p className="text-2xl font-bold text-red-600 mb-3">{sym}{convert(summary.totalOut)} {currency}</p>
+              {summary.categoryBreakdown.length > 0 && (
+                <div className="space-y-1">
+                  {summary.categoryBreakdown.map(([cat, amount]) => (
+                    <div key={cat} className="flex justify-between text-sm">
+                      <span className="text-gray-600">{cat}</span>
+                      <span className="font-mono text-gray-800">{sym}{convert(amount)} {currency}</span>
+                    </div>
+                  ))}
                 </div>
-              ))}
+              )}
             </div>
-          )}
+            <div>
+              <p className="text-sm text-gray-500 mb-1">Received</p>
+              <p className="text-2xl font-bold text-green-600 mb-3">{sym}{convert(summary.totalIn)} {currency}</p>
+              {summary.incomeBreakdown.length > 0 && (
+                <div className="space-y-1">
+                  {summary.incomeBreakdown.map(([cat, amount]) => (
+                    <div key={cat} className="flex justify-between text-sm">
+                      <span className="text-gray-600">{cat}</span>
+                      <span className="font-mono text-gray-800">{sym}{convert(amount)} {currency}</span>
+                    </div>
+                  ))}
+                </div>
+              )}
+            </div>
+          </div>
         </div>
       )}
     </>
