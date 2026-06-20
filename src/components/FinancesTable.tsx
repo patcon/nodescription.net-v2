@@ -59,6 +59,7 @@ function downloadJson(data: object, filename: string) {
 export default function FinancesTable({ initialTransactions, wiseRaw, rbcRaw }: Props) {
   const [adminMode, setAdminMode] = useState(false);
   const [categoryOverrides, setCategoryOverrides] = useState<Record<string, string | null>>({});
+  const [copied, setCopied] = useState(false);
 
   const transactions = initialTransactions.map(t => ({
     ...t,
@@ -71,32 +72,47 @@ export default function FinancesTable({ initialTransactions, wiseRaw, rbcRaw }: 
     setAdminMode(prev => !prev);
   }
 
+  const wiseIds = new Set(initialTransactions.filter(t => t.source === 'wise').map(t => t.id));
+  const rbcIds = new Set(initialTransactions.filter(t => t.source === 'rbc').map(t => t.id));
+  const hasWiseChanges = Object.keys(categoryOverrides).some(id => wiseIds.has(id));
+  const hasRbcChanges = Object.keys(categoryOverrides).some(id => rbcIds.has(id));
+
+  function buildUpdatedWise() {
+    return {
+      ...wiseRaw,
+      transactions: wiseRaw.transactions.map(t =>
+        t.id in categoryOverrides ? { ...t, category: categoryOverrides[t.id] } : t
+      ),
+    };
+  }
+
+  function buildUpdatedRbc() {
+    return {
+      ...rbcRaw,
+      transactions: rbcRaw.transactions.map(t =>
+        t.id in categoryOverrides ? { ...t, category: categoryOverrides[t.id] } : t
+      ),
+    };
+  }
+
   function handleDownload() {
-    const wiseIds = new Set(initialTransactions.filter(t => t.source === 'wise').map(t => t.id));
-    const rbcIds = new Set(initialTransactions.filter(t => t.source === 'rbc').map(t => t.id));
+    if (hasWiseChanges) downloadJson(buildUpdatedWise(), 'wise.json');
+    if (hasRbcChanges) downloadJson(buildUpdatedRbc(), 'rbc.json');
+  }
 
-    const hasWiseChanges = Object.keys(categoryOverrides).some(id => wiseIds.has(id));
-    const hasRbcChanges = Object.keys(categoryOverrides).some(id => rbcIds.has(id));
-
-    if (hasWiseChanges) {
-      const updated = {
-        ...wiseRaw,
-        transactions: wiseRaw.transactions.map(t =>
-          t.id in categoryOverrides ? { ...t, category: categoryOverrides[t.id] } : t
-        ),
-      };
-      downloadJson(updated, 'wise.json');
+  function handleCopy() {
+    let content: string;
+    if (hasWiseChanges && hasRbcChanges) {
+      content = JSON.stringify({ 'wise.json': buildUpdatedWise(), 'rbc.json': buildUpdatedRbc() }, null, 2) + '\n';
+    } else if (hasWiseChanges) {
+      content = JSON.stringify(buildUpdatedWise(), null, 2) + '\n';
+    } else {
+      content = JSON.stringify(buildUpdatedRbc(), null, 2) + '\n';
     }
-
-    if (hasRbcChanges) {
-      const updated = {
-        ...rbcRaw,
-        transactions: rbcRaw.transactions.map(t =>
-          t.id in categoryOverrides ? { ...t, category: categoryOverrides[t.id] } : t
-        ),
-      };
-      downloadJson(updated, 'rbc.json');
-    }
+    navigator.clipboard.writeText(content).then(() => {
+      setCopied(true);
+      setTimeout(() => setCopied(false), 2000);
+    });
   }
 
   if (initialTransactions.length === 0) {
@@ -168,7 +184,18 @@ export default function FinancesTable({ initialTransactions, wiseRaw, rbcRaw }: 
       <div className="flex items-center justify-end gap-3 px-4 py-2 border-t border-gray-100">
         {adminMode && (
           <>
-            <span className="text-xs text-gray-400">Edit categories — download JSON to commit</span>
+            <span className="text-xs text-gray-400">Edit categories — copy or download JSON to commit</span>
+            <button
+              onClick={handleCopy}
+              disabled={!hasChanges}
+              className={`text-xs px-2 py-1 rounded border transition-colors ${
+                hasChanges
+                  ? 'border-blue-200 text-blue-600 hover:bg-blue-50'
+                  : 'border-gray-100 text-gray-300 cursor-not-allowed'
+              }`}
+            >
+              {copied ? '✓ Copied' : '⎘ Copy'}
+            </button>
             <button
               onClick={handleDownload}
               disabled={!hasChanges}
