@@ -111,7 +111,7 @@
       "currency": "CAD",
       "account_type": "chequing",
       "merchant": "FEES/DUES PLANET FITNESS",
-      "category": null,
+      "category": "Fitness",
       "note": "FEES/DUES PLANET FITNESS"
     },
     {
@@ -122,7 +122,7 @@
       "currency": "CAD",
       "account_type": "savings",
       "merchant": "MONTHLY FEE",
-      "category": null,
+      "category": "Bills",
       "note": "MONTHLY FEE"
     },
     {
