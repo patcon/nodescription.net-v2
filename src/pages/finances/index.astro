@@ -1,5 +1,6 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
+import FinancesChart from '../../components/FinancesChart';
 import wiseData from '../../data/finances/wise.json';
 import rbcData from '../../data/finances/rbc.json';
 
@@ -32,6 +33,14 @@ const rbcTotal = rbcData.sub_accounts.reduce((sum, a) => sum + convertToDisplay(
 // Grand total
 const grandTotal = wiseTotal + rbcTotal;
 
+// 6-month P&L chart data
+const today = new Date('2026-06-20');
+const chartMonths: string[] = [];
+for (let i = 5; i >= 0; i--) {
+  const d = new Date(today.getFullYear(), today.getMonth() - i, 1);
+  chartMonths.push(`${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}`);
+}
+
 // Transactions (combined, sorted by date descending)
 const allTransactions = [
   ...wiseData.transactions.map(t => ({ ...t, source: 'wise' as const })),
@@ -39,6 +48,33 @@ const allTransactions = [
 ].sort((a, b) => (b.date ?? '').localeCompare(a.date ?? ''));
 
 const transactions = allTransactions;
+
+type MonthBucket = { income: number; expenses: number };
+const monthBuckets: Record<string, MonthBucket> = {};
+for (const month of chartMonths) {
+  monthBuckets[month] = { income: 0, expenses: 0 };
+}
+for (const t of allTransactions) {
+  const month = t.date?.slice(0, 7);
+  if (month && monthBuckets[month]) {
+    const cad = convertToDisplay(t.amount, t.currency);
+    if (t.direction === 'IN') monthBuckets[month].income += cad;
+    else monthBuckets[month].expenses += cad;
+  }
+}
+
+// Reconstruct end-of-month balances working backwards from grandTotal
+type MonthlyDataPoint = { label: string; income: number; expenses: number; balance: number };
+const monthlyData: MonthlyDataPoint[] = [];
+let runningBalance = grandTotal;
+for (let i = chartMonths.length - 1; i >= 0; i--) {
+  const month = chartMonths[i];
+  const { income, expenses } = monthBuckets[month];
+  const label = new Date(month + '-02').toLocaleDateString('en-US', { month: 'short', year: '2-digit' });
+  monthlyData.unshift({ label, income, expenses, balance: Math.round(runningBalance) });
+  runningBalance -= (income - expenses);
+}
+
 const months = [...new Set(transactions.map(t => t.date?.slice(0, 7)))].sort().reverse();
 const lastMonth = months[0];
 const lastMonthLabel = lastMonth
@@ -102,6 +138,12 @@ const categoryBreakdown = Object.entries(byCategory).sort((a, b) => b[1] - a[1])
           <p class="text-xs text-gray-300 mt-1">Updated {rbcData.balance_updated}</p>
         )}
       </div>
+    </div>
+
+    <!-- 6-Month P&L Chart -->
+    <div class="bg-white rounded-xl border border-gray-200 p-6 mb-8">
+      <h2 class="text-lg font-semibold mb-4">6-Month Overview</h2>
+      <FinancesChart data={monthlyData} client:only="react" />
     </div>
 
     <!-- Last Month Summary -->
