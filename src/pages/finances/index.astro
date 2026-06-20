@@ -64,15 +64,16 @@ for (const t of allTransactions) {
 }
 
 // Reconstruct end-of-month balances working backwards from grandTotal
-type MonthlyDataPoint = { label: string; income: number; expenses: number; balance: number };
+type MonthlyDataPoint = { label: string; income: number; expenses: number; net: number; balance: number };
 const monthlyData: MonthlyDataPoint[] = [];
 let runningBalance = grandTotal;
 for (let i = chartMonths.length - 1; i >= 0; i--) {
   const month = chartMonths[i];
   const { income, expenses } = monthBuckets[month];
+  const net = income - expenses;
   const label = new Date(month + '-02').toLocaleDateString('en-US', { month: 'short', year: '2-digit' });
-  monthlyData.unshift({ label, income, expenses: -expenses, balance: Math.round(runningBalance) });
-  runningBalance -= (income - expenses);
+  monthlyData.unshift({ label, income, expenses, net, balance: Math.round(runningBalance) });
+  runningBalance -= net;
 }
 
 const months = [...new Set(transactions.map(t => t.date?.slice(0, 7)))].sort().reverse();
