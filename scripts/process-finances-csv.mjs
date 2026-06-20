@@ -103,7 +103,30 @@ function processWise(lines, COL) {
   const merged = mergeTransactions(cleanedExisting, transactions);
   writeFileSync(OUTPUT_PATH, JSON.stringify({ ...existing, transactions: merged }, null, 2) + '\n');
   console.log(`Wrote ${merged.length} Wise transactions to ${OUTPUT_PATH} (${transactions.length} from CSV, ${merged.length - transactions.length} preserved from prior runs)`);
-  console.log('Remember to update balances and balance_updated manually in the JSON file.');
+
+  // Suggest updated balances from net movement of transactions not previously in the JSON.
+  if (existing.balances) {
+    const netByCurrency = {};
+    for (const t of transactions) {
+      if (existingById[t.id]) continue; // was already present before this import
+      const delta = t.direction === 'IN' ? t.amount : -t.amount;
+      netByCurrency[t.currency] = (netByCurrency[t.currency] ?? 0) + delta;
+    }
+    const affectedCurrencies = Object.keys(netByCurrency);
+    if (affectedCurrencies.length > 0) {
+      console.log('\nSuggested balance updates (net of newly added transactions):');
+      for (const currency of affectedCurrencies) {
+        const current = existing.balances[currency] ?? 0;
+        const net = netByCurrency[currency];
+        const suggested = current + net;
+        const sign = net >= 0 ? '+' : '';
+        console.log(`  ${currency}: ${current} ${sign}${net} = ${suggested}`);
+      }
+      console.log('Update balances and balance_updated in the JSON file if these look right.');
+    } else {
+      console.log('No new transactions — balances unchanged.');
+    }
+  }
 }
 
 function processRBC(lines, COL) {

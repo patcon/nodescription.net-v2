@@ -1,11 +1,11 @@
 {
   "account": "wise",
   "balances": {
-    "EUR": 129,
+    "EUR": 114,
     "CAD": 0,
     "GBP": 0
   },
-  "balance_updated": "2026-06-19",
+  "balance_updated": "2026-06-20",
   "transactions": [
     {
       "id": "CARD_TRANSACTION-3950177430",
