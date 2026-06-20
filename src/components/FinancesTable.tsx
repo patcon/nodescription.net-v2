@@ -98,37 +98,7 @@ export default function FinancesTable({ initialTransactions, wiseRaw, rbcRaw }: 
 
   return (
     <div className="bg-white rounded-xl border border-gray-200 overflow-hidden">
-      <div className="flex items-center justify-between p-6 pb-0">
-        <h2 className="text-lg font-semibold">Transactions</h2>
-        <div className="flex items-center gap-3">
-          {adminMode && (
-            <>
-              <span className="text-xs text-gray-400">Edit categories — download JSON to commit</span>
-              <button
-                onClick={handleDownload}
-                disabled={!hasChanges}
-                className={`text-xs px-2 py-1 rounded border transition-colors ${
-                  hasChanges
-                    ? 'border-blue-200 text-blue-600 hover:bg-blue-50'
-                    : 'border-gray-100 text-gray-300 cursor-not-allowed'
-                }`}
-              >
-                ↓ Download
-              </button>
-            </>
-          )}
-          <button
-            onClick={handleToggleAdmin}
-            title="Admin: recategorize expenses"
-            className={`transition-colors ${adminMode ? 'text-blue-500' : 'text-gray-300 hover:text-gray-500'}`}
-          >
-            <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-              <path d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7" />
-              <path d="M18.5 2.5a2.121 2.121 0 0 1 3 3L12 15l-4 1 1-4 9.5-9.5z" />
-            </svg>
-          </button>
-        </div>
-      </div>
+      <h2 className="text-lg font-semibold p-6 pb-0">Transactions</h2>
       <div className="overflow-x-auto mt-4">
         <table className="w-full text-sm">
           <thead className="bg-gray-50 border-y border-gray-200">
@@ -187,6 +157,34 @@ export default function FinancesTable({ initialTransactions, wiseRaw, rbcRaw }: 
             ))}
           </tbody>
         </table>
+      </div>
+      <div className="flex items-center justify-end gap-3 px-4 py-2 border-t border-gray-100">
+        {adminMode && (
+          <>
+            <span className="text-xs text-gray-400">Edit categories — download JSON to commit</span>
+            <button
+              onClick={handleDownload}
+              disabled={!hasChanges}
+              className={`text-xs px-2 py-1 rounded border transition-colors ${
+                hasChanges
+                  ? 'border-blue-200 text-blue-600 hover:bg-blue-50'
+                  : 'border-gray-100 text-gray-300 cursor-not-allowed'
+              }`}
+            >
+              ↓ Download
+            </button>
+          </>
+        )}
+        <button
+          onClick={handleToggleAdmin}
+          title="Admin: recategorize expenses"
+          className={`transition-colors ${adminMode ? 'text-blue-500' : 'text-gray-200 hover:text-gray-400'}`}
+        >
+          <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+            <path d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7" />
+            <path d="M18.5 2.5a2.121 2.121 0 0 1 3 3L12 15l-4 1 1-4 9.5-9.5z" />
+          </svg>
+        </button>
       </div>
     </div>
   );
