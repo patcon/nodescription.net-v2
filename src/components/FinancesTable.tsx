@@ -59,7 +59,8 @@ function downloadJson(data: object, filename: string) {
 export default function FinancesTable({ initialTransactions, wiseRaw, rbcRaw }: Props) {
   const [adminMode, setAdminMode] = useState(false);
   const [categoryOverrides, setCategoryOverrides] = useState<Record<string, string | null>>({});
-  const [copied, setCopied] = useState(false);
+  const [copiedWise, setCopiedWise] = useState(false);
+  const [copiedRbc, setCopiedRbc] = useState(false);
 
   const transactions = initialTransactions.map(t => ({
     ...t,
@@ -95,23 +96,20 @@ export default function FinancesTable({ initialTransactions, wiseRaw, rbcRaw }: 
     };
   }
 
-  function handleDownload() {
-    if (hasWiseChanges) downloadJson(buildUpdatedWise(), 'wise.json');
-    if (hasRbcChanges) downloadJson(buildUpdatedRbc(), 'rbc.json');
+  function handleDownloadWise() { downloadJson(buildUpdatedWise(), 'wise.json'); }
+  function handleDownloadRbc() { downloadJson(buildUpdatedRbc(), 'rbc.json'); }
+
+  function handleCopyWise() {
+    navigator.clipboard.writeText(JSON.stringify(buildUpdatedWise(), null, 2) + '\n').then(() => {
+      setCopiedWise(true);
+      setTimeout(() => setCopiedWise(false), 2000);
+    });
   }
 
-  function handleCopy() {
-    let content: string;
-    if (hasWiseChanges && hasRbcChanges) {
-      content = JSON.stringify({ 'wise.json': buildUpdatedWise(), 'rbc.json': buildUpdatedRbc() }, null, 2) + '\n';
-    } else if (hasWiseChanges) {
-      content = JSON.stringify(buildUpdatedWise(), null, 2) + '\n';
-    } else {
-      content = JSON.stringify(buildUpdatedRbc(), null, 2) + '\n';
-    }
-    navigator.clipboard.writeText(content).then(() => {
-      setCopied(true);
-      setTimeout(() => setCopied(false), 2000);
+  function handleCopyRbc() {
+    navigator.clipboard.writeText(JSON.stringify(buildUpdatedRbc(), null, 2) + '\n').then(() => {
+      setCopiedRbc(true);
+      setTimeout(() => setCopiedRbc(false), 2000);
     });
   }
 
@@ -183,31 +181,34 @@ export default function FinancesTable({ initialTransactions, wiseRaw, rbcRaw }: 
       </div>
       <div className="flex items-center justify-end gap-3 px-4 py-2 border-t border-gray-100">
         {adminMode && (
-          <>
+          <div className="flex flex-col items-end gap-1.5 py-1">
+            <div className="flex items-center gap-2">
+              {(['wise', 'rbc'] as const).map(source => {
+                const isWise = source === 'wise';
+                const hasSourceChanges = isWise ? hasWiseChanges : hasRbcChanges;
+                const copied = isWise ? copiedWise : copiedRbc;
+                const onCopy = isWise ? handleCopyWise : handleCopyRbc;
+                const onDownload = isWise ? handleDownloadWise : handleDownloadRbc;
+                const filename = isWise ? 'wise.json' : 'rbc.json';
+                const btnClass = `text-xs px-2 py-1 rounded border transition-colors whitespace-nowrap ${
+                  hasSourceChanges
+                    ? 'border-blue-200 text-blue-600 hover:bg-blue-50'
+                    : 'border-gray-100 text-gray-300 cursor-not-allowed'
+                }`;
+                return (
+                  <div key={source} className="flex items-center gap-1">
+                    <button onClick={onCopy} disabled={!hasSourceChanges} className={btnClass}>
+                      {copied ? `✓ ${filename}` : `⎘ ${filename}`}
+                    </button>
+                    <button onClick={onDownload} disabled={!hasSourceChanges} className={btnClass}>
+                      {`↓ ${filename}`}
+                    </button>
+                  </div>
+                );
+              })}
+            </div>
             <span className="text-xs text-gray-400">Edit categories — copy or download JSON to commit</span>
-            <button
-              onClick={handleCopy}
-              disabled={!hasChanges}
-              className={`text-xs px-2 py-1 rounded border transition-colors ${
-                hasChanges
-                  ? 'border-blue-200 text-blue-600 hover:bg-blue-50'
-                  : 'border-gray-100 text-gray-300 cursor-not-allowed'
-              }`}
-            >
-              {copied ? '✓ Copied' : '⎘ Copy'}
-            </button>
-            <button
-              onClick={handleDownload}
-              disabled={!hasChanges}
-              className={`text-xs px-2 py-1 rounded border transition-colors ${
-                hasChanges
-                  ? 'border-blue-200 text-blue-600 hover:bg-blue-50'
-                  : 'border-gray-100 text-gray-300 cursor-not-allowed'
-              }`}
-            >
-              ↓ Download
-            </button>
-          </>
+          </div>
         )}
         <button
           onClick={handleToggleAdmin}
