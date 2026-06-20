@@ -40,6 +40,8 @@ const CATEGORIES = [
   'Cafe Rent',
   'Social',
   'Supporters',
+  'Client Work',
+  'Reimbursement',
   'Household',
   'Fitness',
   'Account Transfer',
