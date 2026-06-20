@@ -44,7 +44,7 @@ export default function FinancesChart({ data }: { data: MonthlyDataPoint[] }) {
         <YAxis tick={{ fontSize: 11, fill: '#6b7280' }} tickFormatter={(v: number) => `$${v}`} />
         <Tooltip content={<CustomTooltip />} />
         <Legend wrapperStyle={{ fontSize: 12 }} />
-        <Bar dataKey="net" name="Net P&L">
+        <Bar dataKey="net" name="Net Income">
           {data.map((entry, i) => (
             <Cell key={i} fill={entry.net >= 0 ? '#16a34a' : '#dc2626'} />
           ))}

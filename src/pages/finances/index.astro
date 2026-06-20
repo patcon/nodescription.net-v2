@@ -33,7 +33,7 @@ const rbcTotal = rbcData.sub_accounts.reduce((sum, a) => sum + convertToDisplay(
 // Grand total
 const grandTotal = wiseTotal + rbcTotal;
 
-// 6-month P&L chart data
+// 6-month net income & expense chart data
 const today = new Date('2026-06-20');
 const chartMonths: string[] = [];
 for (let i = 5; i >= 0; i--) {
@@ -141,9 +141,9 @@ const categoryBreakdown = Object.entries(byCategory).sort((a, b) => b[1] - a[1])
       </div>
     </div>
 
-    <!-- 6-Month P&L Chart -->
+    <!-- 6-Month Net Income & Expense Chart -->
     <div class="bg-white rounded-xl border border-gray-200 p-6 mb-8">
-      <h2 class="text-lg font-semibold mb-4">6-Month Overview</h2>
+      <h2 class="text-lg font-semibold mb-4">6-Month Net Income &amp; Expense</h2>
       <FinancesChart data={monthlyData} client:only="react" />
     </div>
 
