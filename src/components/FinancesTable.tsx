@@ -42,6 +42,7 @@ const CATEGORIES = [
   'Supporters',
   'Client Work',
   'Reimbursement',
+  'Gift',
   'Household',
   'Fitness',
   'Account Transfer',
