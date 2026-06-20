@@ -32,8 +32,13 @@ const rbcTotal = rbcData.sub_accounts.reduce((sum, a) => sum + convertToDisplay(
 // Grand total
 const grandTotal = wiseTotal + rbcTotal;
 
-// Transactions (Wise only for now)
-const { transactions } = wiseData;
+// Transactions (combined, sorted by date descending)
+const allTransactions = [
+  ...wiseData.transactions.map(t => ({ ...t, source: 'wise' as const })),
+  ...rbcData.transactions.map(t => ({ ...t, source: 'rbc' as const })),
+].sort((a, b) => (b.date ?? '').localeCompare(a.date ?? ''));
+
+const transactions = allTransactions;
 const months = [...new Set(transactions.map(t => t.date?.slice(0, 7)))].sort().reverse();
 const lastMonth = months[0];
 const lastMonthLabel = lastMonth
@@ -128,10 +133,10 @@ const categoryBreakdown = Object.entries(byCategory).sort((a, b) => b[1] - a[1])
       </div>
     )}
 
-    <!-- Transaction Table (Wise) -->
+    <!-- Transaction Table -->
     {transactions.length > 0 ? (
       <div class="bg-white rounded-xl border border-gray-200 overflow-hidden">
-        <h2 class="text-lg font-semibold p-6 pb-0">Transactions <span class="text-sm font-normal text-gray-400">(Wise)</span></h2>
+        <h2 class="text-lg font-semibold p-6 pb-0">Transactions</h2>
         <div class="overflow-x-auto mt-4">
           <table class="w-full text-sm">
             <thead class="bg-gray-50 border-y border-gray-200">
@@ -141,6 +146,7 @@ const categoryBreakdown = Object.entries(byCategory).sort((a, b) => b[1] - a[1])
                 <th class="text-right px-4 py-3 text-gray-500 font-medium">Amount</th>
                 <th class="text-left px-4 py-3 text-gray-500 font-medium">Merchant</th>
                 <th class="text-left px-4 py-3 text-gray-500 font-medium hidden sm:table-cell">Category</th>
+                <th class="text-left px-4 py-3 text-gray-500 font-medium hidden sm:table-cell">Source</th>
               </tr>
             </thead>
             <tbody class="divide-y divide-gray-100">
@@ -155,6 +161,11 @@ const categoryBreakdown = Object.entries(byCategory).sort((a, b) => b[1] - a[1])
                   <td class="px-4 py-3 text-right font-mono">{t.amount} {t.currency}</td>
                   <td class="px-4 py-3 text-gray-700 max-w-[200px] truncate">{t.merchant}</td>
                   <td class="px-4 py-3 text-gray-500 hidden sm:table-cell">{t.category ?? '—'}</td>
+                  <td class="px-4 py-3 hidden sm:table-cell">
+                    <span class="text-xs font-medium px-2 py-0.5 rounded-full bg-gray-100 text-gray-500">
+                      {t.source === 'wise' ? 'Wise' : 'Bank'}
+                    </span>
+                  </td>
                 </tr>
               ))}
             </tbody>
