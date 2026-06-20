@@ -9,6 +9,14 @@ type MonthlyDataPoint = {
   balance: number;
 };
 
+type MonthlySummary = {
+  label: string;
+  totalOut: number;
+  totalIn: number;
+  categoryBreakdown: [string, number][];
+  incomeBreakdown: [string, number][];
+};
+
 type Currency = 'CAD' | 'EUR' | 'USD' | 'GBP';
 
 const CURRENCY_SYMBOLS: Record<Currency, string> = {
@@ -29,10 +37,7 @@ export default function FinancesDashboard({
   rbcLabel,
   monthlyData6,
   monthlyData12,
-  totalOutCad,
-  totalInCad,
-  categoryBreakdownCad,
-  lastMonthLabel,
+  monthlySummaries,
   cadRates,
 }: {
   grandTotalCad: number;
@@ -45,13 +50,11 @@ export default function FinancesDashboard({
   rbcLabel: string;
   monthlyData6: MonthlyDataPoint[];
   monthlyData12: MonthlyDataPoint[];
-  totalOutCad: number;
-  totalInCad: number;
-  categoryBreakdownCad: [string, number][];
-  lastMonthLabel: string | null;
+  monthlySummaries: MonthlySummary[];
   cadRates: Record<string, number>;
 }) {
   const [currency, setCurrency] = useState<Currency>('CAD');
+  const [selectedMonth, setSelectedMonth] = useState(0);
 
   const convert = (cad: number) => Math.round(cad * (cadRates[currency] ?? 1));
   const sym = CURRENCY_SYMBOLS[currency];
@@ -66,6 +69,8 @@ export default function FinancesDashboard({
     }));
 
   const ALL_CURRENCIES: Currency[] = ['CAD', 'EUR', 'USD', 'GBP'];
+
+  const summary = monthlySummaries[selectedMonth];
 
   return (
     <>
@@ -134,32 +139,69 @@ export default function FinancesDashboard({
         />
       </div>
 
-      {/* Last Month Summary */}
-      {lastMonthLabel && (
+      {/* Monthly Summary with navigation */}
+      {summary && (
         <div className="bg-white rounded-xl border border-gray-200 p-6 mb-8">
-          <h2 className="text-lg font-semibold mb-4">{lastMonthLabel} Summary</h2>
-          <div className="flex gap-8 mb-4">
+          <div className="flex items-center justify-between mb-4">
+            <button
+              onClick={() => setSelectedMonth(i => i + 1)}
+              disabled={selectedMonth >= monthlySummaries.length - 1}
+              className="text-xl text-gray-400 hover:text-gray-700 disabled:opacity-20 disabled:cursor-not-allowed px-1"
+              aria-label="Previous month"
+            >
+              ←
+            </button>
+            <h2 className="text-lg font-semibold">{summary.label} Summary</h2>
+            <button
+              onClick={() => setSelectedMonth(i => i - 1)}
+              disabled={selectedMonth === 0}
+              className="text-xl text-gray-400 hover:text-gray-700 disabled:opacity-20 disabled:cursor-not-allowed px-1"
+              aria-label="Next month"
+            >
+              →
+            </button>
+          </div>
+          <div className="flex gap-8 mb-6">
             <div>
               <p className="text-sm text-gray-500">Spent</p>
-              <p className="text-2xl font-bold text-red-600">{sym}{convert(totalOutCad)} {currency}</p>
+              <p className="text-2xl font-bold text-red-600">{sym}{convert(summary.totalOut)} {currency}</p>
             </div>
-            {totalInCad > 0 && (
-              <div>
-                <p className="text-sm text-gray-500">Received</p>
-                <p className="text-2xl font-bold text-green-600">{sym}{convert(totalInCad)} {currency}</p>
+            <div>
+              <p className="text-sm text-gray-500">Received</p>
+              <p className="text-2xl font-bold text-green-600">{sym}{convert(summary.totalIn)} {currency}</p>
+            </div>
+          </div>
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+            <div className="bg-gray-50 rounded-lg p-4">
+              <p className="text-xs text-gray-500 uppercase tracking-wide mb-2">Expenses</p>
+              <div className="space-y-1">
+                {summary.categoryBreakdown.map(([cat, amount]) => (
+                  <div key={cat} className="flex justify-between text-sm">
+                    <span className="text-gray-600">{cat}</span>
+                    <span className="font-mono text-red-600">{sym}{convert(amount)} {currency}</span>
+                  </div>
+                ))}
+                <div className="flex justify-between text-sm">
+                  <span className="text-gray-600">Rent *</span>
+                  <span className="font-mono text-red-600">{sym}0 {currency}</span>
+                </div>
+              </div>
+              <p className="text-xs text-gray-400 mt-3">* $0 — exchanged for childcare</p>
+            </div>
+            {summary.incomeBreakdown.length > 0 && (
+              <div className="bg-gray-50 rounded-lg p-4">
+                <p className="text-xs text-gray-500 uppercase tracking-wide mb-2">Income</p>
+                <div className="space-y-1">
+                  {summary.incomeBreakdown.map(([cat, amount]) => (
+                    <div key={cat} className="flex justify-between text-sm">
+                      <span className="text-gray-600">{cat}</span>
+                      <span className="font-mono text-green-600">{sym}{convert(amount)} {currency}</span>
+                    </div>
+                  ))}
+                </div>
               </div>
             )}
           </div>
-          {categoryBreakdownCad.length > 0 && (
-            <div className="space-y-1">
-              {categoryBreakdownCad.map(([cat, amount]) => (
-                <div key={cat} className="flex justify-between text-sm">
-                  <span className="text-gray-600">{cat}</span>
-                  <span className="font-mono text-gray-800">{sym}{convert(amount)} {currency}</span>
-                </div>
-              ))}
-            </div>
-          )}
         </div>
       )}
     </>

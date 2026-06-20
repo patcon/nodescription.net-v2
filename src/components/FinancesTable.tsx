@@ -40,6 +40,9 @@ const CATEGORIES = [
   'Cafe Rent',
   'Social',
   'Supporters',
+  'Client Work',
+  'Reimbursement',
+  'Gift',
   'Household',
   'Fitness',
   'Account Transfer',
@@ -66,6 +69,12 @@ export default function FinancesTable({ initialTransactions, wiseRaw, rbcRaw }: 
     ...t,
     category: t.id in categoryOverrides ? categoryOverrides[t.id] : t.category,
   }));
+
+  const categoryCounts = Object.fromEntries(CATEGORIES.map(c => [c, 0]));
+  for (const t of initialTransactions) {
+    if (t.category && t.category in categoryCounts) categoryCounts[t.category]++;
+  }
+  const sortedCategories = [...CATEGORIES].sort((a, b) => categoryCounts[b] - categoryCounts[a]);
 
   const hasChanges = Object.keys(categoryOverrides).length > 0;
 
@@ -161,7 +170,7 @@ export default function FinancesTable({ initialTransactions, wiseRaw, rbcRaw }: 
                       className="text-sm text-gray-600 border border-gray-200 rounded px-1 py-0.5 bg-white min-w-[130px]"
                     >
                       <option value="">— Uncategorized —</option>
-                      {CATEGORIES.map(cat => (
+                      {sortedCategories.map(cat => (
                         <option key={cat} value={cat}>{cat}</option>
                       ))}
                     </select>

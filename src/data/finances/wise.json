@@ -344,7 +344,7 @@
       "amount": 3,
       "currency": "EUR",
       "merchant": "Ls I Deal on the Park",
-      "category": "Eating out",
+      "category": "Cafe Rent",
       "note": null
     },
     {
@@ -354,7 +354,7 @@
       "amount": 10,
       "currency": "EUR",
       "merchant": "Revue Film",
-      "category": "Entertainment",
+      "category": "Charity",
       "note": null
     },
     {
@@ -364,7 +364,7 @@
       "amount": 4,
       "currency": "EUR",
       "merchant": "Moonmilk",
-      "category": "Eating out",
+      "category": "Social",
       "note": null
     },
     {
@@ -404,7 +404,7 @@
       "amount": 4,
       "currency": "EUR",
       "merchant": "Sp Kittenandthebear",
-      "category": "Groceries",
+      "category": "Cafe Rent",
       "note": null
     },
     {
@@ -414,7 +414,7 @@
       "amount": 3,
       "currency": "EUR",
       "merchant": "Loveless Cafe",
-      "category": "Eating out",
+      "category": "Cafe Rent",
       "note": null
     },
     {
@@ -444,7 +444,7 @@
       "amount": 14,
       "currency": "EUR",
       "merchant": "LCBO",
-      "category": "Shopping",
+      "category": "Social",
       "note": null
     },
     {
@@ -454,7 +454,7 @@
       "amount": 3,
       "currency": "EUR",
       "merchant": "Pamenar",
-      "category": "Eating out",
+      "category": "Cafe Rent",
       "note": null
     },
     {
@@ -464,7 +464,7 @@
       "amount": 4,
       "currency": "EUR",
       "merchant": "Nile",
-      "category": "Eating out",
+      "category": "Cafe Rent",
       "note": null
     },
     {
@@ -474,7 +474,7 @@
       "amount": 4,
       "currency": "EUR",
       "merchant": "Gabby's Restaurant",
-      "category": "Eating out",
+      "category": "Social",
       "note": null
     },
     {
@@ -484,7 +484,7 @@
       "amount": 3,
       "currency": "EUR",
       "merchant": "Loveless Cafe",
-      "category": "Eating out",
+      "category": "Cafe Rent",
       "note": null
     },
     {
@@ -494,7 +494,7 @@
       "amount": 1,
       "currency": "EUR",
       "merchant": "Tim Hortons",
-      "category": "Eating out",
+      "category": "Cafe Rent",
       "note": null
     },
     {
@@ -504,7 +504,7 @@
       "amount": 3,
       "currency": "EUR",
       "merchant": "Future Bistro",
-      "category": "Eating out",
+      "category": "Cafe Rent",
       "note": null
     },
     {
@@ -534,7 +534,7 @@
       "amount": 3,
       "currency": "GBP",
       "merchant": "Loveless Cafe",
-      "category": "Eating out",
+      "category": "Cafe Rent",
       "note": null
     },
     {
@@ -544,7 +544,7 @@
       "amount": 3,
       "currency": "GBP",
       "merchant": "Loveless Cafe",
-      "category": "Eating out",
+      "category": "Cafe Rent",
       "note": null
     },
     {
@@ -554,7 +554,7 @@
       "amount": 2,
       "currency": "GBP",
       "merchant": "Loft Kitchen",
-      "category": "Groceries",
+      "category": "Cafe Rent",
       "note": null
     },
     {
@@ -564,7 +564,7 @@
       "amount": 6,
       "currency": "GBP",
       "merchant": "3 Brewers Toronto",
-      "category": "Eating out",
+      "category": "Social",
       "note": null
     },
     {
@@ -574,7 +574,7 @@
       "amount": 3,
       "currency": "GBP",
       "merchant": "Pamenar",
-      "category": "Eating out",
+      "category": "Cafe Rent",
       "note": null
     },
     {
@@ -584,7 +584,7 @@
       "amount": 3,
       "currency": "GBP",
       "merchant": "Pamenar",
-      "category": "Eating out",
+      "category": "Cafe Rent",
       "note": null
     },
     {
@@ -594,7 +594,7 @@
       "amount": 3,
       "currency": "GBP",
       "merchant": "INS Market",
-      "category": "Shopping",
+      "category": "Social",
       "note": null
     },
     {
@@ -604,7 +604,7 @@
       "amount": 8,
       "currency": "GBP",
       "merchant": "Creeds Coffee Bar",
-      "category": "Eating out",
+      "category": "Cafe Rent",
       "note": null
     },
     {
@@ -624,7 +624,7 @@
       "amount": 2,
       "currency": "GBP",
       "merchant": "Ls I Deal Coffee",
-      "category": "Eating out",
+      "category": "Cafe Rent",
       "note": null
     },
     {
@@ -634,7 +634,7 @@
       "amount": 7,
       "currency": "GBP",
       "merchant": "The Golden Pigeon",
-      "category": "Eating out",
+      "category": "Social",
       "note": null
     },
     {
@@ -654,7 +654,7 @@
       "amount": 3,
       "currency": "GBP",
       "merchant": "Loveless Cafe",
-      "category": "Eating out",
+      "category": "Cafe Rent",
       "note": null
     },
     {
@@ -664,7 +664,7 @@
       "amount": 5,
       "currency": "GBP",
       "merchant": "Loveless Cafe",
-      "category": "Eating out",
+      "category": "Cafe Rent",
       "note": null
     },
     {
@@ -674,7 +674,7 @@
       "amount": 3,
       "currency": "GBP",
       "merchant": "Loveless Cafe",
-      "category": "Eating out",
+      "category": "Cafe Rent",
       "note": null
     },
     {
@@ -684,7 +684,7 @@
       "amount": 6,
       "currency": "GBP",
       "merchant": "Loveless Cafe",
-      "category": "Eating out",
+      "category": "Cafe Rent",
       "note": null
     },
     {
@@ -714,7 +714,7 @@
       "amount": 1,
       "currency": "GBP",
       "merchant": "Tim Hortons",
-      "category": "Eating out",
+      "category": "Cafe Rent",
       "note": null
     },
     {
@@ -724,7 +724,7 @@
       "amount": 4,
       "currency": "GBP",
       "merchant": "Gabby's Restaurant",
-      "category": "Eating out",
+      "category": "Social",
       "note": null
     },
     {
@@ -734,7 +734,7 @@
       "amount": 6,
       "currency": "GBP",
       "merchant": "Loveless Cafe",
-      "category": "Eating out",
+      "category": "Cafe Rent",
       "note": null
     },
     {
@@ -744,7 +744,7 @@
       "amount": 6,
       "currency": "GBP",
       "merchant": "Loveless Cafe",
-      "category": "Eating out",
+      "category": "Cafe Rent",
       "note": null
     },
     {
@@ -764,7 +764,7 @@
       "amount": 3,
       "currency": "GBP",
       "merchant": "Loveless Cafe",
-      "category": "Eating out",
+      "category": "Cafe Rent",
       "note": null
     },
     {
@@ -774,7 +774,7 @@
       "amount": 6,
       "currency": "GBP",
       "merchant": "Pamenar",
-      "category": "Eating out",
+      "category": "Cafe Rent",
       "note": null
     },
     {
@@ -794,7 +794,7 @@
       "amount": 6,
       "currency": "GBP",
       "merchant": "Loveless Cafe",
-      "category": "Eating out",
+      "category": "Cafe Rent",
       "note": null
     },
     {
@@ -804,7 +804,7 @@
       "amount": 3,
       "currency": "GBP",
       "merchant": "Loveless Cafe",
-      "category": "Eating out",
+      "category": "Cafe Rent",
       "note": null
     },
     {
@@ -824,7 +824,7 @@
       "amount": 3,
       "currency": "GBP",
       "merchant": "Krave Coffee Inc.",
-      "category": "Eating out",
+      "category": "Cafe Rent",
       "note": null
     },
     {
@@ -844,7 +844,7 @@
       "amount": 3,
       "currency": "GBP",
       "merchant": "Loveless Cafe",
-      "category": "Eating out",
+      "category": "Cafe Rent",
       "note": null
     },
     {
@@ -854,7 +854,7 @@
       "amount": 3,
       "currency": "GBP",
       "merchant": "Anthropic",
-      "category": "Shopping",
+      "category": "Digital Services",
       "note": null
     },
     {
@@ -864,7 +864,7 @@
       "amount": 3,
       "currency": "GBP",
       "merchant": "Anthropic",
-      "category": "Shopping",
+      "category": "Digital Services",
       "note": null
     },
     {
@@ -874,7 +874,7 @@
       "amount": 5,
       "currency": "GBP",
       "merchant": "Loveless Cafe",
-      "category": "Eating out",
+      "category": "Cafe Rent",
       "note": null
     },
     {
@@ -884,7 +884,7 @@
       "amount": 3,
       "currency": "GBP",
       "merchant": "Loveless Cafe",
-      "category": "Eating out",
+      "category": "Cafe Rent",
       "note": null
     },
     {
@@ -894,7 +894,7 @@
       "amount": 6,
       "currency": "GBP",
       "merchant": "Standard Time",
-      "category": "Eating out",
+      "category": "Social",
       "note": null
     },
     {
@@ -904,7 +904,7 @@
       "amount": 9,
       "currency": "GBP",
       "merchant": "Standard Time",
-      "category": "Eating out",
+      "category": "Social",
       "note": null
     },
     {
@@ -914,7 +914,7 @@
       "amount": 6,
       "currency": "GBP",
       "merchant": "Orbital Studies Magazi",
-      "category": "Shopping",
+      "category": "Social",
       "note": null
     },
     {
@@ -924,7 +924,7 @@
       "amount": 6,
       "currency": "GBP",
       "merchant": "Gabby's Restaurant",
-      "category": "Eating out",
+      "category": "Social",
       "note": null
     },
     {
@@ -934,7 +934,7 @@
       "amount": 5,
       "currency": "GBP",
       "merchant": "Loveless Cafe",
-      "category": "Eating out",
+      "category": "Cafe Rent",
       "note": null
     },
     {
@@ -944,7 +944,7 @@
       "amount": 12,
       "currency": "GBP",
       "merchant": "Anthropic",
-      "category": "Shopping",
+      "category": "Digital Services",
       "note": null
     },
     {
@@ -954,7 +954,7 @@
       "amount": 3,
       "currency": "GBP",
       "merchant": "Loveless Cafe",
-      "category": "Eating out",
+      "category": "Cafe Rent",
       "note": null
     },
     {
@@ -974,7 +974,7 @@
       "amount": 7,
       "currency": "GBP",
       "merchant": "Moosewood Restaurant",
-      "category": "Eating out",
+      "category": "Social",
       "note": null
     },
     {
@@ -984,7 +984,7 @@
       "amount": 4,
       "currency": "GBP",
       "merchant": "Gimme! Coffee",
-      "category": "Eating out",
+      "category": "Cafe Rent",
       "note": null
     },
     {
@@ -1004,7 +1004,7 @@
       "amount": 17,
       "currency": "GBP",
       "merchant": "Claude",
-      "category": "Shopping",
+      "category": "Digital Services",
       "note": null
     },
     {
@@ -1014,7 +1014,7 @@
       "amount": 4,
       "currency": "GBP",
       "merchant": "Gimme! Coffee",
-      "category": "Eating out",
+      "category": "Cafe Rent",
       "note": null
     },
     {
@@ -1024,7 +1024,7 @@
       "amount": 9,
       "currency": "GBP",
       "merchant": "Cinemapolis",
-      "category": "Entertainment",
+      "category": "Social",
       "note": null
     },
     {
@@ -1044,7 +1044,7 @@
       "amount": 4,
       "currency": "GBP",
       "merchant": "Gimme! Coffee",
-      "category": "Eating out",
+      "category": "Cafe Rent",
       "note": null
     },
     {
@@ -1054,7 +1054,7 @@
       "amount": 3,
       "currency": "GBP",
       "merchant": "Amazon Web Services",
-      "category": "Bills",
+      "category": "Digital Services",
       "note": null
     },
     {
@@ -1064,7 +1064,7 @@
       "amount": 4,
       "currency": "GBP",
       "merchant": "Salt Point Brewing",
-      "category": "Eating out",
+      "category": "Social",
       "note": null
     },
     {
@@ -1074,7 +1074,7 @@
       "amount": 5,
       "currency": "GBP",
       "merchant": "Salt Point Brewing",
-      "category": "Eating out",
+      "category": "Social",
       "note": null
     },
     {
@@ -1094,7 +1094,7 @@
       "amount": 4,
       "currency": "GBP",
       "merchant": "Gimme! Coffee",
-      "category": "Eating out",
+      "category": "Cafe Rent",
       "note": null
     },
     {
@@ -1114,7 +1114,7 @@
       "amount": 14,
       "currency": "USD",
       "merchant": "Nostrand Avenue Pub",
-      "category": "Eating out",
+      "category": "Social",
       "note": null
     },
     {
@@ -1124,7 +1124,7 @@
       "amount": 11,
       "currency": "GBP",
       "merchant": "Nostrand Avenue Pub",
-      "category": "Eating out",
+      "category": "Social",
       "note": null
     },
     {
@@ -1134,7 +1134,7 @@
       "amount": 8,
       "currency": "USD",
       "merchant": "Detox Deli & Grill",
-      "category": "Groceries",
+      "category": "Eating out",
       "note": null
     },
     {
@@ -1194,7 +1194,7 @@
       "amount": 100,
       "currency": "USD",
       "merchant": "Patrick Cahill Connolly",
-      "category": "Money added",
+      "category": "Client Work",
       "note": null
     },
     {
@@ -1324,7 +1324,7 @@
       "amount": 6,
       "currency": "GBP",
       "merchant": "Loveless Cafe",
-      "category": "Eating out",
+      "category": "Cafe Rent",
       "note": null
     },
     {
@@ -1334,7 +1334,7 @@
       "amount": 12,
       "currency": "GBP",
       "merchant": "Anthropic",
-      "category": "Shopping",
+      "category": "Digital Services",
       "note": null
     },
     {
@@ -1344,7 +1344,7 @@
       "amount": 5,
       "currency": "GBP",
       "merchant": "Loveless Cafe",
-      "category": "Eating out",
+      "category": "Cafe Rent",
       "note": null
     },
     {
@@ -1354,7 +1354,7 @@
       "amount": 3,
       "currency": "GBP",
       "merchant": "Loveless Cafe",
-      "category": "Eating out",
+      "category": "Cafe Rent",
       "note": null
     },
     {
@@ -1364,7 +1364,7 @@
       "amount": 2,
       "currency": "GBP",
       "merchant": "Future Bistro",
-      "category": "Eating out",
+      "category": "Cafe Rent",
       "note": null
     },
     {
@@ -1384,7 +1384,7 @@
       "amount": 1,
       "currency": "GBP",
       "merchant": "Bike Share Toronto",
-      "category": "General",
+      "category": "Transport",
       "note": null
     },
     {
@@ -1404,7 +1404,7 @@
       "amount": 3,
       "currency": "GBP",
       "merchant": "Loveless Cafe",
-      "category": "Eating out",
+      "category": "Cafe Rent",
       "note": null
     },
     {
@@ -1414,7 +1414,7 @@
       "amount": 2,
       "currency": "GBP",
       "merchant": "Future Bistro",
-      "category": "Eating out",
+      "category": "Cafe Rent",
       "note": null
     },
     {
@@ -1424,7 +1424,7 @@
       "amount": 3,
       "currency": "GBP",
       "merchant": "Loveless Cafe",
-      "category": "Eating out",
+      "category": "Cafe Rent",
       "note": null
     },
     {
@@ -1434,7 +1434,7 @@
       "amount": 6,
       "currency": "GBP",
       "merchant": "Loveless Cafe",
-      "category": "Eating out",
+      "category": "Cafe Rent",
       "note": null
     },
     {
@@ -1444,7 +1444,7 @@
       "amount": 2,
       "currency": "GBP",
       "merchant": "Loveless Cafe",
-      "category": "Eating out",
+      "category": "Cafe Rent",
       "note": null
     },
     {
@@ -1454,7 +1454,7 @@
       "amount": 7,
       "currency": "GBP",
       "merchant": "Sin & Redemption",
-      "category": "Eating out",
+      "category": "Social",
       "note": null
     },
     {
@@ -1464,7 +1464,7 @@
       "amount": 6,
       "currency": "GBP",
       "merchant": "The Jason George",
-      "category": "Eating out",
+      "category": "Social",
       "note": null
     },
     {
@@ -1474,7 +1474,7 @@
       "amount": 3,
       "currency": "GBP",
       "merchant": "Loveless Cafe",
-      "category": "Eating out",
+      "category": "Cafe Rent",
       "note": null
     },
     {
@@ -1484,7 +1484,7 @@
       "amount": 600,
       "currency": "GBP",
       "merchant": "Patrick Cahill Connolly",
-      "category": "Money added",
+      "category": "Client Work",
       "note": null
     },
     {
@@ -1494,7 +1494,7 @@
       "amount": 4,
       "currency": "EUR",
       "merchant": "Brothers Discount",
-      "category": "Shopping",
+      "category": null,
       "note": null
     },
     {
@@ -1504,7 +1504,7 @@
       "amount": 7,
       "currency": "EUR",
       "merchant": "Loveless Cafe",
-      "category": "Eating out",
+      "category": "Cafe Rent",
       "note": null
     },
     {
@@ -1514,7 +1514,7 @@
       "amount": 4,
       "currency": "EUR",
       "merchant": "Loveless Cafe",
-      "category": "Eating out",
+      "category": "Cafe Rent",
       "note": null
     },
     {
@@ -1524,7 +1524,7 @@
       "amount": 19,
       "currency": "EUR",
       "merchant": "Town Crier Pub",
-      "category": "Eating out",
+      "category": "Social",
       "note": null
     },
     {
@@ -1544,7 +1544,7 @@
       "amount": 4,
       "currency": "EUR",
       "merchant": "Loveless Cafe",
-      "category": "Eating out",
+      "category": "Cafe Rent",
       "note": null
     },
     {
@@ -1564,7 +1564,7 @@
       "amount": 2,
       "currency": "EUR",
       "merchant": "Future Bistro",
-      "category": "Eating out",
+      "category": "Cafe Rent",
       "note": null
     },
     {
@@ -1584,7 +1584,7 @@
       "amount": 10,
       "currency": "GBP",
       "merchant": "The Bishop and Belcher",
-      "category": "Eating out",
+      "category": "Social",
       "note": null
     },
     {
@@ -1594,7 +1594,7 @@
       "amount": 9,
       "currency": "EUR",
       "merchant": "The Bishop and Belcher",
-      "category": "Eating out",
+      "category": "Social",
       "note": null
     },
     {
@@ -1614,7 +1614,7 @@
       "amount": 7,
       "currency": "GBP",
       "merchant": "LCBO",
-      "category": "Shopping",
+      "category": "Social",
       "note": null
     },
     {
@@ -1634,7 +1634,7 @@
       "amount": 5,
       "currency": "GBP",
       "merchant": "Pamenar",
-      "category": "Eating out",
+      "category": "Cafe Rent",
       "note": null
     },
     {
@@ -1644,7 +1644,7 @@
       "amount": 3,
       "currency": "GBP",
       "merchant": "Loveless Cafe",
-      "category": "Eating out",
+      "category": "Cafe Rent",
       "note": null
     },
     {
@@ -1654,7 +1654,7 @@
       "amount": 487,
       "currency": "EUR",
       "merchant": "Patrick Cahill Connolly",
-      "category": "Money added",
+      "category": "Reimbursement",
       "note": null
     },
     {
@@ -1664,7 +1664,7 @@
       "amount": 2,
       "currency": "GBP",
       "merchant": "Balzac's Coffee Roasters",
-      "category": "Eating out",
+      "category": "Cafe Rent",
       "note": null
     },
     {
@@ -1674,7 +1674,7 @@
       "amount": 1,
       "currency": "GBP",
       "merchant": "Tim Hortons",
-      "category": "Eating out",
+      "category": "Cafe Rent",
       "note": null
     },
     {
@@ -1684,7 +1684,7 @@
       "amount": 11,
       "currency": "GBP",
       "merchant": "Elephant & Castle",
-      "category": "Eating out",
+      "category": "Social",
       "note": null
     },
     {
@@ -1694,7 +1694,7 @@
       "amount": 3,
       "currency": "GBP",
       "merchant": "Loveless Cafe",
-      "category": "Eating out",
+      "category": "Cafe Rent",
       "note": null
     },
     {
@@ -1714,7 +1714,7 @@
       "amount": 3,
       "currency": "GBP",
       "merchant": "Loveless Cafe",
-      "category": "Eating out",
+      "category": "Cafe Rent",
       "note": null
     },
     {
@@ -1724,7 +1724,7 @@
       "amount": 3,
       "currency": "GBP",
       "merchant": "Loveless Cafe",
-      "category": "Eating out",
+      "category": "Cafe Rent",
       "note": null
     },
     {
@@ -1734,7 +1734,7 @@
       "amount": 17,
       "currency": "GBP",
       "merchant": "Claude",
-      "category": "Shopping",
+      "category": "Digital Services",
       "note": null
     },
     {
@@ -1744,7 +1744,7 @@
       "amount": 3,
       "currency": "GBP",
       "merchant": "Ls I Deal Coffee",
-      "category": "Eating out",
+      "category": "Cafe Rent",
       "note": null
     },
     {
@@ -1754,7 +1754,7 @@
       "amount": 3,
       "currency": "GBP",
       "merchant": "Amazon Web Services",
-      "category": "Bills",
+      "category": "Digital Services",
       "note": null
     },
     {
@@ -1764,7 +1764,7 @@
       "amount": 2,
       "currency": "GBP",
       "merchant": "Future Bistro",
-      "category": "Eating out",
+      "category": "Cafe Rent",
       "note": null
     },
     {
@@ -1784,7 +1784,7 @@
       "amount": 1,
       "currency": "GBP",
       "merchant": "Tim Hortons",
-      "category": "Eating out",
+      "category": "Cafe Rent",
       "note": null
     },
     {

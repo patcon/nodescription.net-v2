@@ -39,8 +39,15 @@ export default function FinancesChart({ data6, data12, currency }: { data6: Mont
   const [range, setRange] = useState<6 | 12>(6);
   const data = range === 6 ? data6 : data12;
 
+  const allValues = data.flatMap(d => [d.net, d.balance]);
+  const minTick = Math.floor(Math.min(...allValues) / 500) * 500;
+  const maxTick = Math.ceil(Math.max(...allValues) / 500) * 500;
+  const yTicks: number[] = [];
+  for (let v = minTick; v <= maxTick; v += 500) yTicks.push(v);
+
   return (
     <div>
+      <style>{`.recharts-wrapper *:focus { outline: none; }`}</style>
       <div className="flex gap-3 mb-4 text-sm justify-end">
         <button
           onClick={() => setRange(6)}
@@ -55,11 +62,11 @@ export default function FinancesChart({ data6, data12, currency }: { data6: Mont
           12M
         </button>
       </div>
-      <ResponsiveContainer width="100%" height={250}>
+      <ResponsiveContainer width="100%" height={250} style={{ outline: 'none' }}>
         <ComposedChart data={data} margin={{ top: 4, right: 8, left: 0, bottom: 0 }}>
           <CartesianGrid strokeDasharray="3 3" stroke="#f0f0f0" />
           <XAxis dataKey="label" tick={{ fontSize: 11, fill: '#6b7280' }} />
-          <YAxis tick={{ fontSize: 11, fill: '#6b7280' }} tickFormatter={(v: number) => `$${v}`} />
+          <YAxis tick={{ fontSize: 11, fill: '#6b7280' }} tickFormatter={(v: number) => `$${v}`} ticks={yTicks} domain={[minTick, maxTick]} />
           <Tooltip content={<CustomTooltip currency={currency} />} />
           <Bar dataKey="net" name="Net Income">
             {data.map((entry, i) => (
